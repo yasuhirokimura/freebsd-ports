@@ -30,6 +30,7 @@ DIST_SUBDIR=	rubygem
 EXTRACT_DEPENDS+=	${RUBYGEMBIN}:devel/ruby-gems
 GEMS_BASE_DIR=	lib/ruby/gems/${RUBY_VER}
 GEMS_DIR=	${GEMS_BASE_DIR}/gems
+GEMS_MAN_DIR=	lib/ruby/gems/man
 DOC_DIR=	${GEMS_BASE_DIR}/doc
 CACHE_DIR=	${GEMS_BASE_DIR}/cache
 SPEC_DIR=	${GEMS_BASE_DIR}/specifications
@@ -110,6 +111,12 @@ do-install:
 	${FIND} ${STAGEDIR}${PREFIX}/${GEM_LIB_DIR}/ext -type d -empty -delete 2> /dev/null || ${TRUE}
 	${RM} -r ${STAGEDIR}${PREFIX}/${CACHE_DIR} 2> /dev/null || ${TRUE}
 	${RMDIR} ${STAGEDIR}${PREFIX}/${EXT_DIR} 2> /dev/null || ${TRUE}
+.for i in 1 2 3 4 5 6 7 8 9
+.for f in ${GEM_MANUALS_SEC${i}}
+	${MKDIR} ${STAGEDIR}${PREFIX}/${GEMS_MAN_DIR}/man${i}
+	${RLN} ${STAGEDIR}${PREFIX}/${f} ${STAGEDIR}${PREFIX}/${GEMS_MAN_DIR}/man${i}
+.endfor
+.endfor
 .if !${PORT_OPTIONS:MDOCS}
 	-@${RMDIR} ${STAGEDIR}${PREFIX}/${DOC_DIR}
 .endif
@@ -129,6 +136,11 @@ gem-autoplist:
 		${FIND} -ds ${STAGEDIR}${PREFIX}/${EXT_DIR} -type f -print | ${SED} -E -e \
 		's,^${STAGEDIR}${PREFIX}/?,,' >> ${TMPPLIST} ; \
 	fi
+.for i in 1 2 3 4 5 6 7 8 9
+.for f in ${GEM_MANUALS_SEC${i}}
+	${ECHO} ${GEMS_MAN_DIR}/man${i}/${f:C/.*\///} >> ${TMPPLIST}
+.endfor
+.endfor
 .endif
 
 .endif

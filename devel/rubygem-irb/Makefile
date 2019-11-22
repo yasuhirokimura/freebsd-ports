@@ -1,6 +1,6 @@
 PORTNAME=	irb
 PORTVERSION=	1.3.6
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel rubygems
 MASTER_SITES=	RG
 
@@ -17,13 +17,8 @@ USE_RUBY=	yes
 
 NO_ARCH=	yes
 
-.include <bsd.port.pre.mk>
+GEM_MANUALS_SEC1=	${GEM_LIB_DIR}/man/irb.1
 
-PLIST_FILES=	bin/irb \
-		share/man/man1/irb.1.gz
+PLIST_FILES=	bin/irb
 
-post-install:
-	${MKDIR} ${STAGEDIR}${PREFIX}/share/man/man1
-	${INSTALL_DATA} ${WRKSRC}/man/irb.1 ${STAGEDIR}${PREFIX}/share/man/man1
-
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>

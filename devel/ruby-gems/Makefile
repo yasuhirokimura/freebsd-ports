@@ -2,6 +2,7 @@
 
 PORTNAME=	gems
 PORTVERSION=	3.0.8
+PORTREVISION=	1
 CATEGORIES=	devel ruby
 MASTER_SITES=	https://rubygems.org/rubygems/
 PKGNAMEPREFIX=	${RUBY_PKGNAMEPREFIX}
@@ -32,13 +33,18 @@ CACHE_DIR=	${GEMS_VER_DIR}/cache
 DOC_DIR=	${GEMS_VER_DIR}/doc
 EXT_DIR=	${GEMS_VER_DIR}/extensions
 GEMS_DIR=	${GEMS_VER_DIR}/gems
+MAN_DIR=	lib/ruby/gems/man
 SPEC_DIR=	${GEMS_VER_DIR}/specifications
 
 PLIST_SUB=	GEMS_DIR="${GEMS_DIR}" \
 		DOC_DIR="${DOC_DIR}" \
 		CACHE_DIR="${CACHE_DIR}" \
 		SPEC_DIR="${SPEC_DIR}" \
-		EXT_DIR="${EXT_DIR}"
+		EXT_DIR="${EXT_DIR}" \
+		MAN_DIR="${MAN_DIR}" \
+		PKGNAMEPREFIX="${PKGNAMEPREFIX}"
+SUB_FILES=	gems-man.conf
+SUB_LIST=	MAN_DIR="${MAN_DIR}"
 
 OPTIONS_DEFINE=	DOCS
 
@@ -54,6 +60,11 @@ do-install:
 	${MKDIR} ${STAGEDIR}${PREFIX}/${SPEC_DIR}
 	cd ${WRKSRC}/ && ${SETENV} ${GEMS_ENV} ${RUBY} ${RUBY_SETUP} ${RUBY_SETUP_OPTIONS}
 	${LN} -sf gem${RUBY_SUFFIX} ${STAGEDIR}${PREFIX}/bin/gem
+	${MKDIR} ${STAGEDIR}${PREFIX}/${MAN_DIR}
+.for i in 1 2 3 4 5 6 7 8 9
+	${MKDIR} ${STAGEDIR}${PREFIX}/${MAN_DIR}/man${i}
+.endfor
+	${INSTALL_DATA} ${WRKDIR}/gems-man.conf ${STAGEDIR}${PREFIX}/etc/man.d/${PKGNAMEPREFIX}gems.conf
 
 # Find all RDOC and RI files
 post-install-DOCS-on:

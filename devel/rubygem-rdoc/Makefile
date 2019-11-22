@@ -1,6 +1,6 @@
 PORTNAME=	rdoc
 PORTVERSION=	6.3.2
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel rubygems
 MASTER_SITES=	RG
 
@@ -16,12 +16,8 @@ USE_RUBY=	yes
 
 NO_ARCH=	yes
 
-.include <bsd.port.pre.mk>
+GEM_MANUALS_SEC1=	${GEM_LIB_DIR}/man/ri.1
 
-PLIST_FILES=	bin/rdoc bin/ri share/man/man1/ri.1.gz
+PLIST_FILES=	bin/rdoc bin/ri
 
-post-install:
-	${MKDIR} ${STAGEDIR}${PREFIX}/share/man/man1
-	${INSTALL_DATA} ${WRKSRC}/man/ri.1 ${STAGEDIR}${PREFIX}/share/man/man1
-
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
