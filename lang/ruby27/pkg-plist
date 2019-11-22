@@ -35,8 +35,6 @@ include/ruby-%%RUBY_VER%%/ruby/vm.h
 lib/lib%%RUBY_NAME%%-static.a
 lib/lib%%RUBY_NAME%%.so
 lib/lib%%RUBY_NAME%%.so.%%RUBY_SHLIBVER%%
-%%RUBY_LIBDIR%%/English.rb
-%%RUBY_LIBDIR%%/abbrev.rb
 %%RUBY_ARCHLIBDIR%%/bigdecimal.so
 %%RUBY_ARCHLIBDIR%%/cgi/escape.so
 %%RUBY_ARCHLIBDIR%%/continuation.so
@@ -136,6 +134,8 @@ lib/lib%%RUBY_NAME%%.so.%%RUBY_SHLIBVER%%
 %%RUBY_ARCHLIBDIR%%/strscan.so
 %%RUBY_ARCHLIBDIR%%/syslog.so
 %%RUBY_ARCHLIBDIR%%/zlib.so
+%%RUBY_LIBDIR%%/English.rb
+%%RUBY_LIBDIR%%/abbrev.rb
 %%RUBY_LIBDIR%%/base64.rb
 %%RUBY_LIBDIR%%/benchmark.rb
 %%RUBY_LIBDIR%%/benchmark/version.rb

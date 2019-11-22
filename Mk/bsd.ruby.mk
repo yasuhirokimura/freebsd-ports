@@ -145,7 +145,7 @@ RUBY?=			${LOCALBASE}/bin/${RUBY_NAME}
 # Ruby 2.6
 #
 RUBY_VERSION=		2.6.7
-RUBY_PORTREVISION=	2
+RUBY_PORTREVISION=	3
 RUBY_PORTEPOCH=		1
 RUBY26=			""	# PLIST_SUB helpers
 
@@ -154,7 +154,7 @@ RUBY26=			""	# PLIST_SUB helpers
 # Ruby 2.7
 #
 RUBY_VERSION=		2.7.3
-RUBY_PORTREVISION=	2
+RUBY_PORTREVISION=	3
 RUBY_PORTEPOCH=		1
 RUBY27=			""	# PLIST_SUB helpers
 
@@ -243,11 +243,7 @@ RUBY_CONFIGURE_ARGS+=	--program-suffix="${RUBY_SUFFIX}"
 RUBY_MODNAME?=		${PORTNAME}
 
 # Commands
-.if ${RUBY_VER} < 2.7
-RUBY_RDOC?=		${LOCALBASE}/bin/rdoc${RUBY_VER:S/.//}
-.else
 RUBY_RDOC?=		${LOCALBASE}/bin/rdoc
-.endif
 
 # Ports
 RUBY_BASE_PORT?=	lang/ruby${RUBY_VER:S/.//}
@@ -298,6 +294,7 @@ PLIST_SUB+=		${PLIST_RUBY_DIRS:C,DIR="(${LOCALBASE}|${PREFIX})/,DIR=",} \
 
 .if defined(USE_RUBY_RDOC)
 MAKE_ENV+=	RUBY_RDOC=${RUBY_RDOC}
+BUILD_DEPENDS=	rubygem-rdoc>=0:devel/rubygem-rdoc
 .endif
 
 # require check

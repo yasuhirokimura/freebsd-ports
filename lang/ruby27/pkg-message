@@ -6,6 +6,7 @@ of upgrading:
 
 	devel/ruby-gems:		gem - RubyGems package manager
 	devel/rubygem-irb:		irb - Interactive Ruby
+	devel/rubygem-racc:		racc - LALR(1) parser generator for Ruby
 	devel/rubygem-rake:		rake - Ruby Make
 	devel/rubygem-rdoc:		rdoc - Ruby Documentation System
 	sysutils/rubygem-bundler:	bundler - Tool that manages gem dependencies for ruby applications

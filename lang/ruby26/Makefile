@@ -123,8 +123,8 @@ PLIST_SUB+=	EXTRADOC=""
 PLIST_SUB+=	EXTRADOC="@comment "
 .endif
 
-INSTALLED_SCRIPTS=	erb irb rdoc ri ruby
-INSTALLED_MANUALS=	erb irb ri ruby
+INSTALLED_SCRIPTS=	erb ruby
+INSTALLED_MANUALS=	erb ruby
 
 EXTSAMPLES=	bigdecimal/sample/*.rb
 
@@ -138,8 +138,8 @@ RB_SET_CONF_VAR=${SH} -c '${REINPLACE_CMD} -E -e "s,(CONFIG\[\"$$0\"\][[:space:]
 
 post-patch:
 # We get these from other ports
-.for d in bin/bundle* lib/bundler*  libexec/bundler* man/bundle* bin/gem man/gemfile* \
-	  ext/dbm ext/gdbm ext/win32ole
+.for d in bin/bundle* bin/gem bin/irb bin/rdoc bin/ri lib/bundler*  libexec/bundler* \
+	  man/bundle* man/gemfile* man/irb.1 man/ri.1 ext/dbm ext/gdbm ext/win32ole
 	  	@${RM} -r ${BUILD_WRKSRC}/${d}
 .endfor
 
