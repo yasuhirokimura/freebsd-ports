@@ -1,5 +1,6 @@
 bin/gem
 bin/gem%%RUBY_SUFFIX%%
+etc/man.d/%%PKGNAMEPREFIX%%gems.conf
 %%RUBY_SITELIBDIR%%/rubygems.rb
 %%RUBY_SITELIBDIR%%/rubygems/available_set.rb
 %%RUBY_SITELIBDIR%%/rubygems/basic_specification.rb
@@ -193,3 +194,12 @@ bin/gem%%RUBY_SUFFIX%%
 @dir %%GEMS_DIR%%
 @dir %%SPEC_DIR%%
 @dir %%DOC_DIR%%
+@dir %%MAN_DIR%%/man1
+@dir %%MAN_DIR%%/man2
+@dir %%MAN_DIR%%/man3
+@dir %%MAN_DIR%%/man4
+@dir %%MAN_DIR%%/man5
+@dir %%MAN_DIR%%/man6
+@dir %%MAN_DIR%%/man7
+@dir %%MAN_DIR%%/man8
+@dir %%MAN_DIR%%/man9
