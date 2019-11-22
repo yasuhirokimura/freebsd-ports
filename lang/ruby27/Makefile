@@ -106,10 +106,6 @@ CONFIGURE_ARGS+=--with-setjmp-type=_setjmp
 CONFIGURE_ENV+=	ac_cv_func__setjmp=yes
 .endif
 
-.if ${PORT_OPTIONS:MCAPIDOCS}
-MAKE_JOBS_UNSAFE=	yes
-.endif
-
 .if ${RUBY_VER} == ${RUBY_DEFAULT_VER}
 PLIST_SUB+=	IF_DEFAULT=""
 .else
@@ -132,10 +128,9 @@ RB_SET_CONF_VAR=${SH} -c '${REINPLACE_CMD} -E -e "s,(CONFIG\[\"$$0\"\][[:space:]
 
 post-patch:
 # We get these from other ports
-.for d in bin/bundle* bin/gem bin/*racc* bin/irb bin/rdoc bin/ri \
-	  lib/bundler* libexec/bundler* \
-	  man/bundle* man/gemfile* man/irb.1 man/ri.1 \
-	  ext/dbm ext/gdbm ext/win32ole
+.for d in bin/bundle* bin/gem bin/irb bin/*racc* bin/rdoc bin/ri \
+	  ext/dbm ext/gdbm ext/win32ole lib/bundler*  libexec/bundler* \
+	  man/bundle* man/gemfile* man/irb.1 man/ri.1
 	  	@${RM} -r ${BUILD_WRKSRC}/${d}
 .endfor
 
