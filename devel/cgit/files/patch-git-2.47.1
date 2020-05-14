@@ -1,0 +1,88 @@
+diff --git Makefile Makefile
+index 7f8a5cb..1cc9b86 100644
+--- Makefile
++++ Makefile
+@@ -14,7 +14,7 @@ htmldir = $(docdir)
+ pdfdir = $(docdir)
+ mandir = $(prefix)/share/man
+ SHA1_HEADER = <openssl/sha.h>
+-GIT_VER = 2.46.0
++GIT_VER = 2.47.1
+ GIT_URL = https://www.kernel.org/pub/software/scm/git/git-$(GIT_VER).tar.xz
+ INSTALL = install
+ COPYTREE = cp -r
+diff --git cgit.c cgit.c
+index 2efa962..65c38c0 100644
+--- cgit.c
++++ cgit.c
+@@ -448,8 +448,8 @@ struct refmatch {
+ 	int match;
+ };
+ 
+-static int find_current_ref(const char *refname, const struct object_id *oid,
+-			    int flags, void *cb_data)
++static int find_current_ref(const char *refname, const char *referent UNUSED,
++                            const struct object_id *oid, int flags, void *cb_data)
+ {
+ 	struct refmatch *info;
+ 
+diff --git cgit.h cgit.h
+index e0d286d..9146d9a 100644
+--- cgit.h
++++ cgit.h
+@@ -346,8 +346,8 @@ extern void strbuf_ensure_end(struct strbuf *sb, char c);
+ 
+ extern void cgit_add_ref(struct reflist *list, struct refinfo *ref);
+ extern void cgit_free_reflist_inner(struct reflist *list);
+-extern int cgit_refs_cb(const char *refname, const struct object_id *oid,
+-			int flags, void *cb_data);
++extern int cgit_refs_cb(const char *refname, const char *referent UNUSED,
++			const struct object_id *oid, int flags, void *cb_data);
+ 
+ extern void cgit_free_commitinfo(struct commitinfo *info);
+ extern void cgit_free_taginfo(struct taginfo *info);
+diff --git shared.c shared.c
+index ae3f6c1..c1403b4 100644
+--- shared.c
++++ shared.c
+@@ -212,8 +212,8 @@ void cgit_free_reflist_inner(struct reflist *list)
+ 	free(list->refs);
+ }
+ 
+-int cgit_refs_cb(const char *refname, const struct object_id *oid, int flags,
+-		  void *cb_data)
++int cgit_refs_cb(const char *refname, const char *referent UNUSED,
++		 const struct object_id *oid, int flags, void *cb_data)
+ {
+ 	struct reflist *list = (struct reflist *)cb_data;
+ 	struct refinfo *info = cgit_mk_refinfo(refname, oid);
+diff --git ui-clone.c ui-clone.c
+index df196a0..31989a5 100644
+--- ui-clone.c
++++ ui-clone.c
+@@ -16,8 +16,8 @@
+ #include "packfile.h"
+ #include "object-store.h"
+ 
+-static int print_ref_info(const char *refname, const struct object_id *oid,
+-                          int flags, void *cb_data)
++static int print_ref_info(const char *refname, const char *referent UNUSED,
++			  const struct object_id *oid, int flags, void *cb_data)
+ {
+ 	struct object *obj;
+ 
+diff --git ui-shared.c ui-shared.c
+index 6fae72d..4250b89 100644
+--- ui-shared.c
++++ ui-shared.c
+@@ -936,8 +936,8 @@ void cgit_add_clone_urls(void (*fn)(const char *))
+ 		add_clone_urls(fn, ctx.cfg.clone_prefix, ctx.repo->url);
+ }
+ 
+-static int print_branch_option(const char *refname, const struct object_id *oid,
+-			       int flags, void *cb_data)
++static int print_branch_option(const char *refname, const char *referent UNUSED,
++			       const struct object_id *oid, int flags, void *cb_data)
+ {
+ 	char *name = (char *)refname;
+ 	html_option(name, name, ctx.qry.head);
