@@ -1,0 +1,69 @@
+From 994d3fe1a8fa56d5a1dd36aae62c788169160c3a Mon Sep 17 00:00:00 2001
+From: Christian Hesse <mail@eworm.de>
+Date: Wed, 12 Mar 2025 17:13:02 +0100
+Subject: [PATCH] git: update to v2.49.0
+
+Update to git version v2.49.0, this requires changes for these
+upstream commits:
+
+* 88dd321cfedc6ee190dfafe4670a83ea33cdf4a3
+  path: drop `git_path()` in favor of `repo_git_path()`
+
+Signed-off-by: Christian Hesse <mail@eworm.de>
+---
+ Makefile   |  2 +-
+ git        |  2 +-
+ ui-clone.c | 12 +++++++++---
+ 3 files changed, 11 insertions(+), 5 deletions(-)
+
+diff --git Makefile Makefile
+index e788deb..cd58592 100644
+--- Makefile
++++ Makefile
+@@ -14,7 +14,7 @@ htmldir = $(docdir)
+ pdfdir = $(docdir)
+ mandir = $(prefix)/share/man
+ SHA1_HEADER = <openssl/sha.h>
+-GIT_VER = 2.47.1
++GIT_VER = 2.49.0
+ GIT_URL = https://www.kernel.org/pub/software/scm/git/git-$(GIT_VER).tar.xz
+ INSTALL = install
+ COPYTREE = cp -r
+diff --git ui-clone.c ui-clone.c
+index 31989a5..2ed3e1c 100644
+--- ui-clone.c
++++ ui-clone.c
+@@ -95,7 +95,7 @@ void cgit_clone_info(void)
+ 
+ void cgit_clone_objects(void)
+ {
+-	char *p;
++	char *p, *path;
+ 
+ 	if (!ctx.qry.path)
+ 		goto err;
+@@ -116,7 +116,9 @@ void cgit_clone_objects(void)
+ 			goto err;
+ 	}
+ 
+-	send_file(git_path("objects/%s", ctx.qry.path));
++	path = repo_git_path(the_repository, "objects/%s", ctx.qry.path);
++	send_file(path);
++	free(path);
+ 	return;
+ 
+ err:
+@@ -125,5 +127,9 @@ err:
+ 
+ void cgit_clone_head(void)
+ {
+-	send_file(git_path("%s", "HEAD"));
++	char *path;
++
++	path = repo_git_path(the_repository, "HEAD");
++	send_file(path);
++	free(path);
+ }
+-- 
+2.49.0
+
