@@ -1,0 +1,210 @@
+From cef27b670a66c9840bb6120260864e4b3a701dc2 Mon Sep 17 00:00:00 2001
+From: Christian Hesse <mail@eworm.de>
+Date: Mon, 28 Dec 2020 23:27:13 +0100
+Subject: [PATCH] git: update to v2.30.0
+
+Update to git version v2.30.0, this requires changes for these
+upstream commits:
+
+* 88894aaeeae92e8cb41143cc2e045f50289dc790
+  blame: simplify 'setup_scoreboard' interface
+
+* 1fbfdf556f2abc708183caca53ae4e2881b46ae2
+  banned.h: mark non-reentrant gmtime, etc as banned
+
+Signed-off-by: Christian Hesse <mail@eworm.de>
+---
+ Makefile    |  2 +-
+ cache.c     |  6 +++---
+ git         |  2 +-
+ ui-blame.c  |  3 ++-
+ ui-shared.c |  9 +++++----
+ ui-stats.c  | 48 ++++++++++++++++++++++++------------------------
+ 6 files changed, 36 insertions(+), 34 deletions(-)
+
+diff --git Makefile Makefile
+index 1a8f496..6dfc003 100644
+--- Makefile
++++ Makefile
+@@ -14,7 +14,7 @@ htmldir = $(docdir)
+ pdfdir = $(docdir)
+ mandir = $(prefix)/share/man
+ SHA1_HEADER = <openssl/sha.h>
+-GIT_VER = 2.29.0
++GIT_VER = 2.30.0
+ GIT_URL = https://www.kernel.org/pub/software/scm/git/git-$(GIT_VER).tar.xz
+ INSTALL = install
+ COPYTREE = cp -r
+diff --git cache.c cache.c
+index 2c70be7..55199e8 100644
+--- cache.c
++++ cache.c
+@@ -401,12 +401,12 @@ int cache_process(int size, const char *path, const char *key, int ttl,
+ static char *sprintftime(const char *format, time_t time)
+ {
+ 	static char buf[64];
+-	struct tm *tm;
++	struct tm tm;
+ 
+ 	if (!time)
+ 		return NULL;
+-	tm = gmtime(&time);
+-	strftime(buf, sizeof(buf)-1, format, tm);
++	gmtime_r(&time, &tm);
++	strftime(buf, sizeof(buf)-1, format, &tm);
+ 	return buf;
+ }
+ 
+diff --git ui-blame.c ui-blame.c
+index cfab7fb..ec1d888 100644
+--- ui-blame.c
++++ ui-blame.c
+@@ -132,7 +132,8 @@ static void print_object(const struct object_id *oid, const char *path,
+ 	init_scoreboard(&sb);
+ 	sb.revs = &revs;
+ 	sb.repo = the_repository;
+-	setup_scoreboard(&sb, path, &o);
++	sb.path = path;
++	setup_scoreboard(&sb, &o);
+ 	o->suspects = blame_entry_prepend(NULL, 0, sb.num_lines, o);
+ 	prio_queue_put(&sb.commits, o->commit);
+ 	blame_origin_decref(o);
+diff --git ui-shared.c ui-shared.c
+index 151ac17..acd8ab5 100644
+--- ui-shared.c
++++ ui-shared.c
+@@ -22,10 +22,11 @@ static char *http_date(time_t t)
+ 	static char month[][4] =
+ 		{"Jan", "Feb", "Mar", "Apr", "May", "Jun",
+ 		 "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+-	struct tm *tm = gmtime(&t);
+-	return fmt("%s, %02d %s %04d %02d:%02d:%02d GMT", day[tm->tm_wday],
+-		   tm->tm_mday, month[tm->tm_mon], 1900 + tm->tm_year,
+-		   tm->tm_hour, tm->tm_min, tm->tm_sec);
++	struct tm tm;
++	gmtime_r(&t, &tm);
++	return fmt("%s, %02d %s %04d %02d:%02d:%02d GMT", day[tm.tm_wday],
++		   tm.tm_mday, month[tm.tm_mon], 1900 + tm.tm_year,
++		   tm.tm_hour, tm.tm_min, tm.tm_sec);
+ }
+ 
+ void cgit_print_error(const char *fmt, ...)
+diff --git ui-stats.c ui-stats.c
+index 7272a61..09b3625 100644
+--- ui-stats.c
++++ ui-stats.c
+@@ -166,7 +166,7 @@ static void add_commit(struct string_list *authors, struct commit *commit,
+ 	struct authorstat *authorstat;
+ 	struct string_list *items;
+ 	char *tmp;
+-	struct tm *date;
++	struct tm date;
+ 	time_t t;
+ 	uintptr_t *counter;
+ 
+@@ -180,9 +180,9 @@ static void add_commit(struct string_list *authors, struct commit *commit,
+ 	authorstat = author->util;
+ 	items = &authorstat->list;
+ 	t = info->committer_date;
+-	date = gmtime(&t);
+-	period->trunc(date);
+-	tmp = xstrdup(period->pretty(date));
++	gmtime_r(&t, &date);
++	period->trunc(&date);
++	tmp = xstrdup(period->pretty(&date));
+ 	item = string_list_insert(items, tmp);
+ 	counter = (uintptr_t *)&item->util;
+ 	if (*counter)
+@@ -215,15 +215,15 @@ static struct string_list collect_stats(const struct cgit_period *period)
+ 	int argc = 3;
+ 	time_t now;
+ 	long i;
+-	struct tm *tm;
++	struct tm tm;
+ 	char tmp[11];
+ 
+ 	time(&now);
+-	tm = gmtime(&now);
+-	period->trunc(tm);
++	gmtime_r(&now, &tm);
++	period->trunc(&tm);
+ 	for (i = 1; i < period->count; i++)
+-		period->dec(tm);
+-	strftime(tmp, sizeof(tmp), "%Y-%m-%d", tm);
++		period->dec(&tm);
++	strftime(tmp, sizeof(tmp), "%Y-%m-%d", &tm);
+ 	argv[2] = xstrdup(fmt("--since=%s", tmp));
+ 	if (ctx.qry.path) {
+ 		argv[3] = "--";
+@@ -261,21 +261,21 @@ static void print_combined_authorrow(struct string_list *authors, int from,
+ 	struct string_list_item *date;
+ 	time_t now;
+ 	long i, j, total, subtotal;
+-	struct tm *tm;
++	struct tm tm;
+ 	char *tmp;
+ 
+ 	time(&now);
+-	tm = gmtime(&now);
+-	period->trunc(tm);
++	gmtime_r(&now, &tm);
++	period->trunc(&tm);
+ 	for (i = 1; i < period->count; i++)
+-		period->dec(tm);
++		period->dec(&tm);
+ 
+ 	total = 0;
+ 	htmlf("<tr><td class='%s'>%s</td>", leftclass,
+ 		fmt(name, to - from + 1));
+ 	for (j = 0; j < period->count; j++) {
+-		tmp = period->pretty(tm);
+-		period->inc(tm);
++		tmp = period->pretty(&tm);
++		period->inc(&tm);
+ 		subtotal = 0;
+ 		for (i = from; i <= to; i++) {
+ 			author = &authors->items[i];
+@@ -300,20 +300,20 @@ static void print_authors(struct string_list *authors, int top,
+ 	struct string_list_item *date;
+ 	time_t now;
+ 	long i, j, total;
+-	struct tm *tm;
++	struct tm tm;
+ 	char *tmp;
+ 
+ 	time(&now);
+-	tm = gmtime(&now);
+-	period->trunc(tm);
++	gmtime_r(&now, &tm);
++	period->trunc(&tm);
+ 	for (i = 1; i < period->count; i++)
+-		period->dec(tm);
++		period->dec(&tm);
+ 
+ 	html("<table class='stats'><tr><th>Author</th>");
+ 	for (j = 0; j < period->count; j++) {
+-		tmp = period->pretty(tm);
++		tmp = period->pretty(&tm);
+ 		htmlf("<th>%s</th>", tmp);
+-		period->inc(tm);
++		period->inc(&tm);
+ 	}
+ 	html("<th>Total</th></tr>\n");
+ 
+@@ -329,10 +329,10 @@ static void print_authors(struct string_list *authors, int top,
+ 		items = &authorstat->list;
+ 		total = 0;
+ 		for (j = 0; j < period->count; j++)
+-			period->dec(tm);
++			period->dec(&tm);
+ 		for (j = 0; j < period->count; j++) {
+-			tmp = period->pretty(tm);
+-			period->inc(tm);
++			tmp = period->pretty(&tm);
++			period->inc(&tm);
+ 			date = string_list_lookup(items, tmp);
+ 			if (!date)
+ 				html("<td>0</td>");
+-- 
+2.30.0
+
