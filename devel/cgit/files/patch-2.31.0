@@ -1,0 +1,60 @@
+From d889cae811f27a052317ac5aea23890cba414760 Mon Sep 17 00:00:00 2001
+From: Christian Hesse <mail@eworm.de>
+Date: Mon, 15 Mar 2021 22:48:26 +0100
+Subject: [PATCH] git: update to v2.31.0
+
+Update to git version v2.31.0, this requires changes for these
+upstream commits:
+
+* 36a317929b8f0c67d77d54235f2d20751c576cbb
+  refs: switch peel_ref() to peel_iterated_oid()
+
+Signed-off-by: Christian Hesse <mail@eworm.de>
+---
+ Makefile | 2 +-
+ git      | 2 +-
+ ui-log.c | 7 ++++---
+ 3 files changed, 6 insertions(+), 5 deletions(-)
+
+diff --git Makefile Makefile
+index a4e597b..11b437b 100644
+--- Makefile
++++ Makefile
+@@ -14,7 +14,7 @@ htmldir = $(docdir)
+ pdfdir = $(docdir)
+ mandir = $(prefix)/share/man
+ SHA1_HEADER = <openssl/sha.h>
+-GIT_VER = 2.30.0
++GIT_VER = 2.31.0
+ GIT_URL = https://www.kernel.org/pub/software/scm/git/git-$(GIT_VER).tar.xz
+ INSTALL = install
+ COPYTREE = cp -r
+diff --git ui-log.c ui-log.c
+index 6914f75..20774bf 100644
+--- ui-log.c
++++ ui-log.c
+@@ -65,8 +65,9 @@ void show_commit_decorations(struct commit *commit)
+ 		return;
+ 	html("<span class='decoration'>");
+ 	while (deco) {
+-		struct object_id peeled;
++		struct object_id oid_tag, peeled;
+ 		int is_annotated = 0;
++
+ 		strlcpy(buf, prettify_refname(deco->name), sizeof(buf));
+ 		switch(deco->type) {
+ 		case DECORATION_NONE:
+@@ -79,8 +80,8 @@ void show_commit_decorations(struct commit *commit)
+ 				ctx.qry.showmsg, 0);
+ 			break;
+ 		case DECORATION_REF_TAG:
+-			if (!peel_ref(deco->name, &peeled))
+-				is_annotated = !oidcmp(&commit->object.oid, &peeled);
++			if (!read_ref(deco->name, &oid_tag) && !peel_iterated_oid(&oid_tag, &peeled))
++				is_annotated = !oideq(&oid_tag, &peeled);
+ 			cgit_tag_link(buf, NULL, is_annotated ? "tag-annotated-deco" : "tag-deco", buf);
+ 			break;
+ 		case DECORATION_REF_REMOTE:
+-- 
+2.31.0
+

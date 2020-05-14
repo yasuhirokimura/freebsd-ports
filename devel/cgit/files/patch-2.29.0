@@ -1,0 +1,256 @@
+From 629659d2cffbf059374fc53e6400ff0bebe1ddde Mon Sep 17 00:00:00 2001
+From: Christian Hesse <mail@eworm.de>
+Date: Tue, 6 Oct 2020 16:32:08 +0200
+Subject: [PATCH] git: update to v2.29.0
+
+Update to git version v2.29.0, this requires changes for these
+upstream commits:
+
+* dbbcd44fb47347a3fdbee88ea21805b7f4ac0b98
+  strvec: rename files from argv-array to strvec
+
+* 873cd28a8b17ff21908c78c7929a7615f8c94992
+  argv-array: rename to strvec
+
+* d70a9eb611a9d242c1d26847d223b8677609305b
+  strvec: rename struct fields
+
+* 6a67c759489e1025665adf78326e9e0d0981bab5
+  test-lib-functions: restrict test_must_fail usage
+
+Signed-off-by: Christian Hesse <mail@eworm.de>
+---
+ Makefile                 |  2 +-
+ cgit.h                   |  2 +-
+ git                      |  2 +-
+ tests/t0109-gitconfig.sh |  2 +-
+ ui-blame.c               | 10 +++++-----
+ ui-log.c                 | 30 +++++++++++++++---------------
+ ui-snapshot.c            | 24 ++++++++++++------------
+ 7 files changed, 36 insertions(+), 36 deletions(-)
+
+diff --git Makefile Makefile
+index 84822f0..c947b63 100644
+--- Makefile
++++ Makefile
+@@ -14,7 +14,7 @@ htmldir = $(docdir)
+ pdfdir = $(docdir)
+ mandir = $(prefix)/share/man
+ SHA1_HEADER = <openssl/sha.h>
+-GIT_VER = 2.25.1
++GIT_VER = 2.29.0
+ GIT_URL = https://www.kernel.org/pub/software/scm/git/git-$(GIT_VER).tar.xz
+ INSTALL = install
+ COPYTREE = cp -r
+diff --git cgit.h cgit.h
+index 7ec46b4..f5db364 100644
+--- cgit.h
++++ cgit.h
+@@ -14,7 +14,7 @@
+ #include <tag.h>
+ #include <diff.h>
+ #include <diffcore.h>
+-#include <argv-array.h>
++#include <strvec.h>
+ #include <refs.h>
+ #include <revision.h>
+ #include <log-tree.h>
+diff --git tests/t0109-gitconfig.sh tests/t0109-gitconfig.sh
+index 8cee75c..189ef28 100755
+--- tests/t0109-gitconfig.sh
++++ tests/t0109-gitconfig.sh
+@@ -25,7 +25,7 @@ test_no_home_access () {
+ 		-E CGIT_CONFIG="$PWD/cgitrc" \
+ 		-E QUERY_STRING="url=$1" \
+ 		-e access -f -o strace.out cgit &&
+-	test_must_fail grep "$non_existent_path" strace.out
++	! grep "$non_existent_path" strace.out
+ }
+ 
+ test_no_home_access_success() {
+diff --git ui-blame.c ui-blame.c
+index f28eea0..c3662bb 100644
+--- ui-blame.c
++++ ui-blame.c
+@@ -10,7 +10,7 @@
+ #include "ui-blame.h"
+ #include "html.h"
+ #include "ui-shared.h"
+-#include "argv-array.h"
++#include "strvec.h"
+ #include "blame.h"
+ 
+ 
+@@ -104,7 +104,7 @@ static void print_object(const struct object_id *oid, const char *path,
+ 	enum object_type type;
+ 	char *buf;
+ 	unsigned long size;
+-	struct argv_array rev_argv = ARGV_ARRAY_INIT;
++	struct strvec rev_argv = STRVEC_INIT;
+ 	struct rev_info revs;
+ 	struct blame_scoreboard sb;
+ 	struct blame_origin *o;
+@@ -124,11 +124,11 @@ static void print_object(const struct object_id *oid, const char *path,
+ 		return;
+ 	}
+ 
+-	argv_array_push(&rev_argv, "blame");
+-	argv_array_push(&rev_argv, rev);
++	strvec_push(&rev_argv, "blame");
++	strvec_push(&rev_argv, rev);
+ 	init_revisions(&revs, NULL);
+ 	revs.diffopt.flags.allow_textconv = 1;
+-	setup_revisions(rev_argv.argc, rev_argv.argv, &revs, NULL);
++	setup_revisions(rev_argv.nr, rev_argv.v, &revs, NULL);
+ 	init_scoreboard(&sb);
+ 	sb.revs = &revs;
+ 	sb.repo = the_repository;
+diff --git ui-log.c ui-log.c
+index 2939c01..fd07409 100644
+--- ui-log.c
++++ ui-log.c
+@@ -10,7 +10,7 @@
+ #include "ui-log.h"
+ #include "html.h"
+ #include "ui-shared.h"
+-#include "argv-array.h"
++#include "strvec.h"
+ 
+ static int files, add_lines, rem_lines, lines_counted;
+ 
+@@ -366,23 +366,23 @@ void cgit_print_log(const char *tip, int ofs, int cnt, char *grep, char *pattern
+ {
+ 	struct rev_info rev;
+ 	struct commit *commit;
+-	struct argv_array rev_argv = ARGV_ARRAY_INIT;
++	struct strvec rev_argv = STRVEC_INIT;
+ 	int i, columns = commit_graph ? 4 : 3;
+ 	int must_free_tip = 0;
+ 
+ 	/* rev_argv.argv[0] will be ignored by setup_revisions */
+-	argv_array_push(&rev_argv, "log_rev_setup");
++	strvec_push(&rev_argv, "log_rev_setup");
+ 
+ 	if (!tip)
+ 		tip = ctx.qry.head;
+ 	tip = disambiguate_ref(tip, &must_free_tip);
+-	argv_array_push(&rev_argv, tip);
++	strvec_push(&rev_argv, tip);
+ 
+ 	if (grep && pattern && *pattern) {
+ 		pattern = xstrdup(pattern);
+ 		if (!strcmp(grep, "grep") || !strcmp(grep, "author") ||
+ 		    !strcmp(grep, "committer")) {
+-			argv_array_pushf(&rev_argv, "--%s=%s", grep, pattern);
++			strvec_pushf(&rev_argv, "--%s=%s", grep, pattern);
+ 		} else if (!strcmp(grep, "range")) {
+ 			char *arg;
+ 			/* Split the pattern at whitespace and add each token
+@@ -390,14 +390,14 @@ void cgit_print_log(const char *tip, int ofs, int cnt, char *grep, char *pattern
+ 			 * rev-list options. Also, replace the previously
+ 			 * pushed tip (it's no longer relevant).
+ 			 */
+-			argv_array_pop(&rev_argv);
++			strvec_pop(&rev_argv);
+ 			while ((arg = next_token(&pattern))) {
+ 				if (*arg == '-') {
+ 					fprintf(stderr, "Bad range expr: %s\n",
+ 						arg);
+ 					break;
+ 				}
+-				argv_array_push(&rev_argv, arg);
++				strvec_push(&rev_argv, arg);
+ 			}
+ 		}
+ 	}
+@@ -412,22 +412,22 @@ void cgit_print_log(const char *tip, int ofs, int cnt, char *grep, char *pattern
+ 	}
+ 
+ 	if (commit_graph && !ctx.qry.follow) {
+-		argv_array_push(&rev_argv, "--graph");
+-		argv_array_push(&rev_argv, "--color");
++		strvec_push(&rev_argv, "--graph");
++		strvec_push(&rev_argv, "--color");
+ 		graph_set_column_colors(column_colors_html,
+ 					COLUMN_COLORS_HTML_MAX);
+ 	}
+ 
+ 	if (commit_sort == 1)
+-		argv_array_push(&rev_argv, "--date-order");
++		strvec_push(&rev_argv, "--date-order");
+ 	else if (commit_sort == 2)
+-		argv_array_push(&rev_argv, "--topo-order");
++		strvec_push(&rev_argv, "--topo-order");
+ 
+ 	if (path && ctx.qry.follow)
+-		argv_array_push(&rev_argv, "--follow");
+-	argv_array_push(&rev_argv, "--");
++		strvec_push(&rev_argv, "--follow");
++	strvec_push(&rev_argv, "--");
+ 	if (path)
+-		argv_array_push(&rev_argv, path);
++		strvec_push(&rev_argv, path);
+ 
+ 	init_revisions(&rev, NULL);
+ 	rev.abbrev = DEFAULT_ABBREV;
+@@ -436,7 +436,7 @@ void cgit_print_log(const char *tip, int ofs, int cnt, char *grep, char *pattern
+ 	rev.show_root_diff = 0;
+ 	rev.ignore_missing = 1;
+ 	rev.simplify_history = 1;
+-	setup_revisions(rev_argv.argc, rev_argv.argv, &rev, NULL);
++	setup_revisions(rev_argv.nr, rev_argv.v, &rev, NULL);
+ 	load_ref_decorations(NULL, DECORATE_FULL_REFS);
+ 	rev.show_decorations = 1;
+ 	rev.grep_filter.ignore_case = 1;
+diff --git ui-snapshot.c ui-snapshot.c
+index 556d3ed..18361a6 100644
+--- ui-snapshot.c
++++ ui-snapshot.c
+@@ -13,32 +13,32 @@
+ 
+ static int write_archive_type(const char *format, const char *hex, const char *prefix)
+ {
+-	struct argv_array argv = ARGV_ARRAY_INIT;
++	struct strvec argv = STRVEC_INIT;
+ 	const char **nargv;
+ 	int result;
+-	argv_array_push(&argv, "snapshot");
+-	argv_array_push(&argv, format);
++	strvec_push(&argv, "snapshot");
++	strvec_push(&argv, format);
+ 	if (prefix) {
+ 		struct strbuf buf = STRBUF_INIT;
+ 		strbuf_addstr(&buf, prefix);
+ 		strbuf_addch(&buf, '/');
+-		argv_array_push(&argv, "--prefix");
+-		argv_array_push(&argv, buf.buf);
++		strvec_push(&argv, "--prefix");
++		strvec_push(&argv, buf.buf);
+ 		strbuf_release(&buf);
+ 	}
+-	argv_array_push(&argv, hex);
++	strvec_push(&argv, hex);
+ 	/*
+ 	 * Now we need to copy the pointers to arguments into a new
+ 	 * structure because write_archive will rearrange its arguments
+ 	 * which may result in duplicated/missing entries causing leaks
+-	 * or double-frees in argv_array_clear.
++	 * or double-frees in strvec_clear.
+ 	 */
+-	nargv = xmalloc(sizeof(char *) * (argv.argc + 1));
+-	/* argv_array guarantees a trailing NULL entry. */
+-	memcpy(nargv, argv.argv, sizeof(char *) * (argv.argc + 1));
++	nargv = xmalloc(sizeof(char *) * (argv.nr + 1));
++	/* strvec guarantees a trailing NULL entry. */
++	memcpy(nargv, argv.v, sizeof(char *) * (argv.nr + 1));
+ 
+-	result = write_archive(argv.argc, nargv, NULL, the_repository, NULL, 0);
+-	argv_array_clear(&argv);
++	result = write_archive(argv.nr, nargv, NULL, the_repository, NULL, 0);
++	strvec_clear(&argv);
+ 	free(nargv);
+ 	return result;
+ }
+-- 
+2.29.0
+
