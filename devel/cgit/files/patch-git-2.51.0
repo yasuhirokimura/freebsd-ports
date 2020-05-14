@@ -1,0 +1,59 @@
+From 334640962c7fa96d407d1c71df709c94708bcef9 Mon Sep 17 00:00:00 2001
+From: Christian Hesse <mail@eworm.de>
+Date: Sat, 9 Aug 2025 00:17:51 +0200
+Subject: [PATCH] git: update to v2.51.0
+
+Update to git version v2.51.0, this requires changes for these
+upstream commits:
+
+* 8f49151763cb81adf4bcec53c1ae67057081b02d
+  object-store: rename files to "odb.{c,h}"
+
+Signed-off-by: Christian Hesse <mail@eworm.de>
+---
+ Makefile   | 2 +-
+ cgit.h     | 2 +-
+ ui-clone.c | 1 -
+ 4 files changed, 3 insertions(+), 4 deletions(-)
+
+diff --git Makefile Makefile
+index a97d9d4..60075af 100644
+--- Makefile
++++ Makefile
+@@ -14,7 +14,7 @@ htmldir = $(docdir)
+ pdfdir = $(docdir)
+ mandir = $(prefix)/share/man
+ SHA1_HEADER = <openssl/sha.h>
+-GIT_VER = 2.49.0
++GIT_VER = 2.51.0
+ GIT_URL = https://www.kernel.org/pub/software/scm/git/git-$(GIT_VER).tar.xz
+ INSTALL = install
+ COPYTREE = cp -r
+diff --git cgit.h cgit.h
+index 9146d9a..653ec28 100644
+--- cgit.h
++++ cgit.h
+@@ -17,7 +17,7 @@
+ #include <notes.h>
+ #include <object.h>
+ #include <object-name.h>
+-#include <object-store.h>
++#include <odb.h>
+ #include <path.h>
+ #include <refs.h>
+ #include <revision.h>
+diff --git ui-clone.c ui-clone.c
+index 2ed3e1c..0fadf24 100644
+--- ui-clone.c
++++ ui-clone.c
+@@ -14,7 +14,6 @@
+ #include "html.h"
+ #include "ui-shared.h"
+ #include "packfile.h"
+-#include "object-store.h"
+ 
+ static int print_ref_info(const char *refname, const char *referent UNUSED,
+ 			  const struct object_id *oid, int flags, void *cb_data)
+-- 
+2.50.1
+
