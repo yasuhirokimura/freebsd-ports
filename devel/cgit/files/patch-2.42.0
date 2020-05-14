@@ -1,0 +1,74 @@
+From 2f50b47c72cbc4270bbd12ae7f520486d5f42736 Mon Sep 17 00:00:00 2001
+From: Christian Hesse <mail@eworm.de>
+Date: Wed, 9 Aug 2023 01:45:58 +0200
+Subject: [PATCH] git: update to v2.42.0
+
+Update to git version v2.42.0, this requires changes for these
+upstream commits:
+
+* bc5c5ec0446895f5c4139cd470066beb3c4ac6d5
+  cache.h: remove this no-longer-used header
+
+* aba070683295a20bdf4f49146384984961c794b2
+  path: move related function to path
+
+* a4e7e317f8f27f861321e6eb08b9c8c0f3ab570c
+  config: add ctx arg to config_fn_t
+
+Signed-off-by: Christian Hesse <mail@eworm.de>
+---
+ Makefile    | 2 +-
+ cgit.h      | 2 +-
+ git         | 2 +-
+ scan-tree.c | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git Makefile Makefile
+index b0de0ee..036a8e9 100644
+--- Makefile
++++ Makefile
+@@ -14,7 +14,7 @@ htmldir = $(docdir)
+ pdfdir = $(docdir)
+ mandir = $(prefix)/share/man
+ SHA1_HEADER = <openssl/sha.h>
+-GIT_VER = 2.41.0
++GIT_VER = 2.42.0
+ GIT_URL = https://www.kernel.org/pub/software/scm/git/git-$(GIT_VER).tar.xz
+ INSTALL = install
+ COPYTREE = cp -r
+diff --git cgit.h cgit.h
+index f788fd2..dbc461f 100644
+--- cgit.h
++++ cgit.h
+@@ -6,7 +6,6 @@
+ #include <git-compat-util.h>
+ 
+ #include <archive.h>
+-#include <cache.h>
+ #include <commit.h>
+ #include <diffcore.h>
+ #include <diff.h>
+@@ -19,6 +18,7 @@
+ #include <object.h>
+ #include <object-name.h>
+ #include <object-store.h>
++#include <path.h>
+ #include <refs.h>
+ #include <revision.h>
+ #include <setup.h>
+diff --git scan-tree.c scan-tree.c
+index 6a2f65a..84da86e 100644
+--- scan-tree.c
++++ scan-tree.c
+@@ -54,7 +54,7 @@ static void scan_tree_repo_config(const char *name, const char *value)
+ 	config_fn(repo, name, value);
+ }
+ 
+-static int gitconfig_config(const char *key, const char *value, void *cb)
++static int gitconfig_config(const char *key, const char *value, const struct config_context *, void *cb)
+ {
+ 	const char *name;
+ 
+-- 
+2.41.0
+
