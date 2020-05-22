@@ -133,8 +133,7 @@ MASTER_SITE_CRATESIO+=	https://crates.io/api/v1/crates/%SUBDIR%/download?dummy=/
 
 .if !defined(IGNORE_MASTER_SITE_DEBIAN)
 MASTER_SITE_DEBIAN+= \
-	http://cdn.debian.net/debian/%SUBDIR%/ \
-	http://http.debian.net/debian/%SUBDIR%/ \
+	http://deb.debian.org/debian/%SUBDIR%/ \
 	http://www.gtlib.gatech.edu/pub/debian/%SUBDIR%/ \
 	ftp://ftp.us.debian.org/debian/%SUBDIR%/ \
 	http://ftp.au.debian.org/debian/%SUBDIR%/ \
