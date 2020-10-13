@@ -1,0 +1,2 @@
+Pfsyslogd is daemon program to read pf log by using tcpdump and send
+it to syslog.
