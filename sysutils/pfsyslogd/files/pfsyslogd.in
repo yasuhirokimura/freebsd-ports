@@ -1,0 +1,25 @@
+#!/bin/sh
+#
+# PROVIDE: pfsyslogd
+# REQUIRE: pf syslogd
+# KEYWORD: shutdown
+#
+# Add the following lines to /etc/rc.conf.local or /etc/rc.conf
+# to enable this service:
+#
+# pfsyslogd_enable (bool):	Set to NO by default.
+#				Set it to YES to enable pfsyslogd.
+
+. /etc/rc.subr
+
+name=pfsyslogd
+rcvar=pfsyslogd_enable
+
+load_rc_config pfsyslogd
+
+: ${pfsyslogd_enable:="NO"}
+
+command=%%PREFIX%%/sbin/pfsyslogd
+command_interpreter=%%RUBY%%
+
+run_rc_command "$1"
