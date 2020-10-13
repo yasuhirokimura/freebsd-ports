@@ -937,6 +937,7 @@
     SUBDIR += pfetch-rs
     SUBDIR += pflogx
     SUBDIR += pfstat
+    SUBDIR += pfsyslogd
     SUBDIR += pftables
     SUBDIR += pftop
     SUBDIR += php81-fileinfo
