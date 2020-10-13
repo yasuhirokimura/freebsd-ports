@@ -938,6 +938,7 @@
     SUBDIR += pfetch
     SUBDIR += pflogx
     SUBDIR += pfstat
+    SUBDIR += pfsyslogd
     SUBDIR += pftables
     SUBDIR += pftop
     SUBDIR += php73-fileinfo
