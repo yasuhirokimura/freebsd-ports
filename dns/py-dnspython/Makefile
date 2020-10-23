@@ -1,7 +1,7 @@
 # Created by: Mario Sergio Fujikawa Ferreira <lioux@FreeBSD.org>
 
 PORTNAME=	dnspython
-PORTVERSION=	1.16.0
+PORTVERSION=	2.1.0
 CATEGORIES=	dns python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
@@ -12,7 +12,7 @@ COMMENT=	DNS toolkit for Python
 LICENSE=	ISCL
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:2.7+ zip
+USES=		python zip
 USE_PYTHON=	autoplist concurrent cython distutils
 
 NO_ARCH=	yes
