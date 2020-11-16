@@ -101,7 +101,7 @@ pre-build::
 		${CMAKE_OTHER_ARGS} ${b:C/1./-DHIGH_BIT_DEPTH:BOOL=true/} \
 		-DMAIN$b:BOOL=true -DENABLE_ASSEMBLY:BOOL=${ASSEMBLY} \
 		-DEXPORT_C_API:BOOL=false -DENABLE_CLI=false
-	${SETENV} ${MAKE_ENV} ${MAKE_CMD} -C ${WRKSRC:H}/$bbit ${MAKE_ARGS}
+	${DO_MAKE_BUILD} -C ${WRKSRC:H}/$bbit
 	${LN} -f ${WRKSRC:H}/$bbit/libx265.a ${WRKSRC:H}/$bbit/libx265_$bbit.a
 	${ECHO_MSG} "---> Built the $b-bit library ---"
 .endfor

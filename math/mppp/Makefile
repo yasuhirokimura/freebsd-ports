@@ -29,13 +29,13 @@ BENCHMARK_ARGS=	-DMPPP_BUILD_BENCHMARKS=ON -DMPPP_BENCHMARK_FLINT=ON -DMPPP_BENC
 do-test:
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} ${TEST_ARGS} ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} test
+		${DO_MAKE_BUILD} ${ALL_TARGET} && \
+		${DO_MAKE_TEST} test
 
 benchmarks: build # additionally depends on boost-libs
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} ${BENCHMARK_ARGS} ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} benchmark
+		${DO_MAKE_BUILD} ${ALL_TARGET} && \
+		${DO_MAKE_TEST} ${ALL_TARGET} benchmark
 
 .include <bsd.port.mk>

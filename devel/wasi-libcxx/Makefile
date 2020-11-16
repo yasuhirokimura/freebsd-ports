@@ -74,11 +74,11 @@ post-configure:
 post-build:
 	@${LOCALBASE}/bin/llvm-ranlib${LLVM_SUFFIX} ${CONFIGURE_WRKSRC}/lib/wasm32-wasi/*.a
 	@cd ${WRKDIR}/.build_cxxabi && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET}
+		${DO_MAKE_BUILD} ${ALL_TARGET}
 	@${LOCALBASE}/bin/llvm-ranlib${LLVM_SUFFIX} ${WRKDIR}/.build_cxxabi/lib/wasm32-wasi/*.a
 
 post-install:
 	@cd ${WRKDIR}/.build_cxxabi && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${INSTALL_TARGET}
+		${DO_MAKE_INSTALL} ${INSTALL_TARGET}
 
 .include <bsd.port.mk>

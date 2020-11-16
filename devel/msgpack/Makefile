@@ -31,6 +31,6 @@ post-patch:
 	${REINPLACE_CMD} -e 's/c++98/c++11/' ${WRKSRC}/CMakeLists.txt
 
 pre-test:
-	cd ${WRKSRC} && ${CMAKE_BIN} . && ${MAKE_CMD}
+	cd ${WRKSRC} && ${CMAKE_BIN} . && ninja
 
 .include <bsd.port.mk>

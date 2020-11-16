@@ -32,7 +32,7 @@ PLIST_FILES=	include/fp16.h \
 do-test:
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} -DFP16_BUILD_TESTS:BOOL=ON ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} test
+		${DO_MAKE_BUILD} ${ALL_TARGET} && \
+		${DO_MAKE_TEST} test
 
 .include <bsd.port.mk>

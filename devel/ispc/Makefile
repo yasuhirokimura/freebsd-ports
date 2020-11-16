@@ -40,14 +40,15 @@ do-test: # some tests fail: https://github.com/ispc/ispc/issues/1868
 	@cd ${WRKSRC} && ISPC_HOME=${BUILD_WRKSRC}/bin ./run_tests.py
 
 test-check-all: # the upstream claims that some of these checks are broken without using their patched llvm version, hence using llvm-devel
-	@cd ${BUILD_WRKSRC} && ${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} check-all
+test-check-all:
+	@cd ${BUILD_WRKSRC} && ${DO_MAKE_TEST} check-all
 
 run-examples: build
 	@[ -f ${LOCALBASE}/lib/libtbb.so ] || ! echo "ERROR run-examples target requires devel/tbb package installed"
 .for e in simple sort mandelbrot stencil
 	@cd ${WRKSRC}/examples/${e} && \
 	${ECHO} "===> Running example ${e}" && \
-	${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} && \
+	${DO_MAKE_BUILD} && \
 	./${e}
 .endfor
 

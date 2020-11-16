@@ -42,7 +42,7 @@ do-build:
 
 do-install:
 .for f in ${WRKSRC_SUBDIRS}
-	@(cd ${WRKSRC}/${f}/.build && ${SETENV} ${MAKE_ENV} ${FAKEROOT} ${MAKE_CMD} ${MAKE_FLAGS} ${MAKEFILE} ${MAKE_ARGS} ${INSTALL_TARGET})
+	@(cd ${WRKSRC}/${f}/.build && ${DO_MAKE_INSTALL} ${INSTALL_TARGET})
 .endfor
 .for e in ${EXECS}
 	${RLN} ${STAGEDIR}/${PREFIX}/mcstas/${PORTVERSION}/bin/${e} ${STAGEDIR}${PREFIX}/bin/${e}

@@ -3402,15 +3402,16 @@ check-install-conflicts:
 
 # Install
 
+DO_MAKE_INSTALL?=	${SETENV} ${MAKE_ENV} ${FAKEROOT} ${MAKE_CMD} ${MAKE_FLAGS} ${MAKEFILE} ${MAKE_ARGS}
 .if !target(do-install) && !defined(NO_INSTALL)
 do-install:
-	@(cd ${INSTALL_WRKSRC} && ${SETENV} ${MAKE_ENV} ${FAKEROOT} ${MAKE_CMD} ${MAKE_FLAGS} ${MAKEFILE} ${MAKE_ARGS} ${INSTALL_TARGET})
+	@(cd ${INSTALL_WRKSRC} && ${DO_MAKE_INSTALL} ${INSTALL_TARGET})
 .endif
 
 # Test
 
-.if !target(do-test) && defined(TEST_TARGET)
 DO_MAKE_TEST?=	${SETENV} ${TEST_ENV} ${MAKE_CMD} ${MAKE_FLAGS} ${MAKEFILE} ${TEST_ARGS:N${DESTDIRNAME}=*}
+.if !target(do-test) && defined(TEST_TARGET)
 do-test:
 	@(cd ${TEST_WRKSRC}; if ! ${DO_MAKE_TEST} ${TEST_TARGET}; then \
 		if [ -n "${TEST_FAIL_MESSAGE}" ] ; then \

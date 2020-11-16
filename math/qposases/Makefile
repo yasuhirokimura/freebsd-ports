@@ -29,7 +29,7 @@ post-patch:
 do-test:
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} -DQPOASES_BUILD_EXAMPLES:BOOL=ON ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} && \
+		${DO_MAKE_BUILD} ${ALL_TARGET} && \
 		for e in ${EXAMPLES}; do \
 			${ECHO} "=== Running example $${e} ===" && \
 			${BUILD_WRKSRC}/bin/$${e}; \

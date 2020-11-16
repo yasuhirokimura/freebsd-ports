@@ -60,6 +60,6 @@ post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/mged.sh ${STAGEDIR}${PREFIX}/bin/mged.sh
 
 regression-test: build
-	@(cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${MAKE_CMD} test)
+	@(cd ${WRKSRC} && ${DO_MAKE_TEST} test)
 
 .include <bsd.port.mk>

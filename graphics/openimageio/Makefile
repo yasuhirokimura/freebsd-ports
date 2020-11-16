@@ -130,7 +130,7 @@ post-install:
 		${STAGEDIR}${PREFIX}/lib/libOpenImageIO_Util.so.2
 
 do-test-TEST-on:
-	@cd ${BUILD_WRKSRC} && ${SETENV} ARGS=-V ${MAKE_CMD} test
+	@cd ${BUILD_WRKSRC} && ${SETENV} ARGS=-V ninja test
 .endif # SLAVE_PORT
 
 .include <bsd.port.mk>

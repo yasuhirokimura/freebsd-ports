@@ -26,13 +26,13 @@ PLIST_FILES=	include/nanoflann.hpp \
 do-test:
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} -DBUILD_TESTS=ON ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} test
+		${DO_MAKE_BUILD} ${ALL_TARGET} && \
+		${DO_MAKE_TEST} test
 
 benchmarks: build # benchmarks fail to run: https://github.com/jlblancoc/nanoflann/issues/100
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} -DBUILD_BENCHMARKS=ON ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} benchmarks
+		${DO_MAKE_BUILD} ${ALL_TARGET} && \
+		${DO_MAKE_TEST} benchmarks
 
 .include <bsd.port.mk>

@@ -51,6 +51,6 @@ post-patch:
 	${RM} ${WRKSRC}/tools/CMakeLists.txt
 
 do-test:
-	cd ${BUILD_WRKSRC} && ${MAKE_CMD} unit
+	cd ${BUILD_WRKSRC} && ${DO_MAKE_TEST} unit
 
 .include <bsd.port.mk>

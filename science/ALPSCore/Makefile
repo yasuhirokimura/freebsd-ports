@@ -51,6 +51,6 @@ post-install-DOXYGEN-on:
 pre-test:
 	@cd ${CONFIGURE_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} ${CMAKE_ARGS_TEST} ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS}
+		${DO_MAKE_BUILD}
 
 .include <bsd.port.post.mk>

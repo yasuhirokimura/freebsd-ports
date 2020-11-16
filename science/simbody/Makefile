@@ -45,7 +45,7 @@ post-install-DOCS-on: # https://github.com/simbody/simbody/issues/652
 do-test:
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} -DBUILD_TESTING=ON ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} test
+		${DO_MAKE_BUILD} ${ALL_TARGET} && \
+		${DO_MAKE_TEST} test
 
 .include <bsd.port.mk>

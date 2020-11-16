@@ -34,7 +34,7 @@ PLIST_SUB+=	FUEL_TOOLS_IGN_VER=fuel_tools${DISTVERSION:R:R}
 do-test: # 4 tests are known to fail: https://bitbucket.org/ignitionrobotics/ign-fuel-tools/issues/48/4-unit-tests-fail-unit_fuelclient_test
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} -DBUILD_TESTING=ON ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} test
+		${DO_MAKE_BUILD-} ${ALL_TARGET} && \
+		${DO_MAKE_TEST} test
 
 .include <bsd.port.mk>

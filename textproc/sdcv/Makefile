@@ -33,6 +33,6 @@ post-patch:
 .endfor
 
 post-build-NLS-on:
-	cd ${BUILD_WRKSRC} && ${MAKE_CMD} lang
+	cd ${BUILD_WRKSRC} && ${DO_MAKE_BUILD} lang
 
 .include <bsd.port.mk>

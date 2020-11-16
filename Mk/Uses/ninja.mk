@@ -60,14 +60,12 @@ MAKE_ENV+=	NINJA_STATUS="[%p %s/%t] "
 # samu does not support GNU-style args, so we cannot just append
 # -v last.  samu gets this via SAMUFLAGS above but ninja does not
 # support an equivalent environment variable.
-MAKE_ARGS+=	-v
+NINJA_FLAGS+=	-v
 .  endif
 CMAKE_ARGS+=	-GNinja
-MAKEFILE=
-MAKE_CMD=	${NINJA_CMD}
-MAKE_FLAGS=
-# Set a minimal job of 1
-_MAKE_JOBS=	-j${MAKE_JOBS_NUMBER}
+DO_MAKE_BUILD=	${SETENV} ${MAKE_ENV} ${NINJA_CMD}  -j${MAKE_JOBS_NUMBER} ${NINJA_FLAGS}
+DO_MAKE_INSTALL=	${SETENV} ${MAKE_ENV} ${NINJA_CMD} -j${MAKE_JOBS_NUMBER} ${NINJA_FLAGS}
+DO_MAKE_TEST=	${SETENV} ${TEST_ENV} ${NINJA_CMD} -j${MAKE_JOBS_NUMBER} ${NINJA_FLAGS}
 _DESTDIR_VIA_ENV=	yes
 .endif
 

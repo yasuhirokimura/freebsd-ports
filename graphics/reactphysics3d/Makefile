@@ -18,7 +18,7 @@ CMAKE_ON=	BUILD_SHARED_LIBS
 do-test:
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} -DRP3D_COMPILE_TESTS=ON ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} && \
+		${DO_MAKE_BUILD} ${ALL_TARGET} && \
 		./test/tests
 
 .include <bsd.port.mk>

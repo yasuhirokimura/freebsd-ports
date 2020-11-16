@@ -47,7 +47,7 @@ post-install:
 do-test: # unfirtunately  it rebuilds
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} -DENABLE_TESTS=ON ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET}
+		${DO_MAKE_BUILD} ${ALL_TARGET}
 .for tst in test_eri test_eri_deriv1 benchmark_eri screentest # from test/CMakeLists.txt
 	#@cd ${WRKSRC} && (${FIND} test/dat -name "*.mol" | ${XARGS} ${BUILD_WRKSRC}/test/${tst})
 	@cd ${WRKSRC} && (${FIND} test/dat -name "*.mol" | ${XARGS} printf "%s")

@@ -19,7 +19,7 @@ USE_LDCONFIG=	yes
 do-test:
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} -DWITH_TESTS=ON ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} && \
+		${DO_MAKE_BUILD} ${ALL_TARGET} && \
 		python${PYTHON_DEFAULT} run_tests
 
 .include <bsd.port.mk>

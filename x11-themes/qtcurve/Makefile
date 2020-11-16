@@ -70,7 +70,7 @@ USE_LDCONFIG=	yes
 
 post-install:
 	@(cd ${WRKSRC}/lib/cairo && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_FLAGS} ${MAKEFILE} ${MAKE_ARGS} ${INSTALL_TARGET})
+		${DO_MAKE_INSTALL} ${INSTALL_TARGET})
 .endif
 
 .if ${QTCURVE_SLAVE} == "kf5"

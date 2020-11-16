@@ -137,7 +137,7 @@ do-test:
 	${CHMOD} go-r ${HOME}/.mpd.conf
 	@${ECHO_MSG} "${HOME}/.mpd.conf has been generated - please change the secret word!"
 . endif
-	(cd ${BUILD_WRKSRC}/TESTING && ${MAKE_CMD} test)
+	(cd ${BUILD_WRKSRC}/TESTING && ninja test)
 
 .endif
 

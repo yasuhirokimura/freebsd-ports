@@ -29,12 +29,12 @@ post-patch:
 
 post-install:
 	${AR} cq ${STAGEDIR}${PREFIX}/lib/libtinyxml2.a ${WRKSRC}/CMakeFiles/tinyxml2.dir/tinyxml2.cpp.o
-	
+
 post-install-EXAMPLES-on:
 	${MKDIR} ${STAGEDIR}${EXAMPLESDIR}/
 	cd ${WRKSRC}/ && ${COPYTREE_SHARE} resources ${STAGEDIR}${EXAMPLESDIR}/
 
 do-test:
-	cd ${WRKSRC}/ && ${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} xmltest && ./xmltest
+	cd ${WRKSRC}/ && ${DO_MAKE_TEST} xmltest && ./xmltest
 
 .include <bsd.port.mk>

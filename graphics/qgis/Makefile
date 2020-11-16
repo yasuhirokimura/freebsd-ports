@@ -174,6 +174,6 @@ post-install:
 	@${RM} /tmp/srs.db
 
 check:
-	@cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${MAKE_CMD} check
+	@cd ${WRKSRC} && ${DO_MAKE_TEST} check
 
 .include <bsd.port.post.mk>

@@ -105,6 +105,6 @@ post-patch:
 .endif
 
 pre-build:
-	cd ${WRKSRC} && ${MAKE_CMD} generateVersionFiles
+	cd ${WRKSRC} && ninja generateVersionFiles
 
 .include <bsd.port.post.mk>

@@ -467,7 +467,7 @@ post-build-COMPILER_RT-on:
 	${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} \
 	    -DLLVM_CONFIG_PATH=${CONFIGURE_WRKSRC}/bin/llvm-config \
 	    ${WRKSRC_compiler_rt} && \
-	    ${MAKE_ENV} ${MAKE_CMD}
+	    ${DO_MAKE_BUILD}
 
 post-install:
 	${RM} -r ${STAGEDIR}${LLVM_PREFIX}/include/llvm/MC/MCAnalysis
@@ -506,7 +506,7 @@ post-install-CLANG-on:
 
 post-install-COMPILER_RT-on:
 	cd ${WRKDIR}/compiler-rt-build && \
-	    ${MAKE_ENV} ${MAKE_CMD} ${INSTALL_TARGET}
+	    ${DO_MAKE_INSTALL} ${INSTALL_TARGET}
 .if ${ARCH} == "amd64"
 	${RM} ${STAGEDIR}${LLVM_PREFIX}/lib/freebsd/libclang_rt*i386*
 .endif
@@ -541,7 +541,7 @@ post-install-LIT-on:
 post-install-LLD_LINK-on:
 	${LN} -s ld.lld ${STAGEDIR}${LLVM_PREFIX}/bin/ld
 
-TEST_CMD=	'(cd ${WRKSRC}/test; ${SETENV} ${MAKE_ENV} LD_LIBRARY_PATH=${WRKSRC}/Release/lib ${MAKE_CMD} check-local-lit)'
+TEST_CMD=	'(cd ${WRKSRC}/test; ${SETENV} ${MAKE_ENV} LD_LIBRARY_PATH=${WRKSRC}/Release/lib ninja check-local-lit)'
 do-test:
 	if [ `${ID} -u` = 0 ]; then \
 		${CHOWN} -R nobody ${WRKSRC}/test; \

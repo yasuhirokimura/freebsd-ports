@@ -92,7 +92,7 @@ post-patch-PYTHON-on:
 		${WRKSRC}/Components/Python/CMakeLists.txt
 
 post-build-DOCS-on:
-	${MAKE_CMD} -C ${BUILD_WRKSRC} OgreDoc
+	ninja -C ${BUILD_WRKSRC} OgreDoc
 
 post-install-DOCS-on:
 	@${MKDIR} ${STAGEDIR}${DOCSDIR}

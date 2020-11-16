@@ -27,7 +27,7 @@ do-test: install # https://github.com/xtensor-stack/xtensor/issues/2220
 	@${RLN} ${STAGEDIR}${PREFIX}/include ${WRKSRC}/test/staged-include
 	@cd ${WRKSRC}/test && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} . && \
-		${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} && \
-		${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} xtest
+		${DO_MAKE_BUILD} && \
+		${DO_MAKE_TEST} xtest
 
 .include <bsd.port.mk>

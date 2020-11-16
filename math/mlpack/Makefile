@@ -34,9 +34,9 @@ EXECUTABLES_CMAKE_BOOL=	BUILD_CLI_EXECUTABLES
 
 do-test: # 'clean' target below is a workaround for: https://github.com/mlpack/mlpack/issues/2300
 	@cd ${BUILD_WRKSRC} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} clean && \
+		${DO_MAKE_BUILD} clean && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} -DBUILD_TESTS:BOOL=ON ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} ${ALL_TARGET} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} test
+		${DO_MAKE_BUILD} ${ALL_TARGET} && \
+		${DO_MAKE_TEST} test
 
 .include <bsd.port.mk>

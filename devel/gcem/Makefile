@@ -18,7 +18,7 @@ NO_ARCH=	yes
 do-test:
 	@cd ${BUILD_WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} ${CMAKE_BIN} ${CMAKE_ARGS} -DGCEM_BUILD_TESTS:BOOL=ON ${CMAKE_SOURCE_PATH} && \
-		${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} gcem_tests && \
+		${DO_MAKE_BUILD} gcem_tests && \
 		(cd tests && ./exp.test)
 
 .include <bsd.port.mk>
