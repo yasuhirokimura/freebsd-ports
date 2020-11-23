@@ -127,8 +127,8 @@ RB_SET_CONF_VAR=${SH} -c '${REINPLACE_CMD} -E -e "s,(CONFIG\[\"$$0\"\][[:space:]
 
 post-patch:
 # We get these from other ports
-.for d in bin/* ext/dbm ext/gdbm ext/win32* lib/bundler* libexec/bundler* man/bundle* man/erb.1 man/gemfile* man/irb.1 man/ri.1
-	@${RM} -r ${BUILD_WRKSRC}/${d}
+.for d in ext/dbm ext/gdbm ext/win32*
+	  	@${RM} -r ${BUILD_WRKSRC}/${d}
 .endfor
 
 post-build:
