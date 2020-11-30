@@ -2,6 +2,7 @@
 
 PORTNAME=	gems
 PORTVERSION=	3.0.8
+PORTREVISION=	1
 CATEGORIES=	devel ruby
 MASTER_SITES=	https://rubygems.org/rubygems/
 PKGNAMEPREFIX=	${RUBY_PKGNAMEPREFIX}
@@ -51,7 +52,6 @@ do-install:
 	${MKDIR} ${STAGEDIR}${PREFIX}/${GEMS_DIR}
 	${MKDIR} ${STAGEDIR}${PREFIX}/${SPEC_DIR}
 	cd ${WRKSRC}/ && ${SETENV} ${GEMS_ENV} ${RUBY} ${RUBY_SETUP} ${RUBY_SETUP_OPTIONS}
-	${LN} -sf gem${RUBY_SUFFIX} ${STAGEDIR}${PREFIX}/bin/gem
 
 # Find all RDOC and RI files
 post-install-DOCS-on:
