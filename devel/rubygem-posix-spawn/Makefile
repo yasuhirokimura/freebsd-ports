@@ -12,7 +12,6 @@ LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		gem
-USE_RUBY=	yes
 
 PLIST_FILES=	bin/posix-spawn-benchmark
 

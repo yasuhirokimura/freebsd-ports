@@ -25,7 +25,6 @@ RUN_DEPENDS=	redis>=0:databases/redis \
 		rubygem-thor>=0.18.1:devel/rubygem-thor
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

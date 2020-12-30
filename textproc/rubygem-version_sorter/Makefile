@@ -11,7 +11,6 @@ COMMENT=	Fast sorting of version strings
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

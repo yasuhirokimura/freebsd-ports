@@ -14,7 +14,6 @@ LICENSE=	MIT
 RUN_DEPENDS=	rubygem-rails61>=4.2:www/rubygem-rails61
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

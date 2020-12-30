@@ -11,7 +11,6 @@ COMMENT=	Little language that compiles into JavaScript
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

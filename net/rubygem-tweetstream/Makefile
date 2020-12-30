@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-daemons>=1.1<2:devel/rubygem-daemons \
 		rubygem-twitter>=5.5:net/rubygem-twitter
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

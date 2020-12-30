@@ -20,8 +20,7 @@ RUN_DEPENDS=	rubygem-charlock_holmes>=0.7.3:textproc/rubygem-charlock_holmes \
 
 NO_ARCH=	yes
 PORTDOCS=	COPYING ChangeLog README README.ninix SAORI
-USES=		gettext tar:tgz
-USE_RUBY=	yes
+USES=		gettext ruby tar:tgz
 
 OPTIONS_DEFINE=	DOCS
 

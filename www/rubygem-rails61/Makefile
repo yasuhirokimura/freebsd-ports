@@ -46,7 +46,6 @@ RUN_DEPENDS=	rubygem-actioncable61>=${PORTVERSION}:www/rubygem-actioncable61 \
 		rubygem-webpacker-rails61>=5.0<6:devel/rubygem-webpacker-rails61
 
 USES=		cpe gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

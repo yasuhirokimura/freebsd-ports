@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-csv>=3.0.5:devel/rubygem-csv \
 		rubygem-rubyzip>=0:archivers/rubygem-rubyzip
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

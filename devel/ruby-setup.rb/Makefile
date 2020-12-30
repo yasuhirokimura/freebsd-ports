@@ -12,7 +12,7 @@ DIST_SUBDIR=	ruby
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Common installer script for ruby packages
 
-USE_RUBY=	yes
+USES=		ruby
 
 NO_BUILD=	yes
 

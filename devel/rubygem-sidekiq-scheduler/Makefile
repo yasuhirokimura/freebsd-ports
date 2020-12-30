@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-e2mmap>=0:devel/rubygem-e2mmap \
 		rubygem-tilt>=1.4.0:devel/rubygem-tilt
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -13,9 +13,8 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 RUN_DEPENDS=	rubygem-stomp>=0:devel/rubygem-stomp
 
-USES=		shebangfix
+USES=		ruby shebangfix
 NO_BUILD=	yes
-USE_RUBY=	yes
 USE_RC_SUBR=	mcollectived
 
 SHEBANG_FILES=	bin/mcollectived bin/mco

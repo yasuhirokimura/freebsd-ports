@@ -9,7 +9,6 @@ COMMENT=	Standalone, generic object validator for ruby
 LICENSE=	ISCL
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

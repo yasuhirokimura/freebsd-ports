@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-compass>=0:textproc/rubygem-compass
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

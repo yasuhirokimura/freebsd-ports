@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-concurrent-ruby>=1.0<2:devel/rubygem-concurrent-ruby \
 		rubygem-rack16>=1<3:www/rubygem-rack16
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

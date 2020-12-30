@@ -14,7 +14,6 @@ RUN_DEPENDS=	shared-mime-info>0:misc/shared-mime-info \
 		rubygem-rake>=0:devel/rubygem-rake
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-metasm>=0:devel/rubygem-metasm \
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

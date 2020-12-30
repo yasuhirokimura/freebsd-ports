@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	rubygem-fugit>=1.1.6<2:devel/rubygem-fugit
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

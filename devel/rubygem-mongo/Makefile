@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-bson>=4.8.2<5.0.0:devel/rubygem-bson
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

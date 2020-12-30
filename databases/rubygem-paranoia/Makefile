@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-activerecord4>=4.0<6.2:databases/rubygem-activerecord4
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

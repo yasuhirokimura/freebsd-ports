@@ -11,7 +11,6 @@ COMMENT=	Generic sexp processing tools
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -11,7 +11,6 @@ COMMENT=	Composable logging system built on the standard Logger library
 LICENSE=	BSD3CLAUSE
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

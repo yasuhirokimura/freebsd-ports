@@ -11,7 +11,6 @@ COMMENT=	Country/Language names in 2-letter code pairs
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

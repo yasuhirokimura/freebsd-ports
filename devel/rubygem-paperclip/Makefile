@@ -21,7 +21,6 @@ RUN_DEPENDS=	rubygem-activemodel4>=4.2.0:databases/rubygem-activemodel4 \
 		rubygem-mime-types>=0:misc/rubygem-mime-types \
 		rubygem-terrapin>=0.6.0<0.7:devel/rubygem-terrapin
 
-USE_RUBY=	yes
 USES=		gem
 
 NO_ARCH=	yes

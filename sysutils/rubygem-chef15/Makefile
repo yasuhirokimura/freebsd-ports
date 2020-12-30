@@ -46,7 +46,6 @@ RUN_DEPENDS=	rubygem-addressable>=0:www/rubygem-addressable \
 		rubygem-uuidtools>=2.1.5<3:devel/rubygem-uuidtools
 
 USES=		gem shebangfix
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

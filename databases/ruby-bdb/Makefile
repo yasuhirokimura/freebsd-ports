@@ -19,10 +19,7 @@ BUILD_DEPENDS=	rubygem-rdoc>=0.a:devel/rubygem-rdoc
 
 OPTIONS_DEFINE=	DOCS EXAMPLES
 
-USES=		bdb shebangfix tar:bzip2
-USE_RUBY=		yes
-USE_RUBY_EXTCONF=	yes
-USE_RUBY_RDOC=		yes
+USES=		bdb shebangfix ruby:extconf,rdoc tar:bzip2
 
 ALL_TARGET=	all rdoc
 CONFIGURE_ARGS=	--with-db-include=${BDB_INCLUDE_DIR} \

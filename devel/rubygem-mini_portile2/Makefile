@@ -9,7 +9,6 @@ COMMENT=	Simple autoconf builder for developers
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

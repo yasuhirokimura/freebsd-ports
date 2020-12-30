@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-actionpack61>=${PORTVERSION}:www/rubygem-actionpack61 \
 		rubygem-thor>=1.0<2:devel/rubygem-thor
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-google-protobuf>=3.2:devel/rubygem-google-protobuf
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

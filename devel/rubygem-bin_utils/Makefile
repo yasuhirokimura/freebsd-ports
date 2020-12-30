@@ -10,7 +10,6 @@ COMMENT=	Extracting binary integers from binary string and packing back
 
 LICENSE=	MIT
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

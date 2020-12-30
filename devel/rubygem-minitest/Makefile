@@ -11,7 +11,6 @@ COMMENT=	Minitest provides a complete suite of testing facilities
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-cucumber-messages>=16.0.1<17:devel/rubygem-cucumber-messages
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -13,6 +13,5 @@ RUN_DEPENDS=	rubygem-molinillo>=0.6:devel/rubygem-molinillo \
 		rubygem-semantic_puppet>=1.0:devel/rubygem-semantic_puppet
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

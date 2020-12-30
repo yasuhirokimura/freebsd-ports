@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-hike1>=1.2,1<2,1:devel/rubygem-hike1 \
 		rubygem-tilt1>=1.1<2:devel/rubygem-tilt1
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

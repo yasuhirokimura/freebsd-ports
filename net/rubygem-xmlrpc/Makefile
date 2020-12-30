@@ -15,7 +15,6 @@ LICENSE_FILE_RUBY=	${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	rubygem-webrick>=0:www/rubygem-webrick
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

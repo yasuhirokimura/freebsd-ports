@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-activemodel52>=5.2.2:databases/rubygem-activemodel52 \
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

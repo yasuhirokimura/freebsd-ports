@@ -9,7 +9,6 @@ COMMENT=	Ruby support for the Choria Orchestration Server
 LICENSE=	APACHE20
 
 USES=		gem
-USE_RUBY=	yes
 
 RUN_DEPENDS=	choria>=0.20.1:sysutils/choria \
 		rubygem-nats-pure>=0.6:net/rubygem-nats-pure \

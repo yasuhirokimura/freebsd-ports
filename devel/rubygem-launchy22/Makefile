@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-addressable>=2.3:www/rubygem-addressable
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 PORTSCOUT=	limit:^2\.2

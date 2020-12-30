@@ -20,7 +20,6 @@ RUN_DEPENDS=	rubygem-actionpack60>=${PORTVERSION}:www/rubygem-actionpack60 \
 		rubygem-mail>=2.7.1,2:mail/rubygem-mail
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

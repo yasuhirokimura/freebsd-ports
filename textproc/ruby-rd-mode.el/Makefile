@@ -13,7 +13,7 @@ COMMENT=	Emacs lisp module for editing RD files
 
 BUILD_DEPENDS=	${NONEXISTENT}:textproc/ruby-rdtool:patch
 
-USE_RUBY=	yes
+USES=		ruby
 
 WRKSRC=		${WRKDIR}/utils
 NO_BUILD=	yes

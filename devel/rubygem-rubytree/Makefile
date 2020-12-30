@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-json>=2.1<3:devel/rubygem-json \
 		rubygem-structured_warnings>=0.3<1:devel/rubygem-structured_warnings
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

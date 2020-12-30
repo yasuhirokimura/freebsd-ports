@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-temple>=0.8.0:devel/rubygem-temple \
 
 USES=		gem
 NO_ARCH=	yes
-USE_RUBY=	yes
 
 PLIST_FILES=	bin/haml
 

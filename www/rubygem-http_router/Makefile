@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-rack>=1.0.0,3:www/rubygem-rack \
 		rubygem-url_mount>=0.2.1<0.3:www/rubygem-url_mount
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

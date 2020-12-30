@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-jekyll3>=2.0:www/rubygem-jekyll3 \
 		rubygem-titlecase>=0:devel/rubygem-titlecase
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -11,7 +11,6 @@ COMMENT=	Ruby JSON-Patch and JSON-Pointer implementation
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

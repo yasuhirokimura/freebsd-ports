@@ -9,7 +9,6 @@ COMMENT=	Non-timeseries measurements for Ruby programs
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -15,7 +15,6 @@ BROKEN_aarch64=	fails to build: cannot determine target CPU
 BROKEN_riscv64=	fails to build: cannot determine target CPU
 
 USES=		gem
-USE_RUBY=	yes
 
 PLIST_FILES=	bin/ferret-browser
 

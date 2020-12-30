@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-rack16>=1.5<2:www/rubygem-rack16 \
 		rubygem-redis-store>=1.2.0:devel/rubygem-redis-store
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -14,7 +14,6 @@ LICENSE_FILE_BSD2CLAUSE=${WRKSRC}/BSDL
 LICENSE_FILE_RUBY=	${WRKSRC}/LICENSE
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

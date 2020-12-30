@@ -12,6 +12,5 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 USES=		gem
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-faraday0>=0.9.0<0.18.0:www/rubygem-faraday0 \
 		rubygem-semantic_puppet>=1.0<2:devel/rubygem-semantic_puppet
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

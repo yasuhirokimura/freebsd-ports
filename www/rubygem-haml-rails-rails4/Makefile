@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-actionpack4>=4.0.1:www/rubygem-actionpack4 \
 		rubygem-railties4>=4.0.1:www/rubygem-railties4
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

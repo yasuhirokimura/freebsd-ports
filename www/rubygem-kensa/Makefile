@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-colored>=1.2:textproc/rubygem-colored \
 		rubygem-rest-client>=1.8:www/rubygem-rest-client
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 PLIST_FILES=	bin/kensa

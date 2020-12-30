@@ -11,6 +11,5 @@ COMMENT=	Arbitrary-precision decimal floating-point number class
 LICENSE=	RUBY
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

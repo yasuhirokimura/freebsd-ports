@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-highline1>=1.7:devel/rubygem-highline1 \
 		rubygem-optimist>=0:devel/rubygem-optimist
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

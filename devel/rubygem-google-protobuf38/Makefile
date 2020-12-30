@@ -12,7 +12,6 @@ COMMENT=	Ruby extension to Google Protocol Buffers
 LICENSE=	BSD3CLAUSE
 
 USES=		gem
-USE_RUBY=	yes
 
 PORTSCOUT=	limit:^3\.8\.
 

@@ -13,7 +13,6 @@ LIB_DEPENDS=	libgoocanvas-2.0.so:graphics/goocanvas2
 RUN_DEPENDS=	rubygem-gobject-introspection>=${PORTVERSION}:devel/rubygem-gobject-introspection \
 		rubygem-gtk3>=${PORTVERSION}:x11-toolkits/rubygem-gtk3
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

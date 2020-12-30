@@ -12,7 +12,7 @@ COMMENT=	Sends diffs when a change is committed to your CVS repository
 
 LICENSE=	GPLv2
 
-USE_RUBY=	yes
+USES=		ruby
 NO_BUILD=	yes
 NO_ARCH=	yes
 

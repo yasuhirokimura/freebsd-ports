@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-rack>=1.1.0:www/rubygem-rack
 TEST_DEPENDS=	rubygem-rspec>0:devel/rubygem-rspec
 
 USES=		gem
-USE_RUBY=	yes
 NO_ARCH=	yes
 
 .include <bsd.port.mk>

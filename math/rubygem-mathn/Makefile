@@ -12,6 +12,5 @@ LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

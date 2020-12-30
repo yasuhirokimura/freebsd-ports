@@ -21,7 +21,6 @@ RUN_DEPENDS=	rubygem-domain_name>=0.5.1:net/rubygem-domain_name \
 		rubygem-webrobots>=0.0.9:www/rubygem-webrobots
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

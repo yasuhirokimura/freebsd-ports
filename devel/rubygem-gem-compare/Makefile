@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-curb>=0:ftp/rubygem-curb \
 		rubygem-rainbow>=0:devel/rubygem-rainbow
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

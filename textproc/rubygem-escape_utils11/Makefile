@@ -13,6 +13,5 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 PORTSCOUT=	limit:^1\.1\.
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

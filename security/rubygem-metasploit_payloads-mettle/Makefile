@@ -9,7 +9,6 @@ COMMENT=	Compiled binaries for Metasploit's next-gen Meterpreter
 LICENSE=	BSD3CLAUSE
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 STRIP=

@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-rack>=1.0.0:www/rubygem-rack
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

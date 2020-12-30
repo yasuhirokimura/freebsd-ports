@@ -11,7 +11,6 @@ COMMENT=	Translates ASCII into smart typographic punctuation HTML entities
 LICENSE=	MIT
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

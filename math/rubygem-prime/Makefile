@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-forwardable>=0:devel/rubygem-forwardable \
 		rubygem-singleton>=0:devel/rubygem-singleton
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

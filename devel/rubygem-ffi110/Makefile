@@ -16,7 +16,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 LIB_DEPENDS=	libffi.so:devel/libffi
 
 USES=		gem
-USE_RUBY=	yes
 
 PORTSCOUT=	limit:^1\.10\.
 

@@ -12,7 +12,6 @@ LICENSE=	RUBY LGPL3
 LICENSE_COMB=	dual
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

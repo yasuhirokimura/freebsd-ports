@@ -19,6 +19,5 @@ CONFIGURE_ARGS=	--with-pgsql-include-dir=`${PG_CONFIG} --includedir` \
 		--with-pgsql-lib-dir=`${PG_CONFIG} --libdir`
 PG_CONFIG=	${LOCALBASE}/bin/pg_config
 USES=		gem pgsql
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

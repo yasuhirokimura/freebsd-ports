@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-azure>=0.6:net/rubygem-azure \
 		rubygem-fog-xml>=0.1:textproc/rubygem-fog-xml
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

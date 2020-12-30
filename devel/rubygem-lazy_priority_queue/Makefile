@@ -11,7 +11,6 @@ COMMENT=	Priority queue implemented using a lazy binomial heap
 LICENSE=	BSD2CLAUSE
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-rack16>=1.5<2:www/rubygem-rack16 \
 		rubygem-tilt>=1.3<3:devel/rubygem-tilt
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

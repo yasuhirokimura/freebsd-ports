@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-activemodel60>=3.0:databases/rubygem-activemodel60 \
 		rubygem-mail>=2.2.5:mail/rubygem-mail
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

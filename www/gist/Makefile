@@ -18,8 +18,7 @@ CONFLICTS=	p5-App-gist-[0-9]*
 USE_GITHUB=	yes
 GH_ACCOUNT=	defunkt
 
-USE_RUBY=	YES
-RUBY_NO_BUILD_DEPENDS=	YES
+USES=		ruby:run
 NO_BUILD=	YES
 NO_ARCH=	yes
 

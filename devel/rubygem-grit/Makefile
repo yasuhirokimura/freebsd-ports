@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-diff-lcs>=1.1<2:textproc/rubygem-diff-lcs \
 		rubygem-posix-spawn>=0.3.6<0.4:devel/rubygem-posix-spawn
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

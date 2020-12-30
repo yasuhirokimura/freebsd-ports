@@ -14,7 +14,6 @@ RUN_DEPENDS=	rubygem-xml-simple>=0:textproc/rubygem-xml-simple \
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 PLIST_FILES=	bin/s3sh
 

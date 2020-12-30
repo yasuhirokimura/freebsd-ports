@@ -17,6 +17,5 @@ RUN_DEPENDS+=	rubygem-vegas>=0.1.2:www/rubygem-vegas
 
 NO_ARCH=	yes
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

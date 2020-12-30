@@ -12,8 +12,7 @@ COMMENT=	Daily backup system similar to Plan9's dumpfs
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USE_RUBY=	yes
-USES=		shebangfix
+USES=		ruby shebangfix
 NO_ARCH=	yes
 
 SHEBANG_FILES=	${WRKSRC}/pdumpfs.in

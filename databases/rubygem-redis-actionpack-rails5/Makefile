@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-actionpack5>=5<7:www/rubygem-actionpack5 \
 		rubygem-redis-store>=1.1.0<2:devel/rubygem-redis-store
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

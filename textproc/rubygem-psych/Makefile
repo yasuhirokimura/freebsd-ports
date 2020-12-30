@@ -14,6 +14,5 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 LIB_DEPENDS=	libyaml.so:textproc/libyaml
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

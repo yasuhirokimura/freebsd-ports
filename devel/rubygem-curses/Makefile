@@ -9,7 +9,6 @@ COMMENT=	Ruby binding for curses, ncurses and PDCurses
 LICENSE=	RUBY BSD2CLAUSE
 LICENSE_COMB=	dual
 
-USE_RUBY=	yes
 USES=		gem ncurses
 
 .include <bsd.port.mk>

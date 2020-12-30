@@ -8,7 +8,6 @@ COMMENT=	Fast PostreSQL array parsing
 
 LICENSE=	MIT
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

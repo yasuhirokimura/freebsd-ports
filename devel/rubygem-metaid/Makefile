@@ -9,7 +9,6 @@ MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Ruby metaprogramming helpers
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

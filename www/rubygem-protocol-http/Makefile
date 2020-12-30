@@ -11,7 +11,6 @@ COMMENT=	Provides abstractions to handle HTTP protocols
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

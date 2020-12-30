@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-rgen>=0:devel/rubygem-rgen \
 		rubygem-yard>=0:textproc/rubygem-yard
 
 USES=		gem
-USE_RUBY=	yes
 
 OPTIONS_SINGLE=	PUPPET
 OPTIONS_SINGLE_PUPPET=PUPPET5 PUPPET6 PUPPET7

@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-faraday>=1.0<2:www/rubygem-faraday \
 		rubygem-oauth2>=1.4<2:net/rubygem-oauth2
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

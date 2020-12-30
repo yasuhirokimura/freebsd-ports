@@ -11,7 +11,6 @@ COMMENT=	Plain-Ruby implementation of GraphQL
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

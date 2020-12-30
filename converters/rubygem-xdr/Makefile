@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-activemodel52>=5.2.0:databases/rubygem-activemodel52 \
 		rubygem-activesupport52>=5.2.0:devel/rubygem-activesupport52
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

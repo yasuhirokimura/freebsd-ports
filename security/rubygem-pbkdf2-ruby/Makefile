@@ -11,7 +11,6 @@ COMMENT=	Password Based Key Derivation Function 2 for Ruby
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

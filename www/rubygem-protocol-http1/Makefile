@@ -13,7 +13,6 @@ LICENSE=	MIT
 RUN_DEPENDS=	rubygem-protocol-http>=0.22<1:www/rubygem-protocol-http
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

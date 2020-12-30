@@ -9,6 +9,5 @@ COMMENT=	PAM integration with ruby
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

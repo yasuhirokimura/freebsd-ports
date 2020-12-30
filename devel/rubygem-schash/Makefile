@@ -12,6 +12,5 @@ LICENSE=	MIT
 
 NO_ARCH=	yes
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 LIB_DEPENDS=	libsnappy.so:archivers/snappy
 
 USES=		gem shebangfix
-USE_RUBY=	yes
 
 SHEBANG_FILES=	smoke.sh \
 		vendor/snappy/config.status \

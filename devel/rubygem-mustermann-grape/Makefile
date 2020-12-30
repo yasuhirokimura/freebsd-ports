@@ -13,7 +13,6 @@ LICENSE=	MIT
 RUN_DEPENDS=	rubygem-mustermann>=1.0:devel/rubygem-mustermann
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

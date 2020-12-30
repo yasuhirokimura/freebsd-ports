@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-nokogiri>=1.6:textproc/rubygem-nokogiri \
 		rubygem-rainbow>=2.1.0:devel/rubygem-rainbow
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

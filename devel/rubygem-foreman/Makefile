@@ -9,7 +9,6 @@ COMMENT=	Process manager for applications with multiple components
 LICENSE=	MIT
 
 USES=		gem shebangfix
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

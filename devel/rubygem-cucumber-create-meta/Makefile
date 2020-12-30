@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-cucumber-messages>=16.0.0<17:devel/rubygem-cucumber-message
 		rubygem-sys-uname>=1.2.2<2:sysutils/rubygem-sys-uname
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

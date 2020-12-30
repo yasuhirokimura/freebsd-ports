@@ -31,8 +31,7 @@ RUN_DEPENDS=	rubygem-bundler>=1.5.0:sysutils/rubygem-bundler \
 		rubygem-rack-openid>=0:www/rubygem-rack-openid \
 		rubygem-rake>=0:devel/rubygem-rake
 
-USES=		cpe
-USE_RUBY=	yes
+USES=		cpe ruby
 
 CONFLICTS_INSTALL=	redmine42
 

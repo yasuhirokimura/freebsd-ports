@@ -25,7 +25,6 @@ RUN_DEPENDS=	rubygem-addressable25>=2.3.5<2.6:www/rubygem-addressable25 \
 		rubygem-solve>=2.0<5.0:devel/rubygem-solve
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-citrus>=3.0:textproc/rubygem-citrus
 
 NO_ARCH=	yes
 USES=		gem
-USE_RUBY=	yes
 
 PORTSCOUT=	limit:^1\.0\.
 

@@ -50,7 +50,7 @@ TLS_USES=	ssl
 TLS_MAKE_ENV=	BUILD_TLS=yes
 
 TRIB_CATEGORIES=	ruby
-TRIB_USE=		ruby=yes
+TRIB_USES=		ruby
 TRIB_RUN_DEPENDS=	rubygem-redis>=2.2:databases/rubygem-redis
 
 .include <bsd.port.pre.mk>

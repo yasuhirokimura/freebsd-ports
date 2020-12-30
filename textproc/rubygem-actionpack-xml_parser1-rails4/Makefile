@@ -16,7 +16,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-actionpack4>=4.0.0<5:www/rubygem-actionpack4
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

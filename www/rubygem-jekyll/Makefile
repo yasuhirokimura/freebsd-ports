@@ -28,7 +28,6 @@ RUN_DEPENDS=	rubygem-addressable>=2.4<3:www/rubygem-addressable \
 		rubygem-terminal-table>=2.0:textproc/rubygem-terminal-table
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -13,7 +13,6 @@ LICENSE=	LGPL3
 PORTSCOUT=	skipv:1.1.11
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

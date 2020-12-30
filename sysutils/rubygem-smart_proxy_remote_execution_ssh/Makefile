@@ -13,7 +13,6 @@ RUN_DEPENDS=	foreman-proxy>=1.12.0:net/foreman-proxy \
 		rubygem-smart_proxy_dynflow>=0.1.0:sysutils/rubygem-smart_proxy_dynflow
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 PLIST_FILES=	"@sample etc/foreman-proxy/settings.d/remote_execution_ssh.yml.sample" \

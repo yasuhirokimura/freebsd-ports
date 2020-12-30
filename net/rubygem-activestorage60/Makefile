@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-actionpack60>=${PORTVERSION}:www/rubygem-actionpack60 \
 		rubygem-marcel>=1.0.0<1.1:devel/rubygem-marcel
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

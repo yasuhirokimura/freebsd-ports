@@ -18,10 +18,8 @@ LIB_DEPENDS=	libSGE.so:devel/sdl_sge \
 		libsmpeg.so:multimedia/smpeg
 RUN_DEPENDS=	rubygem-opengl>=0:graphics/rubygem-opengl
 
-USES=		sdl
+USES=		ruby:extconf sdl
 USE_SDL=	mixer image ttf sdl
-USE_RUBY=	yes
-USE_RUBY_EXTCONF=	yes
 
 CONFIGURE_ARGS=	--with-sdl-config="sdl-config" \
 		--enable-opengl --linkoglmodule \

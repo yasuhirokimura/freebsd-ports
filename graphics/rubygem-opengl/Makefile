@@ -16,6 +16,5 @@ LICENSE_FILE=	${WRKSRC}/MIT-LICENSE
 
 USES=		gl gem
 USE_GL=		glut
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

@@ -15,7 +15,6 @@ RUN_DEPENDS=	foreman-proxy>=1.8.0:net/foreman-proxy \
 		rubygem-chef-api>=0:sysutils/rubygem-chef-api
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

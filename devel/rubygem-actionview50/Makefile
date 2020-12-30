@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-activesupport50>=${PORTVERSION}:devel/rubygem-activesupport
 		rubygem-rails-html-sanitizer>=1.0.3<2:textproc/rubygem-rails-html-sanitizer
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

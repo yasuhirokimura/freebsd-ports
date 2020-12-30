@@ -11,7 +11,7 @@ RUN_DEPENDS=	rackup:www/rubygem-rack \
 
 PLIST_FILES=	libexec/unit/modules/${UNIT_MODNAME}.unit.so
 
-USE_RUBY=	yes
+USES=		ruby
 
 USE_RC_SUBR?=	# reset to empty
 

@@ -19,7 +19,7 @@ RUN_DEPENDS=	rubygem-bundler_ext>=0.4:sysutils/rubygem-bundler_ext \
 		rubygem-sinatra>=2.0:www/rubygem-sinatra \
 		wget:ftp/wget
 
-USES=		shebangfix tar:bzip2
+USES=		ruby shebangfix tar:bzip2
 
 OPTIONS_DEFINE=	BMC PUPPET6
 BMC_DESC=	Depend on rubyipmi for BMC support
@@ -28,7 +28,6 @@ PUPPET6_DESC=	Depend on Puppet 6
 NO_ARCH=	yes
 NO_BUILD=	yes
 USE_RC_SUBR=	foreman-proxy
-USE_RUBY=	yes
 
 FOREMAN_PROXY_USER?=	foreman_proxy
 FOREMAN_PROXY_GROUP?=	foreman_proxy

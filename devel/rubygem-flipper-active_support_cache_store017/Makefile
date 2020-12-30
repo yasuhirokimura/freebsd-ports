@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-activesupport60>=4.2<7:devel/rubygem-activesupport60 \
 		rubygem-flipper017>=${PORTVERSION}<0.18:devel/rubygem-flipper017
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

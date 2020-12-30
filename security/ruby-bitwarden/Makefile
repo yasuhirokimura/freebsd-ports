@@ -16,9 +16,7 @@ BROKEN_RUBY27=	yes
 
 RUN_DEPENDS=	rubygem-bundler>=1.16:sysutils/rubygem-bundler
 
-USES=		sqlite
-USE_RUBY=	yes
-RUBY_NO_BUILD_DEPENDS=	yes
+USES=		ruby:run sqlite
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	jcs

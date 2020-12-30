@@ -8,8 +8,7 @@ COMMENT=	CMake modules to be used by the Ignition projects
 
 LICENSE=	APACHE20
 
-USES=		cmake pkgconfig
-USE_RUBY=	yes
+USES=		cmake pkgconfig ruby
 
 CMAKE_OFF=	BUILD_TESTING
 

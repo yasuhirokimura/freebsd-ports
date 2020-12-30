@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-activemodel50>=5.0:databases/rubygem-activemodel50 \
 		rubygem-railties50>=5.0:www/rubygem-railties50
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

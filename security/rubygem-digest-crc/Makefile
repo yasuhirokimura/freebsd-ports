@@ -8,7 +8,6 @@ COMMENT=	Adds support for CRC to the Digest module
 
 LICENSE=	MIT
 
-USE_RUBY=	yes
 USES=		gem
 NO_ARCH=	yes
 

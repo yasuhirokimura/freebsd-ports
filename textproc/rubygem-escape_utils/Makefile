@@ -11,7 +11,6 @@ COMMENT=	Faster string escaping routines for your web apps
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

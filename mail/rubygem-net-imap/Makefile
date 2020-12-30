@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-net-protocol>=0:net/rubygem-net-protocol \
 		rubygem-strscan>=0:devel/rubygem-strscan
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

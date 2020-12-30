@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	rubygem-ffi>=0:devel/rubygem-ffi
 
-USE_RUBY=	yes
 USES=		gem
 
 NO_ARCH=	yes

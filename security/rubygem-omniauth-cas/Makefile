@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-omniauth>=1.2:security/rubygem-omniauth \
 		rubygem-addressable>=2.3:www/rubygem-addressable
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

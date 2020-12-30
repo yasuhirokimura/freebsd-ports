@@ -10,6 +10,5 @@ LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-right_http_connection>=1.2.4:net/rubygem-right_http_connect
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

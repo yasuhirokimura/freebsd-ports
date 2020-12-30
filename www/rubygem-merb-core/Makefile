@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-bundler>=0:sysutils/rubygem-bundler \
 		rubygem-rack>=0:www/rubygem-rack \
 		rubygem-rake>=0:devel/rubygem-rake
 
-USE_RUBY=	yes
 USES=		gem shebangfix
 
 PLIST_FILES=	bin/merb

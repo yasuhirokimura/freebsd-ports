@@ -73,7 +73,7 @@ BROKEN=		Does not stage
 .endif
 
 .if ${PORT_OPTIONS:MRUBY}
-USE_RUBY=	yes
+USES+=		ruby
 WITH_SWIG=	yes
 .endif
 

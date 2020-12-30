@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	rubygem-public_suffix>=2.0.2<5:dns/rubygem-public_suffix
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

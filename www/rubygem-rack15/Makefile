@@ -18,7 +18,6 @@ LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem shebangfix
 
 SHEBANG_FILES=	test/cgi/test.ru

@@ -16,7 +16,6 @@ LICENSE_FILE_RUBY=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-kgio>=2.6<3:devel/rubygem-kgio \
 		rubygem-raindrops>=0.7<1:www/rubygem-raindrops
 
-USE_RUBY=	yes
 USES=		gem shebangfix
 
 PLIST_FILES=	bin/unicorn bin/unicorn_rails

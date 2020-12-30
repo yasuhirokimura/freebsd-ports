@@ -9,7 +9,6 @@ COMMENT=	Ruby client for NATS, the cloud native messaging system
 LICENSE=	APACHE20
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

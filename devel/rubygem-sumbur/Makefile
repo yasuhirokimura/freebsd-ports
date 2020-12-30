@@ -10,7 +10,6 @@ COMMENT=	Consistent spreading for server balancing
 
 LICENSE=	MIT
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

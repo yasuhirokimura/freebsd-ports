@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-addressable>=2.7<3:www/rubygem-addressable
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

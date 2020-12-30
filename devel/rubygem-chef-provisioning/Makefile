@@ -22,7 +22,6 @@ RUN_DEPENDS=	rubygem-cheffish>=4.0<15.0:devel/rubygem-cheffish \
 		rubygem-winrm-fs>=1.0<2:sysutils/rubygem-winrm-fs
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -24,7 +24,7 @@ RUN_DEPENDS=	rubygem-concurrent-ruby>=1.0:devel/rubygem-concurrent-ruby \
 		rubygem-semantic_puppet>=1:devel/rubygem-semantic_puppet \
 		rubygem-ruby-augeas>=0:textproc/rubygem-ruby-augeas
 
-USES=		cpe
+USES=		cpe ruby
 CPE_VENDOR=	puppetlabs
 USE_GITHUB=	yes
 GH_ACCOUNT=	puppetlabs
@@ -33,7 +33,6 @@ CONFLICTS_INSTALL=	puppet5-* puppet7-*
 PLIST_SUB=	PORTVERSION="${PORTVERSION}"
 NO_ARCH=	yes
 NO_BUILD=	yes
-USE_RUBY=	yes
 USE_RC_SUBR=	puppet
 PORTDOCS=	LICENSE README.md
 PORTEXAMPLES=	*

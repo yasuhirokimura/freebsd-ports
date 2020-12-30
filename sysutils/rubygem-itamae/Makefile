@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-ansi>=0:devel/rubygem-ansi \
 		rubygem-thor>=0:devel/rubygem-thor
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

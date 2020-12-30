@@ -11,7 +11,6 @@ COMMENT=	Improved Logger replacement that logs to syslog
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

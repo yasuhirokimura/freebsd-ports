@@ -8,7 +8,6 @@ COMMENT=	Basic Application Framework
 
 LICENSE=	BSD3CLAUSE
 
-USE_RUBY=	yes
 USES=		gem
 NO_ARCH=	yes
 

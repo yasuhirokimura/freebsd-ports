@@ -13,7 +13,6 @@ LICENSE=	MIT
 RUN_DEPENDS=	rubygem-bundler>=0:sysutils/rubygem-bundler
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

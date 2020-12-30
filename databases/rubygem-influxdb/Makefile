@@ -12,7 +12,6 @@ COMMENT=	Ruby library for InfluxDB
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -43,11 +43,10 @@ RUN_DEPENDS=	rubygem-bcrypt_pbkdf10>=1.0.0<1.1:security/rubygem-bcrypt_pbkdf10 \
 USE_GITHUB=	yes
 GH_ACCOUNT=	hashicorp
 
-USES=		shebangfix
+USES=		ruby shebangfix
 SHEBANG_FILES=	plugins/hosts/darwin/scripts/install_virtualbox.sh \
 		scripts/sign.sh \
 		scripts/website_push_www.sh
-USE_RUBY=	yes
 GEMFILES=	vagrant-${PORTVERSION}.gem
 RUBYGEMBIN=	gem${RUBY_SUFFIX}
 PLIST_SUB+=	GEMS_DIR="lib/ruby/gems/${RUBY_VER}/" \

@@ -13,6 +13,5 @@ RUN_DEPENDS=	rubygem-nanoc-cli>=4.11:www/rubygem-nanoc-cli \
 
 USES=		gem
 NO_ARCH=	yes
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

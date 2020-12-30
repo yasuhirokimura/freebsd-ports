@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-activerecord4>=4.1.6:databases/rubygem-activerecord4
 PORTSCOUT=	limit:^3\.
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

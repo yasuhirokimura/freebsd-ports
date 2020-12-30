@@ -15,6 +15,5 @@ RUN_DEPENDS=	rubygem-cri>=2.15:devel/rubygem-cri \
 
 USES=		gem
 NO_ARCH=	yes
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

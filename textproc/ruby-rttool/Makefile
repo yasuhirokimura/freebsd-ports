@@ -14,9 +14,7 @@ COMMENT=	RT into HTML and plain text converter
 
 LICENSE=	RUBY
 
-USE_RUBY=	yes
-USES=		shebangfix
-USE_RUBY_SETUP=	yes
+USES=		ruby:setup shebangfix
 
 SHEBANG_FILES=	bin/rt/* lib/rt/*
 RUBY_MODNAME=	rt

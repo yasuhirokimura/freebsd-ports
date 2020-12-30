@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-rspec-core>=${PORTVERSION:R}.0<3.11:devel/rubygem-rspec-cor
 		rubygem-rspec-mocks>=${PORTVERSION:R}.0<3.11:devel/rubygem-rspec-mocks
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

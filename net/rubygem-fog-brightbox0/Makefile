@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-dry-inflector>=0:devel/rubygem-dry-inflector \
 		rubygem-mime-types>=0:misc/rubygem-mime-types
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

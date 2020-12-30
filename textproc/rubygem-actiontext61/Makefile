@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-actionpack61>=${PORTVERSION}:www/rubygem-actionpack61 \
 		rubygem-nokogiri>=1.8.5:textproc/rubygem-nokogiri
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

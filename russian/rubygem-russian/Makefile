@@ -12,7 +12,6 @@ LICENSE=	MIT
 
 RUN_DEPENDS=	rubygem-i18n>=0.5.0:devel/rubygem-i18n
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

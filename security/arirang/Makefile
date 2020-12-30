@@ -14,9 +14,7 @@ LICENSE=	BSD3CLAUSE
 
 LIB_DEPENDS=	lib${RUBY_NAME}.so:${RUBY_PORT}
 
-USES=		compiler:c11 ssl
-USE_RUBY=	yes
-USE_RUBY_EXTCONF=	yes
+USES=		compiler:c11 ruby:extconf ssl
 
 CFLAGS+=	-I${LOCALBASE}/include/ruby-${RUBY_VER} -I${LOCALBASE}/include/ruby-${RUBY_VER}/${RUBY_ARCH}
 CFLAGS+=	-DRUBY_19

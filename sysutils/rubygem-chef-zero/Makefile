@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-ffi-yajl>=2.2<3:devel/rubygem-ffi-yajl \
 		rubygem-uuidtools>=2.1<3:devel/rubygem-uuidtools
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

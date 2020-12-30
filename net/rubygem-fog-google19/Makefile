@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-fog-core210>=0:devel/rubygem-fog-core210 \
 		rubygem-google-api-client>=0.23.0<1:devel/rubygem-google-api-client
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

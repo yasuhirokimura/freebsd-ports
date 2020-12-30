@@ -11,7 +11,6 @@ COMMENT=	Pure-ruby EXIF reader
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

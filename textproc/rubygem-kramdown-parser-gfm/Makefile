@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 RUN_DEPENDS=	rubygem-kramdown>=2.0<3:textproc/rubygem-kramdown
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-mime-types>=0:misc/rubygem-mime-types \
 		rubygem-mixlib-log>=1<4:devel/rubygem-mixlib-log
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

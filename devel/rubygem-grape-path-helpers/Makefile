@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-activesupport60>=0:devel/rubygem-activesupport60 \
 		rubygem-ruby2_keywords>=0.0.2<0.1:devel/rubygem-ruby2_keywords
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

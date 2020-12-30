@@ -7,7 +7,6 @@ MAINTAINER=	swills@FreeBSD.org
 COMMENT=	Structured+contextual logging experiments in Ruby
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 PLIST_FILES=	bin/rubygems-cabin-test
 

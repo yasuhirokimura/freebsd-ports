@@ -11,7 +11,6 @@ LICENSE_COMB=	multi
 LICENSE_FILE_MIT=	${WRKSRC}/LICENSE.md
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

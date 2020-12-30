@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-http-cookie>=1.0.2:www/rubygem-http-cookie \
 		rubygem-netrc>=0.8:net/rubygem-netrc
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 PLIST_FILES=	bin/restclient

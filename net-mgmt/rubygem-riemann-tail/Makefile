@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-colorize>=0:devel/rubygem-colorize \
 		rubygem-thor0>=0:devel/rubygem-thor0
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

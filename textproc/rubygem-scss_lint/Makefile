@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-rake>=0.9:devel/rubygem-rake \
 		rubygem-sass>=3.5.5:textproc/rubygem-sass
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

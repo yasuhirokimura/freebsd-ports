@@ -9,7 +9,6 @@ COMMENT=	Library for using RS-232 serial ports
 
 LICENSE=	GPLv2
 
-USE_RUBY=	yes
 USES=		gem shebangfix
 SHEBANG_FILES=	test/set_readtimeout.rb
 

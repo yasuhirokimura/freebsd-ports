@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-faraday>=1<2:www/rubygem-faraday \
 		rubygem-multi_json>=0:devel/rubygem-multi_json
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

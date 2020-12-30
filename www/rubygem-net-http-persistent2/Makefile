@@ -12,7 +12,6 @@ COMMENT=	Manages persistent connections using Net::HTTP
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -12,7 +12,6 @@ COMMENT=	Ruby on Rails integrations for Elasticsearch
 LICENSE=	APACHE20
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

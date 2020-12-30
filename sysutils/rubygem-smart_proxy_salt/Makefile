@@ -14,7 +14,6 @@ RUN_DEPENDS=	foreman-proxy>=1.8.0:net/foreman-proxy \
 		${PYTHON_PKGNAMEPREFIX}salt>0:sysutils/py-salt@${PY_FLAVOR}
 
 USES=		gem python
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

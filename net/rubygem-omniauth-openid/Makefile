@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-omniauth>=1.0:security/rubygem-omniauth \
 		rubygem-rack-openid>=1.3.1:www/rubygem-rack-openid
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

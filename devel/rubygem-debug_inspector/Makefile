@@ -9,6 +9,5 @@ COMMENT=	Ruby wrapper for the MRI 2.0 debug_inspector API
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

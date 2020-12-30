@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 CONFLICTS_INSTALL=	rubygem-rouge2 rubygem-rouge
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

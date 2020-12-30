@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-builder>=0:devel/rubygem-builder \
 		rubygem-twitter-text>=0:textproc/rubygem-twitter-text
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

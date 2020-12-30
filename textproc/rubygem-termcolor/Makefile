@@ -13,7 +13,6 @@ LICENSE=	MIT
 RUN_DEPENDS=	rubygem-highline>=1.5.0:devel/rubygem-highline
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

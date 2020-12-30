@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-coderay>=0:textproc/rubygem-coderay \
 		rubygem-haml>=0:www/rubygem-haml
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

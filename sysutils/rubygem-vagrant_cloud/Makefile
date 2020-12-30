@@ -14,7 +14,6 @@ RUN_DEPENDS=	rubygem-excon>=0.73<1.0:devel/rubygem-excon \
 		rubygem-log4r>=1.1.10<1.2:sysutils/rubygem-log4r
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

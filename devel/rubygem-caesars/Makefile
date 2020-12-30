@@ -11,7 +11,6 @@ COMMENT=	Rapid DSL prototyping in Ruby
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem shebangfix
 SHEBANG_FILES=	bin/example
 

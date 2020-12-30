@@ -10,6 +10,5 @@ RUN_DEPENDS=	rubygem-ffi>=0:devel/rubygem-ffi
 LIB_DEPENDS=	libtidy.so:www/tidy-lib
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

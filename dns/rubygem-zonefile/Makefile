@@ -11,7 +11,6 @@ COMMENT=	Library to manipulate BIND compatible Zonefiles (RFC1035)
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

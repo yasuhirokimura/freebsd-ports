@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-net-protocol>=0:net/rubygem-net-protocol \
 		rubygem-uri>=0:net/rubygem-uri
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

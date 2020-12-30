@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-fugit>=1.1<2:devel/rubygem-fugit \
 		rubygem-sidekiq5>=4.2.1:devel/rubygem-sidekiq5
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

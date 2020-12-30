@@ -10,6 +10,5 @@ COMMENT=	Speed-optimized XML parser and object serializer for Ruby
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

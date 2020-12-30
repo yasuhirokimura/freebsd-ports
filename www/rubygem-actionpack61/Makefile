@@ -20,7 +20,6 @@ RUN_DEPENDS=	rubygem-actionview61>=${PORTVERSION}:devel/rubygem-actionview61 \
 		rubygem-rails-html-sanitizer>=1.2.0<2:textproc/rubygem-rails-html-sanitizer
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

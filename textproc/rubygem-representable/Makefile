@@ -14,7 +14,6 @@ RUN_DEPENDS=	rubygem-declarative<=0.1.0:devel/rubygem-declarative \
 		rubygem-uber<=0.2.0:devel/rubygem-uber
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

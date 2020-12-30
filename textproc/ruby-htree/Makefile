@@ -15,7 +15,7 @@ BUILD_DEPENDS=	rubygem-rdoc>=0.a:devel/rubygem-rdoc
 
 OPTIONS_DEFINE=	DOCS
 
-USE_RUBY=	yes
+USES=		ruby
 
 LIB_FILES=	htree.rb htree
 

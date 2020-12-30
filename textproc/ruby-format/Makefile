@@ -11,7 +11,7 @@ DIST_SUBDIR=	ruby
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Perl like formats for Ruby
 
-USE_RUBY=	yes
+USES=		ruby
 
 NO_BUILD=	yes
 

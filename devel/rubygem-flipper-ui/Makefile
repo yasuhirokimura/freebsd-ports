@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-erubi>=1.0.0<2.0.0:www/rubygem-erubi \
 		rubygem-rack-protection>=1.5.3<2.2.0:www/rubygem-rack-protection
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

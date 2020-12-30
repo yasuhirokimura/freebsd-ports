@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-activesupport50>=4.1.0:devel/rubygem-activesupport50 \
 		rubygem-kaminari-core>=${PORTVERSION}:www/rubygem-kaminari-core
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

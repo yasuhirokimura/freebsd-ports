@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-net-protocol>=0:net/rubygem-net-protocol \
 		rubygem-timeout>=0:devel/rubygem-timeout
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

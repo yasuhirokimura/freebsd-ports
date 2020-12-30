@@ -12,7 +12,6 @@ RUN_DEPENDS=	rubygem-rbnacl>=3.0.1:security/rubygem-rbnacl
 
 USES=		gem libtool
 USE_LDCONFIG=	yes
-USE_RUBY=	yes
 
 post-install:
 	( cd ${WRKSRC} && \

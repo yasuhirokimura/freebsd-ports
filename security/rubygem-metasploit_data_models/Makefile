@@ -20,7 +20,6 @@ RUN_DEPENDS=	rubygem-activerecord52>=5.2.2:databases/rubygem-activerecord52 \
 		rubygem-recog>=2.0:security/rubygem-recog
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

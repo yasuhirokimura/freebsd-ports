@@ -14,7 +14,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 GNU_CONFIGURE=	yes
 NO_ARCH=	yes
-USE_RUBY=	yes
+USES=		ruby
 
 PORTDOCS=	newfile.html
 

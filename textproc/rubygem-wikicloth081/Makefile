@@ -22,6 +22,5 @@ PORTSCOUT=	limit:^0\.8\.1
 
 NO_ARCH=	yes
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

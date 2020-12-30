@@ -9,7 +9,6 @@ MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Ruby extension for base32 encoding and decoding
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

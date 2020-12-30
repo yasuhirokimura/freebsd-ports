@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-graphql>=1.8:devel/rubygem-graphql \
 		rubygem-rails61>=4.2:www/rubygem-rails61
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

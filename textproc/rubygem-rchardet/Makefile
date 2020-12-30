@@ -11,7 +11,6 @@ COMMENT=	Character encoding auto-detection in Ruby
 LICENSE=	LGPL21
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

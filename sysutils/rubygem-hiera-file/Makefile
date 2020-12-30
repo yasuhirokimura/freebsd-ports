@@ -11,7 +11,6 @@ COMMENT=	Data backend for Hiera that returns whole files
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 RUN_DEPENDS=	rubygem-hiera>=0:sysutils/rubygem-hiera

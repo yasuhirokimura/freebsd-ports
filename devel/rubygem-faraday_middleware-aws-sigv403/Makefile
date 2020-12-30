@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-aws-sigv4>=1.0<2:devel/rubygem-aws-sigv4 \
 		rubygem-faraday>=0.15:www/rubygem-faraday
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

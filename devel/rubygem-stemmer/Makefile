@@ -10,7 +10,6 @@ COMMENT=	Implementation of the Porter word stemming algorithm
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

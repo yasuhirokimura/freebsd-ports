@@ -12,7 +12,6 @@ COMMENT=	RFC2822/MIME compliant mail manipulating library for Ruby
 # https://rubygems.org/gems/tmail, http://tmail.rubyforge.org/
 BROKEN_RUBY27=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

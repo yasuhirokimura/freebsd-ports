@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-io-wait>=0:devel/rubygem-io-wait \
 		rubygem-timeout>=0:devel/rubygem-timeout
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

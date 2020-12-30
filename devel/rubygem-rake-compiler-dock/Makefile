@@ -10,7 +10,6 @@ LICENSE=	MIT
 
 NO_ARCH=	yes
 USES=		gem shebangfix
-USE_RUBY=	yes
 
 SHEBANG_FILES=	build/runas
 

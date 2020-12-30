@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-ffi>=1.0:devel/rubygem-ffi \
 		rubygem-thor>=1.0.1:devel/rubygem-thor
 
 USES=		gem
-USE_RUBY=	yes
 
 PLIST_FILES=	bin/facter ${GEMS_DIR}/facter
 

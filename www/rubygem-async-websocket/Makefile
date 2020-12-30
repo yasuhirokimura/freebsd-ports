@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-async-http>=0.54<1:www/rubygem-async-http \
 		rubygem-protocol-websocket>=0.7.0<0.8:www/rubygem-protocol-websocket
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

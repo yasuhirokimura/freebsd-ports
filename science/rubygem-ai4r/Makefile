@@ -11,7 +11,6 @@ COMMENT=	Various Ruby artificial intelligence algorithm implementations
 LICENSE=	MPL11
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

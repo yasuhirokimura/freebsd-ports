@@ -21,6 +21,5 @@ RUN_DEPENDS=	rubygem-concurrent-ruby>=1.1:devel/rubygem-concurrent-ruby \
 
 USES=		gem
 NO_ARCH=	yes
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

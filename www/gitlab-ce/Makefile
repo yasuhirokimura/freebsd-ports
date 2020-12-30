@@ -261,8 +261,7 @@ CONFLICTS_INSTALL=	gitolite-* \
 			gitea-* \
 			${PYTHON_PKGNAMEPREFIX}-gitosis-*
 
-USES=		go:modules shebangfix
-USE_RUBY=	yes
+USES=		go:modules ruby shebangfix
 
 USE_RC_SUBR=	gitlab
 USE_GITLAB=	yes

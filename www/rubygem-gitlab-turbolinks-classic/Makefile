@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/MIT-LICENSE
 RUN_DEPENDS?=	rubygem-coffee-rails4>=4.0.1:devel/rubygem-coffee-rails4
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

@@ -32,7 +32,6 @@ GITLAB_DESC=	Use rubygem-gitlab-markup instead
 GITHUB_RUN_DEPENDS=	rubygem-github-markup>=1.6:textproc/rubygem-github-markup
 GITLAB_RUN_DEPENDS=	rubygem-gitlab-markup>=1.5:textproc/rubygem-gitlab-markup
 
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

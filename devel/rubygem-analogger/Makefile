@@ -13,7 +13,6 @@ LICENSE=	MIT
 RUN_DEPENDS=	rubygem-eventmachine>=1.2.5:devel/rubygem-eventmachine
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem shebangfix
 
 PLIST_FILES=	bin/analogger

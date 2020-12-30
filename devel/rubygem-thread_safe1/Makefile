@@ -14,7 +14,6 @@ LICENSE=	APACHE20
 RUN_DEPENDS=	rubygem-atomic>=0:devel/rubygem-atomic
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 PORTSCOUT=	limit:^0\.1

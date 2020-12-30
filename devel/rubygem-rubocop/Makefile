@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-parallel>=1.10<2:sysutils/rubygem-parallel \
 		rubygem-unicode-display_width>=1.4.0<3.0:devel/rubygem-unicode-display_width
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

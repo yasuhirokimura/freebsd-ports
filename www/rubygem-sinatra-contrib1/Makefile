@@ -22,7 +22,6 @@ PORTSCOUT=	limit:^1\.
 NO_ARCH=	yes
 REINPLACE_ARGS=	-i ''
 
-USE_RUBY=	yes
 USES=		gem
 
 post-patch:

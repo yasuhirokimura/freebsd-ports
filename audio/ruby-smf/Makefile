@@ -13,9 +13,7 @@ COMMENT=	Ruby module to handle Standard MIDI Files
 
 LICENSE=	BSD2CLAUSE
 
-USE_RUBY=	yes
-USES=		shebangfix
-USE_RUBY_SETUP=	yes
+USES=		ruby:setup shebangfix
 RUBY_SETUP=	install.rb
 SHEBANG_FILES=	sample/*.rb
 

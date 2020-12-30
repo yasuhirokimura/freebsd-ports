@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-dry-inflector>=0:devel/rubygem-dry-inflector \
 		rubygem-fog-json>=0:devel/rubygem-fog-json
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

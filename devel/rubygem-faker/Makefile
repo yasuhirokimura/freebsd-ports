@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/License.txt
 RUN_DEPENDS=	rubygem-i18n>=1.6,2<2,2:devel/rubygem-i18n
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

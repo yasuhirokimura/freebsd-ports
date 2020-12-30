@@ -48,7 +48,6 @@ RUN_DEPENDS=	rubygem-fog-aliyun>=0.1.0:net/rubygem-fog-aliyun \
 		rubygem-json>=2.0<3:devel/rubygem-json
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-locale>=2.0.5:devel/rubygem-locale \
 		rubygem-text>=1.3.0:textproc/rubygem-text
 
 USES=		gem shebangfix
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

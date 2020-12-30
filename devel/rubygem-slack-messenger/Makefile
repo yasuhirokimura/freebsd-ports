@@ -11,7 +11,6 @@ COMMENT=	Slim ruby wrapper for posting to slack webhooks
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

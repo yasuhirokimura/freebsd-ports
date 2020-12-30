@@ -11,6 +11,5 @@ COMMENT=	Unicode string manipulation library for Ruby
 LICENSE=	RUBY
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

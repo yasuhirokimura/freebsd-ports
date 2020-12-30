@@ -16,7 +16,6 @@ RUN_DEPENDS=	jruby:lang/jruby
 
 USES=		gem
 USE_JAVA=	yes
-USE_RUBY=	yes
 
 RUBYGEMBIN=	${LOCALBASE}/bin/jgem
 

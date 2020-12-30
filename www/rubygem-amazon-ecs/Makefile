@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-nokogiri>=1.4:textproc/rubygem-nokogiri \
 		rubygem-ruby-hmac>=0.3:security/rubygem-ruby-hmac
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

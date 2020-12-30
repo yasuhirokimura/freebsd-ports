@@ -10,7 +10,6 @@ COMMENT=	Simple expect implementation
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_RUBY=	yes
 NO_ARCH=	yes
 USES=	gem shebangfix
 SHEBANG_FILES=	bin/setup

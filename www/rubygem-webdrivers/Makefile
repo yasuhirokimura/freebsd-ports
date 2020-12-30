@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-nokogiri>=1.6<2:textproc/rubygem-nokogiri \
 		rubygem-selenium-webdriver>=3.0<4.0:www/rubygem-selenium-webdriver
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

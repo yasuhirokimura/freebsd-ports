@@ -11,6 +11,5 @@ COMMENT=	Jaro-Winkler distance algorithm implementation
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

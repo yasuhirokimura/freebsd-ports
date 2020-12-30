@@ -11,7 +11,6 @@ COMMENT=	High performance Chinese word segmentation utility
 
 LICENSE=	MIT
 
-USE_RUBY=	yes
 USES=		gem shebangfix
 SHEBANG_FILES=	misc/convert.rb
 

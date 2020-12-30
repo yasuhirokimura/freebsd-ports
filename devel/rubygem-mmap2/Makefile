@@ -10,6 +10,5 @@ COMMENT=	Implement memory-mapped file objects for Ruby 2.x
 LICENSE=	RUBY
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

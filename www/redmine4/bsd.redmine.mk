@@ -45,7 +45,7 @@ PKGNAMEPREFIX?=	redmine4-
 
 RUN_DEPENDS+=	redmine4>=4.0:www/redmine4
 
-USE_RUBY=	yes
+USES+=		ruby
 .if !defined(PLIST)
 PLIST=		${WRKDIR}/PLIST
 _GEN_PLIST=	YesPlease

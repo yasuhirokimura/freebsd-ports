@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-i18n>=0.7,2:devel/rubygem-i18n \
 		rubygem-tzinfo1>=1.1<2:devel/rubygem-tzinfo1
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

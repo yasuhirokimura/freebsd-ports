@@ -17,7 +17,6 @@ LICENSE_FILE_RUBY=	${WRKSRC}/COPYING
 RUN_DEPENDS=	rubygem-power_assert>=0:devel/rubygem-power_assert
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

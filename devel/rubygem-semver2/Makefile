@@ -7,7 +7,6 @@ MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Maintain semantic versions
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

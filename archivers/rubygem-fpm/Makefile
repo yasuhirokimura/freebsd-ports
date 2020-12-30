@@ -20,7 +20,6 @@ RUN_DEPENDS=	rubygem-arr-pm>=0.0.10<0.1:devel/rubygem-arr-pm \
 		rubygem-stud>=0:devel/rubygem-stud
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

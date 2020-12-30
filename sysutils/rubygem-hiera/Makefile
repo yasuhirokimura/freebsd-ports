@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 CONFLICTS_INSTALL=	rubygem-hiera1-*
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 HIERA_DBDIR=	/var/db/hiera

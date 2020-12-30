@@ -12,6 +12,5 @@ LICENSE_FILE_BSD2CLAUSE=${WRKSRC}/BSDL
 LICENSE_FILE_RUBY=	${WRKSRC}/LICENSE.txt
 
 USES=		gem ssl
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

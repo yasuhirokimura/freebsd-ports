@@ -13,7 +13,6 @@ LICENSE=	MIT
 RUN_DEPENDS=	rubygem-jwt>=2.0<3:www/rubygem-jwt
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

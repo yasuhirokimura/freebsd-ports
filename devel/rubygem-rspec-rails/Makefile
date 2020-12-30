@@ -20,7 +20,6 @@ RUN_DEPENDS=	rubygem-actionpack52>=5.2:www/rubygem-actionpack52 \
 		rubygem-rspec-support>=3.10<4:devel/rubygem-rspec-support
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

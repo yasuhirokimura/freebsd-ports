@@ -11,6 +11,5 @@ COMMENT=	Library for CBOR binary object representation
 LICENSE=	APACHE20
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

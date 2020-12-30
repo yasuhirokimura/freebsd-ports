@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-elasticsearch-api6>=${PORTVERSION}<${PORTVERSION}_99:textpr
 		rubygem-elasticsearch-transport6>=${PORTVERSION}<${PORTVERSION}_99:textproc/rubygem-elasticsearch-transport6
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

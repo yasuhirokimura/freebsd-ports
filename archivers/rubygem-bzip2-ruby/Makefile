@@ -12,7 +12,6 @@ COMMENT=	Ruby C bindings to libbzip2
 LICENSE=	BSD2CLAUSE RUBY
 LICENSE_COMB=	dual
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

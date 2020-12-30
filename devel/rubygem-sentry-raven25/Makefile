@@ -18,7 +18,6 @@ CONFLICTS_INSTALL=	rubygem-sentry-raven
 
 NO_ARCH=	yes
 USES=		gem
-USE_RUBY=	yes
 
 PLIST_FILES=	bin/raven
 

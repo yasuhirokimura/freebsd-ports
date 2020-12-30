@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-crass>=1.0.2<1.1:www/rubygem-crass \
 		rubygem-nokogumbo>=2.0<3:textproc/rubygem-nokogumbo
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

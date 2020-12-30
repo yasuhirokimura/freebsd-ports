@@ -12,7 +12,7 @@ DIST_SUBDIR=	ruby
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Binary search library for Ruby
 
-USE_RUBY=	yes
+USES=		ruby
 
 NO_BUILD=	yes
 

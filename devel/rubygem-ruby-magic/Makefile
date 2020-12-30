@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-mini_portile2>=2.5.0<2.6:devel/rubygem-mini_portile2
 
 USES=		gem
-USE_RUBY=	yes
 CONFIGURE_ARGS+=	--use-system-libraries
 
 post-install:

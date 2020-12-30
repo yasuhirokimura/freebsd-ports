@@ -13,8 +13,7 @@ COMMENT=	Ruby interface to the Tokyo Cabinet DB engine
 
 LIB_DEPENDS=	libtokyocabinet.so:databases/tokyocabinet
 
-USE_RUBY=	yes
-USE_RUBY_EXTCONF=	yes
+USES=		ruby:extconf
 
 INSTALL_TARGET=	site-install
 

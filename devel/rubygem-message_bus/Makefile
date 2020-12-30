@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-rack>=1.1.3:www/rubygem-rack
 
 USES=		gem shebangfix
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

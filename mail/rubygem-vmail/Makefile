@@ -20,7 +20,6 @@ RUN_DEPENDS=	rubygem-highline1>=1.6.1:devel/rubygem-highline1 \
 		vim:editors/vim-console
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 PLIST_FILES=	bin/vmail bin/vmail_client bin/vmailsend

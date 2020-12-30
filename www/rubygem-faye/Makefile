@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-cookiejar>=0.3.0:www/rubygem-cookiejar \
 		rubygem-websocket-driver>=0.5.1:www/rubygem-websocket-driver
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

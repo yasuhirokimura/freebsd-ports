@@ -1,12 +1,21 @@
-# bsd.ruby.mk - Utility definitions for Ruby related ports.
-#
 # Created by: Akinori MUSHA <knu@FreeBSD.org>
-
-.if !defined(Ruby_Include)
-
-Ruby_Include=			bsd.ruby.mk
-Ruby_Include_MAINTAINER=	ruby@FreeBSD.org
-
+#
+# $FreeBSD$
+#
+# Provide support for Ruby releated ports.
+#
+# Feature:		ruby
+# Usage:		USES=ruby[:args,..]
+# Valid ARGS:		build, extconf, rdoc, run, setup
+# ARGS description:
+# build			Says that ruby is required only for build time.
+# extconf		Says that the port uses extconf.rb to configure.
+# none			Says that no dependency is added to the port.
+#			Intended to be used with lang/ruby*.
+# rdoc			Says that the port uses rdoc to generate documents.
+# run			Says that ruby is required only for run time.
+# setup			Says that the port uses setup.rb to configure and
+#			build.
 #
 # [variables that a user may define]
 #
@@ -24,27 +33,12 @@ Ruby_Include_MAINTAINER=	ruby@FreeBSD.org
 #			  RUBY_SITELIBDIR, and RUBY_SITEARCHLIBDIR.
 # RUBY_VER		- Set to the alternative short version of ruby in the
 #			  form of `x.y' (see below for current value).
-# USE_RUBY		- Says that the port uses ruby for building and running.
-# RUBY_NO_BUILD_DEPENDS	- Says that the port should not build-depend on ruby.
-# RUBY_NO_RUN_DEPENDS	- Says that the port should not run-depend on ruby.
-# USE_RUBY_EXTCONF	- Says that the port uses extconf.rb to configure.
-#			  Implies USE_RUBY.
 # RUBY_EXTCONF		- Set to the alternative name of extconf.rb
 #			  (default: extconf.rb).
 # RUBY_EXTCONF_SUBDIRS	- Set to list of subdirectories, if multiple modules
 #			  are included.
-# USE_RUBY_SETUP	- Says that the port uses setup.rb to configure and
-#			  build.
 # RUBY_SETUP		- Set to the alternative name of setup.rb
 #			  (default: setup.rb).
-# USE_RUBY_RDOC		- Says that the port uses rdoc to generate documents.
-# RUBY_REQUIRE		- Set to a Ruby expression to evaluate before building
-#			  the port.  The constant "Ruby" is set to the integer
-#			  version number of ruby, and the result of the
-#			  expression will be set to RUBY_PROVIDED, which is
-#			  left undefined if the result is nil, false or a
-#			  zero-length string.  Implies USE_RUBY.
-# USE_RUBYGEMS		- Do not use this -- instead USES=gem
 #
 # [variables that each port should not (re)define]
 #
@@ -104,6 +98,25 @@ Ruby_Include_MAINTAINER=	ruby@FreeBSD.org
 # RUBY_MODDOCDIR	- Installation path for the module's documents.
 # RUBY_MODEXAMPLESDIR	- Installation path for the module's examples.
 #
+# MAINTAINER:		ruby@FreeBSD.org
+
+.if !defined(_INCLUDE_USES_RUBY_MK)
+_INCLUDE_USES_RUBY_MK=	yes
+
+_valid_ARGS=		build extconf none rdoc run setup
+
+# "USES=gem" implies "USES=ruby"
+.if defined(_INCLUDE_USES_GEM_MK)
+ruby_ARGS=
+.endif
+
+# Sanity check
+.for arg in ${ruby_ARGS}
+.if empty(_valid_ARGS:M${arg})
+IGNORE= Incorrect 'USES+= ruby:${ruby_ARGS}' usage: argument [${arg}] is not recognized
+.endif
+.endfor
+
 
 .if defined(RUBY_DEFAULT_VER)
 WARNING+=	"RUBY_DEFAULT_VER is defined, consider using DEFAULT_VERSIONS=ruby=${RUBY_DEFAULT_VER} instead"
@@ -296,25 +309,8 @@ PLIST_SUB+=		${PLIST_RUBY_DIRS:C,DIR="(${LOCALBASE}|${PREFIX})/,DIR=",} \
 			RUBY27=${RUBY27} \
 			RUBY30=${RUBY30}
 
-.if defined(USE_RUBY_RDOC)
+.if ${ruby_ARGS:Mrdoc}
 MAKE_ENV+=	RUBY_RDOC=${RUBY_RDOC}
-.endif
-
-# require check
-.if defined(RUBY_REQUIRE)
-USE_RUBY=		yes
-
-.if exists(${RUBY})
-RUBY_PROVIDED!=		${RUBY} -e '\
-	Ruby = ${RUBY_RELVERSION_CODE}; \
-	value = begin; ${RUBY_REQUIRE}; end and puts value'
-.else
-RUBY_PROVIDED=		"should be"	# the latest version is going to be installed
-.endif
-
-.if empty(RUBY_PROVIDED)
-.undef RUBY_PROVIDED
-.endif
 .endif
 
 .if ${PORT_OPTIONS:MDEBUG}
@@ -324,8 +320,7 @@ RUBY_FLAGS+=	-d
 #
 # extconf.rb support
 #
-.if defined(USE_RUBY_EXTCONF)
-USE_RUBY=		yes
+.if ${ruby_ARGS:Mextconf}
 
 RUBY_EXTCONF?=		extconf.rb
 CONFIGURE_ARGS+=	--with-opt-dir="${LOCALBASE}"
@@ -350,7 +345,7 @@ ruby-extconf-configure:
 #
 # setup.rb support
 #
-.if defined(USE_RUBY_SETUP)
+.if ${ruby_ARGS:Msetup}
 RUBY_SETUP?=		setup.rb
 
 do-configure:	ruby-setup-configure
@@ -375,15 +370,17 @@ ruby-setup-install:
 	${SETENV} ${MAKE_ENV} ${RUBY} ${RUBY_FLAGS} ${RUBY_SETUP} install --prefix=${STAGEDIR}
 .endif
 
-.if defined(USE_RUBY)
-.if !defined(RUBY_NO_BUILD_DEPENDS)
+.if !${ruby_ARGS:Mbuild} && !${ruby_ARGS:Mrun} && !${ruby_ARGS:Mnone}
 EXTRACT_DEPENDS+=	${DEPEND_RUBY}
 PATCH_DEPENDS+=		${DEPEND_RUBY}
 BUILD_DEPENDS+=		${DEPEND_RUBY}
-.endif
-.if !defined(RUBY_NO_RUN_DEPENDS)
 RUN_DEPENDS+=		${DEPEND_RUBY}
-.endif
+.elif ${ruby_ARGS:Mbuild}
+EXTRACT_DEPENDS+=	${DEPEND_RUBY}
+PATCH_DEPENDS+=		${DEPEND_RUBY}
+BUILD_DEPENDS+=		${DEPEND_RUBY}
+.elif ${ruby_ARGS:Mrun}
+RUN_DEPENDS+=		${DEPEND_RUBY}
 .endif
 
 .endif # _INVALID_RUBY_VER

@@ -11,7 +11,6 @@ LICENSE=	MIT
 RUN_DEPENDS=	rubygem-citrus>=3.0:textproc/rubygem-citrus
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

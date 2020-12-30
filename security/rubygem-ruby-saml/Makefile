@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-nokogiri>=1.10.5:textproc/rubygem-nokogiri \
 		rubygem-rexml>=0:textproc/rubygem-rexml
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

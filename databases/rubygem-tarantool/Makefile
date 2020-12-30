@@ -17,6 +17,5 @@ RUN_DEPENDS=	rubygem-bin_utils>=0.0.3<0.1:devel/rubygem-bin_utils \
 		rubygem-sumbur>=0.0.2:devel/rubygem-sumbur
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

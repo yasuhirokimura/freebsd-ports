@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-gemoji>=3.0<4:textproc/rubygem-gemoji \
 		rubygem-jekyll>=3.0<5.0:www/rubygem-jekyll
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

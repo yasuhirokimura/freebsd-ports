@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-net-imap>=0.2.1:mail/rubygem-net-imap \
 		rubygem-oauth2>=1.4.4<1.5:net/rubygem-oauth2
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

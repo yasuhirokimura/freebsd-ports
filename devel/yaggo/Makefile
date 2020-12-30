@@ -9,7 +9,7 @@ COMMENT=	Generate command line parser using getopt_long
 LICENSE=	GPLv3
 
 NO_ARCH=	yes
-USE_RUBY=	yes
+USES=		ruby
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	gmarcais

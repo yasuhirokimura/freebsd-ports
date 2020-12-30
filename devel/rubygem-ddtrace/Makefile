@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-ffi>=1.0<2:devel/rubygem-ffi \
 		rubygem-msgpack>=0:devel/rubygem-msgpack
 
 USES=		gem shebangfix
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

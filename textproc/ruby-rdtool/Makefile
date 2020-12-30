@@ -15,8 +15,7 @@ BUILD_DEPENDS=	racc:devel/rubygem-racc
 USE_GITHUB=	yes
 GH_ACCOUNT=	uwabami
 
-USE_RUBY=	yes
-USE_RUBY_SETUP=	yes
+USES=		ruby:setup
 
 RUBY_MODNAME=	rd
 

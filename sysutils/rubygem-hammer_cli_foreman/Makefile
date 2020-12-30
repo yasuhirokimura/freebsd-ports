@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-apipie-bindings>=0.3.0:devel/rubygem-apipie-bindings \
 		rubygem-rest-client>=1.8.0<3.0.0:www/rubygem-rest-client
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

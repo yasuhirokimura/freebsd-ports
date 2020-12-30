@@ -14,7 +14,6 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/bmc-device:sysutils/freeipmi
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

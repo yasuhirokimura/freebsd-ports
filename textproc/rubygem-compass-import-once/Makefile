@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	rubygem-sass34>=3.2<3.5:textproc/rubygem-sass34
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

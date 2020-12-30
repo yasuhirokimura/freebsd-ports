@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-grpc>=1.0<2.0:net/rubygem-grpc \
 		gitaly>=14.0:devel/gitaly
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

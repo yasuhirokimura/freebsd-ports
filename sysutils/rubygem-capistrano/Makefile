@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-airbrussh>=1.0.0:security/rubygem-airbrussh \
 		rubygem-sshkit>=1.9.0:security/rubygem-sshkit
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 PLIST_FILES=	bin/cap bin/capify

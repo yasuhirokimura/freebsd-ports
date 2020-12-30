@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE-2.0.txt
 RUN_DEPENDS=	rubygem-contracts>=0.7<0.11:devel/rubygem-contracts
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

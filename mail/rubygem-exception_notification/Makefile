@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-actionmailer4>=4.0:mail/rubygem-actionmailer4 \
 		rubygem-activesupport4>=4.0:devel/rubygem-activesupport4
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

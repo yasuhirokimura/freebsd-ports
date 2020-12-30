@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	rubygem-ruby-ole>=1.0:devel/rubygem-ruby-ole
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 PLIST_FILES=	bin/xlsopcodes

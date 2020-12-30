@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-buftok>=0.2:devel/rubygem-buftok \
 		rubygem-simple_oauth>=0.2:net/rubygem-simple_oauth
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

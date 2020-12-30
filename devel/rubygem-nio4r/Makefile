@@ -11,6 +11,5 @@ COMMENT=	Cross-platform asynchronous I/O primitives
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

@@ -14,7 +14,6 @@ LICENSE=	MIT
 RUN_DEPENDS=	rubygem-omniauth-oauth2>=1.2<2:net/rubygem-omniauth-oauth2
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -15,7 +15,6 @@ RUN_DEPENDS?=	rubygem-activesupport60>=0:devel/rubygem-activesupport60 \
 		rubygem-omniauth>=1.0:security/rubygem-omniauth
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

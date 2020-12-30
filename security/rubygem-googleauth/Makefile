@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-faraday>=0.17.3<2.0:www/rubygem-faraday \
 		rubygem-signet>=0.14<1:security/rubygem-signet
 
 USES=		gem shebangfix
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

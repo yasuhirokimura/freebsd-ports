@@ -12,7 +12,6 @@ LICENSE=	MIT
 RUN_DEPENDS=	\
 	rubygem-iobuffer>=1.0.0:devel/rubygem-iobuffer
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

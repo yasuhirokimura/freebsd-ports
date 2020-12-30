@@ -33,8 +33,7 @@ RUN_DEPENDS=	${MY_DEPENDS} \
 		gitlab-shell>=9.3.0:devel/gitlab-shell
 LIB_DEPENDS=	libgit2.so:devel/libgit2
 
-USES=		gmake go:modules,no_targets pkgconfig
-USE_RUBY=	yes
+USES=		gmake go:modules,no_targets pkgconfig ruby
 
 MAKE_ENV=	GOFLAGS="${GO_BUILDFLAGS}"
 # make sure to pass go build options into make process

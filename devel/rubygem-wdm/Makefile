@@ -11,7 +11,6 @@ COMMENT=	Library for monitoring directories for changes
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -9,6 +9,5 @@ COMMENT=	Suite of instrumentation metric primitives
 LICENSE=	APACHE20
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

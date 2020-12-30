@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	wkhtmltopdf:converters/wkhtmltopdf
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

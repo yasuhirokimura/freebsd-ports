@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.md
 RUN_DEPENDS=	rubygem-activerecord60>=5.0<6.2:databases/rubygem-activerecord60
 
 USES=		gem
-USE_RUBY=	YES
 
 NO_ARCH=	yes
 

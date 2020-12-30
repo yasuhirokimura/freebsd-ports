@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-async>=1.25<2:devel/rubygem-async \
 		rubygem-protocol-http2>=0.14.0<0.15:www/rubygem-protocol-http2
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

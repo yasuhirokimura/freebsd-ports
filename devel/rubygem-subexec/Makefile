@@ -11,7 +11,6 @@ COMMENT=	Subexec spawns a subprocess with an optional timeout
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

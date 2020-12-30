@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-http4>=3.0<5.0:www/rubygem-http4 \
 		rubygem-rest-client>=2.0<3:www/rubygem-rest-client
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -19,7 +19,6 @@ PORTSCOUT=	limit:^3\.4\.
 
 NO_ARCH=	yes
 USES=		gem shebangfix
-USE_RUBY=	yes
 SHEBANG_FILES=	extra/sass-spec-ref.sh
 
 PLIST_FILES=	bin/sass bin/sass-convert bin/scss

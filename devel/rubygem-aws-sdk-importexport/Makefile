@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-aws-sdk-core>=3.112.0<4:devel/rubygem-aws-sdk-core \
 		rubygem-aws-sigv2>=1.0<2:devel/rubygem-aws-sigv2
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

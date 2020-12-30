@@ -11,7 +11,6 @@ COMMENT=	Lightweight and simple templating engine for Ruby
 LICENSE=	MIT
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

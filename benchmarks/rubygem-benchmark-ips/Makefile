@@ -11,7 +11,6 @@ COMMENT=	Iterations per second enhancement to Benchmark
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

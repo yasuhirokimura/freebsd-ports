@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-activesupport60>=4.0:devel/rubygem-activesupport60 \
 		rubygem-multi_json>=1.3.2:devel/rubygem-multi_json
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

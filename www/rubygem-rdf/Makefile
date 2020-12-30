@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-hamster>=3.0<4:devel/rubygem-hamster \
 		rubygem-link_header>=0.0.8<1:www/rubygem-link_header
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

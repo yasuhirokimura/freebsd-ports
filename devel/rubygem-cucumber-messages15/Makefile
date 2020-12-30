@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-protobuf-cucumber>=3.10.8<4:devel/rubygem-protobuf-cucumber
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

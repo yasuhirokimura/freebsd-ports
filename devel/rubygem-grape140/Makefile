@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-activesupport60>=0:devel/rubygem-activesupport60 \
 		rubygem-virtus>=1.0.0:devel/rubygem-virtus
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

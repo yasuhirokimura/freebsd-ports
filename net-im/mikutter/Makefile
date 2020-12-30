@@ -35,8 +35,7 @@ RUN_DEPENDS=	rubygem-gtk2>=3.3.1:x11-toolkits/rubygem-gtk2 \
 		rubygem-typed-array>=0.1.2:devel/rubygem-typed-array \
 		rubygem-unf>=0.1.4:textproc/rubygem-unf
 
-USES=		shebangfix
-USE_RUBY=	yes
+USES=		ruby shebangfix
 
 NO_ARCH=	yes
 NO_BUILD=	yes

@@ -12,7 +12,6 @@ LICENSE=	BSD2CLAUSE
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

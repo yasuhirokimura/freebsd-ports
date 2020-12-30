@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-actionmailer4>=3:mail/rubygem-actionmailer4 \
 		rubygem-premailer>=1.7.9:mail/rubygem-premailer
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

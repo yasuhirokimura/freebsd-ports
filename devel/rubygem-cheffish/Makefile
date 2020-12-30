@@ -14,7 +14,6 @@ RUN_DEPENDS=	rubygem-chef-zero>=14.0<15:sysutils/rubygem-chef-zero \
 		rubygem-net-ssh>0:security/rubygem-net-ssh
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

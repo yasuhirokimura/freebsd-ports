@@ -20,7 +20,6 @@ RUN_DEPENDS=	rubygem-builder>=0:devel/rubygem-builder \
 		rubygem-sinatra>=1.2.7:www/rubygem-sinatra
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

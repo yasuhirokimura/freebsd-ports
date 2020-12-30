@@ -13,7 +13,6 @@ LICENSE=	BSD3CLAUSE
 RUN_DEPENDS=	cdo:science/cdo
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

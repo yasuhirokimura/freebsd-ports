@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-right_http_connection>=1.2.5:net/rubygem-right_http_connect
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 OPTIONS_DEFINE=	LIBXML

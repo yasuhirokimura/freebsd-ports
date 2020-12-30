@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/MIT-LICENSE
 PORTSCOUT=	limit:^3\.2\.
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

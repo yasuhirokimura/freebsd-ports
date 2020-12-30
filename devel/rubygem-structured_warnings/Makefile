@@ -11,7 +11,6 @@ COMMENT=	Implementation of structured warnings for Ruby
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

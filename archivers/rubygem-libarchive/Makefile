@@ -11,7 +11,6 @@ COMMENT=	Ruby bindings for libarchive
 
 LICENSE=	BSD3CLAUSE
 
-USE_RUBY=	yes
 USES=		dos2unix gem libarchive
 
 DOS2UNIX_FILES=	ext/depend

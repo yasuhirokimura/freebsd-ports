@@ -9,7 +9,6 @@ COMMENT=	Ruby string extensions to add title case support
 LICENSE=	MIT
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

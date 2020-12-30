@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-activesupport4>=4.2.0:devel/rubygem-activesupport4 \
 		rubygem-rails-deprecated_sanitizer>=1.0.1:devel/rubygem-rails-deprecated_sanitizer
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 PORTSCOUT=	limit:^1\.

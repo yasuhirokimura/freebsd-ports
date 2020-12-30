@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-addressable>=2.4<3:www/rubygem-addressable \
 		rubygem-oauth2>=1.0<2:net/rubygem-oauth2
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

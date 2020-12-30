@@ -14,6 +14,5 @@ LIB_DEPENDS=	libprotobuf.so:devel/protobuf
 RUN_DEPENDS=	rubygem-ffi110>=1.1.0<1.12.0:devel/rubygem-ffi110
 
 USES=		gem pkgconfig
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

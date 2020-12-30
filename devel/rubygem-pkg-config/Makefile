@@ -12,7 +12,6 @@ LICENSE=	LGPL21+
 LICENSE_FILE=	${WRKSRC}/LGPL-2.1
 
 USES=		gem pkgconfig
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

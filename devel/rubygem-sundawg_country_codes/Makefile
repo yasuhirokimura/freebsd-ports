@@ -10,7 +10,6 @@ COMMENT=	Manage ISO 3166 country names and codes
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

@@ -12,7 +12,6 @@ COMMENT=	Library to gather memory, cpu, network, load avg and disk information
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

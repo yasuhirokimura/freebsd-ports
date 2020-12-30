@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-activesupport61>=${PORTVERSION}:devel/rubygem-activesupport
 		rubygem-globalid-rails61>=0.3.6:databases/rubygem-globalid-rails61
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

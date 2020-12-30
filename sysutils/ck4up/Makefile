@@ -13,8 +13,7 @@ RUN_DEPENDS=	rubygem-gdbm>=2.0.0,2:databases/rubygem-gdbm
 
 NO_BUILD=	yes
 NO_ARCH=	yes
-USE_RUBY=	yes
-RUBY_NO_BUILD_DEPENDS=	yes
+USES=		ruby:run
 
 PORTEXAMPLES=	ck4up.conf
 

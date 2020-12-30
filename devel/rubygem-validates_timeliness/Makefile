@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-timeliness>=0.3.10<1:devel/rubygem-timeliness
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

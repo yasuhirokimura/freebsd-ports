@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	foreman-proxy>=1.12.0:net/foreman-proxy
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

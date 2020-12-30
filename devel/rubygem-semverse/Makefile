@@ -11,7 +11,6 @@ COMMENT=	Library to represent and compare SemVer versions and constraints
 LICENSE=	APACHE20
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

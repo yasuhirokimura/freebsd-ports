@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-pcaprub>=0:net/rubygem-pcaprub
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

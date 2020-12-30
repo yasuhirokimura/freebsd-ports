@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-faraday>=1.0:www/rubygem-faraday \
 		rubygem-graphql-client>=0:devel/rubygem-graphql-client
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

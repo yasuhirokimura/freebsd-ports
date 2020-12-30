@@ -15,7 +15,6 @@ LIB_DEPENDS=	libgd.so:graphics/gd
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 post-patch:

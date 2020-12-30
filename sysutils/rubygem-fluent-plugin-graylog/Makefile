@@ -13,7 +13,6 @@ LICENSE=	BSD3CLAUSE
 
 RUN_DEPENDS=	rubygem-fluentd>0:sysutils/rubygem-fluentd
 
-USE_RUBY=	yes
 USES=		gem shebangfix
 SHEBANG_FILES=	bin/setup
 NO_ARCH=	yes

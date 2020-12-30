@@ -12,7 +12,6 @@ LICENSE=	BSD3CLAUSE
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 
 PLIST_FILES=	bin/flvtool2

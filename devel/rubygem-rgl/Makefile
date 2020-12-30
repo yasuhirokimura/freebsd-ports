@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-lazy_priority_queue>=0.1.0<0.2:devel/rubygem-lazy_priority_
 		rubygem-stream>=0.5.3<0.6:devel/rubygem-stream
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

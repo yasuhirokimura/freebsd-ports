@@ -11,7 +11,6 @@ COMMENT=	Ruby library for creating NFS safe lockfiles
 LICENSE=	RUBY
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

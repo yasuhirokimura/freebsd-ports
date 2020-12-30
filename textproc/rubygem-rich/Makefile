@@ -21,7 +21,6 @@ RUN_DEPENDS=	rubygem-jquery-rails>=0:www/rubygem-jquery-rails \
 		rubygem-sass-rails-rails4>=0:textproc/rubygem-sass-rails-rails4
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

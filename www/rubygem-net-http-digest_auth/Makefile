@@ -11,7 +11,6 @@ COMMENT=	Implementation of RFC 2617 - Digest Access Authentication
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

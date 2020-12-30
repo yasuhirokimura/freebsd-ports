@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-pkg-config>=1.1.7:devel/rubygem-pkg-config  \
 
 USES=		gem gnome pkgconfig gettext-runtime
 USE_GNOME=	libxml2 libxslt
-USE_RUBY=	yes
 
 CONFIGURE_ARGS=	--use-system-libraries
 

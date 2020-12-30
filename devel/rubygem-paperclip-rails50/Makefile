@@ -20,7 +20,6 @@ RUN_DEPENDS=	ImageMagick7-nox11>=0:graphics/ImageMagick7-nox11 \
 		rubygem-terrapin>=0.6.0:devel/rubygem-terrapin
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

@@ -30,7 +30,6 @@ RUN_DEPENDS=    facter>=2.5.1:sysutils/facter \
 		rubygem-tty-which>=0.3.0:devel/rubygem-tty-which
 
 USES=		gem
-USE_RUBY=	yes
 
 PLIST_FILES=	bin/pdk
 

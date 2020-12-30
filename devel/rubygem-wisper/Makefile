@@ -11,7 +11,6 @@ COMMENT=	Library for Ruby objects with Publish-Subscribe capabilities
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

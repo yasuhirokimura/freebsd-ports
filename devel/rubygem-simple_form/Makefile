@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-activemodel4>=4:databases/rubygem-activemodel4 \
 PORTSCOUT=	ignore:1
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

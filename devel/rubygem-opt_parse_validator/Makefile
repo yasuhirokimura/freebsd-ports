@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-activesupport60>=5.2<6.2.0:devel/rubygem-activesupport60 \
 	        rubygem-addressable>=2.5<2.8:www/rubygem-addressable
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-autoprefixer-rails>=5.2.1:textproc/rubygem-autoprefixer-rai
 		rubygem-sass>=3.3.4:textproc/rubygem-sass
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

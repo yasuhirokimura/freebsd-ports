@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-json>=1.2.1:devel/rubygem-json \
 		rubygem-rest-client>=1.6.5<3.0.0:www/rubygem-rest-client
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

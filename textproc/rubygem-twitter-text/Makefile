@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-idn-ruby>=0:dns/rubygem-idn-ruby \
 		rubygem-unf>=0.1.0:textproc/rubygem-unf
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

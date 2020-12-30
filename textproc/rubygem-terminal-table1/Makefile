@@ -16,7 +16,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	rubygem-unicode-display_width1>=1.1.1<2:devel/rubygem-unicode-display_width1
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

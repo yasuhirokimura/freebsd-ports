@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-beefcake>=1.2:net/rubygem-beefcake \
 		rubygem-trollop>=2.9:devel/rubygem-trollop
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

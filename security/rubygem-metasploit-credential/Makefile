@@ -21,6 +21,5 @@ RUN_DEPENDS=	rubygem-metasploit-concern>=0:security/rubygem-metasploit-concern \
 
 NO_ARCH=	yes
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

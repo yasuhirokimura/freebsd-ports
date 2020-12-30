@@ -19,6 +19,9 @@ IGNORE= Incorrect 'USES+= gem:${gem_ARGS}' usage: argument [${arg}] is not recog
 .    endif
 .endfor
 
+# "USES=gem" implies "USES=ruby"
+.include "${USESDIR}/ruby.mk"
+
 BUILD_DEPENDS+=	${RUBYGEMBIN}:devel/ruby-gems
 RUN_DEPENDS+=	${RUBYGEMBIN}:devel/ruby-gems
 

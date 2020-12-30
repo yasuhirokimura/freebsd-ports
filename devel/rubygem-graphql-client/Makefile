@@ -14,7 +14,6 @@ RUN_DEPENDS=	rubygem-activesupport60>=3.0:devel/rubygem-activesupport60 \
 		rubygem-graphql>=1.8<2:devel/rubygem-graphql
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

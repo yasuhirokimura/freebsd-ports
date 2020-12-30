@@ -9,7 +9,6 @@ COMMENT=	Refinements for extending Rubys built-in classes
 LICENSE=	MIT
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

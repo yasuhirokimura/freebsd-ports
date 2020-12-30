@@ -21,7 +21,6 @@ RUN_DEPENDS=	git:devel/git \
 		rubygem-useragent>=0.16.2:devel/rubygem-useragent
 
 USES=		gem
-USE_RUBY=	yes
 USE_RC_SUBR=	${PORTNAME}
 
 NO_ARCH=	yes

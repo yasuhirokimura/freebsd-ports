@@ -15,7 +15,6 @@ LICENSE_FILE_BSD2CLAUSE=${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	rubygem-resolv>=0:dns/rubygem-resolv
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -12,7 +12,6 @@ LICENSE=	APACHE20
 RUN_DEPENDS=	rubygem-cabin>=0:devel/rubygem-cabin
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

@@ -9,7 +9,6 @@ COMMENT=	Web browser detection for Ruby
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -11,7 +11,6 @@ COMMENT=	Ruby binding to libmagic(3)
 LICENSE=	BSD2CLAUSE RUBY
 LICENSE_COMB=	dual
 
-USE_RUBY=	yes
 USES=		gem
 
 PLIST_FILES=	${GEM_LIB_DIR}/test/pylink

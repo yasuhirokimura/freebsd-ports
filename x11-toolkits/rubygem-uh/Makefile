@@ -9,7 +9,6 @@ COMMENT=	Xlib ruby toolkit
 LICENSE=	BSD3CLAUSE
 
 USES=		gem xorg
-USE_RUBY=	yes
 USE_XORG=	x11 xinerama
 
 .include <bsd.port.mk>

@@ -15,7 +15,6 @@ RUN_DEPENDS=	rrdtool:databases/rrdtool \
 		rubygem-ffi>=0:devel/rubygem-ffi
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.md
 RUN_DEPENDS=	rubygem-activesupport4>=3.0<6.2:devel/rubygem-activesupport4
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

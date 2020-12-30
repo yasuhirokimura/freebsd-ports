@@ -14,7 +14,6 @@ RUN_DEPENDS=	rubygem-net-ldap>=0.16:net/rubygem-net-ldap \
 		rubygem-rubyntlm>=0.5:net/rubygem-rubyntlm
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

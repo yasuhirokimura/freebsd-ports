@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.md
 RUN_DEPENDS=	rubygem-d3_rails-rails4>=3.4.6:www/rubygem-d3_rails-rails4
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

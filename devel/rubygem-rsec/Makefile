@@ -11,7 +11,6 @@ COMMENT=	Easy and extreme fast dynamic PEG parser combinator
 LICENSE=	RUBY
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

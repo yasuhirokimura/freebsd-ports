@@ -15,16 +15,13 @@ ONLY_FOR_ARCHS=	amd64
 RUN_DEPENDS=	ca_root_nss>=0:security/ca_root_nss \
 		liberation-fonts-ttf>=0:x11-fonts/liberation-fonts-ttf
 
-USES=		linux
+USES=		linux ruby:run
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	shkhln
 GH_PROJECT=	linuxulator-steam-utils
 
 USE_LINUX=	devtools:build dbuslibs gtk2 dri nss alsa-plugins-oss
-USE_RUBY=	yes
-
-RUBY_NO_BUILD_DEPENDS=	yes
 
 MAKE_ARGS+=	PREFIX=${STAGEDIR}${PREFIX}
 ALL_TARGET=	build

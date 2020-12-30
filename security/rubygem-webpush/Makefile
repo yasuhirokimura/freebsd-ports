@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-hkdf>=0.2:security/rubygem-hkdf \
 		rubygem-jwt>=2.0:www/rubygem-jwt
 
 USES=		gem
-USE_RUBY=	yes
 NO_ARCH=	yes
 
 .include <bsd.port.mk>

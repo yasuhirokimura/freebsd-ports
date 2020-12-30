@@ -40,7 +40,7 @@ MAKE_ENV+=	"USE_JEMALLOC=yes"
 
 .if ${PORT_OPTIONS:MTRIB}
 CATEGORIES+=	ruby
-USE_RUBY=	yes
+USES+=		ruby
 RUN_DEPENDS=	rubygem-redis>=2.2:databases/rubygem-redis
 .endif
 

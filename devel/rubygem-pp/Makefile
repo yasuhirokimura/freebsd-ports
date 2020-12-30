@@ -15,7 +15,6 @@ LICENSE_FILE_BSD2CLAUSE=${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	rubygem-prettyprint>=0:devel/rubygem-prettyprint
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

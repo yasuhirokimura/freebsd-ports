@@ -10,7 +10,6 @@ COMMENT=	Implementation of murmur3 hashing function
 
 LICENSE=	MIT
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.adoc
 BROKEN_RUBY26=	yes
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

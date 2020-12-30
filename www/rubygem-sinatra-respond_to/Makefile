@@ -14,7 +14,6 @@ LICENSE=	MIT
 RUN_DEPENDS=	rubygem-sinatra1>=1.3:www/rubygem-sinatra1
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

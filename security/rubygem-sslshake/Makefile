@@ -11,7 +11,6 @@ COMMENT=	Simulate SSL and TLD handshake
 LICENSE=	MPL20
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

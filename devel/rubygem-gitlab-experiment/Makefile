@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-activesupport61>=3.0:devel/rubygem-activesupport61 \
 		rubygem-scientist>=1.6.0<2:devel/rubygem-scientist
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

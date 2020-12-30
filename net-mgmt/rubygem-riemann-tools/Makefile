@@ -14,7 +14,6 @@ RUN_DEPENDS=	rubygem-json>=1.8:devel/rubygem-json \
 		rubygem-riemann-client>=0.2:net-mgmt/rubygem-riemann-client
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

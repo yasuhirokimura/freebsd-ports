@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	rubygem-reline>=0.2.5:devel/rubygem-reline
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

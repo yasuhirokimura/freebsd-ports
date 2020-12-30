@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.md
 RUN_DEPENDS=	rubygem-memory_profiler>=0.9:devel/rubygem-memory_profiler
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

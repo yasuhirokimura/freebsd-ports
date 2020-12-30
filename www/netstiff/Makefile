@@ -12,9 +12,8 @@ COMMENT=	Powerful web page update checker
 LICENSE=	GPLv3+
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		shebangfix
+USES=		ruby shebangfix
 SHEBANG_FILES=	${WRKSRC}/${PORTNAME}
-USE_RUBY=	yes
 NO_BUILD=	yes
 NO_ARCH=	yes
 

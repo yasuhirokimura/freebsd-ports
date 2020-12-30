@@ -17,8 +17,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 BUILD_DEPENDS=	xapian-core>=${PORTVERSION}:databases/xapian-core
 LIB_DEPENDS=	libxapian.so:databases/xapian-core
 
-USES=		compiler:c++11-lang libtool tar:xz
-USE_RUBY=	yes
+USES=		compiler:c++11-lang libtool ruby tar:xz
 
 CONFIGURE_ARGS=	--datarootdir=${DATADIR} \
 		--docdir=${DOCSDIR} \

@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-erubis>=2.7.0:www/rubygem-erubis \
 
 USES=		gem
 NO_ARCH=	yes
-USE_RUBY=	yes
 
 PLIST_FILES=	bin/html2haml
 

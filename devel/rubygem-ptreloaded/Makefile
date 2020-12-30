@@ -14,7 +14,6 @@ RUN_DEPENDS=	rubygem-rubyinlineaccel>=0.0.1:devel/rubygem-rubyinlineaccel
 LICENSE=	GPLv2
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

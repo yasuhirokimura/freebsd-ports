@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-rbs>=1.2.0:devel/rubygem-rbs
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

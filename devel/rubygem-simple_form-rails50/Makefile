@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-activemodel50>=5.0:databases/rubygem-activemodel50 \
 		rubygem-actionpack50>=5.0:www/rubygem-actionpack50
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

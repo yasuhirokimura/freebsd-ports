@@ -14,7 +14,6 @@ LICENSE_FILE_MIT=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-railties5>=3.2<7:www/rubygem-railties5
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

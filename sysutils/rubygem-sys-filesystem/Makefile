@@ -12,8 +12,8 @@ LICENSE=	ART20
 
 RUN_DEPENDS=	rubygem-ffi>=0:devel/rubygem-ffi
 
+NO_ARCH=	yes
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

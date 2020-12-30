@@ -97,8 +97,7 @@ RUN_DEPENDS=	nmap:security/nmap \
 		rubygem-eventmachine>=0:devel/rubygem-eventmachine \
 		rubygem-zeitwerk>=0:devel/rubygem-zeitwerk
 
-USES=		python shebangfix
-USE_RUBY=	yes
+USES=		python ruby shebangfix
 SHEBANG_FILES=	data/exploits/CVE-2017-17562/build.sh \
 		data/exploits/CVE-2017-17562/install-deps.sh \
 		data/exploits/CVE-2017-7494/build.sh \

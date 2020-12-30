@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-rubocop>=1.0<2:devel/rubygem-rubocop \
 		rubygem-rubocop-ast>=1.1.0:devel/rubygem-rubocop-ast
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

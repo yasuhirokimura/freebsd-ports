@@ -9,7 +9,6 @@ COMMENT=	Simple checking tool for easy os checks
 LICENSE=	BSD3CLAUSE
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

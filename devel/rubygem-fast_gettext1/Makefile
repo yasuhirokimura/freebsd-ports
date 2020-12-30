@@ -12,7 +12,6 @@ COMMENT=	Fast, memory-efficient and threadsafe GetText for Ruby
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-capybara>=2.18<4:devel/rubygem-capybara \
 		rubygem-railties5>=5.0<7:www/rubygem-railties5
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

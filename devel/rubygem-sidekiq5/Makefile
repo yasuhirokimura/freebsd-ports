@@ -18,7 +18,6 @@ RUN_DEPENDS=	rubygem-connection_pool>=2.2.2<3:net/rubygem-connection_pool \
 		rubygem-redis>=3.3.5<5:databases/rubygem-redis
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

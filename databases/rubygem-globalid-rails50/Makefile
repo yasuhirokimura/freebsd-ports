@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/MIT-LICENSE
 RUN_DEPENDS=	rubygem-activesupport50>=4.2.0:devel/rubygem-activesupport50
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

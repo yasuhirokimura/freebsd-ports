@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-aws-sdk-resources>=3.0.0:devel/rubygem-aws-sdk-resources \
 		rubygem-faraday0>0.9<1.0:www/rubygem-faraday0
 
 USES=		gem shebangfix
-USE_RUBY=	yes
 SHEBANG_FILES=	bin/setup
 
 NO_ARCH=	yes

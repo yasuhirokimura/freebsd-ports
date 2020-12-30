@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-activemodel60>=3.0:databases/rubygem-activemodel60 \
 		rubygem-public_suffix>=0:dns/rubygem-public_suffix
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

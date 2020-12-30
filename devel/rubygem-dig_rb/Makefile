@@ -10,7 +10,6 @@ COMMENT=	"Array/Hash/Struct#dig backfill for ruby"
 
 LICENSE=	MIT
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

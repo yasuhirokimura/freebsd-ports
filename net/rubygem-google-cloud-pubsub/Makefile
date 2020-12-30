@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-concurrent-ruby>=1.1<2:devel/rubygem-concurrent-ruby \
 		rubygem-google-cloud-pubsub-v1>=0.0<1:net/rubygem-google-cloud-pubsub-v1
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

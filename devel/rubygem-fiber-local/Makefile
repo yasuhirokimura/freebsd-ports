@@ -11,7 +11,6 @@ COMMENT=	Provide a class-level mixin to make fiber local state easy
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

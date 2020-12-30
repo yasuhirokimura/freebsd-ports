@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-addressable>=2.3.5:www/rubygem-addressable \
 		rubygem-faraday0>=0.8<2.0:www/rubygem-faraday0
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

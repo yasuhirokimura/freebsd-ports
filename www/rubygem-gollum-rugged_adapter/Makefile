@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-mime-types>=1.15:misc/rubygem-mime-types \
 		rubygem-rugged>=1.0:devel/rubygem-rugged
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

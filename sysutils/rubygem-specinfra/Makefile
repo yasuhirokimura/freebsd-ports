@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-net-scp>=0:security/rubygem-net-scp \
 		rubygem-net-telnet>=0:security/rubygem-net-telnet
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

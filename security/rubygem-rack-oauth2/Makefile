@@ -17,7 +17,6 @@ RUN_DEPENDS=	rubygem-activesupport60>=0:devel/rubygem-activesupport60 \
 		rubygem-rack>=2.1.0:www/rubygem-rack
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

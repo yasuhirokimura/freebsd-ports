@@ -9,7 +9,6 @@ COMMENT=	Template compilation framework in Ruby
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

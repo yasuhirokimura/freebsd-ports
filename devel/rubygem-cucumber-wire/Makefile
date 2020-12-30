@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-cucumber-core>=9.0.1<10:devel/rubygem-cucumber-core \
 		rubygem-cucumber-messages15>=15.0.0<16:devel/rubygem-cucumber-messages15
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

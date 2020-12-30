@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-colorize>=0.7.3:devel/rubygem-colorize \
 
 NO_ARCH=	yes
 
-USE_RUBY=	yes
 USES=		gem
 PLIST_FILES=	bin/mothra
 

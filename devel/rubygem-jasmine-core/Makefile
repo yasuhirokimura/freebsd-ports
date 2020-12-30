@@ -9,7 +9,6 @@ COMMENT=	Test JavaScript without any framework dependencies
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

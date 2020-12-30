@@ -11,7 +11,6 @@ COMMENT=	Fast method for collecting stack traces
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/MIT-LICENSE
 
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

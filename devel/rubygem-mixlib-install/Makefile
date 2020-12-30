@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-mixlib-shellout>=0:devel/rubygem-mixlib-shellout \
 		rubygem-thor>=0:devel/rubygem-thor
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

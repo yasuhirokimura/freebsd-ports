@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-charlock_holmes>=0.7.7<0.8:textproc/rubygem-charlock_holmes
 		rubygem-rugged>=0.25.1:devel/rubygem-rugged
 
 USES=		gem
-USE_RUBY=	yes
 
 PLIST_FILES=	bin/git-linguist bin/github-linguist
 

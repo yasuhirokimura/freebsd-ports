@@ -13,6 +13,5 @@ RUN_DEPENDS=	rubygem-gtk2>=${PORTVERSION}:x11-toolkits/rubygem-gtk2
 
 USES=		gem gnome
 USE_GNOME=	vte
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

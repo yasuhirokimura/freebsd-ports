@@ -13,7 +13,6 @@ RUN_DEPENDS=	rubygem-oauth>=0:net/rubygem-oauth \
 		rubygem-omniauth>=1.0:security/rubygem-omniauth
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

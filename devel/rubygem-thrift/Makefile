@@ -11,7 +11,6 @@ COMMENT=	Ruby interface to thrift
 
 LICENSE=	APACHE20
 
-USE_RUBY=	yes
 USES=		gem
 
 # Workaround for stage-qa:

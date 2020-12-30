@@ -12,7 +12,6 @@ LICENSE=	APACHE20
 RUN_DEPENDS=	rubygem-google-protobuf38>=3.0<4:devel/rubygem-google-protobuf38
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

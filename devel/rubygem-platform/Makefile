@@ -10,7 +10,6 @@ MAINTAINER=	don@na.rim.or.jp
 COMMENT=	Hopefully robust platform sensing
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

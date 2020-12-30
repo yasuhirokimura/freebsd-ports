@@ -19,7 +19,6 @@ RUN_DEPENDS=	rubygem-addressable>=2.7.0:www/rubygem-addressable \
 		rubygem-google-cloud-env>=1.2<2:net/rubygem-google-cloud-env
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

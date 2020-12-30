@@ -10,7 +10,6 @@ LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/LICENCE
 
 USES=		gem shebangfix
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 SHEBANG_FILES=	samples/emubios.rb

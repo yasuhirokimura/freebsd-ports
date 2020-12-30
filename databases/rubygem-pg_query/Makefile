@@ -15,6 +15,5 @@ BUILD_DEPENDS=	rubygem-pathname>0:devel/rubygem-pathname
 RUN_DEPENDS=	rubygem-google-protobuf>=3.17.1:devel/rubygem-google-protobuf
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

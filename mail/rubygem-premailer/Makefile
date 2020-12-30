@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-addressable>=0:www/rubygem-addressable \
 		rubygem-htmlentities>=4.0.0:textproc/rubygem-htmlentities
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

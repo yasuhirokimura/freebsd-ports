@@ -11,7 +11,6 @@ COMMENT=	Modify Extensions, Kextcache and Packages on InstallESD
 LICENSE=	BSD2CLAUSE
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

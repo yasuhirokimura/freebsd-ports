@@ -11,7 +11,6 @@ COMMENT=	Non-strict parsing, composition, and wildcard-matching of URLs in Ruby
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

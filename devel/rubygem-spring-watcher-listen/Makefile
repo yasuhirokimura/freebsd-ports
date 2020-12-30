@@ -15,7 +15,6 @@ RUN_DEPENDS=	rubygem-listen>=2.7<4.0:devel/rubygem-listen \
 		rubygem-spring>=1.2<3.0:devel/rubygem-spring
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

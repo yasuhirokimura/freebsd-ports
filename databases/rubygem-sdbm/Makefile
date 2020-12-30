@@ -11,6 +11,5 @@ COMMENT=	Simple file-based key-value store with String keys and values
 LICENSE=	BSD2CLAUSE
 
 USES=		gem
-USE_RUBY=	yes
 
 .include <bsd.port.mk>

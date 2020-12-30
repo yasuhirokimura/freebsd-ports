@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	rubygem-nio4r>=2<3:devel/rubygem-nio4r
 
 USES=		gem ssl
-USE_RUBY=	yes
 
 PLIST_FILES=	bin/puma bin/pumactl
 

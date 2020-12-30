@@ -16,7 +16,6 @@ RUN_DEPENDS=	rubygem-activerecord52>=5.2.4:databases/rubygem-activerecord52 \
 		rubygem-i18n>=0:devel/rubygem-i18n
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

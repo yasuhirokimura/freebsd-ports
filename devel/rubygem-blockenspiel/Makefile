@@ -11,7 +11,6 @@ COMMENT=	Library designed to make it easy to implement DSL blocks in Ruby
 LICENSE=	BSD3CLAUSE
 
 NO_ARCH=	yes
-USE_RUBY=	yes
 USES=		gem
 
 .include <bsd.port.mk>

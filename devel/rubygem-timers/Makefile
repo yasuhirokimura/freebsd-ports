@@ -11,7 +11,6 @@ COMMENT=	Pure Ruby one-shot and periodic timers
 LICENSE=	MIT
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 

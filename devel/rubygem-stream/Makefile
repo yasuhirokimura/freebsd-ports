@@ -14,7 +14,6 @@ LICENSE_COMB=	dual
 RUN_DEPENDS=	rubygem-generator>=0:devel/rubygem-generator
 
 USES=		gem
-USE_RUBY=	yes
 
 NO_ARCH=	yes
 
