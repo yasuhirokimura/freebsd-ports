@@ -10,7 +10,7 @@ COMMENT=	Convert images to PDF via direct JPEG inclusion
 LICENSE=	LGPL3+
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-RUN_DEPENDS=	${PY_PILLOW}
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pdfrw>0:textproc/py-pdfrw@${PY_FLAVOR}
 
 USES=		python:3.5+

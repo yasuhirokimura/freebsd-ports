@@ -12,7 +12,7 @@ LICENSE=	GPLv2
 BUILD_DEPENDS=	brotli:archivers/brotli \
 		pandoc:textproc/hs-pandoc
 LIB_DEPENDS=	libwebp.so:graphics/webp
-RUN_DEPENDS=	${PY_PILLOW} \
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}bencode.py>1:converters/py-bencode.py@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}brotli>1:archivers/py-brotli@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}cryptography>1:security/py-cryptography@${PY_FLAVOR} \
