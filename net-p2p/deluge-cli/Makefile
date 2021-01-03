@@ -39,7 +39,7 @@ SUB_LIST+=	PYTHON_CMD=${PYTHON_CMD}
 OPTIONS_DEFINE=	DOCS PILLOW
 OPTIONS_DEFAULT=	PILLOW
 PILLOW_DESC=Support for resizing tracker icons (pulls in many graphics libraries which may not be useful in a headless server).
-PILLOW_RUN_DEPENDS=${PY_PILLOW}
+PILLOW_RUN_DEPENDS=${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
 
 PORTDOCS=	CHANGELOG.md README.md
 
