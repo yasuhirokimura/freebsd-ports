@@ -56,7 +56,7 @@ FAX_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}reportlab>=0:print/py-reportlab@${PY_FLA
 FAX_CONFIGURE_ENABLE=	fax-build
 
 SCAN_DESC=		Scanning support
-SCAN_RUN_DEPENDS=	${PY_PILLOW}
+SCAN_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
 SCAN_LIB_DEPENDS=	libsane.so:graphics/sane-backends
 SCAN_CONFIGURE_ENABLE=	scan-build
 
