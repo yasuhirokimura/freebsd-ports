@@ -10,7 +10,7 @@ WWW=		https://www.unknown-horizons.org/
 LICENSE=	GPLv2+
 LICENSE_FILE=	${WRKSRC}/doc/licenses/GPL
 
-BUILD_DEPENDS=	${PY_PILLOW} \
+BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}sqlite3>0:databases/py-sqlite3@${PY_FLAVOR}
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}fife>0:games/py-fife@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}sqlite3>0:databases/py-sqlite3@${PY_FLAVOR} \
