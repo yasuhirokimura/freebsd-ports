@@ -18,7 +18,7 @@ LIB_DEPENDS=	libboost_filesystem.so:devel/boost-libs \
 		libcurl.so:ftp/curl \
 		libsigsegv.so:devel/libsigsegv
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cson>=0.8:devel/py-cson@${PY_FLAVOR} \
-		${PY_PILLOW} \
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
 		xdg-open:devel/xdg-utils
 
 USES=		bison compiler:c++14-lang gettext-runtime ghostscript gl gmake gnome ncurses perl5 python \

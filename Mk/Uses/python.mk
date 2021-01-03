@@ -874,10 +874,6 @@ PY_TOMLI=		${PYTHON_PKGNAMEPREFIX}tomli>=2.3<3:textproc/py-tomli@${PY_FLAVOR}
 PY_TYPING_EXTENSIONS=	${PYTHON_PKGNAMEPREFIX}typing-extensions>0:devel/py-typing-extensions@${PY_FLAVOR}
 .  endif
 
-.  if ${PYTHON_REL} >= 30000
-PY_PILLOW=	${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
-.  endif
-
 .  if ${PYTHON_VER} != ${PYTHON_DEFAULT}
 PY_MERCURIAL=	${PYTHON_PKGNAMEPREFIX}mercurial>=5.9:devel/mercurial@${PY_FLAVOR}
 .  else
