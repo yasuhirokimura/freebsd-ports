@@ -16,7 +16,7 @@ BUILD_DEPENDS=	${PY_SETUPTOOLS} \
 		${PYTHON_PKGNAMEPREFIX}wheel>0:devel/py-wheel@${PY_FLAVOR}
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}moderngl<6:graphics/py-moderngl@${PY_FLAVOR} \
 		${PYNUMPY} \
-		${PY_PILLOW} \
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pyglet>=2.0.0:graphics/py-pyglet@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pyglm>=2.7.0:graphics/py-pyglm@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pyrr>=0.10.3,<1:math/py-pyrr@${PY_FLAVOR}

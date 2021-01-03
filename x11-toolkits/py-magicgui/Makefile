@@ -22,7 +22,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}docstring_parser>=0.7:textproc/py-docstring_
 		${PYTHON_PKGNAMEPREFIX}superqt>=0.6.1:x11-toolkits/py-superqt@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}typing-extensions>=4.6:devel/py-typing-extensions@${PY_FLAVOR}
 RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}ipywidgets>=8.0.0:devel/py-ipywidgets@${PY_FLAVOR} \
-		${PY_PILLOW} \
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
 		${PYTHON_PKGNAMEPREFIX}pint>=0.13.0:devel/py-pint@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}tqdm>=4.30.0:misc/py-tqdm@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}annotated-types>0:devel/py-annotated-types@${PY_FLAVOR} \
