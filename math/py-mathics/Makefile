@@ -11,7 +11,7 @@ WWW=		https://mathics.org/
 LICENSE=	GPLv3
 
 BUILD_DEPENDS=	${PYNUMPY}	\
-		${PY_PILLOW}	\
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pint>0:devel/py-pint@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}sympy>0:math/py-sympy@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}mpmath>0:math/py-mpmath@${PY_FLAVOR} \
@@ -27,7 +27,7 @@ BUILD_DEPENDS=	${PYNUMPY}	\
 		${PYTHON_PKGNAMEPREFIX}python-dateutil>0:devel/py-python-dateutil@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}mathics_scanner>0:math/py-mathics-scanner
 RUN_DEPENDS=	${PYNUMPY}	\
-		${PY_PILLOW}	\
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR} \
 		bash:shells/bash	\
 		${PYTHON_PKGNAMEPREFIX}py>0:devel/py-py@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}lxml>0:devel/py-lxml@${PY_FLAVOR} \
