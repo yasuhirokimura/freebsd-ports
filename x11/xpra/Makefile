@@ -21,13 +21,13 @@ LIB_DEPENDS=	libavcodec.so:multimedia/ffmpeg \
 		libx264.so:multimedia/libx264 \
 		libxxhash.so:devel/xxhash \
 		libwayland-client.so:graphics/wayland
-RUN_DEPENDS=	${PY_PILLOW} \
-		${PYTHON_PKGNAMEPREFIX}bencode.py>1:converters/py-bencode.py@${PY_FLAVOR} \
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}bencode.py>1:converters/py-bencode.py@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}brotli>1:archivers/py-brotli@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}dbus>1:devel/py-dbus@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}lz4>=0.7.0_1:archivers/py-lz4@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}netifaces>0:net/py-netifaces@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}paramiko>0:security/py-paramiko@${PY_FLAVOR} \
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pyinotify>0:devel/py-pyinotify@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}PyOpenGL-accelerate>=3.1.0:graphics/py-PyOpenGL-accelerate@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}PyOpenGL>=3.1.0:graphics/py-PyOpenGL@${PY_FLAVOR} \
