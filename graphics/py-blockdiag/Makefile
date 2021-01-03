@@ -12,7 +12,7 @@ COMMENT=	Simple block-diagram image generator
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-RUN_DEPENDS=	${PY_PILLOW} \
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}funcparserlib>=0.3.6:devel/py-funcparserlib@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}webcolors>=0:graphics/py-webcolors@${PY_FLAVOR}
 

@@ -12,7 +12,7 @@ LICENSE=	MIT
 
 RUN_DEPENDS=	${PYGAME} \
 		${PYTHON_PKGNAMEPREFIX}pyganim>0:graphics/py-pyganim@${PY_FLAVOR} \
-		${PY_PILLOW}
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
 
 USES=		python:3.6+
 USE_PYTHON=	autoplist concurrent distutils

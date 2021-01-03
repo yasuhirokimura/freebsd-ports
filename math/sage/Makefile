@@ -73,7 +73,7 @@ BUILD_DEPENDS=	bash:shells/bash		\
 		${PYTHON_PKGNAMEPREFIX}path.py>0:devel/py-path.py@${PY_FLAVOR}\
 		${PYTHON_PKGNAMEPREFIX}pexpect>0:misc/py-pexpect@${PY_FLAVOR}\
 		${PYTHON_PKGNAMEPREFIX}pickleshare>0:databases/py-pickleshare@${PY_FLAVOR}\
-		${PY_PILLOW}			\
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}			\
 		${PYTHON_PKGNAMEPREFIX}pkgconfig>0:devel/py-pkgconfig@${PY_FLAVOR}\
 		${PYTHON_PKGNAMEPREFIX}pplpy>0:math/py-pplpy@${PY_FLAVOR}\
 		${PYTHON_PKGNAMEPREFIX}prometheus-client>0:net-mgmt/py-prometheus-client@${PY_FLAVOR}\
@@ -270,7 +270,7 @@ RUN_DEPENDS=	bash:shells/bash		\
 		${PYTHON_PKGNAMEPREFIX}path.py>0:devel/py-path.py@${PY_FLAVOR}\
 		${PYTHON_PKGNAMEPREFIX}pexpect>0:misc/py-pexpect@${PY_FLAVOR}\
 		${PYTHON_PKGNAMEPREFIX}pickleshare>0:databases/py-pickleshare@${PY_FLAVOR}\
-		${PY_PILLOW}			\
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}			\
 		${PYTHON_PKGNAMEPREFIX}pkgconfig>0:devel/py-pkgconfig@${PY_FLAVOR}\
 		${PYTHON_PKGNAMEPREFIX}pplpy>0:math/py-pplpy@${PY_FLAVOR}\
 		${PYTHON_PKGNAMEPREFIX}prometheus-client>0:net-mgmt/py-prometheus-client@${PY_FLAVOR}\

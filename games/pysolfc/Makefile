@@ -17,7 +17,7 @@ LICENSE_COMB=	multi
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}random2>=0:math/py-random2@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}six>0:devel/py-six@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}tkinter>0:x11-toolkits/py-tkinter@${PY_FLAVOR} \
-		${PY_PILLOW}
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
 
 LICENSE_FILE_GPLv3+ =		${WRKSRC}/COPYING
 LICENSE_DISTFILES_GPLv3+ =	${PYSOLFCDIST}

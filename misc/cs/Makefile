@@ -11,7 +11,7 @@ COMMENT=	Cross Stitch software
 
 LICENSE=	GPLv2+
 
-RUN_DEPENDS=	${PY_PILLOW}
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
 
 NO_BUILD=	yes
 

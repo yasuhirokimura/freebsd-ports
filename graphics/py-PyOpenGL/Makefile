@@ -12,9 +12,9 @@ MAINTAINER=	python@FreeBSD.org
 COMMENT=	OpenGL (and related library) interface for Python
 
 BUILD_DEPENDS=	${PYNUMPY} \
-		${PY_PILLOW}
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
 RUN_DEPENDS=	${PYNUMPY} \
-		${PY_PILLOW}
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
 
 OPTIONS_DEFINE=	TKINTER
 OPTIONS_DEFAULT=	TKINTER

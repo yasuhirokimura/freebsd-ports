@@ -40,7 +40,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django31>=3.1.7<3.2:www/py-django31@${PY_FLA
 		${PYTHON_PKGNAMEPREFIX}markdown>=2.6.11<3.5:textproc/py-markdown@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}netaddr>=0.8.0<1:net/py-netaddr@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pycryptodome>=3.10.1<4:security/py-pycryptodome@${PY_FLAVOR} \
-		${PY_PILLOW} \
+		${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}psycopg2>=2.8.6<3:databases/py-psycopg2@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}svgwrite>=1.4.1<2:graphics/py-svgwrite@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}yaml>=5.3.1<6:devel/py-yaml@${PY_FLAVOR} \
