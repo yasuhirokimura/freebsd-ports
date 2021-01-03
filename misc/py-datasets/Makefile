@@ -31,7 +31,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aiohttp>0:www/py-aiohttp@${PY_FLAVOR} \
 RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}librosa>0:audio/py-librosa@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}SoundFile>=0.12.1:audio/py-SoundFile@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}soxr>=0.4.0:audio/py-soxr@${PY_FLAVOR}
-RUN_DEPENDS+=	${PY_PILLOW}
+RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}absl-py>=0:devel/py-absl-py@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}elasticsearch>0:textproc/py-elasticsearch@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}faiss>=1.6.4:math/py-faiss@${PY_FLAVOR} \
