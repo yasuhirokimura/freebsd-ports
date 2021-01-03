@@ -12,7 +12,7 @@ WWW=		http://blockdiag.com/en/blockdiag/
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-RUN_DEPENDS=	${PY_PILLOW} \
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pillow>=7.0.0:graphics/py-pillow@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}funcparserlib>=1.0.0:devel/py-funcparserlib@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}webcolors>=0:graphics/py-webcolors@${PY_FLAVOR}
 
