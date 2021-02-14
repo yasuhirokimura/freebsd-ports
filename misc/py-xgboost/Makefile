@@ -17,7 +17,7 @@ RUN_DEPENDS=	${PYNUMPY} \
 		${PYTHON_PKGNAMEPREFIX}scipy>0:science/py-scipy@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>0:devel/py-pytest@${PY_FLAVOR} \
 
-USES=		compiler:c11 python:3.5+ localbase:ldflags
+USES=		compiler:c11 python localbase:ldflags
 USE_PYTHON=	distutils autoplist
 USE_LDCONFIG=	yes
 

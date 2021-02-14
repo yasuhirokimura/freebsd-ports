@@ -10,7 +10,7 @@ COMMENT=	Console client for the BitTorrent client Transmission
 LICENSE=	GPLv3
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_GITHUB=	yes
 GH_TAGNAME=	8b6b29163295e5cf12d9d874e80203c5906619c8
 NO_ARCH=	yes

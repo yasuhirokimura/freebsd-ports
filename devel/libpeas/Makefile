@@ -38,7 +38,7 @@ DOCS_BUILD_DEPENDS=	gtkdoc-scan:textproc/gtk-doc
 DOCS_MESON_TRUE=	gtk_doc
 
 .if ${LIBPEAS_SLAVE} == python
-USES+=		python:3.6+
+USES+=		python
 USE_PYTHON=	flavors
 USE_GNOME+=	pygobject3
 MESON_ARGS+=	-Dpython3=true

@@ -10,7 +10,7 @@ COMMENT=	Simple driver for basic unit tests
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 USE_PYTHON=	distutils autoplist concurrent
 

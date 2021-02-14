@@ -12,7 +12,7 @@ COMMENT=	Load me later, a lazy plugin management system
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.3+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

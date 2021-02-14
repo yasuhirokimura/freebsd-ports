@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django22>=2.0:www/py-django22@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist concurrent
 NO_ARCH=	yes
 

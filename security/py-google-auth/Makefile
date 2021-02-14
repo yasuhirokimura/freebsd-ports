@@ -17,7 +17,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cachetools>=2.0.0<5.0:devel/py-cachetools@${
 		${PYTHON_PKGNAMEPREFIX}rsa>=3.1.4<5:security/py-rsa@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}six>=1.9.0:devel/py-six@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

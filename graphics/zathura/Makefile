@@ -18,7 +18,7 @@ BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sphinx>=1.2.2,1:textproc/py-sphinx@${PY_FL
 		${PYTHON_PKGNAMEPREFIX}sphinx_rtd_theme>0:textproc/py-sphinx_rtd_theme@${PY_FLAVOR}
 
 USES=		compiler:c11 gettext-tools:build gnome meson ninja pkgconfig \
-		python:3.6+
+		python
 USE_GNOME=	glib20 gtk30 gdkpixbuf2
 INSTALLS_ICONS=	yes
 

@@ -21,7 +21,7 @@ LIB_DEPENDS=	libboost_thread.so:devel/boost-libs \
 		libboost_program_options.so:devel/boost-libs \
 		${PY_BOOST}
 
-USES=		compiler:c++11-lang cmake qt:5 eigen:3 python:3.5+ gl
+USES=		compiler:c++11-lang cmake qt:5 eigen:3 python gl
 USE_QT=		buildtools_build core gui opengl qmake_build widgets
 USE_GL=		gl glu
 USE_GITHUB=	yes

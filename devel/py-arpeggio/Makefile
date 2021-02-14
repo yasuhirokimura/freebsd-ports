@@ -15,7 +15,7 @@ LICENSE=	MIT
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}wheel>=0:devel/py-wheel@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>=0:devel/py-pytest@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

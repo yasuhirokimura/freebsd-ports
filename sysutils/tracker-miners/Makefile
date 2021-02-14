@@ -34,7 +34,7 @@ LIB_DEPENDS=	libicuuc.so:devel/icu \
 PORTSCOUT=	limitw:1,even
 
 USES=		gettext gnome jpeg localbase:ldflags meson \
-		pathfix pkgconfig python:3.4+,build sqlite tar:xz
+		pathfix pkgconfig python:build sqlite tar:xz
 USE_GNOME=	cairo intltool libgsf libxml2
 INSTALLS_ICONS=	yes
 

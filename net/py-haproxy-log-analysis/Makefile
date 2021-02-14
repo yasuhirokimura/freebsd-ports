@@ -12,7 +12,7 @@ COMMENT=	Haproxy log analyzer that tries to gives an insight of what's going on
 
 LICENSE=	GPLv3
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

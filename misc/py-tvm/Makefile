@@ -16,7 +16,7 @@ RUN_DEPENDS=	${PYNUMPY} \
 		${PYTHON_PKGNAMEPREFIX}decorator>0:devel/py-decorator@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}psutil>0:sysutils/py-psutil@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 GH_ACCOUNT=	apache
 GH_PROJECT=	incubator-tvm

@@ -16,7 +16,7 @@ BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}setuptools_scm>0:devel/py-setuptools_scm@$
 LIB_DEPENDS=	librsync.so:net/librsync
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}tox>0:devel/py-tox@${PY_FLAVOR}
 
-USES=		localbase:ldflags python:3.5+
+USES=		localbase:ldflags python
 USE_LDCONFIG=	yes
 USE_PYTHON=	autoplist concurrent distutils
 

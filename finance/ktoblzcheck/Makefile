@@ -15,7 +15,7 @@ COMMENT=	Check bank codes of German banks
 LICENSE=	LGPL21+
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		cmake pathfix python:3.6+,build
+USES=		cmake pathfix python:build
 USE_LDCONFIG=	yes
 
 CMAKE_ON=	INSTALL_RAW_BANKDATA_FILE

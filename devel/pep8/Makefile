@@ -13,7 +13,7 @@ COMMENT=	Python style guide checker
 LICENSE=	MIT
 
 NO_ARCH=	yes
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 do-test:

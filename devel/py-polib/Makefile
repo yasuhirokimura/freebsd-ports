@@ -9,7 +9,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	wg@FreeBSD.org
 COMMENT=	Python library to parse and manage gettext catalogs
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

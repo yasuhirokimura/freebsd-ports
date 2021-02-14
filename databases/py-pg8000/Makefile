@@ -14,7 +14,7 @@ LICENSE=	BSD3CLAUSE
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}passlib>=0:security/py-passlib@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}scramp>=0:security/py-scramp@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

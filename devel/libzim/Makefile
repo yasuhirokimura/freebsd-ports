@@ -13,7 +13,7 @@ LIB_DEPENDS=	libicui18n.so:devel/icu \
 		libxapian.so:databases/xapian-core \
 		libzstd.so:archivers/zstd
 
-USES=		compiler:c++11-lang meson pkgconfig python:3.4+
+USES=		compiler:c++11-lang meson pkgconfig python
 USE_LDCONFIG=	yes
 USE_GITHUB=	yes
 GH_ACCOUNT=	openzim

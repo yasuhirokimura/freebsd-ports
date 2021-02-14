@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sqlite3>=0:databases/py-sqlite3@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 TEST_ENV=	PYTHONPATH=${WRKSRC}/src

@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}toolz>=0.8.0:devel/py-toolz@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 post-install:

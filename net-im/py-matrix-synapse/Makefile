@@ -51,7 +51,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}virtualenv>=15.0:devel/py-virtualenv@${PY_F
 		${PYTHON_PKGNAMEPREFIX}authlib>=0.14.0:security/py-authlib@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pyjwt>=1.7.0:www/py-pyjwt@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 GH_ACCOUNT=	matrix-org
 GH_PROJECT=	synapse

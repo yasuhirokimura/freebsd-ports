@@ -29,7 +29,7 @@ BUILD_DEPENDS=	${LOCALBASE}/include/linux/input.h:devel/evdev-proto \
 RUN_DEPENDS=	xwayland-devel>0:x11-servers/xwayland-devel \
 		${kde-kwayland-protocols_LIB}:${kde-kwayland-protocols_PORT}
 
-USES=		cmake compiler:c++11-lib cpe gettext gl gnome kde:5 pkgconfig python:3.5+,run \
+USES=		cmake compiler:c++11-lib cpe gettext gl gnome kde:5 pkgconfig python:run \
 		qt:5 shebangfix tar:xz xorg
 USE_GL=		egl
 USE_GNOME=	glib20

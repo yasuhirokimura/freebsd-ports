@@ -4,7 +4,7 @@ PORTREVISION=	1
 CATEGORIES=	multimedia python
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
-USES=		gettext-runtime python:3.5+ shebangfix
+USES=		gettext-runtime python shebangfix
 USE_PYTHON=	flavors
 MASTERDIR=	${.CURDIR:H}/mlt
 SLAVEPORT=	swig Python

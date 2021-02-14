@@ -18,7 +18,7 @@ BUILD_DEPENDS=	${PYNUMPY} \
 		${PYTHON_PKGNAMEPREFIX}scipy>=0.17.0:science/py-scipy@${PY_FLAVOR}
 RUN_DEPENDS:=	${BUILD_DEPENDS}
 
-USES=		fortran python:3.5+ localbase
+USES=		fortran python localbase
 USE_PYTHON=	distutils autoplist cython
 
 POST_PLIST=	fix-plist

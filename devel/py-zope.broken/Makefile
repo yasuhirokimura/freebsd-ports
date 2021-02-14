@@ -13,7 +13,7 @@ LICENSE=	ZPL21
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}zope.interface>=0:devel/py-zope.interface@${PY_FLAVOR}
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

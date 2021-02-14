@@ -16,7 +16,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>=0:devel/py-six@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}sqlalchemy13>=1.0:databases/py-sqlalchemy13@${PY_FLAVOR}
 
-USES=		python:3.4+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

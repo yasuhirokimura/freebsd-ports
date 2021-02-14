@@ -12,7 +12,7 @@ COMMENT=	Python SSH2 protocol library
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pycrypto>=2.1:security/py-pycrypto@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

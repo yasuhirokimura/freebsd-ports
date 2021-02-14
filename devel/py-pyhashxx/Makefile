@@ -11,7 +11,7 @@ COMMENT=	Python wrapper for xxHash algorithm
 
 LICENSE=	BSD2CLAUSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

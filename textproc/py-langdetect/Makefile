@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>=1.10:devel/py-six@${PY_FLAVOR}
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

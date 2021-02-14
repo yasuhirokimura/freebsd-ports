@@ -17,7 +17,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>=2.6.4:devel/py-pytest@${PY_FLAVOR} 
 		${PYTHON_PKGNAMEPREFIX}mock>=1.3.0:devel/py-mock@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}twisted>=12.1.0:devel/py-twisted@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 PATCH_SITES=	https://github.com/crossbario/${PORTNAME}/commit/

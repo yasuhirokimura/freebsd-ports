@@ -15,7 +15,7 @@ LICENSE=	MIT
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}setuptools_scm>=0:devel/py-setuptools_scm@${PY_FLAVOR}
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sqlalchemy14>=1.1:databases/py-sqlalchemy14@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

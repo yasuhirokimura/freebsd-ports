@@ -31,7 +31,7 @@ RUN_DEPENDS=	${PY_PILLOW} \
 		Xvfb:x11-servers/xorg-vfbserver
 
 USES=		desktop-file-utils gettext-runtime gnome pkgconfig \
-		python:3.6+ shared-mime-info shebangfix xorg
+		python shared-mime-info shebangfix xorg
 
 USE_GNOME=	cairo gdkpixbuf2 gtk30 pygobject3
 USE_PYTHON=	cython distutils noflavors

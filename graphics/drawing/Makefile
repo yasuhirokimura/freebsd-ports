@@ -11,7 +11,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cairo>=0:graphics/py-cairo@${PY_FLAVOR}
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cairo>=0:graphics/py-cairo@${PY_FLAVOR}
 
-USES=		desktop-file-utils gettext gnome meson pkgconfig python:3.6+ \
+USES=		desktop-file-utils gettext gnome meson pkgconfig python \
 		shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	maoschanz

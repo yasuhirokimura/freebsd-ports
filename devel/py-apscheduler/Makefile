@@ -20,7 +20,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>=3.3<6:devel/py-pytest@${PY_FLAVOR} 
 		${PYTHON_PKGNAMEPREFIX}pytest-tornado>0:devel/py-pytest-tornado@${PY_FLAVOR}
 
 NO_ARCH=	yes
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 TEST_ENV=	${MAKE_ENV} TZ=UTC
 

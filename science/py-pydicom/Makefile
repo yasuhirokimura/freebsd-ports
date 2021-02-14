@@ -11,7 +11,7 @@ COMMENT=	Read, modify, and write DICOM files with Python code
 
 LICENSE=	MIT
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	pydicom
 USE_PYTHON=	distutils autoplist

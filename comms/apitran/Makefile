@@ -17,7 +17,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}tkinter>0:x11-toolkits/py-tkinter@${PY_FLAVO
 		sox:audio/sox \
 		display:graphics/ImageMagick6
 
-USES=		python:3.6+,run shebangfix
+USES=		python:run shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	rsj56
 GH_PROJECT=	apitran

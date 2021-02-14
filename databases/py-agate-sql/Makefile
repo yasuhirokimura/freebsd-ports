@@ -12,7 +12,7 @@ LICENSE=	MIT
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}agate>=1.5.0:textproc/py-agate@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}sqlalchemy10>=1.0.8:databases/py-sqlalchemy10@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

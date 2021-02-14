@@ -21,7 +21,7 @@ RUN_DEPENDS=	unrar:archivers/unrar \
 		unrtf:textproc/unrtf
 
 USES=		bison compiler:c++11-lang gmake gnome iconv libtool localbase \
-		pkgconfig python:3.5+ shebangfix
+		pkgconfig python shebangfix
 USE_GNOME=	libxslt
 USE_LDCONFIG=	yes
 USE_PYTHON=	py3kplist

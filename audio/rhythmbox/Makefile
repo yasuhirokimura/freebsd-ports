@@ -74,7 +74,7 @@ NLS_CONFIGURE_OFF=	--disable-nls
 NOTIFY_CONFIGURE_ENABLE=	libnotify
 NOTIFY_LIB_DEPENDS=	libnotify.so:devel/libnotify
 PYTHON_CONFIGURE_ENABLE=	python
-PYTHON_USES=		python:3.3+
+PYTHON_USES=		python
 PYTHON_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}libpeas>=0:devel/py-libpeas@${PY_FLAVOR}
 
 .include <bsd.port.mk>

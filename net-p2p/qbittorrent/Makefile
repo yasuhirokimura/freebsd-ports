@@ -53,7 +53,7 @@ DBUS_CONFIGURE_ENABLE=	qt-dbus
 DBUS_USE=		qt=dbus
 
 PYTHON_DESC=		Install Python to support some plugin functionality
-PYTHON_USES=		python:3.6+,run
+PYTHON_USES=		python:run
 
 post-patch-PYTHON-on:
 	@${REINPLACE_CMD} -e 's|"python3"|"${PYTHON_CMD}"|' ${WRKSRC}/src/base/utils/foreignapps.cpp

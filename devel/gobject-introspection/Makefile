@@ -21,7 +21,7 @@ LIB_DEPENDS=	libffi.so:devel/libffi
 
 PORTSCOUT=	limitw:1,even
 
-USES=		bison gettext gnome localbase meson pkgconfig python:3.4+ tar:xz
+USES=		bison gettext gnome localbase meson pkgconfig python tar:xz
 BINARY_ALIAS=	python3=${PYTHON_CMD}
 USE_GNOME=	glib20
 USE_LDCONFIG=	yes

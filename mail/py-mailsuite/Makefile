@@ -14,7 +14,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}imapclient>=2.1.0:mail/py-imapclient@${PY_FL
 		${PYTHON_PKGNAMEPREFIX}dnspython2>=2.0.0:dns/py-dnspython2@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}html2text>=2020.1.16:textproc/py-html2text@${PY_FLAVOR}
 
-USES=		python:3.4+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

@@ -12,7 +12,7 @@ COMMENT=	Python Module For Parsing GPS Exchange Format (GPX) File
 
 PLIST_SUB=	GPX_INFO=${PYDISTUTILS_EGGINFO}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

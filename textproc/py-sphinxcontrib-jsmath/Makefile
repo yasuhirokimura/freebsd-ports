@@ -11,7 +11,7 @@ COMMENT=	Sphinx extension which renders display math in HTML via JavaScript
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist distutils concurrent
 NO_ARCH=	yes
 

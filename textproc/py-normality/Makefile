@@ -14,7 +14,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}banal>=1.0.1:devel/py-banal@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}text-unidecode>=0:converters/py-text-unidecode@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>0:devel/py-pytest@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_GITHUB=	yes
 GH_ACCOUNT=	pudo
 USE_PYTHON=	distutils autoplist

@@ -82,7 +82,7 @@ CONFLICTS_INSTALL=	mythtv-frontend
 
 RUN_DEPENDS+=	tv_check:textproc/p5-xmltv \
 		wget:ftp/wget
-USES+=		perl5 python:3.5+ shebangfix
+USES+=		perl5 python shebangfix
 USE_PERL5=	run build
 USE_RC_SUBR=	mythbackend
 SHEBANG_FILES=	programs/scripts/database/*.pl \

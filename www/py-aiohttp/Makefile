@@ -30,7 +30,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>=3.8.2:devel/py-pytest@${PY_FLAVOR} 
 # to be ported	${PYTHON_PKGNAMEPREFIX}brotlypy>0:archivers/py-brotlipy@${PY_FLAVOR}
 # to be ported	${PYTHON_PKGNAMEPREFIX}trustme>0:security/py-trustme@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils cython
 
 .include <bsd.port.pre.mk>

@@ -26,7 +26,7 @@ LIB_DEPENDS=	libboost_system.so:devel/boost-libs \
 		libpcre.so:devel/pcre \
 		libsnappy.so:archivers/snappy
 
-USES=		compiler:c++14-lang cpe python:3.5+,build scons shebangfix
+USES=		compiler:c++14-lang cpe python:build scons shebangfix
 USE_RC_SUBR=	mongod
 
 CONFLICTS_INSTALL=	mongodb4[024]

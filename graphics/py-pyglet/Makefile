@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CONFLICTS_INSTALL=${PYTHON_PKGNAMEPREFIX}pyglet150-*
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

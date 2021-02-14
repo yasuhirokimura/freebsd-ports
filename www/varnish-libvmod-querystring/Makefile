@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 BUILD_DEPENDS=	rst2man:textproc/py-docutils@${PY_FLAVOR}
 
-USES=		autoreconf libtool pkgconfig python:3.5+,build varnish:6
+USES=		autoreconf libtool pkgconfig python:build varnish:6
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes

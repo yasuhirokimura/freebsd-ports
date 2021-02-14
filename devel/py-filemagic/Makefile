@@ -18,7 +18,7 @@ OPTIONS_DEFINE=	TESTS
 TESTS_DESC=		Install test suite requirements
 TESTS_BUILD_DEPENDS=	${TEST_DEPENDS}
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 USE_PYTHON=	autoplist distutils
 

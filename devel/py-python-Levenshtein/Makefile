@@ -12,7 +12,7 @@ COMMENT=	Fast computation of Levenshtein distance and string similarity
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 post-install:

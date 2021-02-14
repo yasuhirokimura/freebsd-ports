@@ -37,7 +37,7 @@ RUN_DEPENDS=	iso-codes>=0:misc/iso-codes \
 PORTSCOUT=	limitw:1,even
 
 USES=		compiler:c++11-lib cpe desktop-file-utils gettext gnome \
-		localbase:ldflags meson pkgconfig python:3.4+ shebangfix \
+		localbase:ldflags meson pkgconfig python shebangfix \
 		sqlite tar:xz xorg
 
 CPE_VENDOR=	gnome

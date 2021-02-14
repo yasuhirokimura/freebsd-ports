@@ -18,7 +18,7 @@ LIB_DEPENDS=	libumfpack.so:math/suitesparse-umfpack
 RUN_DEPENDS=	${PYNUMPY} \
 		${PYTHON_PKGNAMEPREFIX}scipy>0:science/py-scipy@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils cython autoplist
 
 post-extract: # workaround for https://github.com/scikit-umfpack/scikit-umfpack/issues/53

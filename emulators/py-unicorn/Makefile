@@ -13,7 +13,7 @@ LIB_DEPENDS=	libunicorn.so:emulators/unicorn
 USE_GITHUB=	yes
 GH_ACCOUNT=	unicorn-engine
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 WRKSRC_SUBDIR=	bindings/python
 

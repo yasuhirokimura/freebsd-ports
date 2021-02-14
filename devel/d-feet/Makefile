@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 BUILD_DEPENDS=	itstool:textproc/itstool
 
-USES=		gettext gnome meson pkgconfig python:3.5+ tar:xz
+USES=		gettext gnome meson pkgconfig python tar:xz
 USE_GNOME=	gtk30 intlhack libwnck3 pygobject3 introspection:build \
 		libxml2:build
 GLIB_SCHEMAS=	org.gnome.dfeet.gschema.xml

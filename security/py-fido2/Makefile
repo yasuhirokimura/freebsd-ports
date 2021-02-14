@@ -15,7 +15,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cryptography>=1.5:security/py-cryptography@$
 		${PYTHON_PKGNAMEPREFIX}uhid-freebsd>=1.2.1:devel/py-uhid-freebsd@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}mock>0:devel/py-mock@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

@@ -11,7 +11,7 @@ COMMENT=	Very basic wrapper for libcanberra
 LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils optsuffix
 
 USE_GITHUB=	yes

@@ -17,7 +17,7 @@ LIB_DEPENDS=	libpdal_base.so:math/pdal
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}packaging>=0:devel/py-packaging@${PY_FLAVOR} \
 		${PYNUMPY}
 
-USES=		compiler:c++11-lang ninja:build python:3.6+
+USES=		compiler:c++11-lang ninja:build python
 USE_PYTHON=	autoplist cython distutils
 
 post-install:

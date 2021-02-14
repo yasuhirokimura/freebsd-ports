@@ -10,7 +10,7 @@ COMMENT=	Fast implementation of the Cassowary constraint solver
 
 LICENSE=	BSD3CLAUSE
 
-USES=		compiler:c++11-lang python:3.6+
+USES=		compiler:c++11-lang python
 USE_PYTHON=	autoplist concurrent distutils
 
 .include <bsd.port.mk>

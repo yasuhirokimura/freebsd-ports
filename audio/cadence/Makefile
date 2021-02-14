@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 RUN_DEPENDS=	jackit>0:audio/jack
 
 USES=		compiler:c++11-lang gmake localbase pkgconfig \
-		python:3.4+ pyqt:5 qt:5 shebangfix tar:bz2
+		python pyqt:5 qt:5 shebangfix tar:bz2
 SHEBANG_FILES=	src/*.py
 USE_GITHUB=	yes
 GH_ACCOUNT=	falkTX

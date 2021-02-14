@@ -16,7 +16,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}py-cpuinfo>0:sysutils/py-py-cpuinfo@${PY_FLA
 		${PYTHON_PKGNAMEPREFIX}qcelemental>=0.19.0:science/py-qcelemental@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}yaml>0:devel/py-yaml@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils concurrent autoplist
 
 NO_ARCH=	yes

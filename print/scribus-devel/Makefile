@@ -39,7 +39,7 @@ LIB_DEPENDS=	liblcms2.so:graphics/lcms2 \
 		libzmf-0.0.so:graphics/libzmf
 
 USES=		cmake compiler:gcc-c++11-lib desktop-file-utils dos2unix gnome \
-		jpeg pkgconfig python:3.6+ qt:5 shared-mime-info tar:xz
+		jpeg pkgconfig python qt:5 shared-mime-info tar:xz
 USE_QT=		buildtools_build core declarative gui linguisttools_build \
 		network opengl printsupport qmake_build widgets xml
 DOS2UNIX_REGEX=	.*\.(cpp|h|txt)

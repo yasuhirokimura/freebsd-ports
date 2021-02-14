@@ -19,7 +19,7 @@ LIB_DEPENDS=	libapron.so:math/apron \
 		libtbb.so:devel/tbb
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sqlite3>0:databases/py-sqlite3@${PY_FLAVOR}
 
-USES=		cmake ncurses python:3.6+ sqlite
+USES=		cmake ncurses python sqlite
 USE_GITHUB=	yes
 GH_ACCOUNT=	NASA-SW-VnV
 USE_LDCONFIG=	yes

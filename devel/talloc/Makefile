@@ -48,7 +48,7 @@ PLIST_FILES+=		include/talloc.h \
 USES+=			python:build,test
 CONFIGURE_ARGS+=	--disable-python
 .else
-USES+=			python:3.4+
+USES+=			python
 
 PLIST_FILES+=		include/pytalloc.h \
 			lib/libpytalloc-util${PYTHON_EXT_SUFFIX}.so \

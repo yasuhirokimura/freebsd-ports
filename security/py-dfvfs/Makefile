@@ -42,7 +42,7 @@ RUN_DEPENDS=	libbde>=a:devel/libbde \
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}mock>0:devel/py-mock@${PY_FLAVOR} \
 		ca_root_nss>=0:security/ca_root_nss
 
-USES=		python:3.5+
+USES=		python
 USE_LOCALE=	en_US.UTF-8
 USE_PYTHON=	distutils autoplist concurrent
 

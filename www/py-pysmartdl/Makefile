@@ -13,7 +13,7 @@ COMMENT=	Smart download manager for Python
 LICENSE=	UNLICENSE
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USES=		python:3.4+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

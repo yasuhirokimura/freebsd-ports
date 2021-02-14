@@ -15,7 +15,7 @@ BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}setuptools_scm>=1.11:devel/py-setuptools_s
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pyclipper>=1.0.5:math/py-pyclipper@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}fonttools>=3.32.0:print/py-fonttools@${PY_FLAVOR}
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

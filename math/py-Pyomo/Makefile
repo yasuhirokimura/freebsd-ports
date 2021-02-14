@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}ply>0:devel/py-ply@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils concurrent autoplist
 
 NO_ARCH=	yes

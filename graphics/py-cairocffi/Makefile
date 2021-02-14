@@ -18,7 +18,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cffi>=1.1.0:devel/py-cffi@${PY_FLAVOR} \
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>0:devel/py-pytest@${PY_FLAVOR} \
 		gdk-pixbuf2>0:graphics/gdk-pixbuf2
 
-USES=		gnome python:3.5+
+USES=		gnome python
 USE_GNOME=	cairo
 USE_PYTHON=	distutils autoplist
 

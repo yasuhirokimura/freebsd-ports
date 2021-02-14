@@ -17,7 +17,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django22>=1.11:www/py-django22@${PY_FLAVOR} 
 		${PYTHON_PKGNAMEPREFIX}django-classy-tags>=0.9.0:www/py-django-classy-tags@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}six>0:devel/py-six@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils concurrent autoplist
 
 NO_ARCH=	yes

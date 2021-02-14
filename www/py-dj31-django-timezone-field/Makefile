@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django31>=1.11:www/py-django31@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytz>0:devel/py-pytz@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 NO_ARCH=		yes

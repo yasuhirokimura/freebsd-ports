@@ -17,7 +17,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}nose>0:devel/py-nose@${PY_FLAVOR} \
 		cvc4>0:math/cvc4
 
 
-USES=		python:3.5+
+USES=		python
 USE_GITHUB=	yes
 USE_PYTHON=	autoplist concurrent distutils
 PYDISTUTILS_PKGNAME=	PySMT

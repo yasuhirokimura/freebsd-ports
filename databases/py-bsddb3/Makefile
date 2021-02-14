@@ -12,7 +12,7 @@ COMMENT=	Python extension module for BerkeleyDB 4.7, 4.8, 5.1, 5.3, 6.1 and 6.2
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USES=		bdb python:3.6+
+USES=		bdb python
 USE_PYTHON=	distutils autoplist
 
 PYDISTUTILS_CONFIGUREARGS=--libs="-l${BDB_LIB_NAME}" --berkeley-db=${LOCALBASE}

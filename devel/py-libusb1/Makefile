@@ -9,7 +9,7 @@ COMMENT=	Pure-python wrapper for libusb-1.0
 
 LICENSE=	LGPL21+
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

@@ -11,7 +11,7 @@ COMMENT=	Seamless interoperability between C++11 and Python
 
 LICENSE=	BSD3CLAUSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils concurrent autoplist
 
 NO_ARCH=	yes

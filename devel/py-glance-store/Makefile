@@ -27,7 +27,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}eventlet>=0.18.2:net/py-eventlet@${PY_FLAVOR
 		${PYTHON_PKGNAMEPREFIX}six>=1.11.0:devel/py-six@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}stevedore>=1.20.0:devel/py-stevedore@${PY_FLAVOR}
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

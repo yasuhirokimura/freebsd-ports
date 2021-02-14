@@ -15,7 +15,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}google-auth>=1.11.0<2.0:security/py-google-a
 		${PYTHON_PKGNAMEPREFIX}google-resumable-media>=1.3.0<2.0:www/py-google-resumable-media@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}requests>=2.18.0<3.0.0:www/py-requests@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

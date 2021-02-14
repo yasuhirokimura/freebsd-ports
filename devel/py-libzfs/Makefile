@@ -16,7 +16,7 @@ GH_PROJECT=	py-libzfs
 GH_TAGNAME=	5d77699f
 
 HAS_CONFIGURE=	yes
-USES=		compiler:c11 python:3.6+
+USES=		compiler:c11 python
 USE_PYTHON=	autoplist distutils cython
 
 CONFIGURE_ENV=	freebsd_src=${SRC_BASE}

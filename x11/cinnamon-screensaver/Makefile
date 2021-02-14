@@ -22,7 +22,7 @@ RUN_DEPENDS=	${LOCALBASE}/lib/pam_gnome_keyring.so:security/gnome-keyring \
 		${PYTHON_PKGNAMEPREFIX}setproctitle>0:devel/py-setproctitle@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}python-xapp>0:x11/py-python-xapp@${PY_FLAVOR}
 
-USES=		gettext-tools gnome meson pkgconfig python:3.5+ shebangfix xorg
+USES=		gettext-tools gnome meson pkgconfig python shebangfix xorg
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	linuxmint

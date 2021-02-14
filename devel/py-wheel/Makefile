@@ -22,7 +22,7 @@ SIGNATURE_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}dirspec>=13.05:devel/py-dirspec@${
 			${PYTHON_PKGNAMEPREFIX}keyring>=1.3:security/py-keyring@${PY_FLAVOR} \
 			${PYTHON_PKGNAMEPREFIX}xdg>=0.25:devel/py-xdg@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils concurrent autoplist
 NO_ARCH=	yes
 

@@ -17,7 +17,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}marshmallow>=3.0.0:devel/py-marshmallow@${PY
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>=0:devel/py-pytest@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytest-lazy-fixture>=0:devel/py-pytest-lazy-fixture@${PY_FLAVOR} \
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

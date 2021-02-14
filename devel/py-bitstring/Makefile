@@ -12,7 +12,7 @@ COMMENT=	Simple construction, analysis, and modification of binary data
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 DOCSDIR=	${PREFIX}/share/doc/py-${PORTNAME}

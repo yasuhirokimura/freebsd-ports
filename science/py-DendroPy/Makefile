@@ -11,7 +11,7 @@ COMMENT=	Phylogenetic computing library
 
 LICENSE=	BSD3CLAUSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils py3kplist
 
 .include <bsd.port.mk>

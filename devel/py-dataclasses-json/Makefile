@@ -16,7 +16,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}marshmallow>=3.3.0<4.0.0:devel/py-marshmallo
 		${PYTHON_PKGNAMEPREFIX}stringcase>=1.2.0<2.0.0:devel/py-stringcase@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}typing-inspect>=0.4.0:devel/py-typing-inspect@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

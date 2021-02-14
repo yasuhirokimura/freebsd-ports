@@ -25,7 +25,7 @@ LIB_DEPENDS=	libboost_filesystem.so:devel/boost-libs \
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}psutil>0:sysutils/py-psutil@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}xlib>0:x11-toolkits/py-xlib@${PY_FLAVOR}
 
-USES=		compiler:c++17-lang meson localbase pkgconfig python:3.3+ xorg
+USES=		compiler:c++17-lang meson localbase pkgconfig python xorg
 USE_GITHUB=	yes
 USE_XORG=	xcb
 GH_ACCOUNT=	jaelpark

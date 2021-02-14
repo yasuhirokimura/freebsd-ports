@@ -10,7 +10,7 @@ COMMENT=	High-level FTP client library
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 OPTIONS_DEFINE=	DOCS

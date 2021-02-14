@@ -13,7 +13,7 @@ COMMENT=	Python library for generating RSS 2.0 feeds
 LICENSE=	BSD3CLAUSE
 
 NO_ARCH=	yes
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 .include <bsd.port.mk>

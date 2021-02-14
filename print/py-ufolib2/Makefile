@@ -18,7 +18,7 @@ BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}setuptools_scm>=0:devel/py-setuptools_scm@
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}attrs>=19.2.0:devel/py-attrs@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}fonttools>=4.0.0:print/py-fonttools@${PY_FLAVOR}
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

@@ -20,7 +20,7 @@ RUN_DEPENDS=	${PYNUMPY}
 
 OPTIONS_DEFINE=	DOCS EXAMPLES
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils cython cython_run
 
 DOCSDIR=	${PREFIX}/share/doc/py-${PORTNAME}

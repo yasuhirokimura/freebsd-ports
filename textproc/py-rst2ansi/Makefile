@@ -11,7 +11,7 @@ LICENSE=	MIT
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}docutils>=0.14:textproc/py-docutils@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils concurrent autoplist
 
 NO_ARCH=	yes

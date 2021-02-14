@@ -5,7 +5,7 @@ CATEGORIES=	security
 MAINTAINER=	acm@FreeBSD.org
 COMMENT=	Greenbone vulnerability management (metaport)
 
-USES=		metaport python:3.6+
+USES=		metaport python
 
 # Install GVM libraries
 RUN_DEPENDS+=	${LOCALBASE}/lib/libgvm_base.so:security/gvm-libs

@@ -25,7 +25,7 @@ LIB_DEPENDS=	libcinnamon-desktop.so:x11/cinnamon-desktop \
 RUN_DEPENDS=	iso-codes>0:misc/iso-codes \
 		cinnamon-settings-daemon>=1.0.0:sysutils/cinnamon-settings-daemon
 
-USES=		gettext gnome meson pkgconfig python:3.5+,build shebangfix xorg
+USES=		gettext gnome meson pkgconfig python:build shebangfix xorg
 USE_GNOME=	cairo gdkpixbuf2 gtk30 intltool libgnomekbd libxml2
 USE_XORG=	x11 xfixes sm
 

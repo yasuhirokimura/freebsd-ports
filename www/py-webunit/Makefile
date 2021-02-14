@@ -10,7 +10,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	lwhsu@FreeBSD.org
 COMMENT=	Unit test your websites with code that acts like a web browser
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 EXAMPLESDIR=	${PREFIX}/share/examples/py-${PORTNAME}

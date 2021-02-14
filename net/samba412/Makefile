@@ -419,7 +419,7 @@ CONFIGURE_ARGS+=		--disable-python
 PLIST_SUB+=			SAMBA4_PYTHON="@comment "
 SUB_LIST+=			SAMBA4_PYTHON="@comment "
 .else
-USES+=				python:3.5+
+USES+=				python
 PLIST_SUB+=			SAMBA4_PYTHON=""
 SUB_LIST+=			SAMBA4_PYTHON=""
 # Don't cache Python modules

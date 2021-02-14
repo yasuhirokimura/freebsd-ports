@@ -12,7 +12,7 @@ LICENSE=	MIT
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}astor>0:devel/py-astor@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 USE_PYTHON=	autoplist distutils
 

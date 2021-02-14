@@ -7,7 +7,7 @@ COMMENT=	Discus is a program to display hard drive space usage
 
 LICENSE=	GPLv2
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	ncarrier
 

@@ -86,7 +86,7 @@ OFX_CMAKE_BOOL=		WITH_OFX
 OFX_LIB_DEPENDS=	libofx.so:finance/libofx
 OFX_VARS=		GLIB_SCHEMAS+=org.gnucash.dialogs.import.ofx.gschema.xml
 PYTHON_CMAKE_BOOL=	WITH_PYTHON
-PYTHON_USES=		python:3.3+
+PYTHON_USES=		python
 
 post-install:
 	@(cd ${STAGEDIR}${DATADIR}/icons/hicolor && \

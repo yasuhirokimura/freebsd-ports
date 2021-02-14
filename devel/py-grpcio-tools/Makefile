@@ -14,7 +14,7 @@ LICENSE=	BSD3CLAUSE
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}grpcio>1:devel/py-grpcio@${PY_FLAVOR}
 LIB_DEPENDS=	libcares.so:dns/c-ares
 
-USES=		compiler:c++11-lang localbase:ldflags python:3.5+
+USES=		compiler:c++11-lang localbase:ldflags python
 USE_PYTHON=	autoplist distutils
 CFLAGS+=	-DHAVE_PTHREAD=1
 LDFLAGS+=	-lcares

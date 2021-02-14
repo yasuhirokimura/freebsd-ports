@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 RUN_DEPENDS=	${PY_PILLOW}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils concurrent optsuffix
 PYDISTUTILS_PKGVERSION=	0.06alpha
 NO_ARCH=	yes

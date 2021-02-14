@@ -7,7 +7,7 @@ COMMENT=	Python bindings for the Qt5 toolkit, QtWebSockets module
 CONFIGURE_ARGS=	--enable QtWebSockets
 PYQT_DIST=	yes
 
-USES=		python:3.5+ pyqt:5 qt:5
+USES=		python pyqt:5 qt:5
 USE_PYQT=	sip_build core_run 
 USE_PYTHON=	concurrent flavors py3kplist
 USE_QT=		core qmake_build network websockets

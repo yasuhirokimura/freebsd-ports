@@ -35,7 +35,7 @@ TEST_DEPENDS=	${LOCALBASE}/share/hunspell/cs_CZ.dic:textproc/cs-hunspell	\
 USE_GITHUB=	yes
 GH_ACCOUNT=	mike-fabian
 
-USES=		autoreconf gettext gmake gnome iconv pathfix pkgconfig python:3.6+
+USES=		autoreconf gettext gmake gnome iconv pathfix pkgconfig python
 USE_GNOME=	glib20 gtk30 pygobject3
 USE_LOCALE=	en_US.UTF-8
 GNU_CONFIGURE=	yes

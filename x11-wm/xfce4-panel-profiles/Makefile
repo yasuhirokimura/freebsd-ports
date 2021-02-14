@@ -9,7 +9,7 @@ COMMENT=	Xfce's panel multiple layouts manager
 
 LICENSE=	GPLv3
 
-USES=		gettext-tools gmake gnome python:3.3+ shebangfix tar:bz2 xfce
+USES=		gettext-tools gmake gnome python shebangfix tar:bz2 xfce
 USE_GNOME=	gtk30 intltool
 USE_XFCE=	panel
 

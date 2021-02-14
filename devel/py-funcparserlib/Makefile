@@ -12,7 +12,7 @@ COMMENT=	Recursive descent parsing library based on functional combinators
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 PORTDOCS=	README doc

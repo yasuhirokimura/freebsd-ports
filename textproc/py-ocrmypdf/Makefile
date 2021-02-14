@@ -28,7 +28,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>=4.4.1:devel/py-pytest@${PY_FLAVOR} 
 		${PYTHON_PKGNAMEPREFIX}pytest-xdist>=1.31.0:devel/py-pytest-xdist@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}python-xmp-toolkit>=2.0.1:textproc/py-python-xmp-toolkit@${PY_FLAVOR}
 
-USES=		ghostscript:run python:3.6+ shebangfix
+USES=		ghostscript:run python shebangfix
 USE_LOCALE=	en_US.UTF-8
 USE_PYTHON=	autoplist concurrent distutils
 

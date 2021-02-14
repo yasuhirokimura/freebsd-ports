@@ -18,7 +18,7 @@ LIB_DEPENDS=	libfwnt.so:devel/libfwnt
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-python --with-libfwnt=${LOCALBASE}
 CONFIGURE_ENV=	PYTHON_CONFIG=${PYTHON_CMD}-config
-USES=		libtool pathfix python:3.5+
+USES=		libtool pathfix python
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 WRKSRC=		${WRKDIR}/${PORTNAME}-${PORTVERSION:E}

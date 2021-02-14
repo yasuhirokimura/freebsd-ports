@@ -17,7 +17,7 @@ USES+=		pkgconfig tar:bzip2
 BINARY_ALIAS=	python=${PYTHON_CMD}
 
 .if !defined(SLAVEPORT)
-USES+=		python:build,3.6+ waf
+USES+=		python:build waf
 USE_LDCONFIG=	yes
 
 OPTIONS_GROUP=		DOCS

@@ -13,7 +13,7 @@ COMMENT=	Structured information storage program
 LICENSE=	GPLv2+
 LICENSE_FILE=	${WRKSRC}/doc/LICENSE
 
-USES=		python:3.5+ pyqt:5 shebangfix
+USES=		python pyqt:5 shebangfix
 USE_PYQT=	core gui network printsupport widgets sip
 
 SHEBANG_FILES=	source/treeline.py

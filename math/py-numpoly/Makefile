@@ -14,7 +14,7 @@ BROKEN=		Requires numpy>=1.20, current numpy is 1.16.6, pending bug#251626
 
 RUN_DEPENDS=	${PYNUMPY}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 NO_ARCH=	yes

@@ -14,7 +14,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING.LESSER
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}weboob>=2.0:www/py-weboob@${PY_FLAVOR}
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}weboob>=2.0:www/py-weboob@${PY_FLAVOR}
 
-USES=		gmake pyqt:5 python:3.6+
+USES=		gmake pyqt:5 python
 USE_PYQT=	core gui multimedia multimediawidgets sip widgets
 USE_PYTHON=	autoplist distutils
 

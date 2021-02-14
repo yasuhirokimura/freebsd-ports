@@ -15,7 +15,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django22>=2.1:www/py-django22@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}funcy>=1.8<2.0:devel/py-funcy@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}six>=1.4.0:devel/py-six@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 CONFLICTS_INSTALL=	${PYTHON_PKGNAMEPREFIX}dj31-django-cacheops

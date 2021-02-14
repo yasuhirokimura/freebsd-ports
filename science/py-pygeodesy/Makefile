@@ -12,7 +12,7 @@ COMMENT=	Pure Python geodesy tools
 
 LICENSE=	MIT
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

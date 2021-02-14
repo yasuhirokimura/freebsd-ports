@@ -11,7 +11,7 @@ COMMENT=	Implementation of the JSON Linked Data specification in Python
 
 LICENSE=	BSD3CLAUSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils concurrent
 NO_ARCH=	yes
 

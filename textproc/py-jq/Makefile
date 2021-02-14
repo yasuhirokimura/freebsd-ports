@@ -16,7 +16,7 @@ LIB_DEPENDS=	libjq.so:textproc/jq \
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}requests>0:www/py-requests@${PY_FLAVOR}
 BUILD_DEPENDS=	${RUN_DEPENDS}
 
-USES=		localbase python:3.4+
+USES=		localbase python
 USE_PYTHON=	autoplist distutils
 
 post-install:

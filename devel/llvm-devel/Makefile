@@ -30,7 +30,7 @@ BUILD_DEPENDS=
 
 USES=		cmake compiler:c++11-lib shebangfix
 USE_LDCONFIG=	${LLVM_PREFIX}/lib
-_USES_PYTHON?=	python:build,3.6+
+_USES_PYTHON?=	python:build
 USES+=		${_USES_PYTHON}
 SHEBANG_FILES=	flang/tools/f18/flang \
 		llvm/utils/lit/lit.py \
@@ -155,7 +155,7 @@ LLDB_DESC=		Install lldb, the LLVM debugger
 LLDB_IMPLIES=		CLANG
 LLDB_USES=		lua:53 libedit
 LLDB_USE=		GNOME=libxml2
-LLDB_VARS=		_USES_PYTHON=python:3.6+
+LLDB_VARS=		_USES_PYTHON=python
 MLIR_DESC=		Multi-Level Intermediate Representation
 OPENMP_DESC=		Install libomp, the LLVM OpenMP runtime library
 OPENMP_PORTDOCS=	openmp

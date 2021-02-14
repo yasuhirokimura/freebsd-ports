@@ -19,7 +19,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}coverage>=0:devel/py-coverage@${PY_FLAVOR} 
 		${PYTHON_PKGNAMEPREFIX}pytest-isort>=0:devel/py-pytest-isort@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytest-flake8>=0:devel/py-pytest-flake8@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

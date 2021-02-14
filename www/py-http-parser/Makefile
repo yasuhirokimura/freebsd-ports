@@ -10,7 +10,7 @@ COMMENT=	HTTP request/response parser for python in C
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 post-install:

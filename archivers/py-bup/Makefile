@@ -18,7 +18,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pylibacl>0:security/py-pylibacl@${PY_FLAVOR}
 BUILD_DEPENDS=	bash:shells/bash \
 		git>1.5.6:devel/git
 
-USES=		python:3.6+ gmake
+USES=		python gmake
 USE_PYTHON=	autoplist
 
 PLIST_SUB=	MANDIR=${PREFIX}/share/man

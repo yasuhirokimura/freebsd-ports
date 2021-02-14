@@ -22,7 +22,7 @@ RUN_DEPENDS:=	${BUILD_DEPENDS} \
 
 CONFLICTS_BUILD=	zstd # conflicting version of zstd is bundled
 
-USES=		fortran python:3.6+
+USES=		fortran python
 USE_PYTHON=	autoplist concurrent distutils cython
 
 PORTEXAMPLES=	*

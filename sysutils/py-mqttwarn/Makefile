@@ -21,7 +21,7 @@ RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}six>=1.13.0:devel/py-six@${PY_FLAVOR} \
 # based on setup.py : tests_require=extras['test'],
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>0:devel/py-pytest@${PY_FLAVOR}
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_PYTHON=	autoplist concurrent distutils
 SHEBANG_REGEX=	'.*\.py$$'
 

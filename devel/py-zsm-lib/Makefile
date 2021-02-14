@@ -15,7 +15,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sarge>=0.1.5:devel/py-sarge@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}marshmallow>=3.0.0.b20:devel/py-marshmallow@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>=3.6.4:devel/py-pytest@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

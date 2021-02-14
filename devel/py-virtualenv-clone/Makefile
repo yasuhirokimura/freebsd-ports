@@ -13,7 +13,7 @@ COMMENT=	Python virtualenv cloning script
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+
+USES=		python
 
 NO_ARCH=	yes
 

@@ -10,7 +10,7 @@ COMMENT=	Python library to access MISP platforms via their REST API
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=	python:3.6+ shebangfix
+USES=	python shebangfix
 
 SHEBANG_FILES=	pymisp/data/misp-objects/validate_all.sh pymisp/data/misp-objects/jq_all_the_things.sh
 

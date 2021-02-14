@@ -19,7 +19,7 @@ RUN_DEPENDS=	\
 		${PYTHON_PKGNAMEPREFIX}twisted>=15.5.0:devel/py-twisted@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}zope.interface>=3.6.1:devel/py-zope.interface@${PY_FLAVOR}
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_PYTHON=	distutils autoplist
 NO_ARCH=	yes
 SHEBANG_FILES=	examples/*.py

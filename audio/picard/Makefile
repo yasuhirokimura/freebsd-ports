@@ -19,7 +19,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}discid>=0.5.2:audio/py-discid@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}fasteners>0:devel/py-fasteners@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}markdown>0:textproc/py-markdown@${PY_FLAVOR}
 
-USES=		gettext pyqt:5 python:3.6+ desktop-file-utils
+USES=		gettext pyqt:5 python desktop-file-utils
 USE_LOCALE=	en_US.UTF-8
 USE_PYQT=	core_run dbus_run gui_run network_run widgets_run sip
 USE_PYTHON=	autoplist distutils noflavors

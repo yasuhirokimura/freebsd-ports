@@ -7,7 +7,7 @@ COMMENT=	Python bindings for the Qt5 toolkit, QtPositioning module
 CONFIGURE_ARGS=	--enable QtPositioning
 PYQT_DIST=	yes
 
-USES=		gl python:3.5+ pyqt:5 qt:5
+USES=		gl python pyqt:5 qt:5
 USE_GL=		gl
 USE_PYQT=	sip_build core_run widgets_run
 USE_PYTHON=	concurrent flavors py3kplist

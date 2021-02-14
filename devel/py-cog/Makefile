@@ -14,7 +14,7 @@ COMMENT=	Code Generator for any language
 LICENSE=	MIT
 
 # Python3 ready
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

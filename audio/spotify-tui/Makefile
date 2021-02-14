@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 BROKEN=		does not build: rust/crates/anyhow-1.0.38.tar.gz is not in /usr/ports/audio/spotify-tui/distinfo.
 
-USES=		cargo localbase:ldflags python:3.6+,build ssl xorg
+USES=		cargo localbase:ldflags python:build ssl xorg
 USE_GITHUB=	yes
 GH_ACCOUNT=	Rigellute
 USE_XORG=	xcb

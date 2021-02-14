@@ -10,7 +10,7 @@ COMMENT=	Functional standard library for Python
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 NO_ARCH=	yes
 

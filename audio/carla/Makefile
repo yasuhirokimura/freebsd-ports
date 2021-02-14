@@ -15,7 +15,7 @@ LIB_DEPENDS=	liblo.so:audio/liblo \
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pyliblo>0:audio/py-pyliblo@${PY_FLAVOR}
 
 USES=		compiler:c++11-lib desktop-file-utils gl gmake gnome localbase \
-		pkgconfig pyqt:5 python:3.4+ qt:5 shared-mime-info shebangfix \
+		pkgconfig pyqt:5 python qt:5 shared-mime-info shebangfix \
 		tar:bz2 xorg
 USE_PYQT=	core_run gui_run sip svg_run widgets_run xml_build  # "sip" should be "sip_build", but "import PyQt5.QtCore" wants "sip". See bug#225040
 USE_GNOME=	gtk20 gtk30

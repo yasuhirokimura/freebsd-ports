@@ -13,7 +13,7 @@ COMMENT=	Cssselect parses CSS3 Selectors and translates them to XPath 1.0
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 NO_ARCH=	yes

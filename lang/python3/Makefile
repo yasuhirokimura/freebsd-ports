@@ -9,7 +9,7 @@ EXTRACT_ONLY=
 MAINTAINER=	python@FreeBSD.org
 COMMENT=	The "meta-port" for version 3 of the Python interpreter
 
-USES=		python:3.5+,run
+USES=		python:run
 
 NO_ARCH=	yes
 NO_BUILD=	yes

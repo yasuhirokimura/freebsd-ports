@@ -10,7 +10,7 @@ COMMENT=	Low-level components of distutils2 and higher-level APIs
 LICENSE=	PSFL
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	distutils autoplist
 NO_ARCH=	yes
 

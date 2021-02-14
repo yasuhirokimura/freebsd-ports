@@ -35,7 +35,7 @@ GH_TUPLE=	RPCS3:hidapi:hidapi-0.8.0-rc1-125-g01f601a:hidapi/3rdparty/hidapi/hida
 		zeux:pugixml:v1.11.4:pugixml/3rdparty/pugixml
 
 USES=		cmake compiler:c++17-lang gl iconv:wchar_t localbase:ldflags \
-		openal:soft pkgconfig python:3.4+,build qt:5 xorg
+		openal:soft pkgconfig python:build qt:5 xorg
 USE_GL=		gl glew
 USE_QT=		qmake_build buildtools_build core concurrent dbus gui widgets
 USE_XORG=	x11

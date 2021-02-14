@@ -11,7 +11,7 @@ COMMENT=	Efficient arrays of booleans
 LICENSE=	PSFL
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+
+USES=		python
 
 USE_GITHUB=	yes
 USE_PYTHON=	autoplist distutils

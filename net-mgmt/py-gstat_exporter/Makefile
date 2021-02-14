@@ -13,7 +13,7 @@ IGNORE_FreeBSD_11=	needs "gstat -C", available since FreeBSD 12.0
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}prometheus-client>=0.7.1:net-mgmt/py-prometheus-client@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	tykling

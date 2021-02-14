@@ -10,7 +10,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	steve@energistic.com
 COMMENT=	Python implementation of RADIUS client
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 PORTEXAMPLES=	*

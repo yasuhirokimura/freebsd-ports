@@ -10,7 +10,7 @@ COMMENT=	Monty is the missing complement to Python
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE.rst
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 NO_ARCH=	yes

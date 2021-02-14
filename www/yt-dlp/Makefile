@@ -10,7 +10,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pycryptodome>0:security/py-pycryptodome@${PY_FLAVOR}
 
-USES=		gmake python:3.6+ shebangfix
+USES=		gmake python shebangfix
 SHEBANG_GLOB=	devscripts/*.py
 
 USE_GITHUB=	yes

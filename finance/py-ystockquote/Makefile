@@ -11,7 +11,7 @@ COMMENT=	Python module to retrieve stock quote data from Yahoo Finance
 
 LICENSE=	LGPL21
 
-USES=	python:3.6+
+USES=	python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

@@ -16,7 +16,7 @@ BUILD_DEPENDS=	rst2man:textproc/py-docutils@${PY_FLAVOR} \
 LIB_DEPENDS=	libpcre.so:devel/pcre
 
 USES=		autoreconf compiler cpe gmake libedit libtool ncurses pathfix \
-		pkgconfig python:3.4+,build readline shebangfix
+		pkgconfig python:build readline shebangfix
 
 CONFLICTS=	varnish-2.* varnish-3.* varnish4-4.* varnish5-5.*
 

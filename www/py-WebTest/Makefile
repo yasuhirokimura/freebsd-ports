@@ -23,7 +23,7 @@ USE_GITHUB=	yes
 
 GH_ACCOUNT=	Pylons
 GH_PROJECT=	webtest
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

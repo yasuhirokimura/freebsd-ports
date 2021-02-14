@@ -45,7 +45,7 @@ TEST_DEPENDS=	\
 		${PYTHON_PKGNAMEPREFIX}pytest-verbose-parametrize>=1.7.0:devel/py-pytest-verbose-parametrize@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytest-xdist>=1.29.0:devel/py-pytest-xdist@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

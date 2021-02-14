@@ -10,7 +10,7 @@ COMMENT=	Collection of python dictionary management tools
 
 LICENSE=	APACHE20
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 
 USE_GITLAB=	yes
 GL_ACCOUNT=	saltstack/open

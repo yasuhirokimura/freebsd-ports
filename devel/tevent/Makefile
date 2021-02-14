@@ -54,7 +54,7 @@ PLIST_FILES+=		include/tevent.h \
 USES+=			python:build,test
 CONFIGURE_ARGS+=	--disable-python
 .else
-USES+=			python:3.4+
+USES+=			python
 USE_PYTHON=		py3kplist
 
 PLIST_FILES+=		${PYTHON_SITELIBDIR}/_tevent${PYTHON_EXT_SUFFIX}.so \

@@ -11,7 +11,7 @@ LICENSE=	LGPL20+
 
 py27_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}contextlib2>0:devel/py-contextlib2@${PY_FLAVOR}
 
-USES=		compiler:c++11-lang fuse pkgconfig python:3.6+
+USES=		compiler:c++11-lang fuse pkgconfig python
 USE_PYTHON=	distutils autoplist
 
 post-install:

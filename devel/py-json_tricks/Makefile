@@ -9,7 +9,7 @@ COMMENT=	Extra features for Python's JSON: comments, order, datetimes, etc
 
 LICENSE=	BSD3CLAUSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 NO_ARCH=	yes

@@ -19,7 +19,7 @@ BUILD_DEPENDS=	vapigen:lang/vala
 LIB_DEPENDS=	libicutu.so:devel/icu
 
 USES=		compiler:c11 gmake gnome libtool localbase pathfix pkgconfig \
-		python:3.5+
+		python
 GNU_CONFIGURE=	yes
 USE_GNOME=	glib20 introspection:build pygobject3
 USE_LDCONFIG=	yes

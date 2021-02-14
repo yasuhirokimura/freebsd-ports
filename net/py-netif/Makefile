@@ -18,7 +18,7 @@ GH_PROJECT=	py-netif
 GH_TAGNAME=	be23674
 
 HAS_CONFIGURE=	yes
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils cython
 
 .include <bsd.port.mk>

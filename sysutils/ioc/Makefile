@@ -14,7 +14,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}click>0:devel/py-click@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}libioc>0:devel/py-libioc@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}texttable>0:textproc/py-texttable@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	bsdci

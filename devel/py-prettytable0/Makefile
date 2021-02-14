@@ -13,7 +13,7 @@ COMMENT=	Library for displaying tabular data in an ASCII table format
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

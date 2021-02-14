@@ -11,7 +11,7 @@ LICENSE=	MIT
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sqlite3>0:databases/py-sqlite3@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

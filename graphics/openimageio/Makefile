@@ -109,7 +109,7 @@ post-patch:
 BUILD_DEPENDS+=	${PREFIX}/share/cmake/pybind11/pybind11Config.cmake:devel/pybind11
 LIB_DEPENDS+=	libOpenImageIO.so:graphics/openimageio
 PLIST=		${PKGDIR}/pkg-plist-pybind
-USES+=		python:3.6+
+USES+=		python
 USE_PYTHON=	flavors
 CMAKE_ON+=	USE_PYTHON
 # we don't need the apps built - only libs.

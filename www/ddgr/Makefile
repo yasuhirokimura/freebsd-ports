@@ -14,7 +14,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}urllib3>=0:net/py-urllib3@${PY_FLAVOR}
 USE_GITHUB=	yes
 GH_ACCOUNT=	jarun
 
-USES=		python:3.5+ shebangfix
+USES=		python shebangfix
 SHEBANG_FILES=	${PORTNAME}
 NO_ARCH=	yes
 NO_BUILD=	yes

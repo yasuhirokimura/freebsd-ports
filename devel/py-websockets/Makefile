@@ -11,7 +11,7 @@ COMMENT=	Implementation of the WebSocket Protocol (RFC 6455 and 7692)
 
 LICENSE=	BSD3CLAUSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 post-install:

@@ -47,7 +47,7 @@ BINS=		cvpcb eeschema gerbview kicad pcbnew
 EXTRAS2RM=	linux-non_unicode linux wings3d LINUX.README	\
 		contrib_makefiles.txt running_kicad_under_W98.txt
 USES=		desktop-file-utils shared-mime-info compiler:c++14-lang tar:bzip2 cmake:insource,noninja \
-		gettext pkgconfig python:3.5+ shebangfix ssl gl xorg gnome
+		gettext pkgconfig python shebangfix ssl gl xorg gnome
 SHEBANG_FILES=	pcbnew/python/plugins/touch_slider_wizard.py
 
 CMAKE_ARGS=	-DLOCALBASE="${LOCALBASE}" \

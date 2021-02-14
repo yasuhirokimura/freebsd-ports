@@ -21,7 +21,7 @@ RUN_DEPENDS=	gtar:archivers/gtar
 PORTSCOUT=	limitw:1,even
 
 USES=		desktop-file-utils gettext gnome libarchive localbase \
-		meson pkgconfig python:3.5+,build tar:xz
+		meson pkgconfig python:build tar:xz
 USE_GNOME=	cairo gtk30
 INSTALLS_ICONS=	yes
 USE_LDCONFIG=	yes

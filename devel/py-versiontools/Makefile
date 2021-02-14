@@ -8,7 +8,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	rm@FreeBSD.org
 COMMENT=	Smart replacement for plain tuple used in __version__
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 NO_ARCH=	yes

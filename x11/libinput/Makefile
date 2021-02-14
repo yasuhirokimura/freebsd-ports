@@ -16,7 +16,7 @@ LIB_DEPENDS=	libevdev.so:devel/libevdev \
 		libudev.so:devel/libudev-devd \
 		libmtdev.so:devel/libmtdev
 
-USES=		localbase meson pkgconfig python:3.4+,run shebangfix tar:xz
+USES=		localbase meson pkgconfig python:run shebangfix tar:xz
 USE_LDCONFIG=	yes
 
 MESON_ARGS+=	-Ddocumentation=false -Dtests=false

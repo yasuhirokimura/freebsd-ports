@@ -46,7 +46,7 @@ powerpc64le_PKGNAMEPREFIX=	powerpc64le-
 powerpc_PKGNAMEPREFIX=		powerpc-
 powerpc_BUILD_DEPENDS=		powerpc-binutils>0:devel/binutils@powerpc
 
-USES=		ninja:build perl5 python:3.6+,build tar:xz
+USES=		ninja:build perl5 python:build tar:xz
 .if ${FLAVOR} == powerpc64_elfv1
 USE_GCC=	9:build
 .endif

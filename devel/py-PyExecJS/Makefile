@@ -11,7 +11,7 @@ COMMENT=	Run JavaScript code from Python
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=     distutils autoplist
 
 OPTIONS_GROUP=		RUNTIME

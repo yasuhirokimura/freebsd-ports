@@ -11,7 +11,7 @@ COMMENT=	Build Arduino sketches from the command line on FreeBSD
 
 LICENSE=	BSD2CLAUSE
 
-USES=		python:3.6+,run shebangfix
+USES=		python:run shebangfix
 
 SHEBANG_FILES=	arduino-boards.py
 

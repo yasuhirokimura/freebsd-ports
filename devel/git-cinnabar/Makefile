@@ -14,7 +14,7 @@ RUN_DEPENDS=	git:devel/git
 USE_GITHUB=	yes
 GH_ACCOUNT=	glandium
 
-USES=		gmake python:3.6+,run shebangfix
+USES=		gmake python:run shebangfix
 TARGET_ORDER_OVERRIDE=	510:fix-shebang # after do-patch
 SHEBANG_FILES=	${PORTNAME} git-remote-hg
 ALL_TARGET=	${PORTNAME}-helper

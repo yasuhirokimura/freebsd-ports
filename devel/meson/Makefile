@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest-xdist>0:devel/py-pytest-xdist@${PY_FLAVOR}
 
-USES=		ninja:run python:3.6+ shebangfix
+USES=		ninja:run python shebangfix
 USE_PYTHON=	autoplist distutils noflavors
 SHEBANG_FILES=	mesonbuild/rewriter.py \
 		mesonbuild/scripts/cmake_run_ctgt.py

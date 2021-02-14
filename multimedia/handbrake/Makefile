@@ -38,7 +38,7 @@ LIB_DEPENDS=	libdbus-1.so:devel/dbus \
 		libjansson.so:devel/jansson
 
 USES=		autoreconf:build compiler:c11 gmake iconv libtool:build \
-		localbase:ldflags ninja:build pkgconfig python:3.6+,build
+		localbase:ldflags ninja:build pkgconfig python:build
 
 CONTRIB_FILES=	fdk-aac-2.0.1.tar.gz \
 		ffmpeg-4.2.3.tar.bz2 \

@@ -24,7 +24,7 @@ LIB_DEPENDS=	libboost_thread.so:devel/boost-libs	\
 CONFLICTS=	kicad-devel-r201*
 
 USES=		cmake:noninja compiler:c++11-lib desktop-file-utils gl \
-		gnome pkgconfig python:3.5+ shared-mime-info shebangfix ssl \
+		gnome pkgconfig python shared-mime-info shebangfix ssl \
 		tar:bz2 xorg
 SHEBANG_FILES=	pcbnew/python/plugins/touch_slider_wizard.py
 

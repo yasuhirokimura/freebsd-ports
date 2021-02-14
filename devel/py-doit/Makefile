@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cloudpickle>0:devel/py-cloudpickle@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>=2.8.0:devel/py-pytest@${PY_FLAVOR}
 
-USES=		python:3.4+
+USES=		python
 USE_PYTHON=	distutils autoplist concurrent
 
 NO_ARCH=	yes

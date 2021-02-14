@@ -10,7 +10,7 @@ COMMENT=	Pure python-based utility to extract text and images from docx files
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils concurrent autoplist
 NO_ARCH=	yes
 

@@ -12,7 +12,7 @@ COMMENT=	Python library for deferring decorator actions
 
 LICENSE=	BSD4CLAUSE
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 NO_ARCH=	yes

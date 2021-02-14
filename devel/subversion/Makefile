@@ -40,7 +40,7 @@ TOOLS_DESC=		Install several tools
 FREEBSD_TEMPLATE_EXTRA_PATCHES=	${PATCHDIR}/extra-patch-fbsd-template
 SVNSERVE_WRAPPER_EXTRA_PATCHES=	${PATCHDIR}/extra-patch-svnserve-wrapper
 
-USES+=			shebangfix python:3.5+,env
+USES+=			shebangfix python:env
 python_OLD_CMD+=	"/bin/env python"
 SHEBANG_REGEX=		./tools/.*
 

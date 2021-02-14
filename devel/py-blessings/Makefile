@@ -9,7 +9,7 @@ COMMENT=	Thin wrapper around terminal coloring, styling, and positioning
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

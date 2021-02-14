@@ -11,7 +11,7 @@ COMMENT=	Web Service Discovery (WSD) host daemon for Samba
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.5+,run shebangfix
+USES=		python:run shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	christgau
 SHEBANG_FILES=	src/${PORTNAME}.py

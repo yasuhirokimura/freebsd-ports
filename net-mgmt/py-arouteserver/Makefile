@@ -22,7 +22,7 @@ RUN_DEPENDS=	bash>0:shells/bash \
 		${PYTHON_PKGNAMEPREFIX}yaml>=3.13:devel/py-yaml@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}nose>=1.3.7:devel/py-nose@${PY_FLAVOR}
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_PYTHON=	autoplist concurrent distutils
 
 SHEBANG_FILES=	pierky/arouteserver/config.d/rtt_getter.sh

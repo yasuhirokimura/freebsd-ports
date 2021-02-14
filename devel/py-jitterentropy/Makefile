@@ -9,7 +9,7 @@ COMMENT=	Use libjitterentropy to get random bytes
 
 LIB_DEPENDS=	libjitterentropy.so:devel/libjitterentropy
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

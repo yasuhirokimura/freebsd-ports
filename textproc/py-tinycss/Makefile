@@ -9,7 +9,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	demon@FreeBSD.org
 COMMENT=	Complete yet simple CSS parser for Python
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

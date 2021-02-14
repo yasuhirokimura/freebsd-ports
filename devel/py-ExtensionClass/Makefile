@@ -11,7 +11,7 @@ COMMENT=	Metaclass for subclassable extension types
 LICENSE=	ZPL21
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

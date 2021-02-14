@@ -18,7 +18,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}dateutil>=2.4:devel/py-dateutil@${PY_FLAVOR}
 		${PYTHON_PKGNAMEPREFIX}text-unidecode>=1.2:converters/py-text-unidecode@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}mock>0:devel/py-mock@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils concurrent autoplist
 
 NO_ARCH=	yes

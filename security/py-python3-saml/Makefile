@@ -17,7 +17,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}defusedxml>=0.6.0:devel/py-defusedxml@${PY_F
 		${PYTHON_PKGNAMEPREFIX}lxml>=3.3.5:devel/py-lxml@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}xmlsec>=1.0.5:security/py-xmlsec@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

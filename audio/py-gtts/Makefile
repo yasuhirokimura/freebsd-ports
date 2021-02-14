@@ -18,7 +18,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>=3.9:devel/py-pytest@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}six>0:devel/py-six@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}testfixtures>0:devel/py-testfixtures@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 GH_ACCOUNT=	pndurette
 GH_PROJECT=	gTTS

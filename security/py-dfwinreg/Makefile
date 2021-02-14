@@ -19,7 +19,7 @@ RUN_DEPENDS=	libcreg>=e:devel/libcreg \
 		${PYTHON_PKGNAMEPREFIX}dfdatetime>=0:security/py-dfdatetime@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}mock>0:devel/py-mock@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils autoplist concurrent
 
 NO_ARCH=	yes

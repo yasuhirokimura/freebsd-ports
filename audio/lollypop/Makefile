@@ -24,7 +24,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sqlite3>=2.7.8:databases/py-sqlite3@${PY_FLA
 		${PYTHON_PKGNAMEPREFIX}pylast>=1.4.0:audio/py-pylast@${PY_FLAVOR} \
 		${PY_PILLOW}
 
-USES=		python:3.6+ pkgconfig gnome gettext meson shebangfix sqlite desktop-file-utils
+USES=		python pkgconfig gnome gettext meson shebangfix sqlite desktop-file-utils
 USE_GITLAB=	yes
 GL_SITE=	https://gitlab.gnome.org
 GL_ACCOUNT=	World

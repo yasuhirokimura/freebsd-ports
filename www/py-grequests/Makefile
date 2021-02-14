@@ -19,7 +19,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}nose>0:devel/py-nose@${PY_FLAVOR}
 USE_GITHUB=	yes
 GH_ACCOUNT=	kennethreitz
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

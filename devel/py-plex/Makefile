@@ -10,7 +10,7 @@ DISTNAME=	Plex-${PORTVERSION}
 MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Lexical Analysis Module for Python
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 NO_ARCH=	yes
 

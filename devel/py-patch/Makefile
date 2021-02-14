@@ -9,7 +9,7 @@ COMMENT=	Cross-platform alternative to the UNIX patch utility
 
 LICENSE=	MIT
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	distutils autoplist
 
 NO_ARCH=	yes

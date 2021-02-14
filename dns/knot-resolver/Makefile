@@ -30,7 +30,7 @@ LIB_DEPENDS=	libdnssec.so:dns/knot3-lib \
 RUN_DEPENDS=	lua51-cqueues>=20200726_1:devel/lua-cqueues@lua51
 
 USES=		compiler:c11 libedit libtool meson ncurses ninja pkgconfig \
-		python:3.5+,build shebangfix tar:xz
+		python:build shebangfix tar:xz
 
 USE_CXXSTD=	c++11
 
@@ -113,7 +113,7 @@ TESTCONF_MESON_OFF=	-Dconfig_tests=disabled
 
 TESTEXTRA_BROKEN=		CMake Error: The source directory misses CMakeLists.txt
 TESTEXTRA_BUILD_DEPENDS=	git:devel/git
-TESTEXTRA_USES=			cmake python:3
+TESTEXTRA_USES=			cmake python
 TESTEXTRA_MESON_ON=		-Dextra_tests=enabled -Dsendmmsg=disabled
 TESTEXTRA_MESON_OFF=		-Dextra_tests=disabled
 

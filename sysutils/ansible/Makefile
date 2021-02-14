@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}ansible-core>0:sysutils/py-ansible-core@${PY_FLAVOR}
 
-USES=		ansible:env cpe python:3.6+ shebangfix
+USES=		ansible:env cpe python shebangfix
 CPE_VENDOR=	redhat
 USE_PYTHON=	autoplist concurrent distutils
 

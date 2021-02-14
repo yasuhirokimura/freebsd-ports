@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	task:deskutils/taskwarrior
 
-USES=		python:3.5+,run
+USES=		python:run
 USE_PYTHON=	distutils concurrent autoplist
 
 NO_ARCH=	yes

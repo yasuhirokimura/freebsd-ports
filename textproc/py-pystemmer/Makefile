@@ -14,7 +14,7 @@ COMMENT=	Snowball Stemming Algorithms for Information Retrieval
 LICENSE=	MIT BSD3CLAUSE
 LICENSE_COMB=	dual
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist cython distutils
 
 post-install:

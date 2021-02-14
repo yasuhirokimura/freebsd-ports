@@ -39,7 +39,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cryptography>=0:security/py-cryptography@${
 		git:devel/git \
 		svn:devel/subversion
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_PYTHON=	autoplist concurrent distutils
 
 MAKE_ENV=	PYTHONPATH=${WRKSRC}/src/

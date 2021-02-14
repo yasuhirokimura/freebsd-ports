@@ -22,6 +22,6 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}docutils>=0:textproc/py-docutils@${PY_FLAVO
 
 NO_ARCH=	yes
 USE_PYTHON=	autoplist concurrent distutils
-USES=		python:3.6+
+USES=		python
 
 .include <bsd.port.mk>

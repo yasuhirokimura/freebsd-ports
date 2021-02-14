@@ -16,7 +16,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-python
 CONFIGURE_ENV=	PYTHON_CONFIG=${PYTHON_CMD}-config
-USES=		fuse libtool pathfix pkgconfig python:3.5+
+USES=		fuse libtool pathfix pkgconfig python
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 WRKSRC=		${WRKDIR}/${PORTNAME}-${PORTVERSION}

@@ -12,7 +12,7 @@ COMMENT=	Collection of command line audio handling utilities
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		pkgconfig python:3.6+
+USES=		pkgconfig python
 USE_PYTHON=	autoplist concurrent distutils
 
 OPTIONS_DEFINE=	CDIO LAME MPG123 OPUS TWOLAME VORBIS

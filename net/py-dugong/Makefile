@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>0:devel/py-pytest@${PY_FLAVOR}
 
-USES=		python:3.3+ tar:bzip2
+USES=		python tar:bzip2
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

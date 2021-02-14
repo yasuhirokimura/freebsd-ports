@@ -10,7 +10,7 @@ COMMENT=	Snowball stemming library collection for Python
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

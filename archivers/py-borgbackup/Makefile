@@ -18,7 +18,7 @@ LIB_DEPENDS=	liblz4.so:archivers/liblz4 \
 		libzstd.so:archivers/zstd \
 		libxxhash.so:devel/xxhash
 
-USES=		python:3.5+ ssl
+USES=		python ssl
 USE_PYTHON=	autoplist distutils
 
 OPTIONS_DEFINE=		FUSE

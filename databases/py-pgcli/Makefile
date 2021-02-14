@@ -26,7 +26,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>=2.7.0:devel/py-pytest@${PY_FLAVOR} 
 		${PYTHON_PKGNAMEPREFIX}mock>=1.0.1:devel/py-mock@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pexpect>=0:misc/py-pexpect@${PY_FLAVOR}
 
-USES=		pgsql python:3.6+
+USES=		pgsql python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

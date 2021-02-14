@@ -22,7 +22,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}colorama>=0.4.3<0.5.0:devel/py-colorama@${PY
 		${PYTHON_PKGNAMEPREFIX}pyyaml-include>=1.2<2.0:devel/py-pyyaml-include@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}regex>=2020.6.8<2021.0.0:textproc/py-regex@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

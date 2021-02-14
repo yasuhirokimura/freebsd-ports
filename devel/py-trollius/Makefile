@@ -10,7 +10,7 @@ COMMENT=	Port of the Tulip project (asyncio module, PEP 3156) on Python 2
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

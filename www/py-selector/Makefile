@@ -14,7 +14,7 @@ LICENSE_COMB=	dual
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}resolver>=0:devel/py-resolver@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

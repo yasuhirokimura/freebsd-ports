@@ -11,7 +11,7 @@ COMMENT=	Python package to manipulate LilyPond files
 
 LICENSE=	GPLv3
 
-USES=		python:3.6+
+USES=		python
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	wbsoft

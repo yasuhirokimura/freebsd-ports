@@ -60,7 +60,7 @@ ACOUSTID_LIB_DEPENDS=	libchromaprint.so:audio/chromaprint \
 ACOUSTID_CMAKE_BOOL=	WITH_CHROMAPRINT WITH_FFMPEG
 
 CLI_DESC=		Build and install command line utility
-CLI_USES=		python:3.5+,test readline
+CLI_USES=		python:test readline
 CLI_VARS=		KID3_APPS+=CLI
 
 FLAC_LIB_DEPENDS=	libFLAC.so:audio/flac

@@ -14,7 +14,7 @@ LICENSE=	MIT
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}msrest>0.6.0:net-mgmt/py-msrest@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}adal>0.6.0:net-mgmt/py-adal@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

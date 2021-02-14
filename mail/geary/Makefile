@@ -30,7 +30,7 @@ LIB_DEPENDS=	libgmime-2.6.so:mail/gmime26 \
 		libfolks.so:net-im/folks
 
 USES=		compiler:c11 desktop-file-utils gettext gnome meson \
-		pkgconfig python:3.5+,build shebangfix sqlite tar:xz
+		pkgconfig python:build shebangfix sqlite tar:xz
 USE_GNOME=	cairo gtk30 libxml2
 
 USE_LDCONFIG=	yes

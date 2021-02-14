@@ -13,7 +13,7 @@ LICENSE=	MIT
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pygments>=2.1:textproc/py-pygments@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes # tests not in sdist
 USE_PYTHON=	autoplist distutils
 

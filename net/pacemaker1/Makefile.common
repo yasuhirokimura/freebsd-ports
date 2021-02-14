@@ -32,7 +32,7 @@ GH_ACCOUNT=		ClusterLabs
 GH_PROJECT=		pacemaker
 
 USES=			autoreconf corosync gmake gnome libtool ncurses pathfix \
-			pkgconfig python:3.6+ shebangfix
+			pkgconfig python shebangfix
 USE_BINUTILS=		yes
 USE_GNOME=		glib20
 USE_LDCONFIG=		yes

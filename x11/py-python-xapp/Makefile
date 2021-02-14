@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}psutil>0:sysutils/py-psutil@${PY_FLAVOR}
 
-USES=		gnome python:3.5+ shebangfix
+USES=		gnome python shebangfix
 
 USE_GNOME=	pygobject3
 USE_PYTHON=	autoplist distutils

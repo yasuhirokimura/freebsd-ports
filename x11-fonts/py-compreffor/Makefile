@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}fonttools>=3.1:print/py-fonttools@${PY_FLAVOR}
 
-USES=		compiler:c++11-lang python:3.6+ zip
+USES=		compiler:c++11-lang python zip
 USE_PYTHON=	autoplist concurrent distutils
 
 .include <bsd.port.mk>

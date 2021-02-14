@@ -18,7 +18,7 @@ BUILD_DEPENDS=	valac:lang/vala \
 		itstool:textproc/itstool
 
 USES=		desktop-file-utils gettext gnome meson pkgconfig \
-		python:3.5+,build tar:xz
+		python:build tar:xz
 USE_GNOME=	cairo gtk30
 
 BINARY_ALIAS=	python3=${PYTHON_CMD}

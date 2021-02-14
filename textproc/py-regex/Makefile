@@ -9,7 +9,7 @@ COMMENT=	Alternative regular expression module, to replace re
 
 LICENSE=	PSFL
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 post-install:

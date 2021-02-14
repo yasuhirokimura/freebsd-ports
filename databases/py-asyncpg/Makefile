@@ -12,7 +12,7 @@ COMMENT=	High performance PostgreSQL Client Library for Python/asyncio
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		pgsql:9.2+ python:3.5+
+USES=		pgsql:9.2+ python
 USE_PYTHON=	autoplist concurrent distutils
 
 OPTIONS_DEFINE=	DOCS

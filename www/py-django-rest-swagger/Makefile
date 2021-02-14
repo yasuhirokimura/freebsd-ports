@@ -15,7 +15,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}coreapi>0:devel/py-coreapi@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}openapi-codec>0:devel/py-openapi-codec@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}simplejson>0:devel/py-simplejson@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils autoplist
 NO_ARCH=	yes
 

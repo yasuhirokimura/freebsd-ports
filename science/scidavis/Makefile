@@ -33,7 +33,7 @@ OPTIONS_DEFAULT=	PYTHON
 OPTIONS_SUB=	yes
 
 PYTHON_DESC=	Python scripting support
-PYTHON_USES=	pyqt:5 python:3.6+
+PYTHON_USES=	pyqt:5 python
 PYTHON_USE=	pyqt=core,gui,printsupport,sip,widgets
 PYTHON_CMAKE_ON=	-DPython3_EXECUTABLE=${PYTHON_CMD} \
 			-DSCRIPTING_PYTHON=True

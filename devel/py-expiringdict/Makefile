@@ -11,7 +11,7 @@ LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 NO_ARCH=	yes
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

@@ -33,7 +33,7 @@ TEST_DEPENDS=	\
 		${PYTHON_PKGNAMEPREFIX}pytest>=4.4.1:devel/py-pytest@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytest-cov>=2.6.1:devel/py-pytest-cov@${PY_FLAVOR}
 
-USES=		pgsql python:3.6+
+USES=		pgsql python
 USE_GITHUB=	yes
 USE_PYTHON=	autoplist concurrent distutils
 USE_RC_SUBR=	irrd4

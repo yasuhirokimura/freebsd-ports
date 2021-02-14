@@ -20,7 +20,7 @@ RUN_DEPENDS=	gsettings-desktop-schemas>=0:devel/gsettings-desktop-schemas \
 		gnome-shell>=3.28:x11/gnome-shell
 
 USES=		gettext gnome localbase meson pkgconfig \
-		python:3.4+ shebangfix tar:xz
+		python shebangfix tar:xz
 USE_GNOME=	gtk30 pygobject3 nautilus3
 SHEBANG_FILES=	gnome-tweaks \
 		gnome-tweak-tool-lid-inhibitor \

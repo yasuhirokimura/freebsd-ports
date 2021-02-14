@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}jsonfield>=3.0:www/py-jsonfield@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}django22>=2.2:www/py-django22@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 USE_LOCALE=	en_US.UTF-8
 

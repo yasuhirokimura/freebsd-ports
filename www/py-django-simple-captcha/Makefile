@@ -18,7 +18,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django22>=1.7.0:www/py-django22@${PY_FLAVOR}
 		${PYTHON_PKGNAMEPREFIX}six>=1.2.0:devel/py-six@${PY_FLAVOR} \
 		${PY_PILLOW}
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

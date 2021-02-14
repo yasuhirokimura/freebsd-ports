@@ -33,7 +33,7 @@ RUN_DEPENDS=	bash:shells/bash \
 		${PYTHON_PKGNAMEPREFIX}pycryptodome>=0:security/py-pycryptodome@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}requests-oauthlib>=0:www/py-requests-oauthlib@${PY_FLAVOR}
 
-USES=		gettext-tools:build python:3.6+ shebangfix
+USES=		gettext-tools:build python shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	haiwen
 SHEBANG_FILES=	*.sh tests/*.sh *.template *.py tools/*.py seahub/*.py

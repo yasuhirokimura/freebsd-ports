@@ -15,7 +15,7 @@ BUILD_DEPENDS=	${PYNUMPY}
 LIB_DEPENDS=	libta_lib.so:devel/ta-lib
 RUN_DEPENDS=	${PYNUMPY}
 
-USES=		python:3.6+
+USES=		python
 
 MAKE_ENV=	TA_INCLUDE_PATH="${LOCALBASE}/include"
 

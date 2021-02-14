@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sgmllib3k>=0:devel/py-sgmllib3k@${PY_FLAVOR}
 
-USES=		python:3.6+ tar:bzip2
+USES=		python tar:bzip2
 USE_PYTHON=	autoplist distutils
 USE_GITHUB=	yes
 

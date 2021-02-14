@@ -19,7 +19,7 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-python --with-openssl=no \
 		--with-libfwnt=${LOCALBASE}
 CONFIGURE_ENV=	PYTHON_CONFIG=${PYTHON_CMD}-config
-USES=		libtool fuse pathfix pkgconfig python:3.5+
+USES=		libtool fuse pathfix pkgconfig python
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 WRKSRC=		${WRKDIR}/${PORTNAME}-${PORTVERSION:E}

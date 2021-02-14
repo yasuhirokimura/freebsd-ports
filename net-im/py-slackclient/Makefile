@@ -16,7 +16,7 @@ BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest-runner>0:devel/py-pytest-runner@${P
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aiohttp>3.5.2:www/py-aiohttp@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>0:devel/py-pytest@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 
 USE_GITHUB=	yes
 USE_PYTHON=	autoplist distutils

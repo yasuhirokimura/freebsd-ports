@@ -19,7 +19,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aiohttp>=0:www/py-aiohttp@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytest>=0:devel/py-pytest@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}trio>=0:net/py-trio@${PY_FLAVOR}
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

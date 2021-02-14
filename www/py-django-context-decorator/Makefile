@@ -10,7 +10,7 @@ COMMENT=	Remove the need to call super().get_context_data(**kwargs) in nearly ev
 
 LICENSE=	BSD3CLAUSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

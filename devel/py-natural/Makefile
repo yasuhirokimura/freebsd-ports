@@ -9,7 +9,7 @@ COMMENT=	Convert data to their natural (human-readable) format
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

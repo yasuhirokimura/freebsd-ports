@@ -29,7 +29,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}bcrypt>=0:security/py-bcrypt@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytest>0:devel/py-pytest@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}requests>0:www/py-requests@${PY_FLAVOR}
 
-USES=		ansible:env cpe gmake python:3.6+ shebangfix
+USES=		ansible:env cpe gmake python shebangfix
 CPE_VENDOR=	redhat
 USE_PYTHON=	autoplist concurrent distutils
 

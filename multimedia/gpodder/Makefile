@@ -21,7 +21,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sqlite3>=0:databases/py-sqlite3@${PY_FLAVOR}
 		youtube_dl>0:www/youtube_dl \
 		${PYTHON_PKGNAMEPREFIX}eyed3>=0:audio/py-eyed3@${PY_FLAVOR}
 
-USES=		gettext gmake gnome python:3.5+ shebangfix
+USES=		gettext gmake gnome python shebangfix
 
 USE_GITHUB=	yes
 

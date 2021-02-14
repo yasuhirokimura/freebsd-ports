@@ -12,7 +12,7 @@ COMMENT=	Python module to parse metadata in video files
 
 LICENSE=	APACHE20
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 NO_ARCH=	yes
 

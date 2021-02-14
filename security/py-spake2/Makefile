@@ -7,7 +7,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	swills@FreeBSD.org
 COMMENT=	SPAKE2 password-authenticated key exchange (pure python)
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

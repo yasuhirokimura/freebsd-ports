@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}robotframework>=2.7.5:devel/py-robotframework@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}selenium>=3.4.0:www/py-selenium@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

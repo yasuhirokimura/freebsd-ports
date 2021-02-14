@@ -11,7 +11,7 @@ COMMENT=	Print ASCII tables for terminals
 
 LICENSE=	MIT
 
-USES=		python:3.4+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

@@ -17,7 +17,7 @@ BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest-runner>=0:devel/py-pytest-runner@${
 
 NO_ARCH=	yes
 
-USES=		cpe python:3.6+ tar:bzip2
+USES=		cpe python tar:bzip2
 USE_PYTHON=	distutils autoplist
 CPE_VENDOR=	apache
 

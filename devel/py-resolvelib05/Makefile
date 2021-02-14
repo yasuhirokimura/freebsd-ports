@@ -10,7 +10,7 @@ COMMENT=	Resolve abstract dependencies into concrete ones
 
 LICENSE=	ISCL
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 CONFLICTS_INSTALL=	py${PYTHON_SUFFIX}-${PORTNAME}

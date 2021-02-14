@@ -14,7 +14,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django22>=1.8:www/py-django22@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}django-jquery-js>=0.:www/py-django-jquery-js@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

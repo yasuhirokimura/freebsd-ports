@@ -11,7 +11,7 @@ COMMENT=	Simple generic functions
 
 LICENSE=	ZPL21
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

@@ -16,7 +16,7 @@ LIB_DEPENDS=	libwayland-egl.so:graphics/wayland \
 		libxcb-keysyms.so:x11/xcb-util-keysyms \
 		libxcb-icccm.so:x11/xcb-util-wm
 
-USES=		cargo python:3.4+,build ssl xorg
+USES=		cargo python:build ssl xorg
 USE_GITHUB=	yes
 USE_XORG=	x11 xcb
 GH_ACCOUNT=	wez

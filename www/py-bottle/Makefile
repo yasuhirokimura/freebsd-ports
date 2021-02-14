@@ -12,7 +12,7 @@ COMMENT=	Fast and simple WSGI-framework for small web-applications
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 
 NO_ARCH=	yes
 

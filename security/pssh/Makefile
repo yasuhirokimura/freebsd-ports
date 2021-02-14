@@ -11,7 +11,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 RUN_DEPENDS=	rsync:net/rsync
 
-USES=		python:3.5+
+USES=		python
 USE_GITHUB=	yes
 GH_ACCOUNT=	lilydjwg
 USE_PYTHON=	autoplist distutils

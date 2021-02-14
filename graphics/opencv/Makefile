@@ -27,7 +27,7 @@ LIB_DEPENDS=	\
 		libwebp.so:graphics/webp
 #		libtbb.so:devel/tbb
 
-USES=		cmake compiler:c++14-lang eigen:3 jpeg localbase:ldflags pkgconfig python:3.6+,build
+USES=		cmake compiler:c++14-lang eigen:3 jpeg localbase:ldflags pkgconfig python:build
 USE_GITHUB=	yes
 GH_PROJECT=	opencv_contrib:contrib \
 		ade:ade \
@@ -80,7 +80,7 @@ JAVA_VARS=		JAVA_BUILD=yes
 
 PYTHON_BUILD_DEPENDS=	${PYNUMPY}
 PYTHON_RUN_DEPENDS=	${PYNUMPY}
-PYTHON_USES=		python:3.6+
+PYTHON_USES=		python
 PYTHON_CMAKE_BOOL=	BUILD_opencv_python3
 
 LTO_CMAKE_BOOL=		ENABLE_THIN_LTO

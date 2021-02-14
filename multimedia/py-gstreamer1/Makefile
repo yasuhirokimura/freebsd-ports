@@ -16,7 +16,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 PORTSCOUT=	limitw:1,even
 
-USES=		gnome meson pkgconfig python:3.6+ tar:xz
+USES=		gnome meson pkgconfig python tar:xz
 USE_GNOME=	pygobject3
 USE_PYTHON=	flavors py3kplist
 USE_GSTREAMER1=	yes

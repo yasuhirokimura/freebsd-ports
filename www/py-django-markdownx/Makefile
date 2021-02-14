@@ -16,7 +16,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django22>0:www/py-django22@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}markdown>0:textproc/py-markdown@${PY_FLAVOR} \
 		${PY_PILLOW}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

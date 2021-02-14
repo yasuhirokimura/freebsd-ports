@@ -13,7 +13,7 @@ LICENSE_COMB=	multi
 
 RUN_DEPENDS=	watchman>=4:sysutils/watchman
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 USE_GITHUB=	yes

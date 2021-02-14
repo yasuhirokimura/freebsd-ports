@@ -14,7 +14,7 @@ COMMENT=	Class, function, and metaclass decorators
 LICENSE=	PSFL ZPL21
 LICENSE_COMB=	dual
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

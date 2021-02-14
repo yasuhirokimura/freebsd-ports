@@ -13,7 +13,7 @@ COMMENT=	Firebird RDBMS bindings for Python
 LICENSE=	ISCL
 LICENSE_FILE=	${WRKSRC}/LICENSE.TXT
 
-USES=		firebird python:3.6+
+USES=		firebird python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

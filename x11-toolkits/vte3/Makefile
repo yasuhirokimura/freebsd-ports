@@ -22,7 +22,7 @@ LIB_DEPENDS=	libgnutls.so:security/gnutls \
 PORTSCOUT=	limitw:1,even
 
 USES=		compiler:c++11-lang gettext gnome localbase meson \
-		pkgconfig python:3.6+ tar:xz
+		pkgconfig python tar:xz
 USE_LDCONFIG=	yes
 USE_GNOME=	cairo gdkpixbuf2 gtk30 introspection:build
 

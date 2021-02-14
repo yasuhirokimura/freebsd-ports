@@ -18,7 +18,7 @@ BUILD_DEPENDS=	${PY_DEPENDS} \
 		cmake:devel/cmake
 RUN_DEPENDS=	${PY_DEPENDS}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

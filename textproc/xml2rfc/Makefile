@@ -26,7 +26,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}lxml>=2.2.8:devel/py-lxml@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}yaml>=5.3.1:devel/py-yaml@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}setuptools>=24.2.0:devel/py-setuptools@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils autoplist concurrent optsuffix
 
 .include <bsd.port.mk>

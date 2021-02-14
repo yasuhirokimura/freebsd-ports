@@ -12,7 +12,7 @@ COMMENT=	Munkres implementation for Python
 
 LICENSE=	APACHE20
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

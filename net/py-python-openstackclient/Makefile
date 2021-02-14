@@ -25,7 +25,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}Babel>=2.3.4:devel/py-babel@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}python-novaclient>=15.1.0:net/py-python-novaclient@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}six>=1.10.0:devel/py-six@${PY_FLAVOR}
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

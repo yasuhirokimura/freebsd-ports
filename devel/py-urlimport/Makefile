@@ -13,7 +13,7 @@ COMMENT=	Python script for importing modules/packages over the net
 
 NO_WRKSUBDIR=	yes
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 do-extract:

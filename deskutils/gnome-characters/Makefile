@@ -19,7 +19,7 @@ LIB_DEPENDS=	libgjs.so:lang/gjs \
 		libdbus-1.so:devel/dbus
 
 USES=		gettext gnome iconv:wchar_t localbase:ldflags meson \
-		pkgconfig python:3.6+,build tar:xz
+		pkgconfig python:build tar:xz
 USE_GNOME=	gtk30 introspection
 USE_LDCONFIG=	yes
 INSTALLS_ICONS=	yes

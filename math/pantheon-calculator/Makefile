@@ -16,7 +16,7 @@ BUILD_DEPENDS=	valac:lang/vala
 LIB_DEPENDS=	libgee-0.8.so:devel/libgee \
 		libgranite.so:x11-toolkits/granite
 
-USES=		gettext gnome meson pkgconfig python:3.5+,build
+USES=		gettext gnome meson pkgconfig python:build
 USE_GNOME=	cairo gdkpixbuf2 glib20 gtk30
 
 USE_GITHUB=	yes

@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 LIB_DEPENDS=	libinotify.so:devel/libinotify
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

@@ -12,7 +12,7 @@ COMMENT=	Python package for retrieving WHOIS information of domains
 LICENSE=	WTFPL
 LICENSE_FILE=	${WRKSRC}/license
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

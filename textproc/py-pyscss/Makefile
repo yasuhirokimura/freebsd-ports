@@ -19,7 +19,7 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	Kronuz
 GH_PROJECT=	pyScss
 
-USES=		python:3.6+ localbase:ldflags
+USES=		python localbase:ldflags
 USE_PYTHON=	distutils autoplist
 
 do-test:

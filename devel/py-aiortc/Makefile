@@ -23,7 +23,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aioice>=0.6.17:devel/py-aioice@${PY_FLAVOR} 
 		${PYTHON_PKGNAMEPREFIX}pyee>=6.0.0:devel/py-pyee@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pylibsrtp>=0.5.6:devel/py-pylibsrtp@${PY_FLAVOR}
 
-USES=		localbase python:3.5+
+USES=		localbase python
 USE_PYTHON=	autoplist concurrent distutils
 
 .include <bsd.port.pre.mk>

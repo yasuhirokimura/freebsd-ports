@@ -12,7 +12,7 @@ COMMENT=	Zopfli module for python
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	autoplist concurrent distutils
 
 .include <bsd.port.mk>

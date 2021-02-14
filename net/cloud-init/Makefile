@@ -23,7 +23,7 @@ RUN_DEPENDS=	sudo>0:security/sudo \
 		${PYTHON_PKGNAMEPREFIX}jsonschema>0:devel/py-jsonschema@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}jsonpointer>0:devel/py-jsonpointer@${PY_FLAVOR}
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	canonical
 

@@ -15,6 +15,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 NO_ARCH=	yes
 USE_PYTHON=	autoplist concurrent distutils
-USES=		python:3.6+
+USES=		python
 
 .include <bsd.port.mk>

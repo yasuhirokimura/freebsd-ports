@@ -11,7 +11,7 @@ COMMENT=	Generalization of dispatch mechanism for use across frameworks
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

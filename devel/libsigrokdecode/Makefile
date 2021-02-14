@@ -11,7 +11,7 @@ COMMENT=	Framework for hardware logic analyzers, protocol decoders library
 LICENSE=	GPLv3
 
 GNU_CONFIGURE=	yes
-USES=		gnome libtool pathfix pkgconfig python:3.4+
+USES=		gnome libtool pathfix pkgconfig python
 USE_GNOME=	glib20
 MAKE_JOBS_UNSAFE=	yes
 USE_LDCONFIG=	yes

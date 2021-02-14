@@ -18,7 +18,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cachetools>0:devel/py-cachetools@${PY_FLAVOR
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}nose>0:devel/py-nose@${PY_FLAVOR} \
 		z3>4.8.5.0:math/z3
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 GH_ACCOUNT=	angr
 USE_PYTHON=	autoplist distutils

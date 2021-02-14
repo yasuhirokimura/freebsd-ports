@@ -11,7 +11,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}PyExecJS>=0:devel/py-PyExecJS@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=     distutils autoplist
 
 USE_GITHUB=     yes

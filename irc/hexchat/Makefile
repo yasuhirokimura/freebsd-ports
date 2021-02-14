@@ -20,7 +20,7 @@ LIB_DEPENDS=	libproxy.so:net/libproxy \
 RUN_DEPENDS=	${LOCALBASE}/share/xml/iso-codes/iso_639.xml:misc/iso-codes
 
 USES=		compiler:c++11-lang desktop-file-utils gettext-tools gnome \
-		libtool localbase meson ninja pkgconfig python:3.5+ shebangfix \
+		libtool localbase meson ninja pkgconfig python shebangfix \
 		ssl xorg
 USE_GNOME=	cairo gtk20 intltool libxml2
 USE_XORG=	x11

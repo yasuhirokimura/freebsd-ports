@@ -26,7 +26,7 @@ BUILD_DEPENDS=	binutils>=0:devel/binutils \
 		${PYTHON_PKGNAMEPREFIX}Jinja2>=0:devel/py-Jinja2@${PY_FLAVOR}
 LIB_DEPENDS=	libicudata.so:devel/icu
 
-USES=		cpe gnome ninja pkgconfig python:3.5+,build tar:xz
+USES=		cpe gnome ninja pkgconfig python:build tar:xz
 USE_GNOME=	glib20
 
 BINARY_ALIAS=	python=${PYTHON_CMD}

@@ -11,7 +11,7 @@ COMMENT=	Package providing tools for inheriting docstrings in customizable ways
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

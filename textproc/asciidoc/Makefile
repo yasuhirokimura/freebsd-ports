@@ -14,7 +14,7 @@ LICENSE_COMB=	multi
 BUILD_DEPENDS=	${RUN_DEPENDS}
 RUN_DEPENDS=	docbook-xsl>=0:textproc/docbook-xsl
 
-USES=		gmake gnome python:3.5+ shebangfix
+USES=		gmake gnome python shebangfix
 USE_GNOME=	libxml2 libxslt
 
 GNU_CONFIGURE=	yes

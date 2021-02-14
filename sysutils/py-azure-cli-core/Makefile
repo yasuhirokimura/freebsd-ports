@@ -31,7 +31,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}adal>=1.2.7:net-mgmt/py-adal@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}cryptography>0:security/py-cryptography@${PY_FLAVOR}
 		# cryptography>=3.2<3.4 issue with py-openssl and py-cryptography on FreeBSD 11
 
-USES=		azurepy python:3.6+
+USES=		azurepy python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

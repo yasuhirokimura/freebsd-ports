@@ -13,7 +13,7 @@ LICENSE=	GPLv2
 
 LIB_DEPENDS=	libdjvulibre.so:graphics/djvulibre
 
-USES=		python:3.6+ pkgconfig
+USES=		python pkgconfig
 USE_PYTHON=	distutils cython autoplist
 
 post-install:

@@ -13,6 +13,6 @@ LICENSE=	MIT
 
 NO_ARCH=	yes
 USE_PYTHON=	autoplist distutils
-USES=		python:3.6+
+USES=		python
 
 .include <bsd.port.mk>

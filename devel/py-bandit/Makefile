@@ -21,7 +21,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}gitpython>=1.0.1:devel/py-gitpython@${PY_FLA
 
 MAKE_ENV+=	PBR_VERSION=${PORTVERSION}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pylint-plugin-utils>=0.5:devel/py-pylint-plugin-utils@${PY_FLAVOR} \
 		pylint${PYTHON_PKGNAMESUFFIX}>=2.0:devel/pylint@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

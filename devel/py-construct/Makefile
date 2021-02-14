@@ -13,7 +13,7 @@ COMMENT=	Python module for parsing and building of data structures
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

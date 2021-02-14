@@ -16,7 +16,7 @@ BUILD_DEPENDS=	bash:shells/bash \
 FLAVORS=	x86_64 i386
 
 USES=		gmake \
-		python:3.4+,build
+		python:build
 USE_GCC=	yes:build
 
 x86_64_PKGNAMESUFFIX=	-x86_64

@@ -12,7 +12,7 @@ COMMENT=	Python module for creating Excel XLSX files
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	concurrent distutils autoplist
 
 NO_ARCH=	yes

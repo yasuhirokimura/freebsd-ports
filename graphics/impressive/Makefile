@@ -17,7 +17,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}PyOpenGL>=0:graphics/py-PyOpenGL@${PY_FLAVOR
 		${PYGAME} \
 		${PY_PILLOW}
 
-USES=		python:3.5+ sdl shebangfix
+USES=		python sdl shebangfix
 USE_SDL=	sdl
 
 SHEBANG_FILES=	impressive.py

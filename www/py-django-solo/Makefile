@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django22>=1.6:www/py-django22@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_GITHUB=	yes
 GH_ACCOUNT=	lazybird
 USE_PYTHON=	autoplist distutils

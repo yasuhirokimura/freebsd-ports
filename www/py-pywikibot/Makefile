@@ -13,7 +13,7 @@ LICENSE=	MIT
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}requests>=2.20.1:www/py-requests@${PY_FLAVOR}
 
-USES=		dos2unix python:3.5+
+USES=		dos2unix python
 DOS2UNIX_FILES=	setup.py
 USE_PYTHON=	autoplist distutils
 

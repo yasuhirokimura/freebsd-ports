@@ -58,7 +58,7 @@ PLIST_FILES+=		include/tdb.h \
 USES+=			python:build,test
 CONFIGURE_ARGS+=	--disable-python
 .else
-USES+=			python:3.4+
+USES+=			python
 
 PLIST_FILES+=		${PYTHON_SITELIBDIR}/tdb${PYTHON_EXT_SUFFIX}.so \
 			${PYTHON_SITELIBDIR}/_tdb_text.py

@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 BUILD_DEPENDS=	itstool:textproc/itstool
 RUN_DEPENDS=	gsettings-desktop-schemas>=0:devel/gsettings-desktop-schemas
 
-USES=		desktop-file-utils gettext gnome python:3.4+ shared-mime-info \
+USES=		desktop-file-utils gettext gnome python shared-mime-info \
 		shebangfix tar:xz
 USE_PYTHON=	distutils noflavors
 USE_GNOME=	gtksourceview3 intltool libxml2:build pygobject3

@@ -9,7 +9,7 @@ COMMENT=	Parse and edit your FreeBSD jail.conf file
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}ply>=3.9:devel/py-ply@${PY_FLAVOR}
 
-USES=		python:3.0+
+USES=		python
 USE_GITHUB=	yes # tests nnot packaged in PyPI sdist
 USE_PYTHON=	autoplist distutils
 

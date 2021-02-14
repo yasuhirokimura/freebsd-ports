@@ -13,7 +13,7 @@ COMMENT=	Discovery-based unittest extension
 LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/lgpl.txt
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 do-test:

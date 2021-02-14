@@ -18,7 +18,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}xdg>=0:devel/py-xdg@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pdfminer.six>=0:textproc/py-pdfminer.six@${PY_FLAVOR} \
 		xdg-open:devel/xdg-utils
 
-USES=		desktop-file-utils gettext gnome meson pkgconfig python:3.5+ \
+USES=		desktop-file-utils gettext gnome meson pkgconfig python \
 		shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	cvfosammmm

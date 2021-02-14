@@ -14,7 +14,7 @@ RUN_DEPENDS=	${PYNUMPY} \
 		${PYTHON_PKGNAMEPREFIX}pint>=0.10.0:devel/py-pint@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pydantic>=1.5.0:devel/py-pydantic@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 NO_ARCH=	yes

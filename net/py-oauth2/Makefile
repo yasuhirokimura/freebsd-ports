@@ -21,7 +21,7 @@ TESTS_DESC=		Install test suite requirements
 TESTS_BUILD_DEPENDS=	${TEST_DEPENDS}
 
 NO_ARCH=	yes
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 do-test:

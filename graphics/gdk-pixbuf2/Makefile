@@ -16,7 +16,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 BUILD_DEPENDS=	docbook-xsl>0:textproc/docbook-xsl
 
 USES=		cpe gettext gnome localbase:ldflags meson pkgconfig \
-		python:3.4+,build shared-mime-info tar:xz
+		python:build shared-mime-info tar:xz
 CPE_VENDOR=	gnome
 USE_GNOME=	glib20 introspection:build libxslt:build
 USE_LDCONFIG=	yes

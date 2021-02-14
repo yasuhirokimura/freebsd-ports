@@ -11,7 +11,7 @@ COMMENT=	Pure python package for reading/writing dbf files
 
 LICENSE=	BSD3CLAUSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

@@ -11,7 +11,7 @@ DISTNAME=	python-${PORTNAME}-${PORTVERSION}
 MAINTAINER=	eugen@FreeBSD.org
 COMMENT=	Basic building blocks for python applications
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

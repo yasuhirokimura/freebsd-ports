@@ -17,7 +17,7 @@ BUILD_DEPENDS=	llvm-config${LLVM_DEFAULT}:devel/llvm${LLVM_DEFAULT} \
 RUN_DEPENDS=	llvm-config${LLVM_DEFAULT}:devel/llvm${LLVM_DEFAULT} \
 		${PYTHON_PKGNAMEPREFIX}tabulate>0:devel/py-tabulate@${PY_FLAVOR}
 
-USES=		cmake compiler:c++14-lang localbase pkgconfig python:3.5+,run \
+USES=		cmake compiler:c++14-lang localbase pkgconfig python:run \
 		shebangfix sqlite
 USE_GITHUB=	yes
 SHEBANG_FILES=	tools/klee-stats/klee-stats tools/ktest-tool/ktest-tool tools/klee-zesti/klee-zesti

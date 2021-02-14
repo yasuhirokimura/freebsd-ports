@@ -17,7 +17,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}httmock>0:www/py-httmock@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytest>0:devel/py-pytest@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}responses>0:devel/py-responses@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

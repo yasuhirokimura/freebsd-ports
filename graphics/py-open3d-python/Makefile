@@ -14,7 +14,7 @@ LICENSE_FILE=	${WRKSRC}/../LICENSE
 LIB_DEPENDS=	libOpen3D.so:graphics/open3d
 
 USES=		cmake compiler:c++11-lang eigen:3 fortran localbase:ldflags \
-		pkgconfig python:3.6+
+		pkgconfig python
 USE_GITHUB=	yes
 GH_ACCOUNT=	IntelVCL
 GH_PROJECT=	Open3D

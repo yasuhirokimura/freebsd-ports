@@ -17,7 +17,7 @@ LIB_DEPENDS=	libsoup-2.4.so:devel/libsoup \
 		libtotem-plparser.so:multimedia/totem-pl-parser
 
 USES=		gettext gnome localbase meson pathfix pkgconfig \
-		python:3.4+,build tar:xz
+		python:build tar:xz
 USE_LDCONFIG=	yes
 USE_GNOME=	glib20 introspection:build libxml2
 BINARY_ALIAS=	python=${PYTHON_VERSION}

@@ -21,7 +21,7 @@ LIB_DEPENDS=	libgmp.so:math/gmp \
 RUN_DEPENDS=	bitcoin-cli:net-p2p/bitcoin-utils
 
 USES=		autoreconf:build compiler:c11 gettext gmake libtool \
-		python:3.5+,build
+		python:build
 BINARY_ALIAS=	python=${PYTHON_CMD} python3=${PYTHON_CMD}
 ALL_TARGET=	default
 

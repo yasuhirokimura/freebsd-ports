@@ -11,7 +11,7 @@ RUN_DEPENDS=	${PYNUMPY}
 TEST_DEPENDS=	sox:audio/sox \
 		${PYTHON_PKGNAMEPREFIX}pytest>=2.9:devel/py-pytest@${PY_FLAVOR}
 
-USES+=		python:3.6+
+USES+=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 TEST_TARGET=	${WRKSRC}/python

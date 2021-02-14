@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CONFLICTS_INSTALL=	py*-sendfile-[0-9]*
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 post-install:

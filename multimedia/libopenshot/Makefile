@@ -18,7 +18,7 @@ LIB_DEPENDS=	libopenshot-audio.so:audio/libopenshot-audio \
 		libavformat.so:multimedia/ffmpeg \
 		libzmq.so:net/libzmq4
 
-USES=		cmake compiler:c++11-lang pkgconfig python:3.5+ qt:5
+USES=		cmake compiler:c++11-lang pkgconfig python qt:5
 USE_LDCONFIG=	yes
 USE_GITHUB=	yes
 GH_ACCOUNT=	OpenShot

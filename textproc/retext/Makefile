@@ -15,7 +15,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}markdown>=2.0.3:textproc/py-markdown@${PY_FL
 		${PYTHON_PKGNAMEPREFIX}pygments>=0:textproc/py-pygments@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}docutils>=0:textproc/py-docutils@${PY_FLAVOR}
 
-USES=		python:3.2+ desktop-file-utils pyqt:5 qt:5
+USES=		python desktop-file-utils pyqt:5 qt:5
 USE_GITHUB=	yes
 GH_ACCOUNT=	retext-project
 GH_PROJECT=	retext

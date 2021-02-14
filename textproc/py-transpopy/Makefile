@@ -11,7 +11,7 @@ LICENSE=	BSD2CLAUSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}google-cloud-translate>=0:www/py-google-cloud-translate@${PY_FLAVOR}
 
-USES=		python:3.4+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

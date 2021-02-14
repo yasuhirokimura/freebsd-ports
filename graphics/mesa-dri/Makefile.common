@@ -49,7 +49,7 @@ LIB_DEPENDS+=	libelf.so:devel/libelf
 .endif
 
 USES+=		compiler:c++11-lib bison meson pathfix pkgconfig \
-		python:3.6+,build shebangfix tar:xz
+		python:build shebangfix tar:xz
 
 USE_LDCONFIG=	yes
 

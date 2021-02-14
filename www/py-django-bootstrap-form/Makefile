@@ -12,7 +12,7 @@ COMMENT=	Bootstrap forms for django
 
 LICENSE=	MIT
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django22>=1.5:www/py-django22@${PY_FLAVOR}

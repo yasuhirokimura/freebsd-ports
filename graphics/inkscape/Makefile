@@ -46,7 +46,7 @@ RUN_DEPENDS=	${PYNUMPY} \
 		fig2dev:print/fig2dev
 
 USES=		compiler:c++11-lib cmake cpe desktop-file-utils gnome \
-		iconv:wchar_t jpeg pathfix pkgconfig python:3.6+ \
+		iconv:wchar_t jpeg pathfix pkgconfig python \
 		shebangfix tar:xz xorg
 USE_GNOME=	gtkmm30 libxml2 libxslt
 USE_XORG=	sm ice x11 xext

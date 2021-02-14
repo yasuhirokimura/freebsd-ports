@@ -32,7 +32,7 @@ LIB_DEPENDS=	libgio-2.0.so:devel/glib20 \
 
 # USES compiler: also see option OPENMP below
 USES=		compiler:c++11-lib desktop-file-utils gettext gnome meson \
-		ninja pkgconfig python:3.4+,build shebangfix sqlite tar:xz xorg
+		ninja pkgconfig python:build shebangfix sqlite tar:xz xorg
 USE_GNOME=	cairo dconf gtk30
 USE_GSTREAMER1=	yes
 USE_LDCONFIG=	yes

@@ -12,7 +12,7 @@ COMMENT=	Python wrapper generator for ctypes
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

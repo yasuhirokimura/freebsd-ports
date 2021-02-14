@@ -11,7 +11,7 @@ COMMENT=	Visualizer for neural network, deep learning, machine learning models
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 GH_ACCOUNT=	lutzroeder
 USE_PYTHON=	distutils noflavors

@@ -15,7 +15,7 @@ LICENSE_PERMS_GPLR=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 
 LIB_DEPENDS=	libfixbuf.so:net/libfixbuf
 
-USES=		pkgconfig python:3.6+
+USES=		pkgconfig python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

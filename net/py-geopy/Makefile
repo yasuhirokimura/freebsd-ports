@@ -18,7 +18,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}async_generator>=0:devel/py-async_generator
 		${PYTHON_PKGNAMEPREFIX}pytest>=3.10:devel/py-pytest@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytest-aiohttp>=0:devel/py-pytest-aiohttp@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

@@ -21,7 +21,7 @@ RUN_DEPENDS=	${MY_DEPENDS} \
 		${PYTHON_PKGNAMEPREFIX}cached-property>=0:devel/py-cached-property@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}six>0:devel/py-six@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist distutils
 MAKE_ENV=	LIBGIT2=${LOCALBASE}
 PYDISTUTILS_TEST_TARGET?=	test

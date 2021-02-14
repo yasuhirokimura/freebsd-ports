@@ -18,7 +18,7 @@ GH_ACCOUNT=	oasis-open
 GH_PROJECT=	cti-pattern-validator
 
 NO_ARCH=	yes
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

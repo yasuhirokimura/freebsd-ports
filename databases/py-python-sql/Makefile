@@ -9,7 +9,7 @@ COMMENT=	Library to write SQL queries
 
 LICENSE=	BSD3CLAUSE
 
-USES=		pkgconfig python:3.6+
+USES=		pkgconfig python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

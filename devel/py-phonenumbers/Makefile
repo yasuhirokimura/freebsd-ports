@@ -11,7 +11,7 @@ COMMENT=	Library for parsing, formatting, and validating intl phone numbers
 
 LICENSE=	APACHE20
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

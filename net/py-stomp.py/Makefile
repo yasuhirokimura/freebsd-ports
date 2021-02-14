@@ -17,7 +17,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>=2.8.1:devel/py-pytest@${PY_FLAVOR}
 OPTIONS_DEFINE=	DOXYGEN
 DOXYGEN_BUILD_DEPENDS=	doxygen:devel/doxygen
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

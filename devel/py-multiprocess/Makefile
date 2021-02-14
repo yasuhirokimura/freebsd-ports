@@ -10,7 +10,7 @@ COMMENT=	Better multiprocessing and multithreading in python
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

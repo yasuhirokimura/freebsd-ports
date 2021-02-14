@@ -19,7 +19,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>0:devel/py-six@${PY_FLAVOR} \
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}nose>=1.3.4,<2:devel/py-nose@${PY_FLAVOR} \
 		task:deskutils/taskwarrior
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

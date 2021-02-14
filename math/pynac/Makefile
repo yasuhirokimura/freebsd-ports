@@ -18,7 +18,7 @@ LIB_DEPENDS=	libgmp.so:math/gmp		\
 		libSingular.so:math/singular
 
 USES=		autoreconf compiler:c++11-lang libtool localbase pkgconfig	\
-		python:3.6+
+		python
 
 OPTIONS_DEFINE=		GIAC
 OPTIONS_DEFAULT=

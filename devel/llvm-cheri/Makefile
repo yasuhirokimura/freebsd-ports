@@ -187,7 +187,7 @@ USES+=		gnome
 
 .if ${PORT_OPTIONS:MLIT}
 MAN1SRCS+=	lit.1 FileCheck.1
-_USES_PYTHON=	python:3.6+
+_USES_PYTHON=	python
 LIT_COMMANDS=	lit llvm-lit FileCheck
 .endif
 
@@ -204,14 +204,14 @@ COMMANDS+=	argdumper \
 		lldb \
 		lldb-mi \
 		lldb-server
-_USES_PYTHON=	python:3.6+
+_USES_PYTHON=	python
 .endif
 
 .if defined(LLVM_ENABLE_PROJECTS)
 CMAKE_ARGS+=	-DLLVM_ENABLE_PROJECTS="${LLVM_ENABLE_PROJECTS:ts;}"
 .endif
 
-_USES_PYTHON?=	python:3.6+,build
+_USES_PYTHON?=	python:build
 USES+=		${_USES_PYTHON}
 
 MAN1SRCS+=	bugpoint.1 \

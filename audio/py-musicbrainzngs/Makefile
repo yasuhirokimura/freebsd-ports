@@ -13,7 +13,7 @@ LICENSE=	BSD2CLAUSE ISCL
 LICENSE_COMB=	multi
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 NO_ARCH=	yes

@@ -10,7 +10,7 @@ COMMENT=		Python library to retrieve information on uhid devices
 LICENSE=		BSD2CLAUSE
 LICENSE_FILE=		${WRKSRC}/LICENSE
 
-USES=			compiler:c++11-lang python:3.6+
+USES=			compiler:c++11-lang python
 USE_PYTHON=		autoplist distutils
 
 .include <bsd.port.mk>

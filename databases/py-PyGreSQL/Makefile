@@ -13,7 +13,7 @@ COMMENT=	Python interface to PostgreSQL, both classic and DP-API 2.0
 
 LICENSE=	PSFL
 
-USES=		pgsql python:3.6+
+USES=		pgsql python
 USE_PYTHON=	autoplist distutils
 
 PORTDOCS=	*

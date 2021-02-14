@@ -28,7 +28,7 @@ RUN_DEPENDS=	${PY_PILLOW} \
 		ImageMagick6>=6.9.0.4,1:graphics/ImageMagick6 \
 		yelp>=3.14.1:x11/yelp
 
-USES=		desktop-file-utils gettext-tools gnome python:3.5+ shebangfix
+USES=		desktop-file-utils gettext-tools gnome python shebangfix
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	varietywalls

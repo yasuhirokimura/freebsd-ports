@@ -9,7 +9,7 @@ COMMENT=	Source code spelling checker
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils noflavors
 
 NO_ARCH=	yes

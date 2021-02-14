@@ -16,7 +16,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}mock>0:devel/py-mock@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pbr>=4.2.0:devel/py-pbr@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils autoplist concurrent
 
 NO_ARCH=	yes

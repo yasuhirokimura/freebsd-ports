@@ -9,7 +9,7 @@ COMMENT=	Utilities for processing high-throughput sequencing experiments
 
 LICENSE=	GPLv3
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils cython autoplist
 
 post-install:

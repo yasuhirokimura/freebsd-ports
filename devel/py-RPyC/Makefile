@@ -10,7 +10,7 @@ COMMENT=	Remote Python Call
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	tomerfiliba-org

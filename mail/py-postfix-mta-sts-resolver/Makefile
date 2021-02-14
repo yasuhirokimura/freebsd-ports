@@ -15,7 +15,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aiodns>=1.1.1:dns/py-aiodns@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}yaml>=3.12:devel/py-yaml@${PY_FLAVOR} \
 		${LOCALBASE}/share/certs/ca-root-nss.crt:security/ca_root_nss
 
-USES=		python:3.5+
+USES=		python
 USE_GITHUB=	yes
 USE_PYTHON=	autoplist distutils
 

@@ -13,7 +13,7 @@ LICENSE=	BSD3CLAUSE
 
 LIB_DEPENDS=	libgeos_c.so:graphics/geos
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

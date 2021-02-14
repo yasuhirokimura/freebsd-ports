@@ -12,7 +12,7 @@ COMMENT=	Reference implementation of PEP 3156 (Asynchronous IO)
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.3+
+USES=		python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

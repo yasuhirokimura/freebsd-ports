@@ -232,7 +232,7 @@ CLIPBOARD_DESC=		Enable terminal X11 clipboard support
 
 CLIENT_SERVER_VARS=	CARGO_FEATURES+=client-server
 
-CLIPBOARD_USES=		python:3.6+,build xorg
+CLIPBOARD_USES=		python:build xorg
 CLIPBOARD_USE=		XORG=xcb
 CLIPBOARD_BINARY_ALIAS=	python3=${PYTHON_CMD}
 CLIPBOARD_VARS=		CARGO_FEATURES+=clipboard

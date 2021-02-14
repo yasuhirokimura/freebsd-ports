@@ -15,7 +15,7 @@ LIB_DEPENDS=	libboost_thread.so:devel/boost-libs \
 
 USE_GITHUB=	yes
 
-USES=		cmake compiler:c++14-lang python:3.5+
+USES=		cmake compiler:c++14-lang python
 CMAKE_ARGS=	-Wno-dev
 
 LDFLAGS_i386=	-Wl,-znotext

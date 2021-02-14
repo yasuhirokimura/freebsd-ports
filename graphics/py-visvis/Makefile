@@ -19,7 +19,7 @@ RUN_DEPENDS=	${PYNUMPY} \
 		${PYTHON_PKGNAMEPREFIX}PyOpenGL>=0:graphics/py-PyOpenGL@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pyside2>=0:devel/pyside2@${PY_FLAVOR}
 
-USES=		gl python:3.5+ pyqt:5
+USES=		gl python pyqt:5
 USE_GL=		gl
 USE_PYQT=	core gui
 USE_PYTHON=	autoplist distutils

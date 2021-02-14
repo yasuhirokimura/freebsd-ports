@@ -12,7 +12,7 @@ COMMENT=	ISO country, subdivision, language, currency and script definitions and
 LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

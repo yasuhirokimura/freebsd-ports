@@ -17,7 +17,7 @@ BUILD_DEPENDS=	abc:cad/abc \
 		gawk:lang/gawk
 LIB_DEPENDS=	libffi.so:devel/libffi
 
-USES=		bison compiler:c++11-lang gmake pkgconfig python:3.6+ readline \
+USES=		bison compiler:c++11-lang gmake pkgconfig python readline \
 		shebangfix tcl
 
 SHEBANG_FILES=	backends/smt2/smtbmc.py \

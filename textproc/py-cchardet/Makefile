@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 BUILD_DEPENDS=	cmake:devel/cmake
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 .include <bsd.port.mk>

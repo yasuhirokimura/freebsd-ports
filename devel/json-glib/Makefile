@@ -12,7 +12,7 @@ COMMENT=	JSON (RFC 4627) interface for Glib
 LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		gettext gnome localbase meson python:3.5+ pkgconfig tar:xz
+USES=		gettext gnome localbase meson python pkgconfig tar:xz
 USE_GNOME=	glib20
 USE_LDCONFIG=	yes
 

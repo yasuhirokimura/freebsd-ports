@@ -19,7 +19,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}yaml>=3.10:devel/py-yaml@${PY_FLAVOR} \
 TEST_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}prance>=0.11:devel/py-prance@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}openapi-spec-validator>0:devel/py-openapi-spec-validator@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 TEST_ENV=	PYTHONPATH=${WRKSRC}/src

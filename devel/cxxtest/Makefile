@@ -10,7 +10,7 @@ COMMENT=	Simple and powerful JUnit/CppUnit/xUnit-like framework for C++
 
 LICENSE=	LGPL3+
 
-USES=		gmake python:3.6+,run
+USES=		gmake python:run
 
 USE_PYTHON=	autoplist distutils noflavors
 NO_ARCH=	yes

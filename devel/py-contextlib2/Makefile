@@ -11,7 +11,7 @@ COMMENT=	Backports and enhancements for the contextlib module
 
 LICENSE=	BSD2CLAUSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

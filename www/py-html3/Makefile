@@ -11,7 +11,7 @@ COMMENT=	Simple, elegant HTML, XHTML and XML generation
 
 LICENSE=	BSD3CLAUSE
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

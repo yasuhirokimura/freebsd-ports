@@ -12,7 +12,7 @@ DISTNAME=	python-${PORTNAME}-${PORTVERSION}
 MAINTAINER=	nivit@FreeBSD.org
 COMMENT=	Python MPD client library
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

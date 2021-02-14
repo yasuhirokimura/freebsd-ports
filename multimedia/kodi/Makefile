@@ -43,7 +43,7 @@ LIB_DEPENDS=	libass.so:multimedia/libass \
 		libuuid.so:misc/e2fsprogs-libuuid
 
 USES=		cmake compiler:c++14-lang gettext \
-		gnome iconv jpeg pkgconfig python:3.5+ sqlite ssl
+		gnome iconv jpeg pkgconfig python sqlite ssl
 
 KODI_CODENAME=	Matrix
 

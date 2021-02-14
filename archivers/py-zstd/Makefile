@@ -11,7 +11,7 @@ LICENSE=	BSD2CLAUSE
 
 LIB_DEPENDS=	libzstd.so:archivers/zstd
 
-USES=		python:3.6+ localbase
+USES=		python localbase
 USE_PYTHON=	distutils autoplist
 PYDISTUTILS_BUILDARGS=	--external
 

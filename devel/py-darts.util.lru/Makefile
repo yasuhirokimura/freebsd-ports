@@ -10,7 +10,7 @@ COMMENT=	Simple dictionary with LRU behaviour in Python
 LICENSE=	MIT
 
 NO_ARCH=	yes
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

@@ -7,7 +7,7 @@ COMMENT=	Calculates properties of fiber reinforced composites
 
 LICENSE=	BSD2CLAUSE
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 SHEBANG_FILES=	setup.py
 USE_GITHUB=	yes
 GH_ACCOUNT=	rsmith-nl

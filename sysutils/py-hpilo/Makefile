@@ -10,7 +10,7 @@ COMMENT=	Python cli to interact with HP iLO management interface
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=	python:3.6+
+USES=	python
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	seveas

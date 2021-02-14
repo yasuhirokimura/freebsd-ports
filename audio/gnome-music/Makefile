@@ -21,7 +21,7 @@ LIB_DEPENDS=	libgrilo-0.3.so:net/grilo \
 PORTSCOUT=	limitw:1,even
 
 USES=		desktop-file-utils gettext gnome localbase meson pkgconfig \
-		python:3.4+ shebangfix tar:xz
+		python shebangfix tar:xz
 USE_LDCONFIG=	yes
 USE_GNOME=	cairo gtk30 introspection pygobject3
 USE_GSTREAMER1=	ogg mpg123

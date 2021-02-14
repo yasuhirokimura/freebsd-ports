@@ -11,7 +11,7 @@ COMMENT=	Google Search, Google Site Search, Google News from the terminal
 LICENSE=	GPLv3+
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.5+ shebangfix
+USES=		python shebangfix
 USE_GITHUB=	yes
 
 GH_ACCOUNT=	jarun

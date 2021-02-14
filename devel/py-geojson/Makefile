@@ -17,7 +17,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}simplejson>1.9:devel/py-simplejson@${PY_FLAV
 
 PORTDOCS=	LICENSE.rst CHANGELOG.rst README.rst
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 OPTIONS_DEFINE=	DOCS

@@ -9,7 +9,7 @@ COMMENT=	X Keyboard Configuration Database
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		gmake gnome localbase pathfix perl5 python:3.5+,build \
+USES=		gmake gnome localbase pathfix perl5 python:build \
 		shebangfix xorg-cat:data
 
 NO_ARCH=	yes

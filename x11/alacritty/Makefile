@@ -14,7 +14,7 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2
 TEST_DEPENDS=	dejavu>0:x11-fonts/dejavu
 
-USES=		cargo localbase:ldflags python:3.6+,build ssl:build
+USES=		cargo localbase:ldflags python:build ssl:build
 USE_GITHUB=	yes
 
 CARGO_CRATES=	ab_glyph_rasterizer-0.1.4 \

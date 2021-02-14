@@ -16,7 +16,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}virtualenv>=0:devel/py-virtualenv@${PY_FLAV
 		bash>0:shells/bash \
 		git>0:devel/git
 
-USES=		python:3.6+
+USES=		python
 USE_ANT=	yes
 USE_JAVA=	yes
 JAVA_VERSION=	1.8

@@ -15,7 +15,7 @@ RUN_DEPENDS=	${PYNUMPY} \
 		${PYTHON_PKGNAMEPREFIX}scipy>0:science/py-scipy@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}scikit-learn>=0.20:science/py-scikit-learn@${PY_FLAVOR}
 
-USES=		compiler:c++14-lang localbase:ldflags python:3.6+
+USES=		compiler:c++14-lang localbase:ldflags python
 USE_PYTHON=	distutils autoplist
 
 post-install:

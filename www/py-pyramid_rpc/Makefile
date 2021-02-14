@@ -12,7 +12,7 @@ COMMENT=	RPC support for the Pyramid web framework
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pyramid>=0:www/py-pyramid@${PY_FLAVOR}
 RUN_DEPENDS:=	${BUILD_DEPENDS}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

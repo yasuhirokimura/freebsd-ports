@@ -14,7 +14,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 LIB_DEPENDS=	liblzo2.so:archivers/lzo2
 
-USES=		localbase python:3.6+
+USES=		localbase python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

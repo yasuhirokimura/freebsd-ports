@@ -10,7 +10,7 @@ LIB_DEPENDS=	libminiupnpc.so:${PKGCATEGORY}/miniupnpc
 
 MASTERDIR=	${.CURDIR}/../miniupnpc
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 MAKE_ENV=	MAKE=gmake
 PLIST=

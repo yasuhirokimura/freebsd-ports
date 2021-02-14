@@ -14,7 +14,7 @@ LICENSE=	BSD3CLAUSE
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}dnspython>=0:dns/py-dnspython@${PY_FLAVOR} \
 		curl:ftp/curl
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 GH_ACCOUNT=	ehaupt
 USE_PYTHON=	autoplist concurrent distutils

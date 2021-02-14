@@ -21,7 +21,7 @@ RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}sqlite3>0:databases/py-sqlite3@${PY_FLAVOR}
 
 CONFLICTS_INSTALL=	${FLAVORS:N${FLAVOR}:C/^/${PORTNAME}${PKGNAMESUFFIX}-/:C/$/-[0-9]*/}
 
-USES+=		desktop-file-utils python:3.5+ pyqt:5 shebangfix
+USES+=		desktop-file-utils python pyqt:5 shebangfix
 USE_PYTHON=	flavors
 USE_PYQT=	chart core gui qscintilla2 webengine \
 		help_run network_run svg_run sql_run

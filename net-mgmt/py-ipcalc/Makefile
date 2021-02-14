@@ -9,7 +9,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	ehaupt@FreeBSD.org
 COMMENT=	Module to perform IP subnet calculations
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 NO_ARCH=	yes
 

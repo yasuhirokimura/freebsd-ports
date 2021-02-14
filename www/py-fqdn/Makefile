@@ -9,7 +9,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	whitejv81@gmail.com
 COMMENT=	RFC-compliant FQDN validation and manipulation for Python
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

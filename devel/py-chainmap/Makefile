@@ -11,7 +11,7 @@ COMMENT=	Backport/clone of chainmap for py26, py32, and pypy3
 
 LICENSE=	PSFL
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

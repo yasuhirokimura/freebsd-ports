@@ -23,7 +23,7 @@ LIB_DEPENDS=	libclutter-1.0.so:graphics/clutter \
 PORTSCOUT=	limitw:1,even
 
 USES=		gettext gnome localbase meson \
-		pkgconfig python:3.6+,build tar:xz
+		pkgconfig python:build tar:xz
 USE_GNOME=	gtk30
 INSTALLS_ICONS=	yes
 BINARY_ALIAS=	python3=${PYTHON_VERSION}

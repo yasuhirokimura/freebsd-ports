@@ -16,7 +16,7 @@ EXPIRATION_DATE=2021-06-23
 LIB_DEPENDS=	libcapstone.so:devel/capstone4 \
 		libr_bin.so:devel/radare2
 
-USES=		cmake gl pkgconfig python:3.4+ qmake:outsource qt:5
+USES=		cmake gl pkgconfig python qmake:outsource qt:5
 LDFLAGS+=	-lexecinfo
 
 USE_GITHUB=	yes

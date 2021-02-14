@@ -17,7 +17,7 @@ BUILD_DEPENDS=	${PYNUMPY} \
 		${PYTHON_PKGNAMEPREFIX}astropy-helpers>=0:astro/py-astropy-helpers@${PY_FLAVOR}
 RUN_DEPENDS=	${PYNUMPY}
 
-USES=		compiler:c11 python:3.5+
+USES=		compiler:c11 python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

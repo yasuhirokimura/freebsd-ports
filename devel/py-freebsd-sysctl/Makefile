@@ -9,7 +9,7 @@ COMMENT=		Native Python wrapper for FreeBSD sysctls using libc
 LICENSE=		BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USES=			python:3.6+
+USES=			python
 
 USE_GITHUB=		yes
 GH_ACCOUNT=		gronke

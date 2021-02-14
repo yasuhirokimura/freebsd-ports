@@ -17,7 +17,7 @@ LIB_DEPENDS=	libgjs.so:lang/gjs \
 
 PORTSCOUT=	limitw:1,even
 
-USES=		gettext gnome meson localbase pkgconfig python:3.4+ tar:xz
+USES=		gettext gnome meson localbase pkgconfig python tar:xz
 USE_GNOME=	gtk30 intlhack introspection
 USE_GSTREAMER1=	flac ogg pulse bad
 USE_LDCONFIG=	yes

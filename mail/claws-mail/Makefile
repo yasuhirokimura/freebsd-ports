@@ -21,7 +21,7 @@ RUN_DEPENDS=	mime-support>0:misc/mime-support \
 		${LOCALBASE}/share/certs/ca-root-nss.crt:security/ca_root_nss
 
 USES=		autoreconf compiler:c++11-lang cpe desktop-file-utils gettext \
-		gettext-tools gnome pathfix pkgconfig python:3.5+ shebangfix ssl xorg
+		gettext-tools gnome pathfix pkgconfig python shebangfix ssl xorg
 USE_XORG=	ice sm
 USE_GNOME=	cairo gtk20 librsvg2
 SHEBANG_FILES=	tools/*.pl tools/*.py tools/tb2claws-mail

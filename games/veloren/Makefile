@@ -20,7 +20,7 @@ BUILD_DEPENDS=	glslang>0:graphics/glslang \
 LIB_DEPENDS=	libasound.so:audio/alsa-lib
 RUN_DEPENDS=	${LOCALBASE}/lib/alsa-lib/libasound_module_pcm_oss.so:audio/alsa-plugins
 
-USES=		cargo python:3.4+,build xorg
+USES=		cargo python:build xorg
 USE_XORG=	xcb
 USE_GITHUB=	nodefault
 GH_TUPLE=	gfx-rs:gfx:27a1dae3796d33d23812f2bb8c7e3b5aea18b521:gfxauxil \

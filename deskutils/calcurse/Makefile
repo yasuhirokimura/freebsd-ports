@@ -28,8 +28,8 @@ NLS_CONFIGURE_ENABLE=	nls
 NLS_USES=	gettext
 
 CALDAV_DESC=		Support Calendaring Extensions to WebDAV
-CALDAV_USES=		python:3.4+
-CALDAV_USES_OFF=	python:3.4+,env
+CALDAV_USES=		python
+CALDAV_USES_OFF=	python:env
 CALDAV_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}httplib2>=0:www/py-httplib2@${PY_FLAVOR} \
 			${PYTHON_PKGNAMEPREFIX}oauth2client>=0:security/py-oauth2client@${PY_FLAVOR}
 

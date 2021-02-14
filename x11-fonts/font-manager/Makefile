@@ -21,7 +21,7 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libwebkit2gtk-4.0.so:www/webkit2-gtk3
 
 USES=		compiler:c++11-lang desktop-file-utils gettext-tools gnome \
-		meson pkgconfig python:3.6+ shebangfix sqlite
+		meson pkgconfig python shebangfix sqlite
 USE_GITHUB=	yes
 GH_ACCOUNT=	FontManager
 USE_GNOME=	cairo glib20 gtk30 libxml2 pango

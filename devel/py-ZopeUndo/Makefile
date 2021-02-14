@@ -11,7 +11,7 @@ COMMENT=	ZODB undo support for Zope2
 
 LICENSE=	ZPL21
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

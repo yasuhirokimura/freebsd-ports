@@ -17,7 +17,7 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libxcb-keysyms.so:x11/xcb-util-keysyms \
 		libxkbcommon.so:x11/libxkbcommon
 
-USES=		cargo gnome python:3.4+,build xorg
+USES=		cargo gnome python:build xorg
 USE_GITHUB=	yes
 USE_GNOME=	cairo
 USE_XORG=	x11 xcb

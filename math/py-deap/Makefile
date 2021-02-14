@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 BUILD_DEPENDS=	${PYNUMPY}
 RUN_DEPENDS=	${PYNUMPY}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

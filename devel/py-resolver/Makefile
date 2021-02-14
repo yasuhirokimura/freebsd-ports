@@ -13,7 +13,7 @@ COMMENT=	Resolve specially formatted statements to Python objects
 LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

@@ -25,7 +25,7 @@ DATADIR_NAME=	wireshark
 DATADIR=	${PREFIX}/share/${DATADIR_NAME}
 
 USES=		alias cmake compiler:c++11-lang cpe gettext-runtime gnome \
-		libtool localbase pathfix perl5 pkgconfig python:3.4+ ssl \
+		libtool localbase pathfix perl5 pkgconfig python ssl \
 		tar:xz
 USE_PERL5=	build
 USE_GNOME=	glib20 libxml2

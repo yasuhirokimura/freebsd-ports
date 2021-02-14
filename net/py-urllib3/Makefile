@@ -24,7 +24,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}flaky>=3.6.1:devel/py-flaky@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}cryptography>=1.3.4:security/py-cryptography@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pysocks>=1.5.6:net/py-pysocks@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

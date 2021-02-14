@@ -11,7 +11,7 @@ COMMENT=	Python FastCGI interface library
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

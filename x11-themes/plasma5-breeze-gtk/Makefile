@@ -12,7 +12,7 @@ BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cairo>0:graphics/py-cairo@${PY_FLAVOR} \
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cairo>0:graphics/py-cairo@${PY_FLAVOR}
 
 USES=		cmake compiler:c++11-lang cpe gnome kde:5 pkgconfig \
-		python:3.4+ qt:5 tar:xz
+		python qt:5 tar:xz
 USE_GNOME=	gdkpixbuf2
 USE_KDE=	breeze ecm
 USE_QT=		core buildtools_build qmake_build

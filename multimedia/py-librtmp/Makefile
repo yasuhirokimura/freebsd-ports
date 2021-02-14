@@ -20,7 +20,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cffi>=0:devel/py-cffi@${PY_FLAVOR}
 CFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 post-install:

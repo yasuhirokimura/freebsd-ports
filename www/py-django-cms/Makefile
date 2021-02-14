@@ -19,7 +19,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django22>=1.11<3.0:www/py-django22@${PY_FLAV
 		${PYTHON_PKGNAMEPREFIX}django-sekizai>=0.7:www/py-django-sekizai@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}django-treebeard>=4.3:www/py-django-treebeard@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 NO_ARCH=	yes

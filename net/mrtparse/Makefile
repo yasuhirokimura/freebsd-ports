@@ -10,7 +10,7 @@ COMMENT=	MRT format data parser
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 
 GH_ACCOUNT=	t2mune
 GH_PROJECT=	${PORTNAME}

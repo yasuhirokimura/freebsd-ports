@@ -9,7 +9,7 @@ COMMENT=	File metadata and streaming library
 LICENSE=	LGPL3
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		cmake python:3.4+
+USES=		cmake python
 STRIP=
 
 USE_GITHUB=	yes

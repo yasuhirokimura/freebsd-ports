@@ -9,7 +9,7 @@ MASTER_SITES=	SF/${PORTNAME}/${PORTNAME}/${PORTNAME}-${PORTVERSION}
 MAINTAINER=	culot@FreeBSD.org
 COMMENT=	Pure-Python database engine
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	distutils autoplist concurrent optsuffix
 
 .include <bsd.port.mk>

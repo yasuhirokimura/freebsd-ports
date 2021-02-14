@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 BUILD_DEPENDS=	${PYNUMPY}
 RUN_DEPENDS=	${PYNUMPY}
 
-USES=		fortran python:3.6+
+USES=		fortran python
 USE_PYTHON=	distutils cython autoplist
 
 USE_GCC=	yes # fails to build with clang: https://github.com/holgern/pyedflib/issues/104

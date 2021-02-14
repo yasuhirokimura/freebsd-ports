@@ -25,7 +25,7 @@ RUN_DEPENDS=	asciidoctor:textproc/rubygem-asciidoctor \
 		xsltproc:textproc/libxslt \
 		zip:archivers/zip
 
-USES=		ghostscript:run metaport perl5 python:3.6+,run
+USES=		ghostscript:run metaport perl5 python:run
 USE_PERL5=	run
 
 OPTIONS_DEFINE=		CJK DBLATEX FOP GIT GROFF IGOR JING PDF TRANSLATOR

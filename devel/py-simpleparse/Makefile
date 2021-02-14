@@ -10,7 +10,7 @@ DISTNAME=	SimpleParse-${PORTVERSION}
 MAINTAINER=	sunpoet@FreeBSD.org
 COMMENT=	Python EBNF parser generator (with mx.TextTools derivative)
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 post-install:

@@ -11,7 +11,7 @@ LICENSE=	BSD3CLAUSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}click>4.0:devel/py-click@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 NO_ARCH=	yes

@@ -23,6 +23,6 @@ OPTIONS_SINGLE_DJANGO=	DJANGO22
 DJANGO22_DESC=	Use Django 2.2.x
 
 DJANGO22_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django22>=0:www/py-django22@${PY_FLAVOR}
-DJANGO22_USES=		python:3.5+,run
+DJANGO22_USES=		python:run
 
 .include <bsd.port.mk>

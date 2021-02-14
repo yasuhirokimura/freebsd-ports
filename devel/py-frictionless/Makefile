@@ -27,7 +27,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}chardet>=3.0,1:textproc/py-chardet@${PY_FLAV
 		${PYTHON_PKGNAMEPREFIX}typer>=0.3:devel/py-typer@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}validators>=0.18:devel/py-validators@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

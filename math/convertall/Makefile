@@ -12,7 +12,7 @@ COMMENT=	Another unit converter
 LICENSE=	GPLv2+
 LICENSE_FILE=	${WRKSRC}/doc/LICENSE
 
-USES=		pyqt:5 python:3.5+ shebangfix
+USES=		pyqt:5 python shebangfix
 USE_PYQT=	core gui widgets sip
 
 SHEBANG_FILES=	source/convertall.py

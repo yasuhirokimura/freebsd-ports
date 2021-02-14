@@ -15,7 +15,7 @@ USE_GITHUB=	yes  # LICENSE and tests are missing from PyPI distribution
 GH_ACCOUNT=	timpaquatte
 GH_TAGNAME=	b4cc63c  # 1.3 tag is also missing
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 TEST_ENV=	PYTHONPATH="${STAGEDIR}${PYTHONPREFIX_SITELIBDIR}"

@@ -15,7 +15,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}citeproc-py>=0.4:textproc/py-citeproc-py@${P
 		${PYTHON_PKGNAMEPREFIX}six>0:devel/py-six@${PY_FLAVOR}
 py36_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}importlib-metadata>=0:devel/py-importlib-metadata@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils concurrent autoplist
 NO_ARCH=	yes
 

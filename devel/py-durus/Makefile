@@ -14,7 +14,7 @@ COMMENT=	Persistent object storage system for Python
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 OPTIONS_DEFINE=	DOCS

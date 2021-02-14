@@ -16,7 +16,7 @@ LICENSE_FILE_GPLv2+ =	${WRKSRC}/LICENSE.GPL.v2
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pyroute2.core>=0:net/py-pyroute2.core@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

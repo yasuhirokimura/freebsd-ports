@@ -34,7 +34,7 @@ ONLY_FOR_ARCHS_REASON?=	requires prebuilt bootstrap compiler
 BUILD_DEPENDS=	cmake:devel/cmake
 LIB_DEPENDS=	libcurl.so:ftp/curl
 
-USES=		ninja:build pkgconfig python:3.6+,build ssl tar:xz
+USES=		ninja:build pkgconfig python:build ssl tar:xz
 
 MAKE_ENV=	DESTDIR=${STAGEDIR} \
 		OPENSSL_DIR="${OPENSSLBASE}" \

@@ -12,7 +12,7 @@ COMMENT=	GraphQL query parser
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		bison cmake compiler:c++11-lang python:3.6+,build
+USES=		bison cmake compiler:c++11-lang python:build
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	graphql

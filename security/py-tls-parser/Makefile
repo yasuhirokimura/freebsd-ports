@@ -12,7 +12,7 @@ COMMENT=	Small library to parse TLS records
 
 LICENSE=	AGPLv3
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

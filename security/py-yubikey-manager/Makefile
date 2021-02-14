@@ -23,7 +23,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}click>0:devel/py-click@${PY_FLAVOR} \
 		u2f-host:security/libu2f-host \
 		ykpersonalize:security/ykpers
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

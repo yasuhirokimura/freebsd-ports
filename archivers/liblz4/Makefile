@@ -13,7 +13,7 @@ COMMENT=	LZ4 compression library, lossless and very fast
 LICENSE=	BSD2CLAUSE GPLv2
 LICENSE_COMB=	multi
 
-USES=		meson pkgconfig python:3.5+,build shebangfix
+USES=		meson pkgconfig python:build shebangfix
 USE_GITHUB=	yes
 USE_LDCONFIG=	yes
 

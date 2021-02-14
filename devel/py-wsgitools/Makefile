@@ -13,7 +13,7 @@ COMMENT=	Useful middlewares and filters for wsgi as well as scgi servers
 
 LICENSE=	GPLv2+
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

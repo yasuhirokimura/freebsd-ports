@@ -16,7 +16,7 @@ BROKEN_riscv64=		fails to build: TypeError: can only concatenate str (not "NoneT
 BUILD_DEPENDS+=	${LOCALBASE}/lib/perforce/libclient.a:devel/p4api
 RUN_DEPENDS:=	${BUILD_DEPENDS}
 
-USES=		dos2unix python:3.6+ ssl
+USES=		dos2unix python ssl
 USE_PYTHON=	distutils autoplist
 PYDISTUTILS_BUILDARGS=	--ssl ${OPENSSLLIB}
 

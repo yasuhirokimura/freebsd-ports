@@ -28,7 +28,7 @@ RUN_DEPENDS=	update-mime-database:misc/shared-mime-info
 CONFLICTS_INSTALL=	libeio
 
 USES=		compiler:c++14-lang gettext-tools gnome iconv \
-		jpeg libtool meson ninja ssl pathfix pkgconfig python:3.5+ shared-mime-info \
+		jpeg libtool meson ninja ssl pathfix pkgconfig python shared-mime-info \
 		shebangfix tar:xz xorg
 SHEBANG_FILES=  src/tests/elementary/spec/generator.py \
 		src/bin/exactness/exactness_play.in \

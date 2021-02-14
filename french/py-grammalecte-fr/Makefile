@@ -11,7 +11,7 @@ COMMENT=	French grammar and typographic corrector
 LICENSE=	GPLv3
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USES=		python:3.4+ zip
+USES=		python zip
 USE_PYTHON=	autoplist distutils
 
 WRKSRC=		${WRKDIR}

@@ -11,7 +11,7 @@ COMMENT=	Optparse-inspired command-line parsing library
 
 LICENSE=	PSFL
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

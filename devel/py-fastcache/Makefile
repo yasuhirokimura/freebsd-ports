@@ -9,7 +9,7 @@ COMMENT=	C implementation of Python 3 functools.lru_cache
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 post-install:

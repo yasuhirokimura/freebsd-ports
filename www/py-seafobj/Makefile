@@ -11,7 +11,7 @@ COMMENT=	Python library for accessing seafile data model
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	haiwen
 USE_PYTHON=	flavors

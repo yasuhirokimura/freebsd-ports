@@ -13,7 +13,7 @@ COMMENT=	DNS toolkit for Python - 2.X branch
 LICENSE=	ISCL
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	autoplist cython distutils
 
 NO_ARCH=	yes

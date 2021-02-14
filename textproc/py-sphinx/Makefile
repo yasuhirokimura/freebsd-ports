@@ -41,7 +41,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest-cov>=0:devel/py-pytest-cov@${PY_FLAV
 		${PYTHON_PKGNAMEPREFIX}typed-ast>=0:devel/py-typed-ast@${PY_FLAVOR} \
 		cython-${PYTHON_VER}:lang/cython@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist distutils concurrent
 
 CONFLICTS_INSTALL=	py*-sphinx18

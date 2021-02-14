@@ -19,7 +19,7 @@ LIB_DEPENDS_i386=	libunwind.so:devel/libunwind
 LIB_DEPENDS_powerpc64=	libunwind.so:devel/libunwind
 LIB_DEPENDS_powerpc64le=	libunwind.so:devel/libunwind
 
-USES=		cmake:noninja compiler:c++14-lang perl5 python:3.6+ shebangfix
+USES=		cmake:noninja compiler:c++14-lang perl5 python shebangfix
 SHEBANG_FILES=	tools/simgrid_convert_TI_traces.py
 USE_LDCONFIG=	yes
 

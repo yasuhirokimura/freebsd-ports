@@ -16,7 +16,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}croniter>=0.3.9:sysutils/py-croniter@${PY_FL
 		${PYTHON_PKGNAMEPREFIX}dateutil>=0:devel/py-dateutil@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}rq>=0.13:devel/py-rq@${PY_FLAVOR}
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

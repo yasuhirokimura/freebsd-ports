@@ -10,7 +10,7 @@ COMMENT=	Statusline plugin for vim, zsh, bash, and more
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/docs/source/license-and-credits.rst
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 
 OPTIONS_DEFINE=	DOCS
 

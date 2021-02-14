@@ -22,7 +22,7 @@ LIB_DEPENDS=	libdbus-1.so:devel/dbus \
 		libxkbcommon.so:x11/libxkbcommon
 
 USES=		compiler:c11 gettext-runtime gl gmake ncurses:port pkgconfig \
-		python:3.5+ shebangfix terminfo xorg
+		python shebangfix terminfo xorg
 USE_GITHUB=	yes
 GH_ACCOUNT=	kovidgoyal
 USE_GL=		gl

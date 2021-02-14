@@ -12,7 +12,7 @@ LICENSE=	BSD3CLAUSE
 BUILD_DEPENDS=	${PYNUMPY}
 RUN_DEPENDS=	${PYNUMPY}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 post-install:

@@ -13,7 +13,7 @@ COMMENT=	Python module for handling IPv4 and IPv6 Addresses and Networks
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

@@ -22,7 +22,7 @@ CONFLICTS_INSTALL=	sol-[0-9]*
 PORTSCOUT=	limitw:1,even
 
 USES=		desktop-file-utils gettext meson gnome pkgconfig \
-		python:build,3.6+ shebangfix xorg
+		python:build shebangfix xorg
 USE_GNOME=	cairo gtk30 intlhack librsvg2 libxml2:build
 USE_XORG=	x11
 

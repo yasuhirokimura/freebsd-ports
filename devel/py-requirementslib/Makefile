@@ -31,7 +31,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}appdirs>=0:devel/py-appdirs@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}tomlkit>=0.5.3:textproc/py-tomlkit@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}vistir>=0.3.1:devel/py-vistir@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

@@ -18,7 +18,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}mock>=0:devel/py-mock@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pbr>=4.2.0:devel/py-pbr@${PY_FLAVOR}
 
 NO_ARCH=	yes
-USES=		python:3.5+
+USES=		python
 USE_LOCALE=	en_US.UTF-8
 USE_PYTHON=	distutils autoplist concurrent
 DO_MAKE_TEST=	${SETENV} ${TEST_ENV} ${PYTHON_CMD}

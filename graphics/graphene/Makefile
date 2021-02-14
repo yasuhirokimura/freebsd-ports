@@ -8,7 +8,7 @@ COMMENT=	Optimizations for speeding up vector operations
 
 LICENSE=	MIT
 
-USES=		compiler:c11 gnome meson pkgconfig python:3.6+ shebangfix tar:xz
+USES=		compiler:c11 gnome meson pkgconfig python shebangfix tar:xz
 USE_GNOME=	glib20 pygobject3
 USE_LDCONFIG=	yes
 

@@ -12,7 +12,7 @@ COMMENT=	Toolkit for generation of output for the web
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 OPTIONS_DEFINE=	BABEL

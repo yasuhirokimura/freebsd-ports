@@ -16,7 +16,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}nose>0:devel/py-nose@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}tornado>0:www/py-tornado@${PY_FLAVOR}
 
 # 2.7,3.4-3.7
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes #  tests not packaged in PyPI sdist
 USE_PYTHON=	autoplist distutils
 

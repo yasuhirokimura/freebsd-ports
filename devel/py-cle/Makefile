@@ -18,7 +18,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cffi>0:devel/py-cffi@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}sortedcontainers>=2.0:devel/py-sortedcontainers@${PY_FLAVOR}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}nose>0:devel/py-nose@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 GH_ACCOUNT=	angr
 GH_TUPLE=	angr:binaries:${ANGR_BINARIES_TAGNAME}:binaries

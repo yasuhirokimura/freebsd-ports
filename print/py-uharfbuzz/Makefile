@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}setuptools_scm>=0:devel/py-setuptools_scm@${PY_FLAVOR}
 LIB_DEPENDS=	libharfbuzz.so:print/harfbuzz
 
-USES=		compiler:c++11-lang python:3.6+ zip
+USES=		compiler:c++11-lang python zip
 USE_PYTHON=	autoplist concurrent cython distutils
 
 post-patch:

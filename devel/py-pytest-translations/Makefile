@@ -21,7 +21,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}testscenarios>=0:devel/py-testscenarios@${P
 		${PYTHON_PKGNAMEPREFIX}virtualenv>=0:devel/py-virtualenv@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}wheel>=0:devel/py-wheel@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 TEST_ENV=	PYTHONPATH=${WRKSRC}/src

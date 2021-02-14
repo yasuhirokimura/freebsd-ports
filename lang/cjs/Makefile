@@ -17,7 +17,7 @@ LIB_DEPENDS=	libffi.so:devel/libffi \
 		libmozjs-78.so:lang/spidermonkey78
 
 USES=		compiler:c++14-lang gettext gnome localbase meson pkgconfig \
-		python:3.5+,build readline shebangfix xorg
+		python:build readline shebangfix xorg
 USE_GNOME=	cairo gdkpixbuf2 gtk30 introspection
 USE_XORG=	x11 xext
 MESON_ARGS=	-Dinstalled_tests=false \

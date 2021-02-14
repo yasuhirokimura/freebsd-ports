@@ -31,7 +31,7 @@ LIB_DEPENDS=	libbotan-1.10.so:security/botan110 \
 		libsqlite3.so:databases/sqlite3
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sqlite3>0:databases/py-sqlite3@${PY_FLAVOR}
 
-USES=	compiler:c++11-lang pathfix pkgconfig libtool python:3.4+ autoreconf ssl
+USES=	compiler:c++11-lang pathfix pkgconfig libtool python autoreconf ssl
 USE_CSTD=	gnu99
 USE_CXXSTD=	gnu++98
 USE_GITHUB=	yes

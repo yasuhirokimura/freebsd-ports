@@ -20,7 +20,7 @@ LIB_DEPENDS=	libantlr3c.so:devel/libantlr3c \
 		libboost_system.so:devel/boost-libs
 
 USES=		cmake ncurses compiler:c++17-lang \
-		pkgconfig python:3.5+,build shebangfix
+		pkgconfig python:build shebangfix
 
 SHEBANG_FILES=	src/base/mktagheaders \
 		src/base/mktags

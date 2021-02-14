@@ -10,7 +10,7 @@ COMMENT=	Library to work with PuppetDB's REST API
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 USE_PYTHON=	autoplist distutils
 

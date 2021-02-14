@@ -19,7 +19,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>0:devel/py-six@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}setuptools_scm>0:devel/py-setuptools_scm@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}jaraco.util>0:devel/py-jaraco.util@${PY_FLAVOR}
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_PYTHON=	distutils autoplist
 NO_ARCH=	yes
 SHEBANG_FILES=	irc/*.py scripts/*.py

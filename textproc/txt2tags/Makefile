@@ -10,7 +10,7 @@ COMMENT=	Convert simply formatted text into markup (e.g., HTML)
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 SHEBANG_FILES=	txt2tags.py
 USE_GITHUB=	yes
 NO_BUILD=	yes

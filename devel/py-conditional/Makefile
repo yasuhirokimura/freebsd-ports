@@ -9,7 +9,7 @@ COMMENT=	Conditionally enter a context manager
 
 LICENSE=	BSD2CLAUSE
 
-USES=		python:3.6+ zip
+USES=		python zip
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

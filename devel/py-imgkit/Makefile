@@ -11,7 +11,7 @@ COMMENT=	Python wrapper to convert html to image
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 RUN_DEPENDS+=	wkhtmltopdf>0:converters/wkhtmltopdf

@@ -16,7 +16,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pyparsing>=2.0.1:devel/py-pyparsing@${PY_FLA
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>0:devel/py-pytest@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}geomdl>0:graphics/py-geomdl@${PY_FLAVOR}
 
-USES=	python:3.6+
+USES=	python
 USE_PYTHON=	concurrent distutils autoplist
 
 USE_GITHUB=	yes

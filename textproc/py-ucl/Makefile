@@ -14,7 +14,7 @@ LIB_DEPENDS=	libucl.so:textproc/libucl
 
 CFLAGS+=	-I${PREFIX}/include
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 USE_PYTHON=	autoplist concurrent distutils
 

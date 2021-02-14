@@ -32,7 +32,7 @@ RUN_DEPENDS=	${PYNUMPY} \
 		${PY_PILLOW} \
 		${PYTHON_PKGNAMEPREFIX}pygments>0:textproc/py-pygments@${PY_FLAVOR}
 
-USES=		cmake compiler:c++17-lang gl python:3.4+ qt:5 sdl shebangfix
+USES=		cmake compiler:c++17-lang gl python qt:5 sdl shebangfix
 SHEBANG_FILES=	configure run.py buildsystem/cythonize.py
 USE_GITHUB=	yes
 GH_ACCOUNT=	SFTtech

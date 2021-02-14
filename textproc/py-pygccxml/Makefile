@@ -10,7 +10,7 @@ COMMENT=	Python package for easy C++ declarations navigation
 LICENSE=	BSL
 LICENSE_FILE=	${WRKSRC}/LICENSE.rst
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 USE_GITHUB=	yes

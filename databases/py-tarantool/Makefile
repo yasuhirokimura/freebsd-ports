@@ -13,7 +13,7 @@ LICENSE=	BSD3CLAUSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}msgpack>=0.4.0:devel/py-msgpack@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

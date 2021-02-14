@@ -16,7 +16,7 @@ BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}setuptools_scm>=2.0.0:devel/py-setuptools_
 		${PYTHON_PKGNAMEPREFIX}wheel>=0.29.0:devel/py-wheel@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}sphinx>=3.0,1:textproc/py-sphinx@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

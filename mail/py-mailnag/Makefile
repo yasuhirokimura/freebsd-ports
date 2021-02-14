@@ -16,7 +16,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}dbus>0:devel/py-dbus@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}setproctitle>0:devel/py-setproctitle@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}xdg>0:devel/py-xdg@${PY_FLAVOR}
 
-USES=		desktop-file-utils gettext-tools gnome python:3.5+ shebangfix
+USES=		desktop-file-utils gettext-tools gnome python shebangfix
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	pulb

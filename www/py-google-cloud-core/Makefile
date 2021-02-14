@@ -14,7 +14,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}google-api-core>=1.21.0<2.0:www/py-google-ap
 		${PYTHON_PKGNAMEPREFIX}google-auth>=1.24.0<2.0.0:security/py-google-auth@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}six>=1.12.0:devel/py-six@${PY_FLAVOR}
 
-USES=		python:3.5+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

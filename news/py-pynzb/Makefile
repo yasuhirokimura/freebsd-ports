@@ -12,7 +12,7 @@ COMMENT=	Unified API for parsing NZB files
 
 LICENSE=	BSD3CLAUSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 OPTIONS_DEFINE=	LXML

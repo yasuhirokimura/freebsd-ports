@@ -12,7 +12,7 @@ COMMENT=	Library to display flash messages in python web applications
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 NO_ARCH=	yes
 

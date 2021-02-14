@@ -20,7 +20,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}dulwich>=0.15.0:devel/dulwich@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}lxml>0:devel/py-lxml@${PY_FLAVOR}
 
 USES=		cmake compiler:c++11-lib desktop-file-utils \
-		pkgconfig python:3.4+ qt:5 shebangfix
+		pkgconfig python qt:5 shebangfix
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	Sigil-Ebook

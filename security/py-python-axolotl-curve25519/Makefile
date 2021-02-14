@@ -10,7 +10,7 @@ COMMENT=	Python wrapper for curve25519 with ed25519 signatures
 
 LICENSE=	GPLv3
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 post-install:

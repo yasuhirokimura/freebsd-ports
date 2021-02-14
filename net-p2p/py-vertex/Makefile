@@ -20,6 +20,6 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}epsilon>=0:devel/py-epsilon@${PY_FLAVOR} \
 
 NO_ARCH=	yes
 USE_PYTHON=	autoplist concurrent distutils
-USES=		python:3.6+
+USES=		python
 
 .include <bsd.port.mk>

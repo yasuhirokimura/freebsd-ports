@@ -12,7 +12,7 @@ COMMENT=	Command line tool to interact with the PostgreSQL Extension Network
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 SHEBANG_FILES=	pgxnclient/libexec/pgxn-*
 USE_PYTHON=	distutils autoplist concurrent optsuffix
 NO_ARCH=	yes

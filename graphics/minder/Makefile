@@ -16,7 +16,7 @@ LIB_DEPENDS=	libgee-0.8.so:devel/libgee \
 		libgranite.so:x11-toolkits/granite
 
 USES=		desktop-file-utils gettext gnome libarchive localbase:ldflags \
-		meson pkgconfig python:3.5+,build shared-mime-info shebangfix
+		meson pkgconfig python:build shared-mime-info shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	phase1geo
 GH_PROJECT=	Minder

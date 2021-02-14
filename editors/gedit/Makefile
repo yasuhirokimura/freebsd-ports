@@ -30,7 +30,7 @@ RUN_DEPENDS=	iso-codes>=0:misc/iso-codes \
 PORTSCOUT=	limitw:1,even
 
 USES=		compiler:c11 desktop-file-utils gettext gnome localbase meson \
-		pkgconfig python:3.4+ tar:xz xorg
+		pkgconfig python tar:xz xorg
 USE_CSTD=	c11
 USE_GNOME=	cairo gdkpixbuf2 gtksourceview4 intlhack introspection \
 		libxml2 pygobject3

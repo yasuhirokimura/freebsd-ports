@@ -22,7 +22,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cairo>=1.8.10:graphics/py-cairo@${PY_FLAVOR}
 		xorg-fonts-truetype>=0:x11-fonts/xorg-fonts-truetype \
 		bash:shells/bash
 
-USES=		cpe python:3.5+ shebangfix
+USES=		cpe python shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	graphite-project
 CPE_VENDOR=	graphite_project

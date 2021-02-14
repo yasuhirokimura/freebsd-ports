@@ -11,7 +11,7 @@ COMMENT=	Python client for the whois.cymru.com service
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

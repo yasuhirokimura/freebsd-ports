@@ -25,7 +25,7 @@ RUN_DEPENDS=	beancount>=2.1.3:finance/beancount \
 		${PYTHON_PKGNAMEPREFIX}werkzeug>=0.15.0:www/py-werkzeug@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytest>0:devel/py-pytest@${PY_FLAVOR}
 
-USES=		python:3.5+  # same as finance/beancount
+USES=		python  # same as finance/beancount
 USE_PYTHON=	autoplist distutils noflavors
 
 # Upstream archive contains files with UTF-8 names

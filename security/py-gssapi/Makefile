@@ -12,7 +12,7 @@ LICENSE=	ISCL
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>1.4.0:devel/py-six@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}decorator>0:devel/py-decorator@${PY_FLAVOR}
 
-USES=	python:3.6+
+USES=	python
 USE_PYTHON=	distutils autoplist
 
 OPTIONS_RADIO=	GSSAPI

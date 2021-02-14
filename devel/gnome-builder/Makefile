@@ -33,7 +33,7 @@ PORTDOCS=	*
 CONFLICTS_BUILD=	gnome-builder-3.16.*
 
 USES=		compiler:c++11-lang cpe desktop-file-utils gettext gnome \
-		localbase:lfdlags meson pkgconfig python:3.6+,build tar:xz \
+		localbase:lfdlags meson pkgconfig python:build tar:xz \
 		shebangfix
 USE_GNOME=	cairo gtksourceview4 introspection libxml2 vte3
 SHEBANG_FILES=	${WRKSRC}/src/plugins/maven/maven_plugin.py \

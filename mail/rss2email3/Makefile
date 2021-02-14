@@ -13,7 +13,7 @@ LICENSE_COMB=	dual
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}feedparser>=6.0.0:textproc/py-feedparser@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}html2text>=3.0.1:textproc/py-html2text@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 GH_ACCOUNT=	rss2email
 USE_PYTHON=	distutils concurrent autoplist

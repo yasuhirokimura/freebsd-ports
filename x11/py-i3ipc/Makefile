@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}xlib>0:x11-toolkits/py-xlib@${PY_FLAVOR}
 
 NO_ARCH=	yes
-USES=		python:3.4+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>

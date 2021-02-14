@@ -10,7 +10,7 @@ COMMENT=	Tool for creating configuration options for pop projects
 
 LICENSE=	APACHE20
 
-USES=		python:3.6+ shebangfix
+USES=		python shebangfix
 USE_PYTHON=	autoplist distutils
 
 USE_GITLAB=	yes

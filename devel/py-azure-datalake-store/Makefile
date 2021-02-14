@@ -13,7 +13,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}adal>=0.4.2:net-mgmt/py-adal@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}cffi>=0:devel/py-cffi@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}requests>=2.20.0:www/py-requests@${PY_FLAVOR}
 
-USES=		azurepy python:3.6+
+USES=		azurepy python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

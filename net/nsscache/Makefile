@@ -20,7 +20,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pytest>0:devel/py-pytest@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytest-cov>0:devel/py-pytest-cov@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}mox3>0:devel/py-mox3@${PY_FLAVOR}
 
-USES=		python:3.4+
+USES=		python
 USE_PYTHON=	autoplist distutils noflavors
 USE_GITHUB=	yes
 GH_ACCOUNT=	google

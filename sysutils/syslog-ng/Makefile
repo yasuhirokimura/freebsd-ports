@@ -18,7 +18,7 @@ LIB_DEPENDS=	libpcre.so:devel/pcre \
 		libuuid.so:misc/e2fsprogs-libuuid
 
 USES=		autoreconf:build compiler:c11 gettext-runtime gmake gnome \
-		libtool pathfix pkgconfig python:3.5+,build shebangfix ssl
+		libtool pathfix pkgconfig python:build shebangfix ssl
 
 CONFLICTS?=	syslog-ng-[0-9]* syslog-ng[0-9]-[0-9]* \
 		syslog-ng[0-9][0-9]-[0-9]* \
@@ -142,7 +142,7 @@ JAVA_MOD_PLIST_FILES=		lib/syslog-ng/java-modules/log4j-1.2.16.jar \
 				lib/syslog-ng/java-modules/http.jar \
 				lib/syslog-ng/java-modules/syslog-ng-common.jar
 
-PYTHON_USES=			python:3.5+ 
+PYTHON_USES=			python 
 PYTHON_CONFIGURE_ON=		--enable-python 
 PYTHON_CONFIGURE_OFF=		--disable-python
 PYTHON_PLIST_FILES=		lib/syslog-ng/libmod-python.so \

@@ -16,7 +16,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}angr>=${ANGR_VERSION}:security/py-angr@${PY
 		${PYTHON_PKGNAMEPREFIX}pyvex>=${ANGR_VERSION}:security/py-pyvex@${PY_FLAVOR} \
 		z3>0:math/z3
 
-USES=		gmake localbase python:3.6+
+USES=		gmake localbase python
 USE_GITHUB=	yes
 GH_ACCOUNT=	angr
 GH_TUPLE=	angr:binaries:${ANGR_BINARIES_TAGNAME}:binaries

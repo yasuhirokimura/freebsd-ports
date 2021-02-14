@@ -28,7 +28,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}anyascii>=0.1.5:textproc/py-anyascii@${PY_FL
 		${PYTHON_PKGNAMEPREFIX}willow>=1.4<1.5:graphics/py-willow@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}XlsxWriter>=1.2.8<2.0:textproc/py-xlsxwriter@${PY_FLAVOR}
 
-USES=		cpe python:3.6+ shebangfix
+USES=		cpe python shebangfix
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

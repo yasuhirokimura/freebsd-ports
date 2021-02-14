@@ -7,7 +7,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	swills@FreeBSD.org
 COMMENT=	Enhanced Python Debugger
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes
 USE_PYTHON=	autoplist distutils
 

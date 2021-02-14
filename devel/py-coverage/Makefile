@@ -9,7 +9,7 @@ COMMENT=	Code coverage measurement for Python
 
 LICENSE=	BSD2CLAUSE
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 post-install:

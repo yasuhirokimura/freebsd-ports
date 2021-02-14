@@ -16,7 +16,7 @@ LIB_DEPENDS=	libdbus-1.so:devel/dbus \
 		libdbusmenu-gtk3.so:devel/libdbusmenu
 RUN_DEPENDS=	bash:shells/bash
 
-USES=		gnome meson pkgconfig python:3.5+ shebangfix xorg
+USES=		gnome meson pkgconfig python shebangfix xorg
 USE_GITHUB=	yes
 GH_ACCOUNT=	linuxmint
 USE_GNOME=	cairo gdkpixbuf2 glib20 gtk30 introspection:build intltool \

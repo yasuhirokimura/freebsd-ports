@@ -18,7 +18,7 @@ LICENSE_PERMS_TGGPL=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}argparse>=0.8:devel/py-argparse@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 post-install:

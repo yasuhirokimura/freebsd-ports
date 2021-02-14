@@ -16,7 +16,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}mutagen>0:audio/py-mutagen@${PY_FLAVOR} \
 USE_GITHUB=	yes
 
 NO_ARCH=	yes
-USES=		desktop-file-utils gmake gnome python:3.6+
+USES=		desktop-file-utils gmake gnome python
 USE_GNOME=	gtk30 librsvg2 pygobject3
 USE_GSTREAMER1=	good faad
 OPTIONS_DEFINE=	DOCS NLS UDISKS2

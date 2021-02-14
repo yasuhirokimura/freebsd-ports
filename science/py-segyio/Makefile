@@ -18,7 +18,7 @@ BUILD_DEPENDS=	cmake:devel/cmake \
 LIB_DEPENDS=	libsegyio.so:science/segyio
 RUN_DEPENDS=	${PYNUMPY}
 
-USES=		compiler:c++11-lang python:3.6+
+USES=		compiler:c++11-lang python
 USE_PYTHON=	distutils autoplist
 
 post-install:

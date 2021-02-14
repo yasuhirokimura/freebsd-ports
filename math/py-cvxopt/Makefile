@@ -14,7 +14,7 @@ LIB_DEPENDS=	libblas.so:math/blas \
 		liblapack.so:math/lapack \
 		libumfpack.so:math/suitesparse-umfpack
 
-USES=		python:3.6+ localbase:ldflags
+USES=		python localbase:ldflags
 USE_GITHUB=	yes
 USE_PYTHON=	distutils autoplist
 

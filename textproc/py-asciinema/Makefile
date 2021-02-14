@@ -11,7 +11,7 @@ LICENSE=	GPLv3+
 
 RUN_DEPENDS=	ca_root_nss>=0:security/ca_root_nss
 
-USES=		python:3.3+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

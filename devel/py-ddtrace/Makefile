@@ -18,7 +18,7 @@ BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}setuptools_scm>=4:devel/py-setuptools_scm@
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}protobuf>=3,1:devel/py-protobuf@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}tenacity>=5:devel/py-tenacity@${PY_FLAVOR}
 
-USES=		compiler:c11 python:3.6+
+USES=		compiler:c11 python
 USE_PYTHON=	autoplist concurrent cython distutils
 
 OPTIONS_DEFINE=	OPENTRACING

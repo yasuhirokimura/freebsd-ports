@@ -25,7 +25,7 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	greenbone
 GH_PROJECT=	${PORTNAME}-scanner
 
-USES=		bison cmake gnome pkgconfig python:3.5+
+USES=		bison cmake gnome pkgconfig python
 USE_GNOME=	glib20
 
 USERS=		gvm

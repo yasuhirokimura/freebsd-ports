@@ -17,7 +17,7 @@ RUN_DEPENDS=	${MY_DEPENDS}
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}dateutil>=0:devel/py-dateutil@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}text-unidecode>=0:converters/py-text-unidecode@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_GITHUB=	yes # tests not shiped with sdist
 GH_ACCOUNT=	pytest-dev
 USE_PYTHON=	autoplist concurrent distutils

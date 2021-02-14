@@ -12,7 +12,7 @@ LICENSE=	APACHE20
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cadquery>=0:cad/py-cadquery@${PY_FLAVOR} \
 		${PYTHON_SITELIBDIR}/spyder/__init__.py:devel/py-spyder
 
-USES=		pyqt:5 python:3.6+
+USES=		pyqt:5 python
 USE_PYTHON=	autoplist distutils
 USE_PYQT=	core gui widgets
 

@@ -20,7 +20,7 @@ RUN_DEPENDS=	${PYNUMPY}
 
 NO_ARCH=	yes
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 PYDISTUTILS_PKGNAME=	PyNN
 

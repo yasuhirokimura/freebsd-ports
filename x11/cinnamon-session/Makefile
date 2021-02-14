@@ -17,7 +17,7 @@ LIB_DEPENDS=	libdbus-1.so:devel/dbus \
 		libcanberra.so:audio/libcanberra
 RUN_DEPENDS=	console-kit-daemon:sysutils/consolekit2
 
-USES=		gl gnome meson pkgconfig python:3.5+,build shebangfix xorg
+USES=		gl gnome meson pkgconfig python:build shebangfix xorg
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	linuxmint

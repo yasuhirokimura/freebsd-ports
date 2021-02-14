@@ -9,7 +9,7 @@ MASTER_SITES=	CHEESESHOP
 MAINTAINER=	demon@FreeBSD.org
 COMMENT=	uWSGI top-like app
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils concurrent optsuffix
 
 PLIST_FILES=	bin/uwsgitop %%DOCSDIR%%/README.rst

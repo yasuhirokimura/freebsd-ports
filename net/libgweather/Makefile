@@ -18,7 +18,7 @@ LIB_DEPENDS=	libsoup-2.4.so:devel/libsoup \
 
 PORTSCOUT=	limitw:1,even
 
-USES=		gettext gnome localbase meson pkgconfig python:3.6+,build tar:xz
+USES=		gettext gnome localbase meson pkgconfig python:build tar:xz
 USE_GNOME=	gtk30 introspection:build libxml2
 INSTALLS_ICONS=	yes
 USE_LDCONFIG=	yes

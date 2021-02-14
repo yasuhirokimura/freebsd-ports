@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 BUILD_DEPENDS=	cmake:devel/cmake
 RUN_DEPENDS=	${PYNUMPY}
 
-USES=		compiler:c++14-lang python:3.6+
+USES=		compiler:c++14-lang python
 USE_PYTHON=	distutils autoplist
 
 .include <bsd.port.mk>

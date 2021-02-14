@@ -22,7 +22,7 @@ NOT_FOR_ARCHS_REASON=	the creation of 32-bit Python wheels is not supported for 
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}toml>=0.10.0:textproc/py-toml@${PY_FLAVOR}
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}toml>=0.10.0:textproc/py-toml@${PY_FLAVOR}
 
-USES=		cargo python:3.5+
+USES=		cargo python
 USE_GITHUB=	yes
 GH_ACCOUNT=	PyO3
 USE_PYTHON=	autoplist concurrent distutils

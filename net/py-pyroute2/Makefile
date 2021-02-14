@@ -21,7 +21,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pyroute2.core>=${PORTVERSION}:net/py-pyroute
 		${PYTHON_PKGNAMEPREFIX}pyroute2.nftables>=${PORTVERSION}:net/py-pyroute2.nftables@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pyroute2.nslink>=${PORTVERSION}:net/py-pyroute2.nslink@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes

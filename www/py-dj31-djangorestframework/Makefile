@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.md
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django31>=2.2:www/py-django31@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pytz>=0:devel/py-pytz@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 CONFLICTS_INSTALL=	${PYTHON_PKGNAMEPREFIX}djangorestframework3* \

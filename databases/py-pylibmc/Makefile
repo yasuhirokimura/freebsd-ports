@@ -16,7 +16,7 @@ LIB_DEPENDS=	libmemcached.so:databases/libmemcached
 TEST_DEPENDS=	memcached:databases/memcached \
 		${PYTHON_PKGNAMEPREFIX}nose>0:devel/py-nose@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	autoplist distutils
 
 MAKE_ENV+=	LIBMEMCACHED="${LOCALBASE}"

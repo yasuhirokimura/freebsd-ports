@@ -18,7 +18,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}libopenshot>=0.2.5:multimedia/libopenshot@${
 		${PYTHON_PKGNAMEPREFIX}distro>=0:sysutils/py-distro@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}requests>=0:www/py-requests@${PY_FLAVOR}
 
-USES=		desktop-file-utils pyqt:5 python:3.5+ shared-mime-info shebangfix
+USES=		desktop-file-utils pyqt:5 python shared-mime-info shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	OpenShot
 GH_PROJECT=	${PORTNAME}-qt

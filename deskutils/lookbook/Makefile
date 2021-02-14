@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 BUILD_DEPENDS=	valac:lang/vala
 LIB_DEPENDS=	libgranite.so:x11-toolkits/granite
 
-USES=		gettext-tools gnome meson pkgconfig python:3.5+,build
+USES=		gettext-tools gnome meson pkgconfig python:build
 USE_GITHUB=	yes
 GH_ACCOUNT=	danrabbit
 USE_GNOME=	glib20 gtk30 gtksourceview3

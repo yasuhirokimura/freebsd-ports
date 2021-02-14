@@ -16,7 +16,7 @@ LIB_DEPENDS=	libjson-glib-1.0.so:devel/json-glib \
 		libsoup-2.4.so:devel/libsoup \
 		libwebkit2gtk-4.0.so:www/webkit2-gtk3
 
-USES=		compiler:c11 gettext gnome meson pkgconfig python:3.5+,build \
+USES=		compiler:c11 gettext gnome meson pkgconfig python:build \
 		tar:xz xorg
 USE_GITHUB=	yes
 USE_LDCONFIG=	yes

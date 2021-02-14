@@ -10,7 +10,7 @@ COMMENT=	File system general utilities for Python
 
 LICENSE=	MIT
 
-USES=		python:3.6+
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 OPTIONS_DEFINE=	DOCS
