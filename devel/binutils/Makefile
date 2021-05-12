@@ -1,8 +1,7 @@
 # Created by: Martin Matuska <mm@FreeBSD.org>
 
 PORTNAME=	binutils
-PORTVERSION=	2.33.1
-PORTREVISION=	4
+PORTVERSION=	2.36.1
 PORTEPOCH?=	1
 CATEGORIES?=	devel
 MASTER_SITES=	SOURCEWARE/binutils/releases
