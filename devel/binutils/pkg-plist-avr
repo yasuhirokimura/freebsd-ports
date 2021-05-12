@@ -133,6 +133,7 @@ bin/avr-readelf
 bin/avr-size
 bin/avr-strings
 bin/avr-strip
+lib/bfd-plugins/libdep.a
 man/man1/avr-addr2line.1.gz
 man/man1/avr-ar.1.gz
 man/man1/avr-as.1.gz

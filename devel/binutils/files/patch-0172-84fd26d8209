@@ -1,0 +1,58 @@
+From 84fd26d8209e99fc3a432dd0b09b6c053de1ce65 Mon Sep 17 00:00:00 2001
+From: Nick Clifton <nickc@redhat.com>
+Date: Fri, 9 Jul 2021 16:54:59 +0100
+Subject: [PATCH 172/172] Backport patch to fix a quadratic slow down in the
+ BFD library.
+
+	PR 28058
+bfd	* elf.c (bfd_section_from_shdr): Set has_secondary_relocs flag.
+	(_bfd_elf_slurp_secondary_reloc_section): Use it for early-out.
+---
+ bfd/ChangeLog | 10 ++++++++++
+ bfd/elf.c     |  5 +++++
+ 2 files changed, 15 insertions(+)
+
+diff --git bfd/ChangeLog bfd/ChangeLog
+index cd6f3706fe2..0b035fbc3ae 100644
+--- bfd/ChangeLog
++++ bfd/ChangeLog
+@@ -1,3 +1,13 @@
++2021-07-09  Nick Clifton  <nickc@redhat.com>
++
++	Backport from mainline:
++
++	2021-06-08  Michael Matz  <matz@suse.de>
++
++	PR 28058
++	* elf.c (bfd_section_from_shdr): Set has_secondary_relocs flag.
++	(_bfd_elf_slurp_secondary_reloc_section): Use it for early-out.
++
+ 2021-07-09  Nick Clifton  <nickc@redhat.com>
+ 
+ 	Backport this patch from the mainline:
+diff --git bfd/elf.c bfd/elf.c
+index 36733e080dd..af62aadc3d4 100644
+--- bfd/elf.c
++++ bfd/elf.c
+@@ -2454,6 +2454,8 @@ bfd_section_from_shdr (bfd *abfd, unsigned int shindex)
+ 		     "for section %pA found - ignoring"),
+ 		   abfd, name, target_sect);
+ 	      }
++	    else
++	      esdt->has_secondary_relocs = TRUE;
+ 	    goto success;
+ 	  }
+ 
+@@ -12587,6 +12589,9 @@ _bfd_elf_slurp_secondary_reloc_section (bfd *       abfd,
+ #endif
+     r_sym = elf32_r_sym;
+   
++  if (!elf_section_data (sec)->has_secondary_relocs)
++    return TRUE;
++
+   /* Discover if there are any secondary reloc sections
+      associated with SEC.  */
+   for (relsec = abfd->sections; relsec != NULL; relsec = relsec->next)
+-- 
+2.32.0
+
