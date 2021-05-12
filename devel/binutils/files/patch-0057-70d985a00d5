@@ -1,0 +1,168 @@
+From 70d985a00d512ad0c985b8d6db0846c14a192795 Mon Sep 17 00:00:00 2001
+From: "H.J. Lu" <hjl.tools@gmail.com>
+Date: Thu, 18 Mar 2021 18:34:38 -0700
+Subject: [PATCH 057/169] DWARF: Check version >= 3 for DW_FORM_ref_addr
+
+Check version >= 3, instead of version == 3 || version == 4, for
+DW_FORM_ref_addr.
+
+bfd/
+
+	PR ld/27587
+	* dwarf2.c (read_attribute_value): Check version >= 3 for
+	DW_FORM_ref_addr.
+
+ld/
+
+	PR ld/27587
+	* testsuite/ld-x86-64/pr27587.err: New file.
+	* testsuite/ld-x86-64/pr27587a.obj.bz2: Likewise.
+	* testsuite/ld-x86-64/pr27587b.obj.bz2: Likewise.
+	* testsuite/ld-x86-64/x86-64.exp: Run PR ld/27587 test.
+
+(cherry picked from commit 51f6e7a9f4210aed0f8156c1d2e348de6f96f37d)
+---
+ bfd/ChangeLog                           |   6 ++++++
+ bfd/dwarf2.c                            |   2 +-
+ ld/ChangeLog                            |   8 ++++++++
+ ld/testsuite/ld-x86-64/pr27587.err      |   3 +++
+ ld/testsuite/ld-x86-64/pr27587a.obj.bz2 | Bin 0 -> 1265 bytes
+ ld/testsuite/ld-x86-64/pr27587b.obj.bz2 | Bin 0 -> 913 bytes
+ ld/testsuite/ld-x86-64/x86-64.exp       |   5 +++++
+ 7 files changed, 23 insertions(+), 1 deletion(-)
+ create mode 100644 ld/testsuite/ld-x86-64/pr27587.err
+ create mode 100644 ld/testsuite/ld-x86-64/pr27587a.obj.bz2
+ create mode 100644 ld/testsuite/ld-x86-64/pr27587b.obj.bz2
+
+diff --git bfd/ChangeLog bfd/ChangeLog
+index 6b399753762..24d25dc1a46 100644
+--- bfd/ChangeLog
++++ bfd/ChangeLog
+@@ -1,3 +1,9 @@
++2021-03-22  H.J. Lu  <hongjiu.lu@intel.com>
++
++	PR ld/27587
++	* dwarf2.c (read_attribute_value): Check version >= 3 for
++	DW_FORM_ref_addr.
++
+ 2021-03-02  Alan Modra  <amodra@gmail.com>
+ 
+ 	* elf64-ppc.c (ppc64_elf_relocate_section): Don't optimise got
+diff --git bfd/dwarf2.c bfd/dwarf2.c
+index 240138d5982..5651696c0f7 100644
+--- bfd/dwarf2.c
++++ bfd/dwarf2.c
+@@ -1195,7 +1195,7 @@ read_attribute_value (struct attribute *  attr,
+     case DW_FORM_ref_addr:
+       /* DW_FORM_ref_addr is an address in DWARF2, and an offset in
+ 	 DWARF3.  */
+-      if (unit->version == 3 || unit->version == 4)
++      if (unit->version >= 3)
+ 	{
+ 	  if (unit->offset_size == 4)
+ 	    attr->u.val = read_4_bytes (unit->abfd, info_ptr, info_ptr_end);
+diff --git ld/ChangeLog ld/ChangeLog
+index 094ca70ad0c..7c5237a73df 100644
+--- ld/ChangeLog
++++ ld/ChangeLog
+@@ -1,3 +1,11 @@
++2021-03-22  H.J. Lu  <hongjiu.lu@intel.com>
++
++	PR ld/27587
++	* testsuite/ld-x86-64/pr27587.err: New file.
++	* testsuite/ld-x86-64/pr27587a.obj.bz2: Likewise.
++	* testsuite/ld-x86-64/pr27587b.obj.bz2: Likewise.
++	* testsuite/ld-x86-64/x86-64.exp: Run PR ld/27587 test.
++
+ 2021-03-02  Alan Modra  <amodra@gmail.com>
+ 
+ 	* testsuite/ld-powerpc/weak1.d,
+diff --git ld/testsuite/ld-x86-64/pr27587.err ld/testsuite/ld-x86-64/pr27587.err
+new file mode 100644
+index 00000000000..fa870790813
+--- /dev/null
++++ ld/testsuite/ld-x86-64/pr27587.err
+@@ -0,0 +1,3 @@
++#...
++.*pr27587.i:4: undefined reference to `stack_size'
++#...
+diff --git ld/testsuite/ld-x86-64/pr27587a.obj.bz2 ld/testsuite/ld-x86-64/pr27587a.obj.bz2
+new file mode 100644
+index 0000000000000000000000000000000000000000..eebcf54d44d7709431a4f7d1a9dfd2970588373e
+GIT binary patch
+literal 1265
+zcmV<N1P=Q`T4*^jL0KkKStHq+PXGkDfB*mg|Nis;|NmS6+kpS?-}CtZQS5+-5E;=(
+z3T#yYXiCrn`d5Oe+q;>exM)Na(duZ@Z48Ep(S*iNQh6F0hK7So8VDFhBMIs-O);Po
+zCPPe`4H{vR5usD?srq7#Jfzy2BmfN>7>%R=000dQ00000000^SCMlyPq{1;1*(iE}
+z>JL$&f?|4&q|;3r4^Vm|1jzL;4MFNMVK5LhG&Iv81^|o`5vEKdA&6lZOaP1{A(Kpo
+zjEq5{fS8yQ5u*VaGGG!V36&m%^){xOX{LZ09*Lj^fuIcrfN0QY&;S4c0002fKvAu!
+ztZeGO<3RugVnl`kiJ6eo=<Avm6sR)&>C!B&xRVtoAfKv;@}j03Xz%lKqu{#5-7NQ@
+z-w{qjuCUR08bWVm%*-Am0_fC6RyD4w#Y={{)rMBbPAx*jQ)#C{s07aEf)&c}x%)m`
+zS9*dAU|Fg!j(V_aNw&?y6h<b9j9Lesw_{-FfQrA(HCFtIbDLBUfc+5+$MaJ6e!kE3
+z-P4>uP8(;vCs0AHI0h6zf|3!zp<sa!3Id4qw*6PQeJWHHuXr5!RZ2t=_nt%r<-Kbu
+z<g=u3<%UrNA)zAAQ!U)nDIr1(3s^IaE9R%4brMY$Do0-^q^ThRgwj(qiuQm;DWonl
+zL62!R8U`eTWYS2Tf;){1oWyJyWcx3#nxa8=7#&t6BNf|75ZEjDgp+9nlSpieZ~{=$
+zZ6w-kBBF?d9MQDEz)1@D>`T`hesrNH3)_5zyV?a2M=`(rN3fbPwEAUnTR$OPMh*q7
+z-@`%_7Ws6sd6*`+8Z&dEQL(gGLQmr(a}NzfW@jQ&Ko`6g4K~FyOY5WGPWpozynk&@
+zdza0E;+jDz+BH>zy<$;Rv}lnCU#D!qT?(JR%%W@&$lOO?=@fpsUpz{MAzx(Wkp}gk
+z&pBG8&{%^cd&h}17OY^{CPPVFun~i}?o3KpT|jNvSAV>dT}*<AWQ&NxLb7mSh_`Ft
+z<1w@$#t<)_G|VDEF7Si}I*||tPc;JuK>1{&a@=M5(UsRMepp(KAh@{SKJff!_(YWC
+z;F8L)#}$$Cr$>ESDk!w(8K6IKF(ABs@2?^N4-~ElTPeU8)kp?0L`N3aGM{z^1t{OR
+zr&YBgt9)h8?Lv8J85kunr!3ErIr;+#!Mzq*(6pi-UQgY~OG2lllwm3$6Ujt(n2+!7
+zu`%of7v;e@XpG<(AVE*dYK*Bca^_7@U921zcK9#NN==Z9wTWGA7E*vLg}wR3iV=@(
+z3f3^i;u{Ijy;e#{s?j-64ZpNPC-Fza5{GOc(;M>RKYrrvu?%2!FQg||6PDvySasQ%
+zpJpl(M6+0Gr8N*^Y*LpMj26C|rl^G^wTZ~9nXgPJ$U%6PBw@^0U*({$)^IGvQTk0O
+zV7nKhvlRwJ0@gdkMhoJ+Zsvszrs!C?Ocz+Rg%whkk50HvHN%WDS#~1y$pYdFP)KC;
+zNHGF7v7S}7d!tFo&a`MbWl&&aOQFCVjcTT|UVbRpz=JtDv$H=Uq!dh%heA$Y3^xop
+zL@i)!q|7F@bAd(MfJ_^a68ox-B)Uw>6u2E=J8ubcD~S!h9HQPD4Z#blfJ};(PHEj%
+bmOJBb*p#WT$|IAX{(*NSQ-uivJ(;BNi;*>p
+
+literal 0
+HcmV?d00001
+
+diff --git ld/testsuite/ld-x86-64/pr27587b.obj.bz2 ld/testsuite/ld-x86-64/pr27587b.obj.bz2
+new file mode 100644
+index 0000000000000000000000000000000000000000..8506e4eccdb35862be83beb5bf09365c89683453
+GIT binary patch
+literal 913
+zcmV;C18)36T4*^jL0KkKSq3Q^QUC)hfA#<W{rmR+|NqP7$H2e;-}1ynVZcBTKmY)M
+zF#*5>6yOBXq8but6Df)6VrqVqLF%4_c_*mQ@)OZEq3Sd+5MTl_1{pFZrh`*Vrjts4
+zsKPZd9*TKJnJ_daL(oh|qyt6?f?y_0nr5R+m<|8{00000$N&HU0000041fYei8Ry<
+zrf7^n)6_BpKzf>J2AT~$Kr#R{XlP_;038oJ*B340bY76UAc)318n%+r99Qh*`D9MB
+zhx)N55>>s<>54f^pnuM$7?s9hAwz2u!8q(26qjbG>a||wO$hIz1a(Rm=7&J!7&U|!
+zl_MdQ!4*zcF<Ym<k@j~)$g<zJw`E|7cRLgWMv_!(!MiE2%)CeoO&Q;w#aX$r_+V{n
+z#@ji7yKDj&?2@5bqJqt6*)=g0m<K(i0i4iu+%PI=Gu(zFC80w}7T6ueEhZxspuoz%
+zlJu}fQ$jn;NQQ(q4WwbPrIfL;A5O{FkOih?utp2n=11CEx1TD~)iQPJ3)hEk5qX1i
+zGh+IUYD^0^^03Q#HZ5CN>QJ;9k6c%DVHYtg)^ih+fMa{yk|@2=#wSSK^Ww06xSKXi
+z7K05clp>1o0PmC~4GQZiV`_$#$dA{)5yBd>&899DfA$u|C2AnAUOZaYWuDS0!N`&=
+zUPXsl&8dkpaq82U6S!^U1r2Hjph}`{APS!8&-(=4oCM?}BN7zd+bNeCQ?W8qdAWg?
+z;f9_xtni|y3OpXMXG+C;F$Q>tyJg8zd1=5TQ7*JMU~phAwu@kzdA&#cl19*@U7={q
+z$v@<Sw8&+4%2PHNmWs<2gwc2mEEtS)4tIaZCkozAafZo8&8J{`7&RER#Hi038VFuc
+z8DL975VX^p2(YxEHV~!FcGcT#mtG9V<46pt^!TdVz)fwlxCIq7<vzn9;`(iUVO=3e
+zn=!f!PfN7G()+qZn3dsRr#;oFPsA-gCf7k>N+yR~QT8c3LI;kU0Tm@FdefuKTsh(}
+zs>sAQl>Frk5QP|d{A--t_rrqh;I~SA6_tjj1j^DNSlUAZkyL8KC<hG)fj9}~iUKI7
+z&?=P1Abg~@wu(3I9~7EQ7VC{jsf-64GN70%(VAh%$$_OjLQw+`f}=1X3}b>I1Tq{|
+npr}<*RRpHFPO9iG{#qFrlxqoo33rsc-Qw;@rwS4P#UpA!hwz$H
+
+literal 0
+HcmV?d00001
+
+diff --git ld/testsuite/ld-x86-64/x86-64.exp ld/testsuite/ld-x86-64/x86-64.exp
+index da0d2a76f3b..d2ec1ddc328 100644
+--- ld/testsuite/ld-x86-64/x86-64.exp
++++ ld/testsuite/ld-x86-64/x86-64.exp
+@@ -221,6 +221,11 @@ set x86_64tests {
+      "-melf_x86_64 -pie -z notext tmpdir/pr20550a.o tmpdir/pr20550b.so"
+      ""
+      "--64" { dummy.s } {} "pr20550"}
++    {"Build pr27587"
++     "-melf_x86_64 -e main"
++     "" ""
++     { pr27587a.obj.bz2 pr27587b.obj.bz2 }
++     {{ld "pr27587.err"}} "pr27587"}
+ }
+ 
+ run_ld_link_tests $x86_64tests
+-- 
+2.32.0
+
