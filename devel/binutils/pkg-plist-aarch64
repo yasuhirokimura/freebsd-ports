@@ -91,6 +91,7 @@ bin/%%BUTARGET%%-readelf
 bin/%%BUTARGET%%-size
 bin/%%BUTARGET%%-strings
 bin/%%BUTARGET%%-strip
+lib/bfd-plugins/libdep.a
 man/man1/%%BUTARGET%%-addr2line.1.gz
 man/man1/%%BUTARGET%%-ar.1.gz
 man/man1/%%BUTARGET%%-as.1.gz
