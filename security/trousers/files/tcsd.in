@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # PROVIDE: tcsd
-# REQUIRE: SERVERS tpmd
-# BEFORE:  named hastd kerberos
+# REQUIRE: SERVERS
+# BEFORE:  named hastd kdc
 # KEYWORD: shutdown
 #
 # Add the following lines to /etc/rc.conf.local or /etc/rc.conf
