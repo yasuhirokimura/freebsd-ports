@@ -1,7 +1,6 @@
 #!/bin/sh
 
 # PROVIDE: tpmd
-# REQUIRE: SERVERS
 # BEFORE:  tcsd
 # KEYWORD: shutdown
 #
