@@ -25,7 +25,8 @@ include/diagnostics.h
 include/dis-asm.h
 %%GOLD%%include/plugin-api.h
 include/symcat.h
-lib/bfd-plugins/libdep.so
+%%STATIC%%lib/bfd-plugins/libdep.a
+%%NO_STATIC%%lib/bfd-plugins/libdep.so
 lib/libbfd.a
 lib/libctf-nobfd.a
 lib/libctf.a
