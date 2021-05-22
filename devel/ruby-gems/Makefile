@@ -16,6 +16,8 @@ LICENSE_COMB=	dual
 LICENSE_FILE_MIT=	${WRKSRC}/MIT.txt
 LICENSE_FILE_RUBY=	${WRKSRC}/LICENSE.txt
 
+BROKEN_RUBY30=	Runtime error happens while executing gem
+
 USES=		tar:tgz
 USE_RUBY=	yes
 
