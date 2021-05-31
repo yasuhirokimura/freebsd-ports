@@ -94,6 +94,7 @@ BROKEN=		error: OpenSSL-1.1.1 is the minimum supported version. \
 .endif
 
 .if ${PORT_OPTIONS:MINST_BASE}
+BROKEN=		/bin/sh: cannot open /usr/libexec/postfix/post-install: No such file or directory
 .if defined(SASL_SLAVE)
 PKGNAMESUFFIX=	-current-base-sasl
 .else
