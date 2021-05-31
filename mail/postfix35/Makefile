@@ -93,6 +93,7 @@ MAKEFILEFLAGS+=	DEBUG=
 MAKEFILEFLAGS+=	pie=yes CC="${CC}" OPT="${CFLAGS}"
 
 .if ${PORT_OPTIONS:MINST_BASE}
+BROKEN=		/bin/sh: cannot open /usr/libexec/postfix/post-install: No such file or directory
 PKGNAMESUFFIX=	35-base
 PREFIX=		/usr
 ETCDIR=		/etc/postfix
