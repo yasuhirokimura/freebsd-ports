@@ -1,3 +1,3 @@
-TIMESTAMP = 1624295813
-SHA256 (clamav-0.103.3.tar.gz) = 9f6e3d18449f3d1a3992771d696685249dfa12736fe2b2929858f2c7d8276ae9
-SIZE (clamav-0.103.3.tar.gz) = 13389239
+TIMESTAMP = 1626060079
+SHA256 (Cisco-Talos-clamav-clamav-0.103.0-164-g9e0f65e01_GH0.tar.gz) = 34ff4a8e38d401fcc08d37417844fbcdff399f4cf72f5b16603f1a3e44f859ad
+SIZE (Cisco-Talos-clamav-clamav-0.103.0-164-g9e0f65e01_GH0.tar.gz) = 7581554
