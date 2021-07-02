@@ -1,7 +1,7 @@
 From 7651a4871c225925ffdfda0a8c91a6ed370cd9a1 Mon Sep 17 00:00:00 2001
 From: Alan Modra <amodra@gmail.com>
 Date: Tue, 9 Feb 2021 13:32:36 +1030
-Subject: [PATCH] PR27382, build failure if fileno() is a macro
+Subject: [PATCH 006/169] PR27382, build failure if fileno() is a macro
 
 	PR 27382
 	* objcopy.c (copy_file): Use bfd_stat.
@@ -37,5 +37,5 @@ index 00d751522c4..eab3b6db585 100644
        bfd_nonfatal_message (input_filename, NULL, NULL, NULL);
        status = 1;
 -- 
-2.31.1
+2.32.0
 
