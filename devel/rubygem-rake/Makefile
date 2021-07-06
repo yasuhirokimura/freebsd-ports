@@ -1,7 +1,7 @@
 # Created by: Jonathan Weiss (<jw@innerewut.de>)
 
 PORTNAME=	rake
-PORTVERSION=	13.0.3
+PORTVERSION=	13.0.6
 CATEGORIES=	devel rubygems
 MASTER_SITES=	RG
 
@@ -20,6 +20,6 @@ PLIST_FILES=	bin/rake
 
 CPE_VENDOR=	ruby-lang
 
-SHEBANG_FILES=	bin/console exe/rake
+SHEBANG_FILES=	exe/rake
 
 .include <bsd.port.mk>
