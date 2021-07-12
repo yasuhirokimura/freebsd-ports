@@ -34,7 +34,8 @@ RELRO_DESC=	Enable relocation memory corruption mitigation (-z relro) by default
 LICENSE_FILE_GPLv3=	${WRKSRC}/COPYING3
 LICENSE_FILE_LGPL3=	${WRKSRC}/COPYING3.LIB
 
-USES=		bison:alias cpe gmake libtool tar:xz compiler:env
+USES=		bison:alias compiler:env cpe gmake libtool makeinfo perl5 tar:xz
+USE_PERL5=	build
 CPE_VENDOR=	gnu
 GNU_CONFIGURE=	yes
 
