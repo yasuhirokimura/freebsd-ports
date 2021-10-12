@@ -50,9 +50,10 @@ LDFLAGS+=	-Wl,--as-needed
 TEST_TARGET=	test
 
 OPTIONS_DEFINE=	DEBUG ETCDIR GDBM PCRE STATIC \
-		DOCS EXAMPLES
+		DOCS EXAMPLES BASE_ZSH
 OPTIONS_SUB=	yes
 
+BASE_ZSH_DESC=	Make zsh and rzsh also available as /bin/zsh and /bin/rzsh
 ETCDIR_DESC=	System-wide defaults in /etc (instead of $${PREFIX}/etc)
 GDBM_DESC=	Enable GDBM support (GPL)
 
@@ -121,6 +122,12 @@ post-install:
 			zcompile -U -M $$i.zwc $$i/*~*.zwc(^/) ; \
 			${CHMOD} 644 $$i.zwc ; \
 		done')
+
+post-install-BASE_ZSH-on:
+	@${MKDIR} ${STAGEDIR}/bin
+.for f in zsh rzsh
+	${RLN} ${STAGEDIR}${PREFIX}/bin/${f} ${STAGEDIR}/bin/${f}
+.endfor
 
 post-install-EXAMPLES-on:
 	@${MKDIR} ${STAGEDIR}${EXAMPLESDIR}
