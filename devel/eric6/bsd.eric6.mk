@@ -1,5 +1,3 @@
-# Created by: Boris Samorodov <bsam@FreeBSD.org>
-#
 # This is a set of Makefile macros that are common between devel/eric6 and
 # localized language packages for devel/eric6:
 # german/eric6, russian/eric6, devel/es-eric6
