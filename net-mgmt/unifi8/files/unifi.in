@@ -1,6 +1,4 @@
 #!/bin/sh
-#
-# Created by: Mark Felder <feld@FreeBSD.org>
 
 # PROVIDE: unifi
 # REQUIRE: LOGIN
