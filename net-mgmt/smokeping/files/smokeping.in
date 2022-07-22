@@ -1,5 +1,4 @@
 #!/bin/sh
-# Created by: Sean McAfee <smcafee@collaborativefusion.com>
 
 # PROVIDE: smokeping
 # REQUIRE: LOGIN
