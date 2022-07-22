@@ -1,5 +1,3 @@
-# Created by: Thierry Thomas (<thierry@pompo.net>)
-#
 # Common variables used by ports related to Code_Aster
 
 DISTVERSIONPREFIX=	full-src-
