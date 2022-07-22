@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# Created by: hetzels@westbend.net
-
 #set -vx
 
 PKG_BATCH=${BATCH:=NO}
