@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Created by: stb@FreeBSD.org for the cyrus imap server
-# Added to the cyrus-sasl port by hetzels@westbend.net
-
 #set -vx
 
 PKG_BATCH=${BATCH:=NO}

@@ -1,7 +1,5 @@
 #!/bin/sh
 #
-# Created by:	Alexander Langer <alex@big.endian.de>
-# Created on:	May 22, 2000
 # MAINTAINER=	portmgr@FreeBSD.org
 
 if [ -z $1 ]; then
