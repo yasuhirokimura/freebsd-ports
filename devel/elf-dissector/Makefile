@@ -1,6 +1,6 @@
 PORTNAME=	elf-dissector
 DISTVERSION=	0.0.1
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	devel kde
 
 MAINTAINER=	kde@FreeBSD.org
@@ -13,7 +13,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 BUILD_DEPENDS=	binutils>=2.33.1:devel/binutils \
 		gnulibiberty>=2.33.1:devel/gnulibiberty
 LIB_DEPENDS=	libcapstone.so:devel/capstone \
-		libopcodes-2.40.so:devel/binutils
+		libopcodes-2.41.so:devel/binutils
 
 USES=		cmake compiler:c++17-lang desktop-file-utils gettext-runtime \
 		kde:5 pkgconfig qt:5

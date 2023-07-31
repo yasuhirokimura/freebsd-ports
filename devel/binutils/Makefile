@@ -1,6 +1,5 @@
 PORTNAME=	binutils
-DISTVERSION=	2.40
-PORTREVISION=	5
+DISTVERSION=	2.41
 PORTEPOCH?=	1
 CATEGORIES?=	devel
 MASTER_SITES=	GNU \
@@ -126,6 +125,7 @@ INFO_INFO=	as \
 		gprof \
 		bfd \
 		ld \
+		ldint \
 		sframe-spec
 .endif
 
