@@ -9,32 +9,33 @@ MAINTAINER=	sunpoet@FreeBSD.org
 COMMENT=	W3C's XHTML Basic DTD
 WWW=		https://www.w3.org/TR/xhtml-basic/
 
-RUN_DEPENDS=	xmlcatmgr:textproc/xmlcatmgr \
-		${LOCALBASE}/share/xml/dtd/xhtml-modularization/catalog.xml:textproc/xhtml-modularization
+LICENSE=	W3C_XHTML_BASIC_DTD
+LICENSE_NAME=	License of W3C's XHTML Basic DTD
+LICENSE_FILE=	${FILESDIR}/LICENSE
+LICENSE_PERMS=	dist-mirror pkg-mirror auto-accept
 
-RECDATE=	20001219
+RUN_DEPENDS=	${LOCALBASE}/share/xml/dtd/xhtml-modularization/catalog.xml:textproc/xhtml-modularization \
+		xmlcatmgr:textproc/xmlcatmgr
 
 USES=		tar:tgz
-NO_MTREE=	yes
-NO_BUILD=	yes
+
+DATADIR=	${PREFIX}/share/xml/dtd/xhtml-basic
 NO_ARCH=	yes
+NO_BUILD=	yes
+NO_MTREE=	yes
+SUB_FILES=	catalog.xml
+
 WRKSRC=		${WRKDIR}/REC-xhtml-basic-${RECDATE}
 
-PORTDATA=	xhtml-basic10-model-1.mod \
-		xhtml-basic10.cat \
-		xhtml-basic10.dtd \
+PLIST_FILES=	"@xmlcatmgr ${DATADIR}/catalog.xml"
+PORTDATA=	xhtml-basic10-model-1.mod xhtml-basic10.cat xhtml-basic10.dtd \
 		xml1.dcl
-PORTDOCS=	Overview.html \
-		W3C-REC.css \
-		logo-REC.png \
-		w3c_home.png \
+PORTDOCS=	Overview.html W3C-REC.css logo-REC.png w3c_home.png \
 		xhtml-basic.css
-PLIST_FILES=	"@xmlcatmgr %%DATADIR%%/catalog.xml"
-
-SUB_FILES=	catalog.xml
-DATADIR=	${PREFIX}/share/xml/dtd/xhtml-basic
 
 OPTIONS_DEFINE=	DOCS
+
+RECDATE=	20001219
 
 do-install:
 	@${MKDIR} ${STAGEDIR}${DATADIR}
