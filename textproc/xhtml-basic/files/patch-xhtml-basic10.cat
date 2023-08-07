@@ -1,5 +1,5 @@
---- xhtml-basic10.cat.orig	Tue Dec 19 23:08:04 2000
-+++ xhtml-basic10.cat	Tue Aug 10 16:23:28 2004
+--- xhtml-basic10.cat.orig	2000-12-19 14:08:04 UTC
++++ xhtml-basic10.cat
 @@ -17,17 +17,19 @@
  
  OVERRIDE YES
