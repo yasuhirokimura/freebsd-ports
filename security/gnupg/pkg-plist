@@ -125,6 +125,8 @@ sbin/applygnupgdefaults
 %%NLS%%share/locale/zh_CN/LC_MESSAGES/gnupg2.mo
 %%NLS%%share/locale/zh_TW/LC_MESSAGES/gnupg2.mo
 @postexec [ -e %D/bin/gpg ] || ln -sf gpg2 %D/bin/gpg
-@postunexec [ -e %D/bin/gpg ] || rm -f %D/bin/gpg
+@preunexec if [ -L %D/bin/gpg ]; then rm -f %D/bin/gpg; fi
+@comment Following line is necessary to remove stale ${PREFIX}/man/man1/gpg.1.gz symlink created by previous version
+@preexec if [ -L %D/man/man1/gpg.1.gz ]; then rm -f %D/man/man1/gpg.1.gz; fi
 @postexec [ -e %D/share/man/man1/gpg.1.gz ] || ln -sf gpg2.1.gz %D/share/man/man1/gpg.1.gz
-@postunexec [ -e %D/share/man/man1/gpg.1.gz ] || rm -f %D/share/man/man1/gpg.1.gz
+@preunexec if [ -L %D/share/man/man1/gpg.1.gz ]; then rm -f %D/share/man/man1/gpg.1.gz; fi
