@@ -13,7 +13,6 @@ LICENSE=	GPLv2+
 LIB_DEPENDS=	libpng.so:graphics/png
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CPPFLAGS+=	$$(libpng-config --I_opts)
 LDFLAGS+=	$$(libpng-config --L_opts)

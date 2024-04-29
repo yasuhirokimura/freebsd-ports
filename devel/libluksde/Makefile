@@ -16,7 +16,6 @@ LIB_DEPENDS=	libcaes.so:security/libcaes \
 		libfcrypto.so:security/libfcrypto
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-python --with-libcaes=${LOCALBASE} --with-libfcrypto=${LOCALBASE} --with-openssl=no
 CONFIGURE_ENV=	PYTHON_CONFIG=${PYTHON_CMD}-config
 USES=		fuse libtool pathfix pkgconfig python

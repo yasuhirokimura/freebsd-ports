@@ -16,6 +16,5 @@ LIB_DEPENDS=	libtspi.so:security/trousers
 USES=		iconv localbase:ldflags ssl
 
 GNU_CONFIGURE=	YES
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

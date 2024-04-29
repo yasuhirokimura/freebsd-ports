@@ -57,7 +57,6 @@ USE_RC_SUBR=	named
 .endif # !BIND_TOOLS_SLAVE
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var \
 		--sysconfdir=${ETCDIR} \
 		--with-openssl=${OPENSSLBASE}

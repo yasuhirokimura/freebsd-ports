@@ -31,7 +31,6 @@ USES=		autoreconf cpe gettext-tools gperf libtool localbase ncurses \
 CPE_VENDOR=	infradead
 USE_RC_SUBR=	ocserv
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-namespaces \
 		--without-geoip \
 		--without-http-parser

@@ -16,7 +16,6 @@ RUN_DEPENDS=	p5-BerkeleyDB>=0:databases/p5-BerkeleyDB
 
 USES=		bdb localbase:ldflags perl5 tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	PERL=${PERL} \
 		djm_cv_lib_db_Dbopen=yes
 

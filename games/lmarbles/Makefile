@@ -17,7 +17,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		gmake sdl
 USE_SDL=	sdl mixer
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var/games/${PORTNAME}
 
 PORTDOCS=	*

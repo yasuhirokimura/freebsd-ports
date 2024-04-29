@@ -29,7 +29,6 @@ PLIST_SUB+=	RC_SUFX=${RC_SUFX}
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc/pvpgn \
 		--localstatedir=${DATADIR} \
 		--with-libraries=${LOCALBASE}/lib

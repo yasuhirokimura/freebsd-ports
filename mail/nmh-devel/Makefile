@@ -23,7 +23,6 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--libdir=${PREFIX}/libexec/nmh \
 		--sysconfdir=${PREFIX}/etc \
 		--docdir=${DOCSDIR}
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 LIB_DEPENDS=	libcurl.so:ftp/curl \
 		liblockfile.so:devel/liblockfile
 

@@ -17,7 +17,6 @@ BUILD_DEPENDS=	cvs:devel/cvs \
 RUN_DEPENDS:=	${BUILD_DEPENDS}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		perl5
 NO_BUILD=	yes
 PLIST_FILES=	bin/cvs2darcs share/cvs2darcs/cvs_convert.pl \

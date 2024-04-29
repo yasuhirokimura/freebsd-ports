@@ -23,7 +23,6 @@ TABLE_DB_DESC=		Build table-db plugin (aliases)
 
 USES=		cpe groff libtool localbase ssl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CPE_VENDOR=	openbsd
 

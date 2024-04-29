@@ -15,7 +15,6 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}libxml2-python>0:textproc/libxml2-python@${P
 
 USES=		python tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFLICTS_INSTALL=	itstool22
 

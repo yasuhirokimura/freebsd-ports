@@ -15,7 +15,6 @@ USES=		cpe gettext gmake localbase tar:xz
 CPE_VENDOR=	gnu
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--target=${PKGNAMEPREFIX:S/-$//} --disable-werror \
 		--disable-nls
 

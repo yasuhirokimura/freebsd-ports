@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 LIB_DEPENDS=	libftdi1.so:devel/libftdi1
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		libtool localbase readline
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip

@@ -18,7 +18,6 @@ USES=		compiler:c11 gnome libtool pathfix perl5 pkgconfig ssl
 USE_GNOME=	glib20
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 INSTALL_TARGET=	install-strip
 PLIST_SUB+=	PORTVERSION="${PORTVERSION}"
 
