@@ -17,7 +17,6 @@ USES=		autoreconf gettext gmake gnome pkgconfig xorg
 USE_GNOME=	intlhack gdkpixbuf gdkpixbuf2xlib
 USE_XORG=	x11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	XQF

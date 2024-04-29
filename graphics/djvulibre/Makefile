@@ -22,7 +22,6 @@ PORTDOCS=	*.djvu *.pdf *.txt
 
 INSTALL_TARGET=	install-strip
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	JPEG_CFLAGS="-I${LOCALBASE}/include" \
 		JPEG_LIBS="-L${LOCALBASE}/lib -ljpeg" \
 		TIFF_CFLAGS="-I${LOCALBASE}/include" \

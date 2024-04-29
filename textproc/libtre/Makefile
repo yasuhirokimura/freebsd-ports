@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USES=		libtool localbase:ldflags pathfix pkgconfig tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-static
 USE_LDCONFIG=	yes
 TEST_TARGET=	check

@@ -38,7 +38,6 @@ USES+=		gettext-tools gmake gnome libtool localbase \
 USE_GNOME=	intltool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--sysconfdir=${LOCALBASE}/etc --disable-static
 
 .if ! defined(EXTRA_ONLY)

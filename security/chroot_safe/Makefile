@@ -12,7 +12,6 @@ LICENSE=	MIT
 
 USES=		tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	share/man/man1/chroot_safe.1.gz sbin/chroot_safe libexec/chroot_safe/chroot_safe.so
 

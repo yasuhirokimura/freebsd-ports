@@ -15,7 +15,6 @@ USES=		gmake libtool mono pathfix pkgconfig sqlite
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_path_GMCS=${LOCALBASE}/bin/mcs
 MAKE_ENV=	MONO_REGISTRY_PATH=/tmp/registry
 PLIST_SUB=	PORTVERSION=${PORTVERSION}

@@ -16,7 +16,6 @@ RUN_DEPENDS:=	${BUILD_DEPENDS}
 USE_RC_SUBR=	spamass-milter
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 SUB_FILES=	pkg-message
 
