@@ -13,7 +13,6 @@ USES=		autoreconf cpe gmake perl5 pkgconfig
 USE_GITHUB=	yes
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CXXFLAGS+=	-std=c++14
 
 CPE_VENDOR=	vcftools_project

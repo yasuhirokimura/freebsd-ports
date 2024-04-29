@@ -11,7 +11,6 @@ WWW=		https://contribs.martymac.org
 LICENSE=	BSD2CLAUSE
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-embfts
 
 PLIST_FILES=	bin/fpart share/man/man1/fpart.1.gz

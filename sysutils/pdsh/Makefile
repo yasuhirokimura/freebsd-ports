@@ -11,7 +11,6 @@ WWW=		https://github.com/chaos/pdsh
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 # :keepla because port uses lt_dlopen
 USES=		autoreconf gmake libtool:keepla perl5 shebangfix
 USE_GITHUB=	yes

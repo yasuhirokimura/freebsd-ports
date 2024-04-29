@@ -15,7 +15,6 @@ USE_XORG=	x11 xau xorgproto
 CPE_VENDOR=	x
 CPE_PRODUCT=	libxext
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--disable-specs --without-xmlto
 INSTALL_TARGET=	install-strip
 

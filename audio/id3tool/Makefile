@@ -12,7 +12,6 @@ DEPRECATED=	Can't read ID3v2 tags which have been around for 20+ years and disco
 EXPIRATION_DATE=2025-04-30
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/id3tool share/man/man1/id3tool.1.gz
 

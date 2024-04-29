@@ -10,7 +10,6 @@ COMMENT=	Single-server inetd
 WWW=		https://offog.org/code/onenetd.html
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 PLIST_FILES=	bin/onenetd \
 		share/man/man1/onenetd.1.gz
 

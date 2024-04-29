@@ -22,7 +22,6 @@ GH_ACCOUNT=	mdbtools
 USE_GNOME=	gdkpixbuf glib20 gtk30 libxml2
 GLIB_SCHEMAS=	mdbtools.gmdb2.gschema.xml
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 OPTIONS_DEFINE=	DOCS
 OPTIONS_SUB=	yes

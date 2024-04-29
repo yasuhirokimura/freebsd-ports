@@ -24,7 +24,6 @@ OPTIONS_DEFINE=	DOCS MYSQL
 # They serve as a reminder.
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--enable-ltdl-install=no --with-gd=${LOCALBASE}/include \
 		--program-transform-name=\'\'
 MYSQL_CONFIGURE_ON=	--with-mysql

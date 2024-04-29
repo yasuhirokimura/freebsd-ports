@@ -9,7 +9,6 @@ COMMENT=	Fast Viterbi CODEC library
 WWW=		http://www.ka9q.net/code/fec/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake
 USE_LDCONFIG=	yes
 MAKEFILE=	makefile

@@ -9,6 +9,5 @@ WWW=		https://www.x.org/
 
 USES=		tar:xz xorg-cat:driver
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

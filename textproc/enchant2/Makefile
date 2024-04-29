@@ -16,7 +16,6 @@ USES=		compiler:c++11-lib gmake gnome libtool localbase pathfix \
 		pkgconfig
 USE_GNOME=	glib20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 CONFIGURE_ARGS=	--without-applespell \
 		--without-voikko

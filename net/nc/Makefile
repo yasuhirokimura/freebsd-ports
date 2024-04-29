@@ -10,7 +10,6 @@ COMMENT=	Network aware cat
 WWW=		https://www.kyne.com.au/~mark/software/ncat.php
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/ncat \
 		share/man/man1/ncat.1.gz

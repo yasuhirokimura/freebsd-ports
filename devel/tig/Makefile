@@ -14,7 +14,6 @@ TEST_DEPENDS=	git:devel/git
 
 USES=		gmake iconv ncurses readline
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	${ICONV_CONFIGURE_BASE}
 MAKE_ARGS=	V=1
 

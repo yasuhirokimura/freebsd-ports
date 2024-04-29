@@ -20,7 +20,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 LIB_DEPENDS=	libltdl.so:devel/libltdl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		bison compiler:features fortran gmake libtool localbase pathfix
 USE_GCC=	yes
 USE_LDCONFIG=	yes

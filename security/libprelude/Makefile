@@ -19,7 +19,6 @@ USES=		libtool localbase pkgconfig
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--without-lua \
 		--without-python3 \
 		--without-swig \

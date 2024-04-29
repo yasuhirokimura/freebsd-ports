@@ -22,7 +22,6 @@ USE_PERL5=	run
 
 SHEBANG_FILES=	mkhtmlindex.pl
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_path_RAWCPP=tradcpp
 
 .include <bsd.port.mk>

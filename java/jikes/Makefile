@@ -12,7 +12,6 @@ USES=		autoreconf gmake iconv localbase tar:bzip2
 USE_CXXSTD=	c++14
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	ac_cv_search_iconv=${ICONV_LIB} \
 		ac_cv_search_libiconv_open=no
 

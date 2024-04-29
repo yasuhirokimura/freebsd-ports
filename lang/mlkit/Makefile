@@ -27,7 +27,6 @@ USE_GCC=	yes
 USE_GITHUB=	yes
 GH_ACCOUNT=	melsman
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_SHELL=	bash
 
 ALL_TARGET=	mlkit mlkit_basislibs

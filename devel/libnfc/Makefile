@@ -24,7 +24,6 @@ PN532_UART_DESC=PN532 UART driver
 PN53X_USB_DESC=	PN53X USB driver
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		gmake libtool pathfix pkgconfig readline tar:bzip2
 USE_LDCONFIG=	yes
 MAKE_ENV=	INSTALL_STRIP_FLAG="${STRIP}"
