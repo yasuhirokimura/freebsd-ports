@@ -37,7 +37,6 @@ SHEBANG_FILES=	bin/verilator_ccache_report \
 		bin/verilator_profcfunc
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	INSTALL_PROGRAM="${INSTALL_SCRIPT}"
 CONFIGURE_ARGS=	AR=${LOCALBASE}/bin/ar \
 		PYTHON3=${PYTHON_CMD}

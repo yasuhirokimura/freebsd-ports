@@ -9,7 +9,6 @@ COMMENT=	Command line pam authentication tester
 WWW=		https://pamtester.sourceforge.net/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	${CFLAGS}
 USES=	gmake
 

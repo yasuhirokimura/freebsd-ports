@@ -16,7 +16,6 @@ CONFLICTS_INSTALL=	charybdis ircd-hybrid Nefarious \
 USES=		tar:tgz
 USE_RC_SUBR=	ircd
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_OUTSOURCE=	yes
 CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc/ircd
 CONFIGURE_WRKSRC=	${WRKSRC}/build

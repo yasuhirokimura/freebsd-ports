@@ -10,7 +10,6 @@ WWW=		https://www.ivarch.com/programs/qsf/
 
 USES=	localbase tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/qsf \
 		share/man/man1/qsf.1.gz

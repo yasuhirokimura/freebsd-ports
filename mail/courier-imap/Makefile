@@ -25,7 +25,6 @@ USE_RC_SUBR=	courier-imap-imapd courier-imap-imapd-ssl \
 CONFLICTS=	courier imap-uw panda-imap
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	REHASH=${SCRIPTDIR}/c_rehash
 
 MAKE_ENV:=	${CONFIGURE_ENV}

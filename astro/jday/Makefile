@@ -10,7 +10,6 @@ WWW=		https://jday.sourceforge.net/
 
 USES=		pathfix libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 

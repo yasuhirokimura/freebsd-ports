@@ -12,7 +12,6 @@ LICENSE=	GPLv2
 
 USE_GNOME=	gtk20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		autoreconf gmake gnome pkgconfig
 PLIST_FILES=	bin/gsmc share/man/man1/gsmc.1.gz
 

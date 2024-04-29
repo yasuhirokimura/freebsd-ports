@@ -51,7 +51,6 @@ MAKE_JOBS_UNSAFE=	yes
 USES+=		gmake libtool perl5
 USE_PERL5=	run
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .if !defined(_BUILDING_PROFTPD_MODULE)
 USES+=		cpe ssl

@@ -16,7 +16,6 @@ BUILD_DEPENDS=	m4:devel/m4
 USES=		autoreconf libtool pkgconfig
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static
 
 INSTALL_TARGET=	install-strip

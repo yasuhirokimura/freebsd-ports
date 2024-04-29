@@ -15,7 +15,6 @@ RUN_DEPENDS=	${XMLCATMGR}:textproc/xmlcatmgr
 USES=		gettext gmake libtool perl5
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-default-catalog=${PREFIX}/share/sgml/catalog \
 		--datadir=${DATADIR}
 LDFLAGS+=	-L${LOCALBASE}/lib

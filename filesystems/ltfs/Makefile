@@ -26,7 +26,6 @@ USE_LDCONFIG=	yes
 SHEBANG_FILES=	src/utils/ltfs_ordered_copy
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFIGURE_ARGS+=	--enable-icu-6x
 
