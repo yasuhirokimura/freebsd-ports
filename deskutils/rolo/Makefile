@@ -15,7 +15,6 @@ LIB_DEPENDS=	libvc.so:devel/libvc
 
 USES=		localbase ncurses tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 OPTIONS_DEFINE=	DOCS
 

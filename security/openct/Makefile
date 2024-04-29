@@ -16,7 +16,6 @@ OPTIONS_DEFINE=	PCSC DOCS EXAMPLES
 PCSC_DESC=	Enable PC/SC support
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		gmake libtool pkgconfig
 USE_LDCONFIG=	yes
 USE_RC_SUBR=	openct

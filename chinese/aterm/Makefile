@@ -11,7 +11,6 @@ WWW=		https://aterm.sourceforge.net/
 USES=		cpe xorg
 USE_XORG=	xpm
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-xim --enable-big5
 MAKE_JOBS_UNSAFE=	yes
 

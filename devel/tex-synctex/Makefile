@@ -19,7 +19,6 @@ USE_LDCONFIG=	yes
 USE_TEX=	kpathsea
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	${EXCLUDE_ENGINES:S/^/--disable-/} \
 		--with-system-kpathsea \
 		--with-system-zlib \

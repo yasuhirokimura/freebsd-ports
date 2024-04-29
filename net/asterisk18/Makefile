@@ -35,7 +35,6 @@ SHEBANG_FILES=	agi/agi-test.agi \
 		contrib/scripts/ast_coredumper
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--datarootdir=${DATADIR} \
 		--with-ilbc=internal \
 		--with-crypto=${OPENSSLBASE} \

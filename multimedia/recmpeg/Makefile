@@ -11,7 +11,6 @@ WWW=		https://fame.sourceforge.net/
 LIB_DEPENDS=	libfame.so:multimedia/libfame
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/recmpeg \
 		share/man/man1/recmpeg.1.gz

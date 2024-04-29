@@ -15,7 +15,6 @@ RUN_DEPENDS=	rsync:net/rsync
 
 USES=		compiler:c++11-lang gmake localbase ssl tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/rsyncrypto \
 		bin/rsyncrypto_recover \

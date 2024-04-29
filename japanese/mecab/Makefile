@@ -20,7 +20,6 @@ USE_LDCONFIG=	yes
 USE_PERL5=	build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	ac_cv_lib_stdcpp_main=no
 
 INSTALL_TARGET=	install-strip

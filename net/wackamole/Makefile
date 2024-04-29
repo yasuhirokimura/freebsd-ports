@@ -19,7 +19,6 @@ LIB_DEPENDS=	libspread.so:net/spread
 
 USES=		tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV+=	YACC=${YACC}
 
 .include <bsd.port.mk>

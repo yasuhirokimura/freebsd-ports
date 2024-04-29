@@ -20,7 +20,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	POV-Ray
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	COMPILED_BY=${HOSTARCH}-portbld-${OPSYS:tl}-${OSREL:R} \
 		--program-transform-name='s/povray/${PKGBASE}/' \
 		--disable-optimiz

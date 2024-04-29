@@ -17,7 +17,6 @@ LIB_DEPENDS=	libcurl.so:ftp/curl \
 		libcares.so:dns/c-ares
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		autoreconf compiler:c++11-lib libtool localbase ncurses pkgconfig tar:bzip2
 INSTALL_TARGET=	install-strip
 

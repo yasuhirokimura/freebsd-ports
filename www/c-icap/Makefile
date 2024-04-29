@@ -26,7 +26,6 @@ USE_RC_SUBR=	c-icap
 GNU_CONFIGURE=			yes
 CONFIGURE_ARGS=			--localstatedir=/var \
 				--sysconfdir="${PREFIX}/etc/c-icap"
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

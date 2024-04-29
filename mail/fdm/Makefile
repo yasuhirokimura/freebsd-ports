@@ -16,7 +16,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	nicm
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc
 
 PLIST_FILES=	bin/fdm share/man/man1/fdm.1.gz share/man/man5/fdm.conf.5.gz

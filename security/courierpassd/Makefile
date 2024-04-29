@@ -16,7 +16,6 @@ BUILD_DEPENDS=	courierauthconfig:security/courier-authlib-base
 RUN_DEPENDS=	courierauthconfig:security/courier-authlib-base
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake localbase
 
 MINUID?=	100

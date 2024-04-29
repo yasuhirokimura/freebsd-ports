@@ -29,7 +29,6 @@ USE_LDCONFIG=	${PREFIX}/lib/xrdp
 USE_GITHUB=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 GH_ACCOUNT=	neutrinolabs
 GH_TUPLE=	neutrinolabs:librfxcodec:e8208bf:librfxcodec/librfxcodec \
 		neutrinolabs:libpainter:2255b38:libpainter/libpainter \

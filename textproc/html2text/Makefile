@@ -12,7 +12,6 @@ LICENSE=	GPLv2+
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/html2text share/man/man1/html2text.1.gz share/man/man5/html2textrc.5.gz
 

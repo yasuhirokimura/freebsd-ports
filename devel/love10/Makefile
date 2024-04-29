@@ -29,7 +29,6 @@ USES=		autoreconf compiler:c++11-lib desktop-file-utils gl gmake \
 USE_SDL=	sdl2
 USE_GL=		gl glu
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--program-suffix=${PKGNAMESUFFIX}
 WRKSRC=		${WRKDIR}/love-${PORTVERSION}
 INSTALL_TARGET=	install-strip

@@ -20,7 +20,6 @@ LIB_DEPENDS=	libgpg-error.so:security/libgpg-error \
 CONFLICTS=	libotr
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		cpe libtool pathfix
 USE_LDCONFIG=	yes
 CPE_VENDOR=	cypherpunks

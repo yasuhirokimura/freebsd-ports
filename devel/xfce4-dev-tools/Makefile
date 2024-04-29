@@ -23,7 +23,6 @@ SHEBANG_FILES=	helpers/xfce-build helpers/xfce-do-release \
 		helpers/xfce-get-translations
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PORTSCOUT=	limitw:1,even
 

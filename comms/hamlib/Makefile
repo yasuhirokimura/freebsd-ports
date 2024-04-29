@@ -23,7 +23,6 @@ USE_PYTHON=	py3kplist
 # $TCL_INCLUDE_SPEC
 SHEBANG_FILES=	bindings/perltest.pl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-perl-binding \
 		--with-tcl-binding --with-tcl=${TCL_LIBDIR} \
 		--with-libusb \

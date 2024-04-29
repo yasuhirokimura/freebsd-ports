@@ -17,7 +17,6 @@ BROKEN_riscv64=		fails to configure: configure: error: /bin/sh config/config.sub
 
 USES=		autoreconf gmake libtool ssl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	Netflix

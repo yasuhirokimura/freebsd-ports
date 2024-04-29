@@ -12,7 +12,6 @@ LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LIBS+=		-lcompat
 
 .include <bsd.port.mk>

@@ -15,7 +15,6 @@ LIB_DEPENDS=	libfwnt.so:devel/libfwnt \
 		libregf.so:devel/libregf
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-python \
 		--with-libfwnt=${LOCALBASE} --with-libregf=${LOCALBASE}
 CONFIGURE_ENV=	PYTHON_CONFIG=${PYTHON_CMD}-config

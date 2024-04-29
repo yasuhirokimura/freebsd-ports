@@ -18,7 +18,6 @@ GH_PROJECT=	darkstat
 USE_RC_SUBR=	darkstat
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	share/man/man8/darkstat.8.gz \
 		sbin/darkstat

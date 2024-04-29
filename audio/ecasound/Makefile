@@ -19,7 +19,6 @@ USES=		gmake libtool localbase:ldflags ncurses pkgconfig \
 		readline shebangfix
 SHEBANG_FILES=	ecatools/ecamonitor
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-liblilv \
 		--disable-rubyecasound \
 		--enable-sys-readline=no \

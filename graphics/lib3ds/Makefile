@@ -13,7 +13,6 @@ LICENSE=	LGPL21+
 
 USES=		gl libtool localbase zip
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_GL=		gl glu glut
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes

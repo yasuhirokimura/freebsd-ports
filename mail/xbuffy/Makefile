@@ -12,7 +12,6 @@ USES=		cpe gmake xorg
 USE_XORG=	xext xt xaw
 CPE_VENDOR=	xbuffy_project
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 PLIST_FILES=	bin/xbuffy lib/X11/app-defaults/XBuffy share/man/man1/xbuffy.1.gz
 
 post-build:

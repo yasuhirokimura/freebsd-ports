@@ -12,6 +12,5 @@ USES=		tar:xz xorg xorg-cat:app
 USE_XORG=	x11 xrandr
 
 PLIST_FILES=	bin/xev share/man/man1/xev.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

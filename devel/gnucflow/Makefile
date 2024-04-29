@@ -18,7 +18,6 @@ USES=		cpe gmake tar:bzip2
 CPE_VENDOR=	gnu
 CPE_PRODUCT=	cflow
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 TEST_TARGET=	check
 
 INFO=		cflow

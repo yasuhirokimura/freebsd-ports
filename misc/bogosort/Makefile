@@ -14,7 +14,6 @@ WWW=		https://www.lysator.liu.se/~qha/bogosort/
 WRKSRC=		${WRKDIR}/${PORTNAME}-${PORTVERSION}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INFO=		bogosort
 PLIST_FILES=	bin/bogosort share/man/man1/bogosort.1.gz

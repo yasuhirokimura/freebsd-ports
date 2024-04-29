@@ -18,7 +18,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		iconv pathfix
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-bzip2 --disable-zlib
 CPPFLAGS+=	-I${LOCALBASE}/include
 LIBS+=		-L${LOCALBASE}/lib

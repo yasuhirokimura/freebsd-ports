@@ -13,6 +13,5 @@ PLIST_FILES=	sbin/create-cert \
 		share/man/man8/create-cert.8.gz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

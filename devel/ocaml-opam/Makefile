@@ -23,7 +23,6 @@ USE_BINUTILS=	yes
 .endif
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-checks
 
 MAKE_JOBS_UNSAFE=	yes

@@ -19,7 +19,6 @@ LIB_DEPENDS=	libewf.so:devel/libewf
 USES=		autoreconf compiler:c++11-lang gmake libtool localbase:ldflags \
 		python ssl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GITHUB=	yes
 GH_ACCOUNT=	NPS-DEEP
 CONFIGURE_ARGS=	ac_cv_lib_ssl_SSL_library_init=yes \

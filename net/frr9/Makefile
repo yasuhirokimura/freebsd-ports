@@ -49,7 +49,6 @@ BINARY_ALIAS=	python=${PYTHON_VERSION}
 CONFLICTS=	frr8 frr10 openbgpd openospfd quagga zebra
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
 .endif
