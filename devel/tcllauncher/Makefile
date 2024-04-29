@@ -18,7 +18,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	flightaware
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 TCL_PKG=	Tcllauncher${PORTVERSION}
 

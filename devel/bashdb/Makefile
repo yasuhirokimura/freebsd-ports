@@ -19,7 +19,6 @@ USES=		gmake python shebangfix
 SHEBANG_FILES=	lib/term-highlight.py
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_SHELL=	${LOCALBASE}/bin/bash
 
 NO_BUILD=	yes

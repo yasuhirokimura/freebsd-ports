@@ -11,7 +11,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		pathfix tar:xz xorg xorg-cat:app
 USE_XORG=	x11 xkbfile
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/xkbcomp \
 		libdata/pkgconfig/xkbcomp.pc \

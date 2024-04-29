@@ -19,7 +19,6 @@ LIB_DEPENDS=	libapr-1.so:devel/apr1 \
 
 USES=		autoreconf libarchive pkgconfig tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-archive=${LOCALBASE}
 USE_GITHUB=	yes
 GH_ACCOUNT=	fpesce

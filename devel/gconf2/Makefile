@@ -22,7 +22,6 @@ USES+=		gettext gmake gnome libtool pathfix pkgconfig python:run \
 USE_GNOME=	libxml2 dconf intltool introspection:build
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-html-dir=${PREFIX}/share/doc \
 		--with-gtk=2.0 \
 		--without-openldap \

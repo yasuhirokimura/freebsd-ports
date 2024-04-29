@@ -21,7 +21,6 @@ LIB_DEPENDS=	libexpat.so:textproc/expat2 \
 USES=		compiler:c11 libtool pathfix ssl
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-libidn=${LOCALBASE} --docdir=${DOCSDIR} \
 		--with-trust-anchor=${LOCALBASE}/etc/unbound/root.key
 SOMAJVER=	10

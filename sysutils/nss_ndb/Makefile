@@ -43,7 +43,6 @@ USE_GITHUB=		yes
 GH_ACCOUNT=		ptrrkssn
 
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=		lib/nss_ndb.so.1 \
 			lib/nss_ndb.so.1.0.24 \

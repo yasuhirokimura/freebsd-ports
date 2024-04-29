@@ -56,7 +56,6 @@ USE_RC_SUBR=	named
 .endif # !BIND_TOOLS_SLAVE
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-dnsrps \
 		--localstatedir=/var \
 		--sysconfdir=${ETCDIR} \

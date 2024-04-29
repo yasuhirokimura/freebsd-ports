@@ -17,7 +17,6 @@ USES=		charsetfix shebangfix tar:xz
 USE_CSTD=	c99
 SHEBANG_FILES=	contrib/snmptest.pl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-dhcpd-conf=${LOCALBASE}/etc/dhcpd.conf \
 		--with-dhcpd-leases=/var/db/dhcpd/dhcpd.leases \
 		--with-uthash=${LOCALBASE}/include

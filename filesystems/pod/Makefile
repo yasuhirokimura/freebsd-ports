@@ -15,7 +15,6 @@ LIB_DEPENDS=	libgpod.so:audio/libgpod\
 
 USES=		compiler:c++11-lang fuse pkgconfig tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 PLIST_FILES=	bin/fusepod share/man/man1/fusepod.1.gz
 
 .include <bsd.port.mk>

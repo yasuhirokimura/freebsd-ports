@@ -18,7 +18,6 @@ CONFLICTS=	chillispot
 
 CONFIGURE_ARGS=-localstatedir=/var
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		cpe perl5 libtool
 CPE_VENDOR=	${PORTNAME}_project
 USE_PERL5=	build

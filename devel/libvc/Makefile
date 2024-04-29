@@ -10,7 +10,6 @@ WWW=		https://rolo.sourceforge.net/
 
 USES=		bison:alias libtool tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_LDCONFIG=	yes
 
 OPTIONS_DEFINE=	DOCS

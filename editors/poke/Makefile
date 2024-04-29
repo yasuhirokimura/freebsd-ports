@@ -20,7 +20,6 @@ USES=		gmake libtool pkgconfig readline
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFIGURE_ARGS=	--disable-gui
 INSTALL_TARGET=	install-strip

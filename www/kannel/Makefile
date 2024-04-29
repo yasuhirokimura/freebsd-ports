@@ -23,7 +23,6 @@ USE_GNOME=	libxml2
 USE_RC_SUBR=	${PORTNAME}_bearerbox ${PORTNAME}_smsbox ${PORTNAME}_wapbox
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-pcre=yes --enable-docs=no --with-malloc=native \
 		--enable-start-stop-daemon=no
 
