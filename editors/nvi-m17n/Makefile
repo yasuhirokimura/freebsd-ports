@@ -22,7 +22,6 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/build
 USES=		ncurses perl5
 USE_PERL5=	run
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	OPTFLAG='-D_PATH_SYSEXRC=\"${PREFIX}/etc/vi.exrc\"' \
 		vi_cv_path_perl=${PERL}
 CONFIGURE_ARGS=	--program-prefix=n

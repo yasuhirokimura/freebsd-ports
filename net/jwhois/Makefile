@@ -16,7 +16,6 @@ RUN_DEPENDS=	lynx:www/lynx
 LIB_DEPENDS=	libidn.so:dns/libidn
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gettext gmake iconv
 CPPFLAGS+=	-I${PREFIX}/include
 LDFLAGS+=	-L${PREFIX}/lib

@@ -14,7 +14,6 @@ LIB_DEPENDS=	libsmpeg.so:multimedia/smpeg
 
 USES=		sdl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_SDL=	sdl
 
 PLIST_FILES=	bin/dumpmpeg \

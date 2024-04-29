@@ -16,7 +16,6 @@ LIB_DEPENDS=	libnet.so:net/libnet
 USES=		localbase
 USE_CSTD=	c99
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	include/arping.h sbin/arping share/man/man8/arping.8.gz
 

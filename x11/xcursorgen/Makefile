@@ -16,6 +16,5 @@ USE_XORG=	x11 xcursor xorgproto
 INSTALL_TARGET=	install-strip
 
 PLIST_FILES=	bin/xcursorgen share/man/man1/xcursorgen.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

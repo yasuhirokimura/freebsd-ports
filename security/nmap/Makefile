@@ -27,7 +27,6 @@ EXTRACT_AFTER_ARGS=	--exclude ${DISTNAME}/mswin32 \
 			--no-same-owner --no-same-permissions
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 OPTIONS_SUB=	yes
 OPTIONS_DEFINE=	DOCS NLS PCAP SSH2 SSL

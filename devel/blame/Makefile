@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 TEST_TARGET=	check
 PLIST_FILES=	bin/blame \
 		share/man/man1/blame.1.gz

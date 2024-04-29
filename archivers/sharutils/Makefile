@@ -15,7 +15,6 @@ USES=		charsetfix cpe perl5 tar:xz
 OPTIONS_DEFINE=	NLS
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--program-prefix=g --disable-uucode
 INSTALL_TARGET=	install install-man
 INFO=		sharutils

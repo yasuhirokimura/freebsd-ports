@@ -12,7 +12,6 @@ LICENSE=	GPLv2
 
 USES=		autoreconf gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CPPFLAGS+=	-DCC='\"${CC}\"'
 DATADIR=	${PREFIX}/share/ick
 

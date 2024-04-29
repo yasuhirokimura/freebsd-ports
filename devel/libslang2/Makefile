@@ -15,7 +15,6 @@ USES=		ncurses tar:bzip2
 
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=	--with-pkgconfigdir=${PREFIX}/libdata/pkgconfig
 MAKE_JOBS_UNSAFE=	yes
 ALL_TARGET=	all static

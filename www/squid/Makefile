@@ -27,7 +27,6 @@ CONFLICTS=	squid-devel
 CPE_VENDOR=	squid-cache
 SHEBANG_FILES=	scripts/*.pl contrib/*.pl tools/*.pl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_RC_SUBR=	squid
 
 USERS=		squid

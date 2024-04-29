@@ -14,7 +14,6 @@ USES=		libtool pkgconfig
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--disable-webless \
 				-disable-static
 CONFIGURE_ENV=			LIBUSB_CFLAGS="-I/usr/include" \

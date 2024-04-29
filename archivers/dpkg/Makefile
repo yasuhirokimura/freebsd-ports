@@ -27,7 +27,6 @@ DPKGDIR?=	/var/db/dpkg
 PLIST_SUB=	DPKGDIR=${DPKGDIR}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-admindir=${DPKGDIR} \
 		--libdir=${PREFIX}/libexec \
 		--with-libintl-prefix=${LOCALBASE} \

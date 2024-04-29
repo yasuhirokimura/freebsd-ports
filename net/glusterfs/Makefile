@@ -59,7 +59,6 @@ USE_LDCONFIG=	yes
 USE_PYTHON=	py3kplist
 USE_RC_SUBR=	glusterd
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-epoll \
 		--disable-georeplication \
 		--localstatedir=/var \

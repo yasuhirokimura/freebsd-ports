@@ -13,6 +13,5 @@ USES=		cpe xorg xorg-cat:app
 USE_XORG=	x11 xmuu xrender xft xext
 CPE_VENDOR=	xfree86
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

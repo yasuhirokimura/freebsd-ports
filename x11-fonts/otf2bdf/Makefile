@@ -20,7 +20,6 @@ USES=		autoreconf pkgconfig tar:tgz
 
 GNU_CONFIGURE=	yes
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/otf2bdf \
 		share/man/man1/otf2bdf.1.gz

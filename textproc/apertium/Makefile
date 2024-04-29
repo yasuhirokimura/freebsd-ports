@@ -35,7 +35,6 @@ SHEBANG_FILES=	apertium/apertium-get/apertium-get.sh scripts/apertium-editdist \
 		scripts/apertium-translate-to-default-equivalent.in
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 MAKE_JOBS_UNSAFE=	yes
 INSTALL_TARGET=	install-strip

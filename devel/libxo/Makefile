@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/Copyright
 
 USES=		autoreconf gmake libtool pathfix perl5
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 INSTALL_TARGET=	install-strip
 USE_PERL5=	run
 

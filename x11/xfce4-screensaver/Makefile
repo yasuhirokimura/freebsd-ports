@@ -28,7 +28,6 @@ USE_XORG=	ice sm x11 xext xrandr xscrnsaver xxf86vm
 
 SHEBANG_FILES=			src/xfce4-screensaver-configure
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--enable-maintainer-mode \
 				--with-console-kit=yes \
 				--with-systemd=no

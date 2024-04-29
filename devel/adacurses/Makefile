@@ -19,7 +19,6 @@ BINARY_ALIAS=	sed=${LOCALBASE}/bin/gsed
 USES=		ada autoreconf gmake ncurses pkgconfig tar:tgz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-ada-include=${PREFIX}/include/adacurses \
 		--with-ada-objects=${PREFIX}/lib/adacurses \
 		--with-curses-dir=${NCURSESBASE} \

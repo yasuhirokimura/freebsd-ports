@@ -25,7 +25,6 @@ CPE_PRODUCT=	garbage_collector
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 # NOTE: do not --disable-static, static is useful for e.g. lang/crystal
 CONFIGURE_ARGS=	--enable-cplusplus \
 		--enable-mmap \

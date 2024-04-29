@@ -13,7 +13,6 @@ LICENSE=	LGPL3
 USES=		autoreconf cpe gmake perl5 pkgconfig
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GITHUB=	yes
 
 CXXFLAGS+=	-std=c++14

@@ -18,7 +18,6 @@ USES=		bison cpe gettext-runtime gmake gnome libtool \
 USE_GNOME=	glib20 gnomeprefix introspection:build libxslt:build
 CPE_VENDOR=	gnome
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 CONFIGURE_ARGS=	--disable-valadoc
 INSTALL_TARGET=	install-strip
