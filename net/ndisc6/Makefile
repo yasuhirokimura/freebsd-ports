@@ -15,7 +15,6 @@ USES=		compiler:c11 localbase perl5 tar:bzip2
 USE_RC_SUBR=	rdnssd
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-suid-install \
 		--localstatedir="${PREFIX}/var"
 CONFIGURE_ENV=	PERL=${LOCALBASE}/bin/perl

@@ -12,7 +12,6 @@ WWW=		https://github.com/jedisct1/Blogbench
 USES=		tar:bzip2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/blogbench share/man/man8/blogbench.8.gz
 PORTDOCS=	README

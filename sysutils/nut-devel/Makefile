@@ -90,7 +90,6 @@ CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc/nut \
 		--with-ltdl --with-nut-scanner \
 		--without-augeas-lenses-dir
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CFLAGS+=	-I${LOCALBASE}/include -L${LOCALBASE}/lib -pthread
 LIB_DEPENDS+=	libltdl.so:devel/libltdl

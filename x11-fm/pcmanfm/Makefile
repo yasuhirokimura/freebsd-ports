@@ -31,7 +31,6 @@ CPE_VENDOR=	${PORTNAME}_project
 USE_GNOME=	cairo gdkpixbuf intltool
 USE_XORG=	x11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .if ${FLAVOR:Mgtk2}
 USE_GNOME+=	gtk20

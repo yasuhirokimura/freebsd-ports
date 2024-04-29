@@ -15,7 +15,6 @@ USE_RC_SUBR=	qadsl
 SUB_FILES=	pkg-message
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-global-cfg=${PREFIX}/etc/qadsl.conf \
 		--with-pidfile=/var/run/qadsl.pid
 

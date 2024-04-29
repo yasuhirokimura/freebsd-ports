@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		gmake localbase:ldflags ncurses
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFLICTS_INSTALL=	splay # bin/mp3tag bin/splay
 

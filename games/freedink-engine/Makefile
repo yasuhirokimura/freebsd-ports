@@ -15,7 +15,6 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 USES=		gettext gmake pkgconfig sdl
 USE_SDL=	sdl gfx ttf image mixer
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static --disable-upx
 
 OPTIONS_DEFINE=	EMBEDDED

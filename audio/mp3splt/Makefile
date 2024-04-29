@@ -15,7 +15,6 @@ LIB_DEPENDS=	libmp3splt.so:audio/libmp3splt \
 
 USES=		cpe pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-oggsplt_symlink
 
 CPE_VENDOR=	mp3splt_project

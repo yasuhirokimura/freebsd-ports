@@ -11,7 +11,6 @@ WWW=		https://www.muppetlabs.com/~breadbox/software/tworld/
 
 USE_SDL=	sdl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 USES=		gmake sdl
 ALL_TARGET=	tworld

@@ -25,7 +25,6 @@ GH_TUPLE=	uim:sigscheme:ccf1f92:sigscheme \
 		uim:libgcroots:f019129:libgcroots
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=	--enable-maintainer-mode
 
 OPTIONS_DEFINE=	DOCS X11

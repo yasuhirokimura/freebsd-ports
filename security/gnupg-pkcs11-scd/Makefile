@@ -19,7 +19,6 @@ LIB_DEPENDS=	libassuan.so:security/libassuan \
 USES=		pkgconfig ssl tar:bz2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFIGURE_ARGS=	--with-libassuan-prefix=${LOCALBASE} \
 		--with-libgcrypt-prefix=${LOCALBASE} \

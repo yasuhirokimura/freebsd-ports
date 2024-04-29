@@ -10,7 +10,6 @@ WWW=		https://www.x.org/
 USES=		xorg xorg-cat:app
 USE_XORG=	libfs xorgproto
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/showfont share/man/man1/showfont.1.gz
 

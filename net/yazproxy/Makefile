@@ -12,7 +12,6 @@ LIB_DEPENDS=	libyazpp.so:net/yaz++
 
 USES=		libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=--enable-shared --with-yazpp=${LOCALBASE}/bin
 USE_LDCONFIG=	yes
 

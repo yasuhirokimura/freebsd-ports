@@ -16,6 +16,5 @@ PLIST_FILES+=	bin/viewres \
 		share/man/man1/viewres.1.gz \
 		share/X11/app-defaults/Viewres \
 		share/X11/app-defaults/Viewres-color
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

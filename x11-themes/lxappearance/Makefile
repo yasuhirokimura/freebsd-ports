@@ -18,7 +18,6 @@ LIB_DEPENDS=	libdbus-1.so:devel/dbus \
 USES=		gettext-tools gmake gnome localbase pathfix pkgconfig tar:xz \
 		xorg
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_XORG=	x11
 USE_GNOME=	cairo gdkpixbuf gtk20 intltool
 CONFIGURE_ARGS=	--enable-dbus

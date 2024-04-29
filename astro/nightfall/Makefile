@@ -14,7 +14,6 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 USES=		compiler gettext gmake gnome jpeg pathfix perl5 pkgconfig
 USE_GNOME=	cairo gdkpixbuf gtk20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib
 CONFIGURE_ARGS=	--with-locale-prefix=${PREFIX}/share/locale \
