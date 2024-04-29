@@ -48,7 +48,6 @@ CONFIGURE_ARGS=	--htmldir=${PREFIX}/share/doc --with-openbabel		\
 		--with-xsf --with-cube --with-msym=${LOCALBASE}		\
 		--with-msym-inc=-I${LOCALBASE}/include/libmsym		\
 		--with-libxc=${LOCALBASE} --enable-python-module
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	${CFLAGS}
 USE_LDCONFIG=	yes
 

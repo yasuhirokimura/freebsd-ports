@@ -20,7 +20,6 @@ USES=		gettext gnome iconv jpeg pkgconfig
 USE_GNOME=	glib20
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-libspectrum-prefix=${LOCALBASE} \
 		--with-local-prefix=${LOCALBASE}
 

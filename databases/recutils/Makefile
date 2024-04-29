@@ -15,7 +15,6 @@ LIB_DEPENDS=	libuuid.so:misc/libuuid
 USES=		charsetfix cpe libtool makeinfo pkgconfig readline
 CPE_VENDOR=	gnu
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 

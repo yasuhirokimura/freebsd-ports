@@ -21,7 +21,6 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared \
 		--with-mailgroup
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PORTDOCS=	Changelog README
 

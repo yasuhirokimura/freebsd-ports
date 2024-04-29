@@ -15,7 +15,6 @@ USES=		libtool pathfix pkgconfig
 GNU_CONFIGURE=	yes
 USE_LDCONFIG=	yes
 
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	buytenh

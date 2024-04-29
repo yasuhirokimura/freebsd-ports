@@ -21,7 +21,6 @@ USE_LDCONFIG=	yes
 USE_PERL5=	test
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 TEST_TARGET=	check # 7 tests are failing, see https://github.com/gperftools/gperftools/issues/1572
 TESTING_UNSAFE=	yes

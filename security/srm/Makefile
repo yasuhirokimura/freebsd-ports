@@ -16,7 +16,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 CONFLICTS=	secure_delete
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 TEST_TARGET=	test
 
 PLIST_FILES=	bin/fill_test bin/srm share/man/man1/srm.1.gz

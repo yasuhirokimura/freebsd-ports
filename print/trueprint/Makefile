@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		gettext gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LDFLAGS+=	-L${LOCALBASE}/lib -lintl
 
 INFO=		trueprint

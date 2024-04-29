@@ -30,7 +30,6 @@ SHEBANG_FILES=	apps/dbus/presage_dbus_python_demo \
 		bindings/python/presage_python_demo.in
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-documentation \
 		--disable-gprompter \
 		--disable-static

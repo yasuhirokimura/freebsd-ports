@@ -19,7 +19,6 @@ LIB_DEPENDS=	libsqlite3.so:databases/sqlite3
 USES=		pkgconfig tcl:tea
 USE_LDCONFIG=	yes
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-system-sqlite
 
 CFLAGS+=	`pkg-config --cflags sqlite3`

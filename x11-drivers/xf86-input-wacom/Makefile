@@ -18,7 +18,6 @@ USE_XORG=	x11 xext xinerama xrandr
 LDFLAGS+=	-Wl,--as-needed # Xext
 USE_RC_SUBR=	wacom
 SUB_FILES=	pkg-message
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	UDEV_CFLAGS=" " UDEV_LIBS=" "
 CONFIGURE_ARGS=	--without-systemd-unit-dir \
 		--without-udev-rules-dir \

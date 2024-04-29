@@ -15,7 +15,6 @@ LIB_DEPENDS=	libfreetype.so:print/freetype2
 USES=		xorg xorg-cat:app
 USE_XORG=	xorgproto fontenc
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/fonttosfnt share/man/man1/fonttosfnt.1.gz
 

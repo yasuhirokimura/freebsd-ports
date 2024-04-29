@@ -62,7 +62,6 @@ CONFIGURE_ARGS=	--with-boost-incl="${LOCALBASE}/include" \
 		--disable-kparts3 \
 		--disable-jemalloc \
 		--without-gconf
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 #MAKE_ARGS+=	INCLUDES="-I${LOCALBASE}/include/ffmpeg"
 
 GNASHVER=	0.8.11dev
