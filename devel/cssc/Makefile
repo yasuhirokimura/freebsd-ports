@@ -17,7 +17,6 @@ BROKEN_mips64=	fails to compile: ../gl/lib/unistd.h:135:3: "Please include confi
 USES=		compiler:c11
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INFO=		cssc
 
 OPTIONS_DEFINE=			BINARY

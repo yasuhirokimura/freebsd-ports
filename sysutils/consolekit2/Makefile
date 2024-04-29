@@ -39,7 +39,6 @@ USES=		autoreconf gettext gmake gnome libtool localbase pathfix pkgconfig \
 USE_CSTD=	gnu99
 USE_GNOME=	glib20 libxslt introspection:build
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 CONFIGURE_ARGS=	--with-pid-file=/var/run/${PORTNAME}.pid \
 		--enable-pam-module \

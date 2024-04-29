@@ -17,7 +17,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		cpe gmake gnome libtool localbase:ldflags pathfix pkgconfig tar:xz
 CPE_VENDOR=	xmlsoft
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_GNOME=	libxml2
 USE_LDCONFIG=	yes
 

@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		cpe gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--sbindir=${PREFIX}/sbin \
 		--with-nologin=/var/run \
 		--disable-install-distdir \

@@ -26,7 +26,6 @@ USE_XORG=	ice sm x11 xext xi xmu xt
 SHEBANG_FILES=	cfg/doxy4win.pl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=	--with-pthread=yes --with-coin=${LOCALBASE}
 
 # avoid renaming of soxt-config and soxt-config.1

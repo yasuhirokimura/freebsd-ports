@@ -17,7 +17,6 @@ PLIST_FILES=	bin/cf \
 		share/man/man1/cf.1.gz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFLICTS_INSTALL=	cf # bin/cf
 

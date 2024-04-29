@@ -21,7 +21,6 @@ CPE_PRODUCT=	audiofile
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 TEST_TARGET=	check
 
 post-install:

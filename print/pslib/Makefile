@@ -20,7 +20,6 @@ USES=		gettext gmake gnome jpeg libtool localbase pathfix pkgconfig
 USE_GNOME=	intlhack
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LIBS+=		-lintl
 INSTALL_TARGET=	install-strip
 

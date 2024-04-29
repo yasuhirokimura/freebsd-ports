@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 LIB_DEPENDS=	libfwnt.so:devel/libfwnt
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-python --with-libfwnt=${LOCALBASE}
 CONFIGURE_ENV=	PYTHON_CONFIG=${PYTHON_CMD}-config
 USES=		cpe libtool pathfix python

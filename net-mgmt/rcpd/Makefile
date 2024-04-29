@@ -9,7 +9,6 @@ COMMENT=	RCP server for routers and network devices
 WWW=		https://www.shrubbery.net/rcpd/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	sbin/rcpd \
 		share/man/man1/rcpd.1.gz

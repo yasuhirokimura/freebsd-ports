@@ -28,7 +28,6 @@ USE_RC_SUBR=	rsyncd
 SHEBANG_FILES=	support/rrsync
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-debug \
 		--enable-ipv6 \
 		--with-rsyncd-conf=${ETCDIR}/rsyncd.conf

@@ -22,7 +22,6 @@ CPE_VENDOR=	x
 USE_GITLAB=	yes
 GL_TAGNAME=	b74b67f0f321875492968f7097b9d6e82a66d7df
 USE_XORG=	pciaccess pixman
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_header_sys_sysinfo_h=no # XXX ports/242236
 CONFIGURE_ARGS=	--with-builderstring="${DISTVERSIONFULL}"
 TEST_TARGET=	check

@@ -16,7 +16,6 @@ USES=		autoreconf libtool uidfix
 USE_RC_SUBR=	${PORTNAME}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 SUB_FILES=	pkg-message
 

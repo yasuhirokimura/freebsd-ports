@@ -12,7 +12,6 @@ WWW=		https://hessling-editor.sourceforge.net/
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-rexxincdir=${LOCALBASE}/include \
 		--with-rexxlibdir=${LOCALBASE}/lib
 ALL_TARGET=	all html

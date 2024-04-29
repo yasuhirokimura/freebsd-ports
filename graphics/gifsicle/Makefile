@@ -22,7 +22,6 @@ USES=		cpe
 CPE_VENDOR=	gifsicle_project
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PORTDOCS=	NEWS.md README.md
 PLIST_FILES=	bin/gifdiff bin/gifsicle \

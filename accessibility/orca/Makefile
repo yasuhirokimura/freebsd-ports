@@ -31,7 +31,6 @@ USES=		cpe gettext gmake gnome localbase pathfix pkgconfig \
 		python tar:xz
 USE_GNOME=	gtk30 pygobject3
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPE_VENDOR=	gnome
 
 post-patch:

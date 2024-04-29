@@ -17,7 +17,6 @@ RUN_DEPENDS=	${LOCALBASE}/bin/automake:devel/automake \
 USES=		autoreconf localbase uidfix
 USE_GITHUB=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 pre-configure:
 	(cd ${WRKSRC}/ && ${SH} bootstrap)

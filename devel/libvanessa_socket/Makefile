@@ -15,7 +15,6 @@ LIB_DEPENDS=	libvanessa_logger.so:devel/libvanessa_logger \
 USES=		libtool pathfix tar:bzip2
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib

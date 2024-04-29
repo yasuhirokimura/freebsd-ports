@@ -23,7 +23,6 @@ USES=		compiler:c11 gmake libtool ncurses readline autoreconf pkgconfig
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-cider --enable-xspice --with-readline=yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 OPTIONS_DEFINE=	DEBUG
 

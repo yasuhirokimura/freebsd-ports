@@ -24,7 +24,6 @@ LIB_DEPENDS=	liblcms2.so:graphics/lcms2 \
 USES=		compiler:features gmake jpeg localbase pkgconfig
 USE_CXXSTD=	c++14
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/enblend bin/enfuse share/man/man1/enblend.1.gz share/man/man1/enfuse.1.gz
 PORTDOCS=	AUTHORS NEWS README

@@ -14,7 +14,6 @@ LIB_DEPENDS=	libnetpbm.so:graphics/netpbm
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-netpbm=${LOCALBASE}
 MAKE_ARGS=	prefix=${PREFIX} exec_prefix=${PREFIX}
 

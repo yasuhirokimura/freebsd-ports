@@ -16,7 +16,6 @@ DEPRECATED=	Obsolete utility for obsolete protocols
 EXPIRATION_DATE=	2025-03-31
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 PLIST_FILES=	bin/msdl \
 		share/man/man1/msdl.1.gz
 

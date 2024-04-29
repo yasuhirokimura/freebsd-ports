@@ -23,7 +23,6 @@ USE_LDCONFIG=	yes
 USE_XORG=	x11 xt xinerama xext xpm xmu sm ice
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-shared
 CONFIGURE_ENV=	ARCH=freebsd
 

@@ -16,7 +16,6 @@ USES=		localbase:ldflags xorg
 USE_XORG=	xtst
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PORTDOCS=	AUTHORS ChangeLog README
 
