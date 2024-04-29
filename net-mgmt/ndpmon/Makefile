@@ -18,7 +18,6 @@ USE_GNOME=	libxml2
 USE_RC_SUBR=	ndpmonitor
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	OSTYPE=FreeBSD
 CONFIGURE_ARGS=	--with-var-datadir=${PREFIX}/var --with-confdir=${ETCDIR} \
 		--with-libxml2=${LOCALBASE} --cache-file=/dev/null

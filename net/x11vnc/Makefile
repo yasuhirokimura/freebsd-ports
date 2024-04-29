@@ -18,7 +18,6 @@ USE_XORG=	xcb xau xdmcp ice xcb xorgproto x11 xext xtst xinerama \
 # Sets LDFLAGS and adds to CONFIGURE_ENV, therefore we set LDFLAGS
 LDFLAGS+=	-L${LOCALBASE}/lib
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-ssl=${OPENSSLBASE}
 CPPFLAGS+=	-I${LOCALBASE}/include -I${LOCALBASE}/include/libdrm
 USE_GITHUB=	yes

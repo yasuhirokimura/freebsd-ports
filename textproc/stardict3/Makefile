@@ -17,7 +17,6 @@ LIB_DEPENDS=	libsigc-2.0.so:devel/libsigc++20 \
 RUN_DEPENDS=	xdg-open:devel/xdg-utils
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-festival \
 		--disable-gucharmap \
 		--disable-espeak \

@@ -11,7 +11,6 @@ LICENSE=	GPLv3+
 
 USES=		cpe libtool tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-trace --with-perl-install=no
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip

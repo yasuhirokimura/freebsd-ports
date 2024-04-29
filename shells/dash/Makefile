@@ -12,7 +12,6 @@ LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 # SIGRTMAX is larger than NSIG*2 which mksignames.c does not support.  Just
 # disable RT signal handling.
 CFLAGS+=	-DUNUSABLE_RT_SIGNALS

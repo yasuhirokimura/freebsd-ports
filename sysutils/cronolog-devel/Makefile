@@ -15,7 +15,6 @@ USES=		shebangfix
 SHEBANG_FILES=	src/cronosplit
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFLICTS=	cronolog
 

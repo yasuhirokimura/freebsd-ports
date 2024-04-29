@@ -10,7 +10,6 @@ WWW=		http://yydecode.sf.net/
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/yydecode \
 		share/man/man1/yydecode.1.gz

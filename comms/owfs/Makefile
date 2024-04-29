@@ -15,7 +15,6 @@ BUILD_DEPENDS=	${LOCALBASE}/include/uthash.h:devel/uthash
 USES=		gmake libtool pkgconfig compiler:c11
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
 CFLAGS+=	-Wno-implicit-function-declaration -Wno-int-conversion

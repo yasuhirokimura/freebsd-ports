@@ -19,7 +19,6 @@ LICENSE_PERMS_addl=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 LIB_DEPENDS=	libnet.so:net/libnet
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 USE_RC_SUBR=	dhcp_probe

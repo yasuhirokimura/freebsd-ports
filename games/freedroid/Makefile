@@ -17,7 +17,6 @@ USES=		iconv jpeg sdl
 USE_SDL=	mixer image sdl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--program-transform-name=
 
 DESKTOP_ENTRIES=	"Freedroid Classic" "${COMMENT}" \

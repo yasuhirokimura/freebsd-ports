@@ -13,7 +13,6 @@ EXTRACT_SUFX=	.tar.xz
 USES=		xorg xorg-cat:app
 USE_XORG=	xmuu x11 xext
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--without-xf86misc \
 		--without-fontcache
 

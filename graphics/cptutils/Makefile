@@ -20,7 +20,6 @@ LIB_DEPENDS=	libjansson.so:devel/jansson \
 USES=		autoreconf bison gmake gnome iconv localbase python shebangfix
 SHEBANG_FILES=	src/gradient-convert/gradient-convert.py
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	${ICONV_CONFIGURE_ARG}
 USE_GNOME=	libxml2 libxslt
 

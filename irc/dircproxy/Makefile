@@ -15,7 +15,6 @@ GH_PROJECT=	dircproxy
 GH_TAGNAME=	dc563b3
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 SUB_FILES+=	pkg-message
 USES=		autoreconf cpe
 
