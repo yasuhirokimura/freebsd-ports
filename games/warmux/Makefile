@@ -18,7 +18,6 @@ LIB_DEPENDS=	libxml++-2.6.so:textproc/libxml++26 \
 		libcurl.so:ftp/curl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	cxx_present=yes
 USES=		compiler dos2unix gmake pkgconfig sdl tar:bzip2
 USE_SDL=	sdl image mixer ttf gfx net

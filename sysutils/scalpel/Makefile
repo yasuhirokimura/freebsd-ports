@@ -15,7 +15,6 @@ LIB_DEPENDS=	libtre.so:textproc/libtre
 
 USES=		alias localbase
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 SUB_FILES=	pkg-message
 
 PLIST_FILES=	etc/scalpel.conf.sample bin/scalpel share/man/man1/scalpel.1.gz

@@ -22,7 +22,6 @@ GH_PROJECT=	Enigma
 USES=		autoreconf:build gettext gmake iconv localbase magick:build \
 		pkgconfig sdl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_SDL=	sdl2 image2 mixer2 ttf2
 CONFIGURE_ARGS=	--with-system-enet
 LDFLAGS+=	-lintl

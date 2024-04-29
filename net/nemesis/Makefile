@@ -18,7 +18,6 @@ LIB_DEPENDS=	libnet.so:net/libnet
 USES=		autoreconf gmake localbase:ldflags
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	libnet

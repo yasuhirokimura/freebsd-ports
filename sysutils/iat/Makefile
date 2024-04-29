@@ -14,7 +14,6 @@ LICENSE_FILE_GPLv3=	${WRKSRC}/COPYING
 
 USES=		tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/iat share/man/man1/iat.1.gz
 

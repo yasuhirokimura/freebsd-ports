@@ -22,7 +22,6 @@ USES=		compiler:c++11-lang gnome localbase pkgconfig
 USE_CXXSTD=	c++11
 USE_GNOME=	glibmm
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-zeroconf
 
 PLIST_FILES=	bin/${PORTNAME} share/man/man1/${PORTNAME}.1.gz

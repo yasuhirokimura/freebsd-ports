@@ -16,7 +16,6 @@ MAKE_JOBS_UNSAFE=	yes
 
 USES=		dos2unix libtool tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib
 USE_LDCONFIG=	yes

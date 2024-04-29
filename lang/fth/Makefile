@@ -14,7 +14,6 @@ USES=		gmake tar:bz2 ssl  # ssl is used only for the bignum interface BN_*
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 TEST_TARGET=	test

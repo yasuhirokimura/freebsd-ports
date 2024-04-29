@@ -10,7 +10,6 @@ MAINTAINER=	fuz@FreeBSD.org
 COMMENT=	Tool for testing network IDS implementations
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CFLAGS+=	-Wno-pointer-sign
 
 PLIST_FILES=	sbin/fragrouter \

@@ -10,6 +10,5 @@ USES=		gl xorg xorg-cat:app
 USE_GL=		gl
 USE_XORG=	x11 xorgproto
 PLIST_FILES=	bin/xdriinfo share/man/man1/xdriinfo.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

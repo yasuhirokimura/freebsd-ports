@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/doc/GPL
 
 USES=		cpe
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--bindir="${PREFIX}/${CGIDIR}" \
 		--sysconfdir="${PREFIX}/etc" \
 		--with-manpath=/usr/share/man:${LOCALBASE}/share/man \

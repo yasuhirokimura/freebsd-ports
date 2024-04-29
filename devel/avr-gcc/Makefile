@@ -31,7 +31,6 @@ USE_LDCONFIG=	${PREFIX}/lib/gcci/avr/${SUFFIX}
 USE_PERL5=	build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-libssp \
 		--enable-languages="c c++" \
 		--target=avr \

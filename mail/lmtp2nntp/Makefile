@@ -20,7 +20,6 @@ LIB_DEPENDS=	libstr.so:devel/str \
 		libvar.so:devel/ossp-var
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-ex=${LOCALBASE} --with-str=${LOCALBASE} \
 		--with-sa=${LOCALBASE} --with-var=${LOCALBASE}
 TEST_TARGET=	check

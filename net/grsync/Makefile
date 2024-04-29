@@ -22,7 +22,6 @@ USES=		desktop-file-utils gettext gmake gnome \
 USE_GNOME=	cairo gdkpixbuf gtk30 intltool
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=	--disable-unity
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib

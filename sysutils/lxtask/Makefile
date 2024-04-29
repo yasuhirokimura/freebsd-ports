@@ -17,7 +17,6 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 USES=		gmake gnome iconv pkgconfig tar:xz
 USE_GNOME=	cairo gdkpixbuf gtk20 intlhack
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CFLAGS+=	-fcommon
 

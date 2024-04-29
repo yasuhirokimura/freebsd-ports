@@ -14,6 +14,5 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		gmake libtool tar:xz
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

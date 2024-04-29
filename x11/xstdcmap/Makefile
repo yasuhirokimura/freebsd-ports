@@ -13,6 +13,5 @@ USES=		xorg xorg-cat:app
 USE_XORG=	x11 xmu xt
 
 PLIST_FILES=	bin/xstdcmap share/man/man1/xstdcmap.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

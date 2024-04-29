@@ -15,7 +15,6 @@ EXPIRATION_DATE=2025-07-31
 MAKE_JOBS_UNSAFE=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-optimize \
 		--enable-batch \
 		--includedir="${PREFIX}/include/pth" \

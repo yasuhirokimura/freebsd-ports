@@ -22,7 +22,6 @@ USES=		gettext gnome pkgconfig
 USE_GNOME=	glib20
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-libnet=${LOCALBASE}
 DESTDIRNAME=	install_prefix
 WRKSRC=		${WRKDIR}/${PORTNAME}-${DISTVERSION:C/..$//}

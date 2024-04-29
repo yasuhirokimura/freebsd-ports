@@ -12,7 +12,6 @@ LICENSE=	tarsnap
 LICENSE_NAME=	tarsnap
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	CFLAGS="-I${OPENSSLINC} ${CFLAGS}" \
 		LDFLAGS="-L${OPENSSLLIB} ${LDFLAGS}"
 CONFIGURE_ARGS=	--with-bash-completion-dir=${PREFIX}/etc/bash_completion.d/	\

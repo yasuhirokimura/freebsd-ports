@@ -31,7 +31,6 @@ PLIST_SUB+=	MPIDIR=${MPIDIR}
 
 GNU_CONFIGURE=	yes
 GNU_CONFIGURE_PREFIX=	${PREFIX}/${MPIDIR}
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/${MPIDIR}/share
 CONFIGURE_ARGS+=	--program-prefix= \
 			--with-hwloc=external \
 			--with-libltdl \
