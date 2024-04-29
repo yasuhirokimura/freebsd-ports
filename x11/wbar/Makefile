@@ -16,7 +16,6 @@ LIB_DEPENDS=	libImlib2.so:graphics/imlib2
 USES=		compiler:c++11-lang gettext gmake gnome pkgconfig tar:tgz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--exec-prefix=${PREFIX}
 LDFLAGS+=	-L${LOCALBASE}/lib
 

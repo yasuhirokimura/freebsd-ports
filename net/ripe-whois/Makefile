@@ -13,7 +13,6 @@ USES=		perl5 gmake
 USE_PERL5=	build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/whois3 share/man/man1/whois3.1.gz
 

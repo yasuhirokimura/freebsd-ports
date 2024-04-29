@@ -13,6 +13,5 @@ LICENSE=	BSD2CLAUSE
 USES=		perl5 shebangfix
 SHEBANG_FILES=	*.pl mk/*.pl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

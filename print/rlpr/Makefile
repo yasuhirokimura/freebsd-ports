@@ -14,7 +14,6 @@ LICENSE=	GPLv2
 
 USES=		cpe
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 # rlpr supports gettext/libintl, but does not currently come with ANY
 # translation .po files. When this changes, it would make sense to
 # enable the use of gettext in this port:

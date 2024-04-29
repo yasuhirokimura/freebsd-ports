@@ -33,7 +33,6 @@ SHEBANG_FILES=	Singular/surfex \
 		libsingular-config.in
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-gmp=${LOCALBASE} --enable-Singular --enable-factory	\
 		--with-libparse --disable-dependency-tracking --without-python
 

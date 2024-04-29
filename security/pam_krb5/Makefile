@@ -23,7 +23,6 @@ CONFIGURE_ARGS+=	--with-krb5="${GSSAPIBASEDIR}" \
 			--with-krb5-include="${GSSAPIINCDIR}" \
 			--with-krb5-lib="${GSSAPILIBDIR}"
 CONFIGURE_ENV=		PATH_KRB5_CONFIG="${KRB5CONFIG}"
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 INSTALL_TARGET=		install-strip
 
 FLAVORS=		mit heimdal_base heimdal_port

@@ -20,7 +20,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	sagb
 USE_XORG=	x11 xft xpm xrandr xrender
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/alttab \
 		share/man/man1/alttab.1.gz

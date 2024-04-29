@@ -22,7 +22,6 @@ USES=		compiler:c11 cpe gmake libtool pkgconfig
 CPE_VENDOR=	nbdkit_project
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 INSTALL_TARGET=	install-strip
 TEST_TARGET=	check
 

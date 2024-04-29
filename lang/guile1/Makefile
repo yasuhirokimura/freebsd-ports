@@ -25,7 +25,6 @@ CPE_VENDOR=	gnu
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--program-suffix=-${GUILE_VER} \
 		--includedir='$${prefix}/include/guile/${GUILE_VER}/'
 

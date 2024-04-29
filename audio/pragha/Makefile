@@ -20,7 +20,6 @@ LIB_DEPENDS=	libtag.so:audio/taglib \
 USES=		compiler:c11 desktop-file-utils gettext-tools gmake gnome gstreamer \
 		libtool pkgconfig sqlite tar:bz2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GNOME=	glib20 gtk30 intltool intlhack
 USE_GSTREAMER=	faad flac libav mpg123 ogg speex
 USE_LDCONFIG=	yes

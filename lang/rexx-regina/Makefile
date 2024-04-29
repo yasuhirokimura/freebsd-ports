@@ -20,7 +20,6 @@ USES=		gmake iconv ncurses
 USE_LDCONFIG=	yes
 USE_RC_SUBR=	rxstack
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-addon-dir=${PREFIX}/lib/Regina-REXX/addons
 CONFIGURE_ENV=	ac_cv_c_char_unsigned=yes
 MAKE_JOBS_UNSAFE=	yes

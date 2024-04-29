@@ -20,7 +20,6 @@ USES=		cpe tar:bzip2 libtool xorg
 USE_XORG=	sm ice xt x11 xext xorgproto xrender xft
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	lt_cv_libxp=no
 CONFIGURE_ARGS=	--enable-static --enable-shared --enable-production \
 		--disable-maintainer-mode \

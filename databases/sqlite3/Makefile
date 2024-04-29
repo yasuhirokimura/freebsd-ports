@@ -35,7 +35,6 @@ USES=	libtool pathfix zip
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 MAKE_JOBS_UNSAFE=	yes
 ALL_TARGET+=	sqldiff

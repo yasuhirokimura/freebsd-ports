@@ -14,7 +14,6 @@ LICENSE=	GPLv3
 USES=	tar:xz libtool
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=		--with-ipc=tcp
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes

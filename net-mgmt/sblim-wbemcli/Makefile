@@ -13,7 +13,6 @@ LIB_DEPENDS=	libcurl.so:ftp/curl
 
 USES=		tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 MAKE_ARGS=	RM="${RM}"
 CPPFLAGS+=	-I${PREFIX}/include
 LDFLAGS+=	-L${PREFIX}/lib
