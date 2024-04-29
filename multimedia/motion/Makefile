@@ -27,7 +27,6 @@ GH_ACCOUNT=	Motion-Project
 USE_RC_SUBR=	${PORTNAME}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 # Standard bsd.port.mk variables
 SUB_FILES=	pkg-message

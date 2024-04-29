@@ -16,7 +16,6 @@ USE_CSTD=	gnu99
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-maintainer-mode \
 		--docdir="${DOCSDIR}"
 

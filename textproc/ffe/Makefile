@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		makeinfo localbase
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CFLAGS+=	-std=gnu89	# Requires GNU89 inline semantics.
 
 INFO=		ffe

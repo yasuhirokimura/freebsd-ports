@@ -16,7 +16,6 @@ LIB_DEPENDS=	libcurl.so:ftp/curl \
 
 USES=		gmake localbase tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 TEST_TARGET=	check
 
 # Fix build with clang11

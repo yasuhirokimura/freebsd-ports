@@ -10,7 +10,6 @@ COMMENT=	Heavily enhanced version of sed(1)
 WWW=		https://sed.sourceforge.net/grabbag/ssed/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--program-prefix=s
 
 OPTIONS_DEFINE=	NLS

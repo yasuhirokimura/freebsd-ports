@@ -17,7 +17,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	johnkerl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 TEST_TARGET=	check
 
 PLIST_FILES=	bin/mlr share/man/man1/mlr.1.gz

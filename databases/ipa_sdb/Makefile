@@ -16,7 +16,6 @@ BUILD_DEPENDS=	${LOCALBASE}/include/ipa_mod.h:sysutils/ipa
 USES=		libtool tar:bzip2
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 NO_OPTIONS_SORT=	yes

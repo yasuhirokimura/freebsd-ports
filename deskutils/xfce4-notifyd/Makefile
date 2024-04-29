@@ -25,7 +25,6 @@ USE_XFCE=	libmenu panel xfconf
 USE_XORG=	ice sm x11
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-systemd
 INSTALL_TARGET=	install-strip
 

@@ -23,7 +23,6 @@ LIB_DEPENDS=	libgmp.so:math/gmp	\
 USES=		compiler:c++11-lang gmake libtool localbase tar:xz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-pari	\
 		--mandir=${PREFIX}/share/man
 INSTALL_TARGET=	install-strip

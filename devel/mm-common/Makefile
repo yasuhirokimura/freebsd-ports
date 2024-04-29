@@ -15,6 +15,5 @@ LIB_DEPENDS=	libcurl.so:ftp/curl
 
 USES=		gmake pathfix tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

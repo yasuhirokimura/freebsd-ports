@@ -22,7 +22,6 @@ CPE_VENDOR=	gnome
 USE_GNOME=	gtk20 gnomeprefix libxslt libartlgpl2 intlhack
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-gnome
 CONFIGURE_ENV=	LOCALBASE="${LOCALBASE}"
 

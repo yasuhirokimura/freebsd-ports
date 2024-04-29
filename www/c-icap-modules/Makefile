@@ -18,7 +18,6 @@ LIB_DEPENDS=	libclamav.so:security/clamav \
 
 USES=				libtool autoreconf
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--enable-static \
 				--with-c-icap=${LOCALBASE} \
 				--with-clamav=${LOCALBASE}

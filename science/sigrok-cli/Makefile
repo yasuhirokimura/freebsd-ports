@@ -18,7 +18,6 @@ USES=		desktop-file-utils gettext-runtime gmake gnome libtool pathfix \
 		pkgconfig
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 MAKE_JOBS_UNSAFE=	yes
 

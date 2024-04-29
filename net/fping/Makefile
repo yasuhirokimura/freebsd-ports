@@ -18,7 +18,6 @@ LICENSE_PERMS=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 USES=		autoreconf
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 OPTIONS_DEFINE=	IPV6

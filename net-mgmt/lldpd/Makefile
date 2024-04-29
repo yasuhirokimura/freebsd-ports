@@ -21,7 +21,6 @@ USE_CSTD=	gnu99
 USE_LDCONFIG=	yes
 USE_RC_SUBR=	${PORTNAME}
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-doxygen-doc \
 		--enable-hardening \
 		--enable-privsep \

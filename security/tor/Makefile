@@ -15,7 +15,6 @@ USE_CSTD=	gnu99 # until this bug report is closed: https://trac.torproject.org/p
 
 CPE_VENDOR=	torproject
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-openssl-dir="${OPENSSLBASE}"
 CONFIGURE_ENV=	TOR_CPPFLAGS_libevent="-I${LOCALBASE}/include" \
 		TOR_LDFLAGS_libevent="-L${LOCALBASE}/lib/" \

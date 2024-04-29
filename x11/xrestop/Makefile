@@ -10,7 +10,6 @@ WWW=		https://www.freedesktop.org/wiki/Software/xrestop/
 USES=		gmake pkgconfig ncurses xorg xorg-cat:app
 USE_XORG=	x11 xext xrender xt xres xorgproto
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_GITLAB=	yes
 GL_TAGNAME=	5e3d606e9e055c2442e90285b6fe7ffdc2f721b8
 

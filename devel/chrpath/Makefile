@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/chrpath share/man/man1/chrpath.1.gz
 PORTDOCS=	AUTHORS ChangeLog NEWS README

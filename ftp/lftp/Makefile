@@ -28,7 +28,6 @@ CPE_VENDOR=	lftp_project
 SHEBANG_FILES=	src/convert-mozilla-cookies src/verify-file src/xdg-move
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PORTDOCS=	AUTHORS BUGS ChangeLog FAQ FEATURES INSTALL MIRRORS NEWS README \
 		README.debug-levels README.modules THANKS TODO

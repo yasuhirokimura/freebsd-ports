@@ -10,7 +10,6 @@ COMMENT=	GNU Which - Everything you never wanted in a which
 WWW=		https://savannah.gnu.org/projects/which/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--program-prefix=g
 
 INFO=		which

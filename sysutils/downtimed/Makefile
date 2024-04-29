@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 USES=		tar:xz
 USE_RC_SUBR=	${PORTNAME}
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 post-install:
 	${MKDIR} ${STAGEDIR}/var/db/downtimed

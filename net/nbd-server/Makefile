@@ -18,7 +18,6 @@ CPE_VENDOR=	wouter_verhelst
 USE_GNOME=	glib20
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-lfs --enable-syslog
 TEST_TARGET=	check
 

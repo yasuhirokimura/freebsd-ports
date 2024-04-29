@@ -18,7 +18,6 @@ BUILD_DEPENDS=	zip:archivers/zip \
 RUN_DEPENDS=	bash:shells/bash
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		autoreconf compiler:c++11-lang desktop-file-utils gmake \
 		pkgconfig shebangfix xorg
 USE_JAVA=	yes

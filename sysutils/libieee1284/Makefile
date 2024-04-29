@@ -15,7 +15,6 @@ ONLY_FOR_ARCHS=	i386
 
 USES=		libtool tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 

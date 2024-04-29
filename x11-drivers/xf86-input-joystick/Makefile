@@ -12,6 +12,5 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		pathfix xorg-cat:driver
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

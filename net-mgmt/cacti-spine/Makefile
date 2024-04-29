@@ -16,7 +16,6 @@ LIB_DEPENDS=	libnetsnmp.so:net-mgmt/net-snmp \
 		libpkg.so:${PKG_ORIGIN}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--with-mysql=${LOCALBASE} --with-snmp=${LOCALBASE}
 CPPFLAGS+=	`net-snmp-config --cflags`
 LDFLAGS+=	`net-snmp-config --libs` -lexecinfo
