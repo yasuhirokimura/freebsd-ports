@@ -24,7 +24,6 @@ RUN_DEPENDS=	${LOCALBASE}/etc/devd/u2f.conf:security/u2f-devd
 USES=	autoreconf pkgconfig gmake libtool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	-enable-gtk-doc
 INSTALL_TARGET=	install-strip
 

@@ -17,7 +17,6 @@ LIB_DEPENDS=	libogg.so:audio/libogg \
 
 USES=		cpe libtool pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
 CPE_VENDOR=	xiph

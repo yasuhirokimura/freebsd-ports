@@ -11,7 +11,6 @@ WWW=		http://kakasi.namazu.org/
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		iconv libtool
 USE_LDCONFIG=	yes
 

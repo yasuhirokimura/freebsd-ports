@@ -27,6 +27,5 @@ CONFIGURE_ARGS=	--x-libraries=${LOCALBASE}/lib \
 		--with-pkg-config=${LOCALBASE}/bin/pkg-config \
 
 PLIST_FILES=	bin/luit share/man/man1/luit.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

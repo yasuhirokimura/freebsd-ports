@@ -9,7 +9,6 @@ COMMENT=	Network interface statistics monitoring tool
 WWW=		http://gael.roualland.free.fr/ifstat/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		ssl
 
 OPTIONS_DEFINE=	SNMP

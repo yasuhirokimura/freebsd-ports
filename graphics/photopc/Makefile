@@ -9,7 +9,6 @@ COMMENT=	Control cameras based on Sierra Imaging chipset and compatibles
 WWW=		https://photopc.sourceforge.net/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/epinfo \
 		bin/photopc \

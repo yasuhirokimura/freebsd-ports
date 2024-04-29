@@ -13,7 +13,6 @@ LICENSE=	ISCL
 USES=	libtool ssl pkgconfig
 INSTALL_TARGET=	install-strip
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 USE_LDCONFIG=	yes
 

@@ -15,7 +15,6 @@ LDFLAGS+=	-L${LOCALBASE}/lib
 
 CPE_VENDOR=	libxpm_project
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 OPTIONS_DEFINE=		NLS
 NLS_USES=		gettext

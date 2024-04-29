@@ -20,7 +20,6 @@ USE_GNOME=	gtk20 glib20 cairo vte intltool
 USE_XORG=	x11 xext
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-gtk3=no
 
 PORTDOCS=	AUTHORS ChangeLog NEWS

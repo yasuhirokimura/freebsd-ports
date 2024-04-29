@@ -15,7 +15,6 @@ USES=		cpe
 CPE_VENDOR=	lrzsz_project
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 ALL_TARGET=	all # vcheck
 
 CONFLICTS_INSTALL=	lrzip # bin/lrz

@@ -20,7 +20,6 @@ LIB_DEPENDS=	libmcrypt.so:security/libmcrypt \
 USES=		cpe
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib
 CONFIGURE_ARGS=	--enable-static --with-catgets
