@@ -17,7 +17,6 @@ OPTIONS_DEFINE=	LUA
 
 CONFIGURE_ARGS=	--enable-fcgi
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake localbase lua compiler
 
 SUB_FILES=	pkg-message

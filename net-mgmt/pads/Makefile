@@ -16,6 +16,5 @@ USE_CSTD=	gnu89
 LIB_DEPENDS=	libpcre.so:devel/pcre
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

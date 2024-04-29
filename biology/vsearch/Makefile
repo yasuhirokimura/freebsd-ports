@@ -18,7 +18,6 @@ USE_GITHUB=	yes
 
 GH_ACCOUNT=	torognes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/vsearch share/man/man1/vsearch.1.gz
 PORTDOCS=	*

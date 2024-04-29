@@ -15,7 +15,6 @@ USES=		autoreconf
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-perl-build-artifacts
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 MAKE_ARGS=	INSTALL_SCRIPT="${INSTALL_SCRIPT}"
 INSTALL_TARGET=	${WITH_DEBUG:Dinstall:Uinstall-stripped}
 TEST_TARGET=	test

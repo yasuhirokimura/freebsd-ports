@@ -19,7 +19,6 @@ GH_ACCOUNT=	phatina
 
 USES=		autoreconf compiler:c++17-lang fuse localbase pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 MAKEFILE=	makefile
 INSTALL_TARGET=	install-strip
 PLIST_FILES=	bin/${PORTNAME} \

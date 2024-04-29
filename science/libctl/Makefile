@@ -12,7 +12,6 @@ LICENSE=	GPLv2
 
 USES=		fortran guile:2.2 libtool pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-shared
 USE_LDCONFIG=	yes
 LDFLAGS+=	-L${LOCALBASE}/lib -lm

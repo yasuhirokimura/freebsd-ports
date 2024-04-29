@@ -20,7 +20,6 @@ SHEBANG_FILES=	src/*.pl.in src/tsung-plotter/tsplot.py.in \
 		src/tsung-plotter/tsung/tsung.py
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_SUB=	PORTVERSION=${PORTVERSION}
 

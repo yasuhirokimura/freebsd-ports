@@ -24,7 +24,6 @@ USES=		gmake ssl
 CONFLICTS_INSTALL=	mosh-1.[0-9].*
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--datadir=${PREFIX}/lib
 
 CFLAGS+=	-I${LOCALBASE}/include

@@ -14,7 +14,6 @@ LIB_DEPENDS=	libgdbm.so:databases/gdbm
 
 USES=		iconv gmake groff ldap tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-docdir=${DOCSDIR} --localstatedir="${PREFIX}/var"
 CPPFLAGS+=	-I${LOCALBASE}/include
 LIBS+=		-L${LOCALBASE}/lib ${ICONV_LIB}

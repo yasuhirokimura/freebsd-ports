@@ -19,7 +19,6 @@ CPE_VENDOR=	${PORTNAME}_project
 USE_GITHUB=	yes
 GH_ACCOUNT=	relan
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 
 PLIST_FILES=	sbin/exfatlabel sbin/dumpexfat sbin/exfatfsck sbin/mkexfatfs \
 		sbin/fsck.exfat sbin/mkfs.exfat sbin/exfatattrib \

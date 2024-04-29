@@ -11,7 +11,6 @@ LICENSE=	BSD2CLAUSE
 
 USES=		ncurses
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CFLAGS+=	-DHANZI # LDFLAGS=-s datadir=/usr/local/lib/less
 CPP=		#
 

@@ -29,7 +29,6 @@ AMAVISDIR?=	/var/amavis
 RUNDIR=		/var/run/amavis
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=${RUNDIR} --with-working-dir=${AMAVISDIR}/tmp
 USE_RC_SUBR=	${PORTNAME}
 

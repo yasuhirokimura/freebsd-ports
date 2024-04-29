@@ -13,6 +13,5 @@ USES=		tar:xz xorg xorg-cat:app
 USE_XORG=	x11 xcb xmuu
 
 PLIST_FILES=	bin/xlsclients share/man/man1/xlsclients.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

@@ -9,7 +9,6 @@ COMMENT=	Minimal perfect hashes for C
 WWW=		https://cmph.sourceforge.net/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		libtool pathfix
 USE_LDCONFIG=	yes
 

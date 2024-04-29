@@ -17,7 +17,6 @@ LIB_DEPENDS=	libnghttp2.so:www/libnghttp2 \
 USES=		compiler:c11 libtool pkgconfig ssl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	libssl_LIBS="-lssl -L${OPENSSLLIB}" \
 		libssl_CFLAGS="-I${OPENSSLINC}" \
 		libcrypto_LIBS="-lcrypto -L${OPENSSLLIB}" \

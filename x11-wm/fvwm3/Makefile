@@ -22,7 +22,6 @@ CPE_PRODUCT=	fvwm
 USE_XORG=	ice sm x11 xext xft xrandr xrender xt
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	ac_cv_path_PYTHON=${PYTHON_CMD}
 
 CONFLICTS_INSTALL=	fvwm

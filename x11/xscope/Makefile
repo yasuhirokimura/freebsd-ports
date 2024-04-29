@@ -12,7 +12,6 @@ LICENSE=	MIT
 USES=		xorg xorg-cat:app
 USE_XORG=	xorgproto x11 xext
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/xscope share/man/man1/xscope.1.gz
 

@@ -16,7 +16,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	quarkslab
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/binbloom \
 		share/man/man1/binbloom.1.gz

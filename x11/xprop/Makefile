@@ -12,7 +12,6 @@ EXTRACT_SUFX=	.tar.xz
 USES=		xorg xorg-cat:app
 USE_XORG=	x11
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/xprop share/man/man1/xprop.1.gz
 

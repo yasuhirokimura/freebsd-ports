@@ -11,7 +11,6 @@ COMMENT=	Library of C functions for various purposes
 LICENSE=	BSD2CLAUSE
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 WRKSRC=		${WRKDIR}/${PORTNAME}-${PORTVERSION}
 

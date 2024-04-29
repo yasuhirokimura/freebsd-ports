@@ -22,7 +22,6 @@ USES+=		autoreconf # until rlimit_memlock changes accepted upstream
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-leap-smear --enable-trustedbsd-mac \
 		--with-locfile=freebsd --with-memlock=-1
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 
 TEST_TARGET=	check
 

@@ -11,7 +11,6 @@ WWW=		https://www.nongnu.org/cmdftp/
 LICENSE=	GPLv3
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/cmdftp share/man/man1/${PORTNAME}.1.gz
 

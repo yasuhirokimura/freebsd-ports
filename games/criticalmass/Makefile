@@ -22,7 +22,6 @@ USE_GL=		gl
 USE_SDL=	image mixer sdl
 USE_CXXSTD=	gnu++98
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-optimize
 
 CONFLICTS=	shaaft

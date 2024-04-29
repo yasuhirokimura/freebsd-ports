@@ -12,7 +12,6 @@ LICENSE=	GPLv3
 
 USES=		gmake tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/pgdbf \
 		%%DOCSDIR%%/README \

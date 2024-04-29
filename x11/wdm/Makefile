@@ -26,7 +26,6 @@ OPTIONS_SUB=	yes
 USES=		gettext localbase tar:bzip2 xorg
 USE_XORG=	ice sm x11 xau xdmcp xext xinerama xmu
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	DEF_SERVER="${DEF_SERVER}" XRDB_PATH="${XRDB_PATH}"
 CONFIGURE_ARGS=	--with-logdir=/var/log \
 		--with-runlockdir=/var/run \

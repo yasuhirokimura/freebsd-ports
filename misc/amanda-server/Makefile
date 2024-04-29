@@ -23,7 +23,6 @@ USE_GNOME=	glib20
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--libexecdir=${PREFIX}/libexec/amanda \
 		--without-amlibexecdir \
 		--with-amandahosts --with-fqdn \

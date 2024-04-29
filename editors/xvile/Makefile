@@ -22,7 +22,6 @@ USES=		pkgconfig shebangfix tar:tgz xorg
 SHEBANG_FILES=	macros/lxvile macros/lxvile-fonts perl/vileget
 USE_XORG=	x11 xext xpm xt
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	cf_cv_crypt_works=yes
 CONFIGURE_ARGS=	--disable-imake \
 		--disable-desktop \

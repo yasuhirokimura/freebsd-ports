@@ -28,7 +28,6 @@ USE_GNOME=	libxml2
 USES=		gnome perl5
 USE_PERL5=	run
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 NO_ARCH=	yes
 
 USERS=		torrus

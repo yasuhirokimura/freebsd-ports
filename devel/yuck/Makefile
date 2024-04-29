@@ -19,7 +19,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	hroptatyr
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 post-install:
 	${RM} -r ${STAGEDIR}${DOCSDIR}

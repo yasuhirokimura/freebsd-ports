@@ -19,7 +19,6 @@ SHEBANG_FILES=		scripts/samhainadmin-gpg.pl.in \
 			scripts/samhainadmin-sig.pl.in
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var \
 		--with-logserver=true \
 		--with-altlogserver=true \

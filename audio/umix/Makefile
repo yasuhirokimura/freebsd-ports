@@ -10,7 +10,6 @@ WWW=		https://umix.sourceforge.net/
 
 USES=		alias ncurses
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/umix \
 		share/man/man1/umix.1.gz

@@ -29,7 +29,6 @@ USE_XORG=	x11 xcursor xext xfixes xft xinerama xrender
 
 USE_CXXSTD=	gnu++0x
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFIGURE_ENV=	EXTRA_LIBS="-lexecinfo" \
 		FLTK_CONFIG="${LOCALBASE}/bin/fltk-config"

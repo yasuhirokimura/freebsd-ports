@@ -20,7 +20,6 @@ USES=		fuse localbase gnome pkgconfig tar:bzip2
 USE_GNOME=	glib20
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/${PORTNAME} share/man/man1/ifuse.1.gz
 

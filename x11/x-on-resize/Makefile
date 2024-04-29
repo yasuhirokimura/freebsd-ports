@@ -22,7 +22,6 @@ GL_TAGNAME=	f59c9247e682b95f4091def7575490466f131131
 USE_XORG=	x11 xorg-macros xrandr
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/x-on-resize \
 		share/man/man1/x-on-resize.1.gz

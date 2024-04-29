@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/doc/copyright
 
 USES=		fuse localbase:ldflags
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/chironfs bin/chirctl share/man/man8/chironfs.8.gz
 PORTDOCS=	*

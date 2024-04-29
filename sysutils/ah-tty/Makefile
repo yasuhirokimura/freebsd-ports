@@ -10,7 +10,6 @@ WWW=		https://ah-tty.sourceforge.net/
 
 USES=		ncurses
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_CSTD=	gnu89
 
 PLIST_FILES=	bin/ah-tty bin/ah-tty.static \

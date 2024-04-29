@@ -16,7 +16,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	besser82
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static
 
 CFLAGS+=	-Wno-gnu-statement-expression

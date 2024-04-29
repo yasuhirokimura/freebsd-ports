@@ -19,7 +19,6 @@ BUILD_DEPENDS=	cdrecord:sysutils/cdrtools
 
 USES=		gettext gmake gnome iconv pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFIGURE_ENV+=	GTK_CONFIG="${GTK_CONFIG}" \
 		GLIB_CONFIG="${GLIB_CONFIG}"

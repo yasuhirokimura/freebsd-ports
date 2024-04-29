@@ -13,7 +13,6 @@ LIB_DEPENDS=	libao.so:audio/libao \
 		libgconfmm-2.6.so:devel/gconfmm26
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		compiler:c++11-lang pkgconfig tar:bzip2
 USE_CXXSTD=	c++11
 

@@ -13,7 +13,6 @@ LICENSE=	GPLv3
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 PLIST_FILES=	bin/msdl \
 		share/man/man1/msdl.1.gz
 

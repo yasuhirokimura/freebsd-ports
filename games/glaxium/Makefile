@@ -19,7 +19,6 @@ USE_SDL=	sdl mixer
 USE_GL=		gl glu glut
 USE_XORG=	x11 xi xmu
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 ALL_TARGET=	${PORTNAME}
 
 DOS2UNIX_FILES=	variables.cpp scene.cpp
