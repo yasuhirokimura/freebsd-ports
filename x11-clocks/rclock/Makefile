@@ -13,7 +13,6 @@ LICENSE=	GPLv2+
 USES=		xorg
 USE_XORG=	x11 xau xdmcp ice xpm xv
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 ALL_TARGET=	clock
 
 PLIST_FILES=	bin/rclock share/man/man1/rclock.1.gz

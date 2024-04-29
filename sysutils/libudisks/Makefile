@@ -27,7 +27,6 @@ USE_GNOME=	glib20
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 # --with-libintl-prefix is needed because otherwise
 # configure won't find libintl when PREFIX != LOCALBASE.
 CONFIGURE_ARGS=	--disable-daemon \

@@ -17,6 +17,5 @@ GH_TAGNAME=	cd2ed74
 USES=		autoreconf compiler:c++11-lang gmake
 USE_GITHUB=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

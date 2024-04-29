@@ -11,7 +11,6 @@ LICENSE=	GPLv2
 
 USES=		autoreconf compiler:c++11-lang
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	Parchive

@@ -19,7 +19,6 @@ USE_CXXSTD=	c++14
 USE_RC_SUBR=	bincimapd
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--sysconfdir=${ETCDIR}
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share/
 
 DOCS=		AUTHORS ChangeLog README doc/bincimap* \
 		doc/manual/bincimap-manual.ps

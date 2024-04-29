@@ -15,7 +15,6 @@ USE_RC_SUBR=	vmpsd
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=--bindir=${PREFIX}/sbin
 
 post-patch:

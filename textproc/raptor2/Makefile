@@ -27,7 +27,6 @@ USE_GNOME=	libxml2 libxslt
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 .include <bsd.port.mk>

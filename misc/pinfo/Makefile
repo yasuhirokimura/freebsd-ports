@@ -22,7 +22,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	baszoetekouw
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-curses=${NCURSESBASE}
 
 INFO=		pinfo

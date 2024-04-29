@@ -11,7 +11,6 @@ WWW=		http://caca.zoy.org/wiki/toilet
 LIB_DEPENDS=	libcaca.so:graphics/libcaca
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--program-transform-name=""
 USES=		pkgconfig
 CPPFLAGS+=	-I${LOCALBASE}/include

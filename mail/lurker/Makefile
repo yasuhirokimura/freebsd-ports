@@ -18,7 +18,6 @@ USES=		iconv localbase
 USE_CXXSTD=	c++14
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-mimelib-local \
 		--with-default-www-dir=${PREFIX}/www/lurker \
 		--with-cgi-bin-dir=${PREFIX}/www/lurker

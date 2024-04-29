@@ -17,7 +17,6 @@ USES=		localbase perl5
 USE_PERL5=	build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/fix-mime-charset \
 		share/man/man1/fix-mime-charset.1.gz

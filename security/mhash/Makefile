@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		libtool tar:bzip2
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-static --with-gnu-ld
 TEST_TARGET=	check
 

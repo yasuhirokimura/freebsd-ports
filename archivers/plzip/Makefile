@@ -13,7 +13,6 @@ BUILD_DEPENDS=	lzlib>=1.1:archivers/lzlib
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	CXXFLAGS="-I${LOCALBASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib"
 INSTALL_TARGET=	install-strip

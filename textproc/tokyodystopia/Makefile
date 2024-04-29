@@ -13,7 +13,6 @@ LICENSE=	LGPL21
 LIB_DEPENDS=	libtokyocabinet.so:databases/tokyocabinet
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		gmake localbase pathfix
 USE_LDCONFIG=	yes
 CONFIGURE_ARGS=	--libdir=${LOCALBASE}/lib --includedir=${LOCALBASE}/include

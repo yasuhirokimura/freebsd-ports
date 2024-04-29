@@ -64,7 +64,6 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-shell=/bin/sh \
 		--with-pdftops-path=${LOCALBASE}/bin/pdftops \
 		--with-test-font-path=${LOCALBASE}/share/fonts/dejavu/DejaVuSans.ttf
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 OPTIONS_DEFINE=			BRAILLE COLORD DOCS
