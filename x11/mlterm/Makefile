@@ -20,7 +20,6 @@ USE_LDCONFIG=	yes
 USE_PERL5=	build
 USE_XORG=	sm x11 xft
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-gui=x11 --with-imagelib=gdk-pixbuf2 --enable-utmp \
 		--enable-optimize-redrawing --disable-iiimf --with-gtk=3.0 \
 		--disable-ssh2

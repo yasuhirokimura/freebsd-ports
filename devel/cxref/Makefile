@@ -14,7 +14,6 @@ LICENSE=	GPLv2
 USES=		gmake shebangfix tar:tgz
 SHEBANG_FILES=	contrib/xrgr.pl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 ALL_TARGET=	programs
 
 OPTIONS_DEFINE=	CPP

@@ -23,7 +23,6 @@ USES=		autoreconf pkgconfig shebangfix
 SHEBANG_FILES=	scripts/cverules scripts/cvegenversdat
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var/db
 
 bash_OLD_CMD+=	/bin/sh

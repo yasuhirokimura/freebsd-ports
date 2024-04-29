@@ -15,7 +15,6 @@ LICENSE_COMB=	multi
 CONFLICTS=	openbsm-devel-1.[0-9]*
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		libtool tar:tgz
 USE_LDCONFIG=	yes
 

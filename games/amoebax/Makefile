@@ -20,7 +20,6 @@ USE_CXXSTD=	c++14
 USE_SDL=	sdl mixer image
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/amoebax \
 		share/applications/amoebax.desktop \

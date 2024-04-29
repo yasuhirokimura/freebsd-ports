@@ -15,7 +15,6 @@ BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sphinx>=0:textproc/py-sphinx@${PY_FLAVOR} 
 
 USES=			gmake python:env shebangfix tar:bzip2 tcl
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 GNU_CONFIGURE_PREFIX=	${PREFIX}/Modules
 CONFIGURE_SHELL=	${LOCALBASE}/bin/bash
 CONFIGURE_ARGS=		--enable-versioning \

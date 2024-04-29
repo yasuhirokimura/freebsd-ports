@@ -18,7 +18,6 @@ CPE_PRODUCT=	netwide_assembler
 USE_PERL5=	build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_func_strspn=yes
 
 MAKE_ARGS+=	INSTALLROOT=${STAGEDIR}

@@ -13,7 +13,6 @@ LICENSE=	GPLv2+
 
 USES=		fuse localbase
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/funionfs share/man/man1/${PORTNAME}.1.gz
 

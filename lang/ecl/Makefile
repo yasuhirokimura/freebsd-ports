@@ -22,7 +22,6 @@ USE_CSTD=	c99
 USE_LDCONFIG=	yes
 USE_PERL5=	build
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-boehm=system \
 		--enable-libatomic=system \
 		--with-gmp-prefix=${LOCALBASE} \

@@ -12,7 +12,6 @@ WWW=		http://www.iit.demokritos.gr/~petasis/Tcl/tkDND/tkDND.html
 USES+=		tk:tea xorg
 USE_XORG=	x11 xext
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 TCL_PKG=	${PORTNAME}${PORTVERSION}
 USE_LDCONFIG=	${PREFIX}/lib/${TCL_PKG}

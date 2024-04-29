@@ -13,6 +13,5 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		xorg xorg-cat:app
 USE_XORG=	x11 xmu xt xaw7
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

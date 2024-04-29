@@ -15,7 +15,6 @@ USES=		gettext gmake gnome localbase pkgconfig tar:xz
 USE_GNOME=	glib20
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/rifiuti \
 		bin/rifiuti-vista \

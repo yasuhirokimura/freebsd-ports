@@ -30,7 +30,6 @@ USES=		alias gmake gnome libtool pathfix pkgconfig python:build \
 		shebangfix sqlite ssl
 USE_GNOME=	glib20 gtksourceview3 libxslt:build
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-ca-certificates=${LOCALBASE}/share/certs/ca-root-nss.crt
 CONFIGURE_ENV=	LIBS="-pthread"
 INSTALL_TARGET=	install-strip

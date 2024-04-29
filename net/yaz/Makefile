@@ -18,7 +18,6 @@ USES=		gnome iconv libtool ncurses pathfix localbase:ldflags \
 		pkgconfig readline shebangfix tcl
 SHEBANG_FILES=	src/yaz-asncomp
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GNOME=	libxml2 libxslt
 USE_LDCONFIG=	yes
 MAKE_JOBS_UNSAFE=	yes

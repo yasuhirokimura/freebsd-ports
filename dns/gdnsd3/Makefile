@@ -20,7 +20,6 @@ LIB_DEPENDS=	libev.so:devel/libev \
 FETCH_ARGS=	-Fpr
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var --with-buildinfo=${PORTVERSION}
 USE_LDCONFIG=	yes
 USES=		cpe pkgconfig libtool tar:xz perl5 gmake

@@ -20,7 +20,6 @@ RUN_DEPENDS=	clamd:security/clamav
 USES=		autoreconf compiler:c++11-lib fuse:3 pkgconfig
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/clamfs \
 		share/man/man1/clamfs.1.gz

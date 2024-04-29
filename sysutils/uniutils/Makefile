@@ -15,7 +15,6 @@ RUN_DEPENDS=	ascii2binary:converters/ascii2binary
 
 USES=		gettext localbase tar:bz2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 LIBS+=		-lintl
 

@@ -15,7 +15,6 @@ LIB_DEPENDS=	libpcap.so.1:net/libpcap
 USES=		cpe gmake
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	sbin/tcpdump \
 		share/man/man1/tcpdump.1.gz

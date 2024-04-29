@@ -21,7 +21,6 @@ USE_GNOME=	glib20
 USE_PERL5=	build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--without-included-regex
 
 LDFLAGS+=	-lgnuregex

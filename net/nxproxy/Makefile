@@ -16,7 +16,6 @@ LIB_DEPENDS=	libXcomp.so:x11/nxcomp
 
 USES=		autoreconf localbase:ldflags
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 WRKSRC=		${WRKDIR}/nx-libs-${PORTVERSION}${DISTVERSIONSUFFIX}/${PORTNAME}
 

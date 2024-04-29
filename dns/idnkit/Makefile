@@ -16,7 +16,6 @@ LICENSE_PERMS=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 
 USES=		iconv libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	${ICONV_CONFIGURE_BASE} \
 		--enable-runidn \
 		--enable-extra-ace

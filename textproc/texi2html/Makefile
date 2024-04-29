@@ -10,7 +10,6 @@ COMMENT=	Texinfo to HTML converter
 WWW=		https://www.nongnu.org/texi2html/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 NO_ARCH=	yes
 CONFIGURE_ENV=	PERL=${PERL}
 CONFIGURE_ARGS=	--disable-multiplatform

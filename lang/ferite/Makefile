@@ -19,7 +19,6 @@ LIB_DEPENDS=	libpcre.so:devel/pcre \
 
 USES=		gmake libtool localbase:ldflags
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LDFLAGS+=	-lpthread
 USE_LDCONFIG=	yes
 PLIST_SUB=	MACHINE_ARCH=${MACHINE_ARCH}

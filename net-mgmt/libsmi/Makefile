@@ -16,7 +16,6 @@ INSTALL_TARGET=	install-strip
 PIBDIR=		${PREFIX}/share/smi/pibs
 MIBDIR=		${PREFIX}/share/smi/mibs
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--with-data-dir=${PREFIX}/share/smi \
 		--with-pibdir=${PIBDIR} --with-mibdir=${MIBDIR}
 

@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USE_GNOME=	libxslt
 USES=		gnome iconv
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-libxml-prefix=${LOCALBASE} \
 		--with-libxslt-prefix=${LOCALBASE} \
 		${ICONV_CONFIGURE_ARG} \

@@ -36,7 +36,6 @@ BUILD_DEPENDS=	xmlcatalog:textproc/libxml2 \
 		nsupdate:dns/bind-tools
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	ac_cv_prog_PO4A=no \
 		--without-selinux --without-semanage \
 		--without-libnl --without-nfsv4-idmapd-plugin \

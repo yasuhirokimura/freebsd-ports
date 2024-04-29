@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		gl gmake localbase sdl xorg
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_SDL=	sdl mixer image
 USE_GL=		gl
 USE_XORG=	x11

@@ -22,7 +22,6 @@ LIB_DEPENDS=	libboost_date_time.so:devel/boost-libs \
 USES=		autoreconf compiler:c++20-lang cpe gmake libtool pkgconfig qt:5 shebangfix
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 SLAVE_PORT?=	no
 

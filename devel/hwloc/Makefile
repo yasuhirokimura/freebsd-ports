@@ -21,7 +21,6 @@ USES=		iconv libtool gnome pathfix pkgconfig tar:bzip2
 USE_GNOME=	libxml2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-static \
 		--disable-opencl \
 		--disable-cuda \

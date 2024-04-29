@@ -17,7 +17,6 @@ USES=	gmake ssl localbase
 USE_RC_SUBR=	radmind
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-radminddir=${RADMIND_BASE_DIR}
 
 CONFLICTS_INSTALL=	schilyutils # bin/fsdiff
