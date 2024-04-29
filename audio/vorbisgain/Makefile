@@ -16,7 +16,6 @@ LIB_DEPENDS=	libvorbis.so:audio/libvorbis \
 
 USES=		localbase:ldflags
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/vorbisgain \
 		share/man/man1/vorbisgain.1.gz

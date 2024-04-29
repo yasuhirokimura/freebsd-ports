@@ -21,7 +21,6 @@ LIB_DEPENDS=	libsqlite3.so:databases/sqlite3 \
 USES=		compiler:c11 gmake gnome pkgconfig ncurses
 USE_GNOME=	glib20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 PLIST_FILES=	bin/ncdc \
 		share/man/man1/ncdc.1.gz
 

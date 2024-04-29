@@ -21,7 +21,6 @@ WRKSRC=		${WRKDIR}/pptpd-${PORTVERSION}
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-libwrap
 
 USE_RC_SUBR=	pptpd

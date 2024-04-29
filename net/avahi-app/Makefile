@@ -30,7 +30,6 @@ USE_GNOME+=	glib20 intltool introspection:build
 USE_GNOME_SUBR=	yes
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS?=--with-distro=freebsd \
 		--with-dbus-system-socket=unix:path=/var/run/dbus/system_bus_socket \
 		--enable-introspection=yes \

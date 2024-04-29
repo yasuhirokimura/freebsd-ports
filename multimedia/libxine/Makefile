@@ -43,7 +43,6 @@ LLD_UNSAFE=	yes
 CPE_PRODUCT=	xine-lib
 CPE_VENDOR=	xine
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_XORG=	x11 xcb xv xinerama xext sm ice
 USE_GL=		gl glu
 USE_PERL5=	build

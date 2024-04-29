@@ -27,7 +27,6 @@ GH_ACCOUNT=	emacs-mirror
 GH_TAGNAME=	38071e39892
 
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=		--disable-build-details \
 			--localstatedir=/var \
 			--without-gconf \

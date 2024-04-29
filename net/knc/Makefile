@@ -13,7 +13,6 @@ LICENSE_COMB=	multi
 
 USES=		libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/knc \
 		share/man/man1/knc.1.gz

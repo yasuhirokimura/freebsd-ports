@@ -23,7 +23,6 @@ USE_XORG=	ice sm x11 xfixes xext
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-wayland
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 OPTIONS_DEFINE=		NLS IMGUR

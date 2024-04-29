@@ -14,7 +14,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	mono
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_path_MCS=${LOCALBASE}/bin/mcs
 USES=		autoreconf gmake gnome mono pkgconfig
 

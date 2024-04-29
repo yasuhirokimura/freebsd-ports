@@ -32,7 +32,6 @@ USE_LDCONFIG=	${PREFIX}/lib/R/lib
 USE_PERL5=	build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-java \
 		--enable-R-shlib \
 		--with-readline \

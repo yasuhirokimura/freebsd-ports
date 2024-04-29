@@ -15,7 +15,6 @@ EXTRACT_SUFX=	.tar.xz
 USES=		xorg xorg-cat:lib
 USE_XORG=	x11 xfixes xext xorgproto
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

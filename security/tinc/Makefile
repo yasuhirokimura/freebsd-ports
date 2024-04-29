@@ -16,7 +16,6 @@ LIB_DEPENDS=	liblzo2.so:archivers/lzo2
 USES=		cpe ssl makeinfo
 CPE_VENDOR=	tinc-vpn
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib
 CONFIGURE_ARGS=	--localstatedir=/var

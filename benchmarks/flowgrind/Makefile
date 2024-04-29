@@ -23,7 +23,6 @@ USES=		autoreconf ssl
 USE_GITHUB=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	LIBS="${LIBS} -lpcap"
 
 .include <bsd.port.mk>

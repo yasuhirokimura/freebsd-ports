@@ -17,7 +17,6 @@ LIB_DEPENDS=	libneon.so:www/neon
 USES=		gmake gnome localbase
 USE_GNOME=	libxml2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFIGURE_ARGS=	--with-neon --with-libxml2
 

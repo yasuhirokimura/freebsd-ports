@@ -19,7 +19,6 @@ PHP_DESC=	Install PHP for reporting generating
 
 USES=		autoreconf gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--sysconfdir="${ETCDIR}" \
 		--enable-fontdir="${ETCDIR}/fonts" \
 		--enable-imagedir="${ETCDIR}/images"

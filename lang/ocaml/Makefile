@@ -31,7 +31,6 @@ USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-force-safe-string \
 		--enable-ocamltest
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 ALL_TARGET=	world.opt
 TEST_TARGET=	tests

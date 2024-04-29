@@ -18,7 +18,6 @@ GH_TAGNAME=	d6a5716
 
 USES=		libtool localbase
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
 

@@ -16,7 +16,6 @@ LIB_DEPENDS=	libltdl.so:devel/libltdl
 USES=		gmake libtool localbase pkgconfig readline tar:xz
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 INFO=		dico

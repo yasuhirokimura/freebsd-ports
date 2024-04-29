@@ -17,7 +17,6 @@ USES=		cpe gettext gmake libtool:build readline
 CPE_VENDOR=	sgi
 CPE_PRODUCT=	${PORTNAME}
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	OPTIMIZER=-fcommon
 CONFIGURE_ARGS=	--disable-shared --enable-readline
 ALL_TARGET=	# empty

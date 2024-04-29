@@ -23,7 +23,6 @@ USE_CSTD=	gnu89
 USE_GNOME=	glib20 intltool
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-security
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 SHEBANG_FILES=	smsd/action
 
 SUB_FILES=	pkg-message

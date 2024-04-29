@@ -12,6 +12,5 @@ LICENSE=	BSD2CLAUSE
 PLIST_FILES=	bin/phybs share/man/man1/phybs.1.gz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

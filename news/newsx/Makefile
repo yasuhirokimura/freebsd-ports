@@ -19,7 +19,6 @@ RUN_DEPENDS=	${LOCALBASE}/news/lib/libinn.so:news/inn
 
 USES=		cpe
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CFLAGS+=	-fcommon
 
 CONFLICTS=	leafnode-1.*
