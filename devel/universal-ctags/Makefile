@@ -14,7 +14,6 @@ USE_GITHUB=	yes
 GH_PROJECT=	ctags
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--program-prefix=u
 
 TEST_TARGET=	check

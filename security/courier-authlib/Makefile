@@ -47,7 +47,6 @@ AUTHDAEMONVAR=	${LOCALSTATEDIR}/run/authdaemond
 VPOPMAILDIR?=	${LOCALBASE}/vpopmail
 USERDB?=	${PREFIX}/etc/userdb
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-unicode \
 		--disable-static \
 		--without-authcustom \

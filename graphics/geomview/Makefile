@@ -19,7 +19,6 @@ USE_LDCONFIG=	yes
 USE_XORG=	ice sm x11 xext xmu xt
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-htmlbrowser=xdg-open --with-pdfviewer=xdg-open \
 		--with-motif=${LOCALBASE} --with-opengl=${LOCALBASE}
 

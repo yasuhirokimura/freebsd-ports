@@ -21,7 +21,6 @@ USE_GNOME=	cairo gdkpixbuf glib20 gtk30 intltool
 USE_XFCE=	libexo
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-gudev
 
 OPTIONS_DEFINE=			GSTREAMER NLS

@@ -13,7 +13,6 @@ DEPRECATED=	Legacy "fork" that's based on legacy GNU sed 4.1 and last release in
 EXPIRATION_DATE=2025-04-30 
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--program-prefix=s
 
 OPTIONS_DEFINE=	NLS

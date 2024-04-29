@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYRIGHT.txt
 USES=		compiler:c++11-lang gmake
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_LDCONFIG=	yes
 ALL_TARGET=	default
 TEST_TARGET=	check_local

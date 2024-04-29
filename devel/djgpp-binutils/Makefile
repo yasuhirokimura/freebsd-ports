@@ -15,7 +15,6 @@ TARGET=		i586-pc-msdosdjgpp
 
 USES=		gmake makeinfo tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_OUTSOURCE=	yes
 CONFIGURE_ARGS=	--target=${TARGET} \
 		--with-gcc --with-gnu-ld --with-gnu-as \

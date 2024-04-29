@@ -24,7 +24,6 @@ GH_TAGNAME=	9d79adb
 
 USE_GNOME=	cairo gdkpixbuf gtk20 intltool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 LIBS+=		-lm
 

@@ -11,7 +11,6 @@ WWW=		http://www.ossp.org/pkg/lib/ex/
 
 USES=		libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 
 check: build

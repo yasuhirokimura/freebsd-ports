@@ -18,7 +18,6 @@ CPE_VENDOR=	darold
 
 SHEBANG_FILES=	cgi-bin/clwarn.cgi*
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-shared --enable-static \
 		--sysconfdir="${PREFIX}/etc/c-icap" \
 		--with-c-icap=${LOCALBASE}

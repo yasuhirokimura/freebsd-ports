@@ -12,7 +12,6 @@ LICENSE=	GPLv2
 
 USES=		compiler:c++11-lang tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 post-patch:
 	@${REINPLACE_CMD} -e \

@@ -23,7 +23,6 @@ USES=		cpe desktop-file-utils gettext gmake gnome libtool \
 USE_GNOME=	cairo intlhack gtk30 libgsf pygobject3
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	\
 		--without-paradox \
 		--without-python \

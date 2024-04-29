@@ -19,7 +19,6 @@ TCL_PKG=	BSD${PORTVERSION}
 USE_GITHUB=	yes
 GH_ACCOUNT=	flightaware
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	lib/${TCL_PKG}/bsd_procs.tcl \
 		lib/${TCL_PKG}/lib${TCL_PKG}.so \

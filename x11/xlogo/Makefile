@@ -19,6 +19,5 @@ XKB_DESC=		Use XKB to sound bells
 XKB_USE=		XORG=xkbfile
 XKB_CONFIGURE_WITH=	xkb
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>
