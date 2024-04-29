@@ -21,7 +21,6 @@ LIB_DEPENDS=	libmikmod.so:audio/libmikmod \
 USES=		autoreconf compiler:c++11-lang gmake sdl tar:tgz
 USE_SDL=	sdl mixer image
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PORTDATA=	*
 

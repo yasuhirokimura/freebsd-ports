@@ -40,7 +40,6 @@ SHEBANG_FILES=	utils/pcb_backannotate/lepton-pcb_backannotate \
 		utils/symfix/lepton-symfix
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-guild
 INSTALL_TARGET=	install-strip
 

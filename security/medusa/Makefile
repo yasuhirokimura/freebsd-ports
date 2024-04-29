@@ -16,7 +16,6 @@ LIB_DEPENDS=	libssh2.so:security/libssh2
 USES=	ssl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-module-ncp=no --enable-module-afp=no
 CFLAGS+=	-fcommon
 

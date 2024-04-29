@@ -9,6 +9,5 @@ COMMENT=	Huge image processing tools and libraries
 WWW=		https://www.imglab.org/p/O2/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

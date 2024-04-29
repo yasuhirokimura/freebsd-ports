@@ -18,7 +18,6 @@ USES=		compiler:c++11-lang gmake localbase lua:52 pkgconfig sdl tar:xz
 USE_SDL=	image2 sdl2 ttf2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LIBS+=		-largp
 
 .include <bsd.port.mk>

@@ -20,7 +20,6 @@ WRKSRC=		${WRKDIR}/${PORTNAME}-${DISTVERSION}-sdl
 USES=		localbase:ldflags sdl tar:bzip2
 USE_SDL=	sdl gfx image mixer ttf
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--datadir=${DATADIR}
 
 PORTDOCS=	CREDITS README

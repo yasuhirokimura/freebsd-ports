@@ -19,7 +19,6 @@ USES=		gettext-tools gmake gnome localbase mate pkgconfig \
 USE_GNOME=	gtk30 intltool pygobject3
 USE_MATE=	menus
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 NO_ARCH=	yes
 
 PORTSCOUT=	limitw:1,even

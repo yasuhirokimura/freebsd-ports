@@ -15,7 +15,6 @@ LIB_DEPENDS=	libpulse.so:audio/pulseaudio
 USES=		autoreconf gnome pkgconfig
 USE_GNOME=	cairo gdkpixbuf
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GITHUB=	yes
 GH_ACCOUNT=	christophgysin
 

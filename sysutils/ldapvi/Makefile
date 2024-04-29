@@ -16,7 +16,6 @@ LIB_DEPENDS=	libpopt.so:devel/popt
 USES=		gmake gnome iconv ldap ncurses pkgconfig
 USE_GNOME=	glib20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 MAKEFILE=	GNUmakefile
 
 EXTRA_PATCHES=	${FILESDIR}/0010-renamed-getline.patch:-p2

@@ -16,7 +16,6 @@ RUN_DEPENDS=	ca_root_nss>=0:security/ca_root_nss
 USES=		pkgconfig tar:xz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 USERS=		inadyn
 GROUPS=		inadyn

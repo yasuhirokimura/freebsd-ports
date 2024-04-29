@@ -16,7 +16,6 @@ USES=		ncurses
 USE_CXXSTD=	c++14
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/tcptrack share/man/man1/tcptrack.1.gz
 

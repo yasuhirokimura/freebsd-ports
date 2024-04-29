@@ -22,7 +22,6 @@ SHEBANG_FILES=	src/utils/afmtodit/afmtodit.pl \
 		contrib/mm/mmroff.pl
 CPE_VENDOR=	gnu
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-multibyte
 CONFIGURE_ENV=	INSTALL_MAN="${INSTALL_MAN}"
 LIBS+=		${ICONV_LIB}

@@ -19,7 +19,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	axel-download-accelerator
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFIGURE_ARGS=	--with-ssl=openssl
 

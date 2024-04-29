@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 LIB_DEPENDS=	libev.so:devel/libev
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 USES=		gnome pkgconfig tar:bzip2
 USE_GNOME=	glib20

@@ -26,7 +26,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	efficios
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-debug-info
 CONFIGURE_ENV=	YACC="bison -y"
 USE_GNOME=	glib20

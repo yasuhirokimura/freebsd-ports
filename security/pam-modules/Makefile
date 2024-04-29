@@ -15,7 +15,6 @@ USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-fshadow
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INFO=		pam-modules
 

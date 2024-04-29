@@ -25,7 +25,6 @@ USE_GNOME=	cairo gnomeprefix gdkpixbuf introspection:build \
 CPE_VENDOR=	gnome
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 TEST_TARGET=	check
 CONFIGURE_ARGS=	--disable-Bsymbolic

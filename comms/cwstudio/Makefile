@@ -13,7 +13,6 @@ USES=		compiler:c++11-lang ncurses
 USE_WX=		3.0+
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-wx-config=${WX_CONFIG}
 
 PLIST_FILES=	bin/cwcli \

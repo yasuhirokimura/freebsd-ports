@@ -18,7 +18,6 @@ USES=		gmake libtool pkgconfig tar:bz2
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static
 CONFIGURE_SHELL=	${LOCALBASE}/bin/bash # workaround for https://github.com/ofiwg/libfabric/issues/7901
 

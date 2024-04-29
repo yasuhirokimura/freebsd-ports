@@ -25,7 +25,6 @@ USE_XORG=	x11
 USE_GNOME=	cairo glib20 gnomeprefix gtk30 intltool introspection \
 		librsvg2 libxml2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--without-cms
 INSTALL_TARGET=	install-strip
 
