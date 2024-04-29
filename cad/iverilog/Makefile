@@ -20,7 +20,6 @@ GH_ACCOUNT=	steveicarus
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-suffix
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 pre-configure:
 	@cd ${WRKSRC} && sh autoconf.sh

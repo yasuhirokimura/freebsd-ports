@@ -10,6 +10,5 @@ USES=		xorg xorg-cat:app
 USE_XORG=	x11 libfs
 
 PLIST_FILES=	bin/fstobdf share/man/man1/fstobdf.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

@@ -15,7 +15,6 @@ USES=		dos2unix gl gmake sdl
 USE_SDL=	sdl mixer
 USE_GL=		glut
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 ALL_TARGET=	${PORTNAME}
 
 DOS2UNIX_FILES=	variables.cpp scene.cpp

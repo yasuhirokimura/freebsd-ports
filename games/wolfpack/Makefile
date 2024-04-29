@@ -15,7 +15,6 @@ MAKEFILE=	GNUmakefile
 USES=		gmake groff perl5
 USE_PERL5=	build
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 BINDIR=		lib/${PORTNAME}
 CONFIGURE_ARGS=	--bindir=${PREFIX}/${BINDIR} --sbindir=${PREFIX}/${BINDIR}
 

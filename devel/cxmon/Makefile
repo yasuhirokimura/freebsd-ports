@@ -9,7 +9,6 @@ COMMENT=	Interactive file manipulation tool and disassembler
 WWW=		https://cxmon.cebix.net/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/${PORTNAME} \
 		share/man/man1/${PORTNAME}.1.gz

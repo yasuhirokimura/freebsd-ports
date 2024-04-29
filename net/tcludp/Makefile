@@ -15,7 +15,6 @@ LICENSE_PERMS=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 
 USES=		tcl:tea
 USE_LDCONFIG=	${PREFIX}/lib/${TCL_PKG}
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 WRKSRC=		${WRKDIR}/${PORTNAME}
 
 TEST_TARGET=	test

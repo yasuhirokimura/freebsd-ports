@@ -15,7 +15,6 @@ LIB_DEPENDS=	libpcre.so:devel/pcre
 
 USES=		bdb
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/${PORTNAME} share/man/man1/${PORTNAME}.1.gz
 PORTDOCS=	COPYING ChangeLog NEWS

@@ -14,7 +14,6 @@ USES=		localbase xorg xorg-cat:app
 
 USE_XORG=	xorgproto
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/bdftopcf share/man/man1/bdftopcf.1.gz
 

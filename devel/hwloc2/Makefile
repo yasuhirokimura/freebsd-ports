@@ -20,7 +20,6 @@ USE_GNOME=	libxml2
 CONFLICTS_INSTALL=	hwloc
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-static \
 		--disable-opencl \
 		--disable-cuda \

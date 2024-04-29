@@ -12,6 +12,5 @@ LICENSE=	GPLv2
 
 USES=		gmake tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

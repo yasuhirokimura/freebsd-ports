@@ -14,7 +14,6 @@ USES=	shebangfix tar:tgz
 USE_CXXSTD=	c++14
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 SHEBANG_FILES=	bon_csv2txt.in
 
 PORTDOCS=	readme.html

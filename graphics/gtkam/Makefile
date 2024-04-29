@@ -16,7 +16,6 @@ LIB_DEPENDS=	libexif-gtk.so:graphics/libexif-gtk \
 USES=		gettext gmake gnome pathfix pkgconfig
 USE_GNOME=	gtk20 intltool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--without-bonobo --without-gnome
 
 CPPFLAGS+=	-I${LOCALBASE}/include

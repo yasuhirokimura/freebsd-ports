@@ -18,7 +18,6 @@ LIB_DEPENDS+=	libconfuse.so:devel/libconfuse
 
 USES=		ssl autoreconf
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var/spool/nagios
 CPPFLAGS+=	-I${OPENSSLINC}
 LDFLAGS+=	-L${OPENSSLLIB}

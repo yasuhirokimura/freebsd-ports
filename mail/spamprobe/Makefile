@@ -12,7 +12,6 @@ USES=	localbase:ldflags
 USE_CXXSTD=	c++14
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-default-8bit
 
 PLIST_FILES=	bin/spamprobe share/man/man1/spamprobe.1.gz

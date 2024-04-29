@@ -17,7 +17,6 @@ LIB_DEPENDS=	libminiupnpc.so:net/miniupnpc \
 
 USES=		libtool localbase
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-socks-conf=${PREFIX}/etc/socks.conf \
 		--with-sockd-conf=${PREFIX}/etc/sockd.conf
 INSTALL_TARGET=	install-strip

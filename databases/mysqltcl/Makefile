@@ -16,7 +16,6 @@ PLIST_FILES=	lib/${PORTNAME}-${PORTVERSION}/libmysqltcl${PORTVERSION}.so \
 		share/man/mann/mysqltcl.n.gz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFIGURE_ARGS+=--with-tcl=${TCL_LIBDIR} \
 		--with-mysql-include=${LOCALBASE}/include/mysql \

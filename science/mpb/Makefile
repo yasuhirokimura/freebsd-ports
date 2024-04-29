@@ -23,7 +23,6 @@ USE_LDCONFIG=	yes
 # Do not use --with-mpi, because it is not guaranted
 # that science/hdf5 also built with option PARALLEL
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-shared
 
 MAKE_JOBS_UNSAFE=	yes

@@ -13,7 +13,6 @@ LICENSE=	GPLv2+
 USES=		tar:xz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/iprange \
 		share/man/man1/iprange.1.gz

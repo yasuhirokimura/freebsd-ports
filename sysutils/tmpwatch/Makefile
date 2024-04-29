@@ -15,7 +15,6 @@ USES=		cpe tar:bzip2
 CPE_VENDOR=	redhat
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	sbin/tmpwatch \
 		share/man/man8/tmpwatch.8.gz

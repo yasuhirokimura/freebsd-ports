@@ -12,7 +12,6 @@ LIB_DEPENDS=	libgmp.so:math/gmp
 
 USES=		libtool localbase tar:bz2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 

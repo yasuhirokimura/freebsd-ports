@@ -17,7 +17,6 @@ USES=		pkgconfig
 USE_RC_SUBR=	nylon
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 # Necessary for $PREFIX to work:
 CONFIGURE_ARGS=	--with-libevent=yes
 CONFIGURE_ENV=	EVENTLIB="`pkgconf --libs libevent`" EVENTINC="`pkgconf --cflags libevent`"

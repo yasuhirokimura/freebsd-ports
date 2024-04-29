@@ -14,7 +14,6 @@ CONFLICTS=	tthsum
 
 USES=		gnome iconv readline
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GNOME=	libxml2
 
 OPTIONS_DEFINE=	NLS

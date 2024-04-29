@@ -28,7 +28,6 @@ GH_TUPLE=	uim:sigscheme:beb8fbd:sigscheme \
 SNAPDATE=	20240306
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=	--enable-maintainer-mode
 
 OPTIONS_DEFINE=	DOCS X11

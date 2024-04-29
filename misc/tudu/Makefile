@@ -12,7 +12,6 @@ LICENSE=	GPLv3
 
 USES=		ncurses
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 post-patch:
 	@${REINPLACE_CMD} -E 's|cd (.+) && (\$$\{MAKE\})|\2 -C \1|' \

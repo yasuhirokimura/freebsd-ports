@@ -55,7 +55,6 @@ CONFIGURE_ARGS=	--with-berkeley-db \
 		--enable-kx509 \
 		--without-microhttpd
 # XXX --with-readline picks up libreadline even if found in /usr/lib.
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 MAKE_ENV=	INSTALL_CATPAGES=no
 INSTALL_TARGET=	install-strip
 .if !exists(/etc/rc.d/ipropd_master)

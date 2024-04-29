@@ -13,7 +13,6 @@ LICENSE=	GPLv2+
 LIB_DEPENDS=	libstatgrab.so:devel/libstatgrab
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		autoreconf ncurses pkgconfig
 USE_CSTD=	gnu89
 PLIST_FILES=	bin/bwm-ng share/man/man1/bwm-ng.1.gz

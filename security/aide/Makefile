@@ -15,7 +15,6 @@ LIB_DEPENDS=	libmhash.so:security/mhash \
 USES=		bison gmake localbase pkgconfig:build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 CONFIGURE_ARGS+=--with-mhash \
 		--with-zlib \
 		--with-posix-acl \
