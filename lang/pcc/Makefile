@@ -23,7 +23,6 @@ RUN_DEPENDS=	pcc-libs>=${PORTVERSION}:devel/pcc-libs
 
 USES=		gmake tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	YACC=${YACC}
 
 PLIST_FILES=	bin/pcc bin/pcpp \

@@ -19,7 +19,6 @@ GH_ACCOUNT=	ruven
 USE_RC_SUBR=	${PORTNAME}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/iipsrv.fcgi \
 		share/man/man8/iipsrv.8.gz

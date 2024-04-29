@@ -15,7 +15,6 @@ LICENSE_COMB=	multi
 USES=		compiler:features libtool sdl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 INSTALL_TARGET=	install-strip
 CFLAGS+=	${COMPILER_FEATURES:Mc++11:C/.+/-Wno-error=narrowing/}
 USE_SDL=	sdl2

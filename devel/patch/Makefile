@@ -20,7 +20,6 @@ TEST_DEPENDS=	bash:shells/bash
 
 USES=		cpe charsetfix gmake tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--program-prefix=g
 CPE_VENDOR=	gnu
 

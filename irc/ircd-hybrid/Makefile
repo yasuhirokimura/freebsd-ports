@@ -12,7 +12,6 @@ LICENSE=	GPLv2
 # :keepla because port uses lt_dlopen
 USES=		cpe gmake libtool:keepla tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib
 

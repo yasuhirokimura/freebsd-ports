@@ -19,7 +19,6 @@ USE_XORG=	xpm x11 xext
 USE_GNOME=	gtk20 cairo gdkpixbuf
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 post-patch:
 	@${REINPLACE_CMD} -e 's|gtk-config|pkgconf gtk+-2.0|g'\

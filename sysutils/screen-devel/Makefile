@@ -53,7 +53,6 @@ CPE_VENDOR=	gnu
 .include <bsd.port.options.mk>
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 CFLAGS+=	-I${NCURSESINC}
 LDFLAGS+=	-L${NCURSESLIB}
 

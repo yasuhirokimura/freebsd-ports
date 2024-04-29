@@ -14,7 +14,6 @@ USES=		compiler:c++11-lang gmake gnome localbase:ldflags pathfix \
 		gettext pkgconfig
 USE_GNOME=	gtk20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 post-patch:
 	@${REINPLACE_CMD} -e \

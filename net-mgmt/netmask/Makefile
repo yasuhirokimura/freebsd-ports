@@ -10,7 +10,6 @@ COMMENT=	Tool for generating terse netmasks in several common formats
 
 WRKSRC=		${WRKDIR}/${DISTNAME:S/_/-/}
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake
 
 INFO=		netmask

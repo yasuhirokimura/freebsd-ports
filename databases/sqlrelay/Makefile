@@ -20,7 +20,6 @@ USES=		gmake iconv libedit libtool python readline ssl
 PATHFIX_MAKEFILEIN=	Makefile
 CPPFLAGS+=	-I${LOCALBASE}/include
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=		${SQLRELAY_CONFIGURE_ARGS} \
 			--disable-tcl \
 			--disable-java \

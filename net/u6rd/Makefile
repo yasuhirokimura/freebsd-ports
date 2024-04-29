@@ -11,7 +11,6 @@ WWW=		http://www.scythe.jp/lab/u6rd/
 LICENSE=	BSD2CLAUSE
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_RC_SUBR=	u6rd
 
 PLIST_FILES=	sbin/u6rd share/man/man8/u6rd.8.gz

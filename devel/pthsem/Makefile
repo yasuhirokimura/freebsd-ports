@@ -11,7 +11,6 @@ WWW=		https://www.auto.tuwien.ac.at/~mkoegler/index.php/pth
 
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake libtool pathfix
 INSTALL_TARGET=	install-strip
 

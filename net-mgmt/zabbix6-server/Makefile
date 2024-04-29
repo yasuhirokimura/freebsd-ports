@@ -56,7 +56,6 @@ SUB_LIST=	ZABBIX_BUILD=${ZABBIX_BUILD}
 
 MAKE_ARGS+=		ARCH=freebsd
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=	--datadir=${ETCDIR} \
 			--enable-${ZABBIX_BUILD} \
 			--sysconfdir=${ETCDIR} \

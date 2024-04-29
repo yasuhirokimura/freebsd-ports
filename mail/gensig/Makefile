@@ -10,6 +10,5 @@ COMMENT=	Random .signature generator
 WWW=		http://www.geekthing.com/~robf/ware/gensig/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

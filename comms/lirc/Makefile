@@ -21,7 +21,6 @@ INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-sandboxed --with-devdir=/var/run/lirc \
 		--sysconfdir=${PREFIX}/etc
 

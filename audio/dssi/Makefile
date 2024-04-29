@@ -24,7 +24,6 @@ USES=		gmake pkgconfig localbase libtool xorg
 USE_XORG=	x11
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PORTDOCS=	ChangeLog README
 

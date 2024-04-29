@@ -19,7 +19,6 @@ RUN_DEPENDS=	${LOCALBASE}/bin/fc-cache:x11-fonts/fontconfig
 USES=			cpe perl5 pkgconfig shebangfix tar:bzip2 xorg
 USE_XORG=		x11 xext xft xmu xpm xrender xt
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=		-I${LOCALBASE}/include
 LIBS+=			-lutil
 CONFIGURE_ARGS=		--enable-everything --with-term=rxvt
