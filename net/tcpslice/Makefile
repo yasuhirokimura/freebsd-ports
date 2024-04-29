@@ -18,6 +18,5 @@ PLIST_FILES=	bin/tcpslice \
 		share/man/man1/tcpslice.1.gz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

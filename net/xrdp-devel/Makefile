@@ -33,7 +33,6 @@ USE_LDCONFIG=	${PREFIX}/lib/xrdp
 USE_XORG=	ice pixman sm x11 xfixes xkbfile xrandr
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-imlib2 \
 		--enable-jpeg \
 		--enable-painter \
@@ -78,8 +77,6 @@ OPUS_LIB_DEPENDS=		libopus.so:audio/opus
 OPUS_CONFIGURE_ENABLE=		opus
 X264_LIB_DEPENDS=		libx264.so:multimedia/libx264
 X264_CONFIGURE_ENABLE=		x264
-
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 GROUP=		_xrdp
 USER=		_xrdp

@@ -41,7 +41,6 @@ USE_XORG=	ice sm x11 xcursor xext xft xi xrandr xscrnsaver
 USE_GNOME=	cairo dconf glib20 gtk30 intlhack libxml2 librsvg2 pango
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-appindicator=no \
 		--disable-update-mimedb \
 		--disable-systemd

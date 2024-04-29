@@ -13,7 +13,6 @@ LIB_DEPENDS=	libneon.so:www/neon
 USES=		ssl
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-netrc --with-ssl
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/cadaver \
 		share/man/man1/cadaver.1.gz

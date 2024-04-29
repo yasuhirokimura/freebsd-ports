@@ -16,7 +16,6 @@ WWW=		https://www.nongnu.org/libtranslate/
 USES=		gettext gmake gnome libtool pathfix pkgconfig
 USE_GNOME=	glib20 intlhack
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 CPPFLAGS+=	-I${LOCALBASE}/include
 LIBS+=		-L${LOCALBASE}/lib

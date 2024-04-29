@@ -15,7 +15,6 @@ LIB_DEPENDS=	liblzo2.so:archivers/lzo2
 
 USES=		cpe iconv
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 CONFIGURE_ENV=	ac_cv_lib_iconv_main=yes
 CONFIGURE_ARGS=	--enable-bzip --enable-lzo --enable-zlib \

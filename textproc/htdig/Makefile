@@ -16,7 +16,6 @@ DEPRECATED=	Abandonware, multiple unresolved bugs and no unicode support etc
 EXPIRATION_DATE=2025-04-30
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-config-dir=${PREFIX}/etc/htdig \
 		--with-default-config-file=${PREFIX}/etc/htdig/htdig.conf \
 		--with-common-dir=${PREFIX}/share/htdig/common \

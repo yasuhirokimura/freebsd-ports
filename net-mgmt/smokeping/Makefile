@@ -35,7 +35,6 @@ USES=		autoreconf cpe gmake perl5
 USE_RC_SUBR=	smokeping
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=		--libdir=${PREFIX}/smokeping/lib \
 				--localstatedir="${PREFIX}/var" \
 				--sysconfdir=${ETCDIR} \

@@ -11,7 +11,6 @@ WWW=		http://www.sigala.it/sandro/software.php #slisp
 LICENSE=	BSD2CLAUSE
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INFO=		slisp
 PLIST_FILES=	bin/slisp \

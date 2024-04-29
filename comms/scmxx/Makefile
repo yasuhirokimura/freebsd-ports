@@ -10,7 +10,6 @@ WWW=		http://www.hendrik-sattler.de/scmxx/
 
 USES=		gettext iconv gmake tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CFLAGS+=	-I${LOCALBASE}/include
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib

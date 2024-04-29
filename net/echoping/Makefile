@@ -17,7 +17,6 @@ USES=		autoreconf cpe libtool pkgconfig ssl
 
 CPE_VENDOR=	echoping_project
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-http --enable-icp --enable-smtp --with-ssl \
 		--enable-ttcp --enable-tos --with-libidn=${LOCALBASE} \
 		--enable-plugin="${PING_PLUGINS}"

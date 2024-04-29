@@ -39,7 +39,6 @@ SUB_LIST=	BU_PREFIX=${BU_PREFIX} \
 SUFFIX=		${PORTVERSION:C/([0-9]+).*/\1/}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_OUTSOURCE=	yes
 CONFIGURE_ARGS+=--target=${GCC_TARGET} --disable-nls --enable-languages=c,c++ \
 		--enable-gnu-indirect-function \

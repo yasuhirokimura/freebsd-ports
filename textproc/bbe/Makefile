@@ -15,7 +15,6 @@ DEPRECATED=	Abandonware and unmaintained in tree for years
 EXPIRATION_DATE=2025-04-30
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INFO=		${PORTNAME}
 

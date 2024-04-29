@@ -11,7 +11,6 @@ WWW=		http://user.cs.tu-berlin.de/~schintke/x2html/
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFLICTS_INSTALL=	source-highlight # bin/java2html
 

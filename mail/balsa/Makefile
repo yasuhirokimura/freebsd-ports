@@ -35,7 +35,6 @@ CPE_VENDOR=	gnome
 USE_GNOME=	cairo gdkpixbuf2 gnomeprefix intlhack libxslt gtksourceview4
 USE_XORG=	x11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-canberra \
 				--with-gtksourceview
 CPPFLAGS+=	-I${LOCALBASE}/include

@@ -18,7 +18,6 @@ USES=		compiler:c++14-lang gmake ncurses ssl pkgconfig
 USE_CXXSTD=	c++14
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 OPTIONS_DEFINE=		DOCS NLS
 OPTIONS_SUB=		yes

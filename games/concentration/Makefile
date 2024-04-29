@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		gmake localbase sdl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_SDL=	sdl mixer image ttf
 
 PLIST_FILES=	bin/${PORTNAME} \

@@ -20,7 +20,6 @@ USES=		gettext-tools gmake libtool localbase ncurses pkgconfig \
 SHEBANG_FILES=	alsa-info/alsa-info.sh alsaconf/alsaconf.in bat/alsabat-test.sh
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--with-udev-rules-dir="\$${prefix}/lib/udev"
 INSTALL_TARGET=			install-strip
 CFLAGS+=			-Dlseek64=lseek -DSCHED_IDLE=SCHED_OTHER \

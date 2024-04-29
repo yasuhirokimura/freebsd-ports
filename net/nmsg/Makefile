@@ -15,7 +15,6 @@ LIB_DEPENDS=	libprotobuf-c.so:devel/protobuf-c \
 		libwdns.so:dns/wdns
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		gmake libtool pathfix pkgconfig
 USE_LDCONFIG=	yes
 USE_PERL5=	build

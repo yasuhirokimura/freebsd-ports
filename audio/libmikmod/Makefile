@@ -13,7 +13,6 @@ LICENSE=	LGPL21
 USES=		cpe gmake libtool pathfix pkgconfig
 CPE_VENDOR=	raphael_assenat
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-esd
 USE_LDCONFIG=	yes
 

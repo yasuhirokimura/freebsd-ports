@@ -15,7 +15,6 @@ BUILD_DEPENDS=	${LOCALBASE}/lib/libevent.a:devel/libevent
 
 USES=		libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 CONFIGURE_ARGS=	--with-libevent=${LOCALBASE}
 MAKE_JOBS_UNSAFE=	yes

@@ -9,7 +9,6 @@ COMMENT=	Image viewer for X
 WWW=		https://bzflag.bz/~erik
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LIBS+=		-lm
 USES=		sdl tar:xz
 USE_SDL=	image

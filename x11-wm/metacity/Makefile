@@ -24,7 +24,6 @@ PORTSCOUT=	limitw:1,even
 USES=		compiler:c11 gettext gmake gnome libtool localbase pathfix \
 		pkgconfig tar:xz xorg
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_XORG=	x11 xcomposite xcursor xdamage xext xinerama xpresent xrandr \
 		xrender xres
 USE_GNOME=	gnomeprefix gtk30 intlhack libxml2:build

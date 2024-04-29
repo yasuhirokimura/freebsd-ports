@@ -15,7 +15,6 @@ LIB_DEPENDS=	libprotobuf.so:devel/protobuf
 USES=		autoreconf compiler:c++17-lang ncurses perl5 pkgconfig ssl
 USE_PERL5=	run
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-utempter --without-ncurses
 CONFIGURE_ENV+=	OpenSSL_CFLAGS="-I${OPENSSLINC}" OpenSSL_LIBS="-L${OPENSSLLIB} -lssl -lcrypto" \
 		TINFO_CFLAGS="-I/usr/include" ac_cv_have_decl_bswap64=yes \

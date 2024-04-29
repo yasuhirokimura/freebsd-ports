@@ -10,7 +10,6 @@ WWW=		https://invisible-island.net/mawk/
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		tar:tgz
 
 PLIST_FILES=	bin/mawk \

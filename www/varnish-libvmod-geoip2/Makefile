@@ -22,7 +22,6 @@ GH_TAGNAME=	ee5f049
 USE_LDCONFIG=	${PREFIX}/lib/varnish/vmods
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static
 
 INSTALL_TARGET=	install-strip

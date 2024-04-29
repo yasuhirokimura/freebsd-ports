@@ -18,7 +18,6 @@ GH_TAGNAME=	396ca60
 USE_RC_SUBR=	rrdbot
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--datarootdir=${PREFIX}/share/rrdbot \
 				--includedir=${LOCALBASE}/include \
 				--libdir=${LOCALBASE}/lib

@@ -28,7 +28,6 @@ USE_XORG=	ice sm x11 xext xft xi xinerama xmu xrandr xrender xt xxf86vm
 SHEBANG_FILES=	hacks/check-configs.pl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-locking \
 		--with-app-defaults=${PREFIX}/lib/X11/app-defaults \
 		--with-configdir=${PREFIX}/share/xscreensaver/config/ \

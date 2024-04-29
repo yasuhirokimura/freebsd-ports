@@ -13,6 +13,5 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		ncurses
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

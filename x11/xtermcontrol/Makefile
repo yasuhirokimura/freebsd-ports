@@ -13,7 +13,6 @@ LICENSE=	GPLv2+
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	ac_cv_header_libintl_h=no
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/xtermcontrol share/man/man1/xtermcontrol.1.gz
 
