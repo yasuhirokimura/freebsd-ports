@@ -18,7 +18,6 @@ USE_GITLAB=		yes
 GL_ACCOUNT=		chinstrap
 USE_GNOME=		intltool
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 SHEBANG_FILES=		src/gammastep_indicator/gammastep-indicator.in
 
 OPTIONS_DEFINE=		GEO GUI NLS RANDR VIDMODE WAYLAND

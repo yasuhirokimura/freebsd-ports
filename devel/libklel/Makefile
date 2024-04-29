@@ -11,7 +11,6 @@ WWW=		https://sourceforge.net/projects/libklel/
 LIB_DEPENDS=	libpcre.so:devel/pcre
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		perl5 libtool
 USE_PERL5=	build
 USE_LDCONFIG=	yes

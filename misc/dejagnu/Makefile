@@ -15,7 +15,6 @@ LIB_DEPENDS=	libexpect.so:lang/expect
 USES+=		gmake tcl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INFO=		${PORTNAME}
 

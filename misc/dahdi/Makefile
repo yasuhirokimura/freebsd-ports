@@ -15,7 +15,6 @@ DAHDI_VERSION=		2.4.0-rc5
 DAHDI_TOOLS_VERSION=	2.4.0-rc1
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake
 CONFIGURE_ARGS=	--with-dahdi=../freebsd --sysconfdir=${PREFIX}/etc --with-newt=${LOCALBASE}
 CONFIGURE_ENV=	WGET=/usr/bin/fetch

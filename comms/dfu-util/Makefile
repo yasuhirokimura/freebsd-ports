@@ -11,7 +11,6 @@ WWW=		https://dfu-util.sourceforge.net/
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/dfu-prefix bin/dfu-suffix bin/dfu-util share/man/man1/${PORTNAME}.1.gz \
 		share/man/man1/dfu-prefix.1.gz share/man/man1/dfu-suffix.1.gz

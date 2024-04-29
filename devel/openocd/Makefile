@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		gmake libtool makeinfo pkgconfig tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 # Required to make OpenOCD's internal libjaylink work
 CONFIGURE_ENV+=	libusb_CFLAGS=" " libusb_LIBS="-lusb"

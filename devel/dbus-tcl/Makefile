@@ -16,7 +16,6 @@ BUILD_DEPENDS=	dtplite:devel/tcllib
 
 USES=		pkgconfig tcl:tea
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 OPTIONS_DEFINE=	DOCS
 DOCSDIR=	${PREFIX}/share/doc/dbus

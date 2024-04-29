@@ -20,7 +20,6 @@ CONFLICTS_INSTALL=	chocolate-doom
 USE_CSTD=	c99
 USE_SDL=	mixer2 net2 sdl2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 INSTALL_TARGET=	install-strip
 SHEBANG_FILES=	man/docgen man/simplecpp
 

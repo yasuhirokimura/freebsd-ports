@@ -15,7 +15,6 @@ LIB_DEPENDS=	libgnutls.so:security/gnutls
 
 USES=		cpe perl5 gmake tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-confdir=${PREFIX}/etc --with-ipv6 \
 		--with-gnutls=${LOCALBASE} \
 		--with-spooldir=${WWWOFFLE_SPOOL} \

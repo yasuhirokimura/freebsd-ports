@@ -11,7 +11,6 @@ WWW=		https://sourceforge.net/projects/libgutenfetch/
 LIB_DEPENDS=	libcurl.so:ftp/curl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	-I${LOCALBASE}/include
 LIBS+=		-L${LOCALBASE}/lib
 USES=		gmake libtool tar:bzip2

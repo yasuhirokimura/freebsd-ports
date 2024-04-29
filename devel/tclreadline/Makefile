@@ -12,7 +12,6 @@ LICENSE=	BSD3CLAUSE
 USES=		autoreconf libtool tcl readline
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=--with-tcl=${TCL_LIBDIR} \
 		--with-tcl-includes=${TCL_INCLUDEDIR} \
 		--with-readline-includes=${LOCALBASE}/include \

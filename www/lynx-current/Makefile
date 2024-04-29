@@ -25,7 +25,6 @@ SHEBANG_FILES=	samples/mailto-form.pl
 MAKE_JOBS_UNSAFE=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--libdir="${PREFIX}/etc" \
 		--with-bzlib --with-zlib \
 		--with-mime-libdir=${PREFIX}/etc \
