@@ -15,7 +15,6 @@ BROKEN_i386=	does not build on i386 (../cpu.h:4513:117: error: 'regparm' paramet
 USES=		cpe gmake libtool:keepla pkgconfig xorg
 USE_XORG=	x11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_header_alsa_asoundlib_h=no \
 		ac_cv_header_ltdl_h=no
 CONFIGURE_ARGS=	--disable-docbook \

@@ -29,7 +29,6 @@ SHEBANG_FILES=	ompi/mca/common/monitoring/profile2mat.pl \
 		ompi/mca/common/monitoring/aggregate_profile.pl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/${MPIDIR}/share
 GNU_CONFIGURE_PREFIX=	${PREFIX}/${MPIDIR}
 CONFIGURE_ARGS+=	--program-prefix= \
 			--with-hwloc=external \

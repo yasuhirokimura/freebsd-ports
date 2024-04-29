@@ -20,7 +20,6 @@ LIB_DEPENDS=	libraptor2.so:textproc/raptor2 \
 USES=		gmake libtool pathfix perl5 pkgconfig ssl
 USE_PERL5=	build
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 
 OPTIONS_RADIO=	DEC

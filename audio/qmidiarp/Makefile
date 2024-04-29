@@ -33,7 +33,6 @@ GH_ACCOUNT=	emuse
 GH_TUPLE=	x42:robtk:ec6456e:robtk/robtk
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-qt5 --enable-translations=yes
 
 CXXFLAGS+=	-Duint=uint32_t # workaround for https://sourceforge.net/p/qmidiarp/bugs/27/

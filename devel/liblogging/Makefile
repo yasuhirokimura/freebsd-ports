@@ -21,7 +21,6 @@ GH_ACCOUNT=	rsyslog
 CPE_VENDOR=	adiscon
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=		--disable-journal --enable-rfc3195
 USE_LDCONFIG=			yes
 

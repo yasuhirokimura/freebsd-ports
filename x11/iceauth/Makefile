@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		xorg xorg-cat:app
 USE_XORG=	xorgproto ice
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/iceauth share/man/man1/iceauth.1.gz
 

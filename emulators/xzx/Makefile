@@ -21,7 +21,6 @@ USE_XORG=	x11 ice sm xext xpm xt xxf86vm
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-oss
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 DOCSDIR=	${PREFIX}/share/doc/${PORTNAME}-pro
 

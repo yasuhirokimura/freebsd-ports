@@ -35,7 +35,6 @@ CPE_UPDATE=	${DISTVERSION:C/.*-//:tl}
 USE_RC_SUBR=	named
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-linux-caps \
 		--enable-dnsrps \
 		--localstatedir=/var \

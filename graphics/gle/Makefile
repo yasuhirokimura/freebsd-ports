@@ -20,7 +20,6 @@ USE_LDCONFIG=	yes
 USE_XORG=	ice xext xmu xt
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 LIBS+=		-L${LOCALBASE}/lib -lXext
 

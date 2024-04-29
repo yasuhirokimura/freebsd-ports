@@ -23,7 +23,6 @@ USE_LDCONFIG=	yes
 # that science/hdf5 also built with option PARALLEL.
 # TODO: if bin/h5pcc exists, hdf5 is built with PARALLEL
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-shared
 
 MAKE_JOBS_UNSAFE=	yes

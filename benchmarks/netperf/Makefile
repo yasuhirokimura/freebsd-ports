@@ -25,7 +25,6 @@ SOCKETS_DESC=	Enable Unix Domain socket support
 
 USE_CSTD=	gnu89
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-burst --enable-demo --enable-dirty --enable-intervals
 CFLAGS+=	-fcommon
 

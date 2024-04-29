@@ -20,7 +20,6 @@ DOCS_DESC=	Install documentation
 MANPAGES_DESC=	Install manpages
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 USES=		libtool pathfix
 INSTALL_TARGET=	install-strip

@@ -21,7 +21,6 @@ CONFIGURE_ARGS=	--with-ldap-conf-file=${PREFIX}/etc/${PAM_LDAP_CONF} \
 		--with-ldap-dir=${LOCALBASE} \
 		--with-ldap-lib=openldap \
 		--with-ldap-secret-file=${PREFIX}/etc/ldap.secret
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 SHEBANG_FILES=	vers_string
 CPE_VENDOR=	padl
 

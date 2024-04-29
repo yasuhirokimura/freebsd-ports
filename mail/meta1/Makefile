@@ -26,7 +26,6 @@ IGNORE=		your system does not support sysvipc
 USES=	libtool
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=	--disable-dependency-tracking
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CPPFLAGS+=	-DMTA_NETINET6
 MAKE_ENV+=	META1CONFDIR="${META1CONFDIR}"
 PORTDOCS=	README.dvi README.html README.pdf README.ps README.txt \

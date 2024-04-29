@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		libtool sdl
 USE_SDL=	sdl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 
 post-install:

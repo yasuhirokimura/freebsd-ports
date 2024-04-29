@@ -18,7 +18,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		autoreconf libtool cpe gmake readline ssl
 CPE_VENDOR=	sun
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 PLIST_FILES=	bin/ipmitool \
 		share/man/man1/ipmitool.1.gz \
 		share/man/man8/ipmievd.8.gz \

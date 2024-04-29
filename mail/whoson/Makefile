@@ -13,7 +13,6 @@ LICENSE_COMB=	multi
 
 USES=		libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-config=${PREFIX}/etc/whoson.conf
 USE_LDCONFIG=	yes
 

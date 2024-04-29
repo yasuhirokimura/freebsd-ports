@@ -19,7 +19,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	sspans
 USES=		autoreconf libtool pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-chroot-dir=/var/empty
 
 PORTDOCS=	README TODO HACKING

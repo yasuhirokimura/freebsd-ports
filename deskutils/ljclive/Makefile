@@ -11,7 +11,6 @@ WWW=		https://sourceforge.net/projects/ljclive/
 
 USES=		iconv
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	ac_cv_search_iconv=${ICONV_LIB}
 CPPFLAGS+=	-I${LOCALBASE}/include
 LIBS+=		-L${LOCALBASE}/lib

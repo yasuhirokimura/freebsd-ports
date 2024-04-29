@@ -25,7 +25,6 @@ CPE_VENDOR=	gnu
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--program-suffix=-${GUILE_VER}
 # eliminate some pointless configure warnings/errors
 CONFIGURE_ENV+=	gl_cv_func_working_mktime=yes \

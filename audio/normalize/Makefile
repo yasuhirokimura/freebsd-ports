@@ -13,7 +13,6 @@ LIB_DEPENDS=	libmad.so:audio/libmad
 USES=		shebangfix perl5 tar:bzip2 libtool
 USE_PERL5=	run
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=		--disable-helper-search
 CPPFLAGS+=		-I${LOCALBASE}/include
 LDFLAGS+=		-L${LOCALBASE}/lib

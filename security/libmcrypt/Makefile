@@ -16,7 +16,6 @@ USE_LDCONFIG=	yes
 
 CONFIGURE_ARGS=	--enable-static
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 .include <bsd.port.mk>

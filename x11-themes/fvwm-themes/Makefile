@@ -22,7 +22,6 @@ USE_XORG=	xpm
 SHEBANG_FILES=	themes/cde/modules/create-buttonbar-config \
 		themes/redmondxp/modules/FvwmThemesPanelManager
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 NO_ARCH=	yes
 
 post-install:

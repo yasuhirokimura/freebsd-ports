@@ -14,7 +14,6 @@ LIB_DEPENDS=	libaa.so:graphics/aalib \
 		libmikmod.so:audio/libmikmod
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 WRKSRC=		${WRKDIR}/bb-1.3.0
 PORTDOCS=	README
 PLIST_FILES=	bin/bb share/man/man1/bb.1.gz share/bb/bb.s3m share/bb/bb2.s3m \

@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USES=		tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_RC_SUBR=	ipa
 
 PLIST_FILES=	bin/ipa bin/ipactl bin/ipastat include/ipa_mod.h \

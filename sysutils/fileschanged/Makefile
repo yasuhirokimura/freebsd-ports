@@ -15,7 +15,6 @@ LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		fam gmake localbase
 CONFIGURE_ARGS=	--datadir=${PREFIX}/share/doc --disable-nls
 

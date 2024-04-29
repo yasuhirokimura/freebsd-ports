@@ -21,7 +21,6 @@ USES=		compiler:c++11-lib libtool
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 PLIST_SUB=	VER=${PORTVERSION}

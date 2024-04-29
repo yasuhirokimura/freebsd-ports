@@ -15,7 +15,6 @@ USES=		gmake localbase:ldflags tar:xz
 USE_CXXSTD=	c++14
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 WRKSRC=	${WRKDIR}/${DISTNAME:S/a$$//}
 

@@ -14,7 +14,6 @@ USES=		sdl tar:bzip2
 USE_SDL=	image sdl
 USE_CXXSTD=	c++98
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--sharedstatedir=${SCOREDIR} --enable-oss
 
 SCOREDIR=	/var/games/${PORTNAME}

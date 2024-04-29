@@ -15,7 +15,6 @@ BUILD_DEPENDS=	help2man:misc/help2man
 
 USES=		tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFLICTS_INSTALL=	py*-dateutils
 

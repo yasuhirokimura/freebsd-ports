@@ -17,7 +17,6 @@ LIB_DEPENDS=	libsndfile.so:audio/libsndfile \
 USES=		gmake pkgconfig libtool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 post-patch:

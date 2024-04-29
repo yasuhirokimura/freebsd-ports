@@ -20,7 +20,6 @@ USES=		cpe gettext gnome iconv:wchar_t libtool localbase ncurses pathfix \
 		pkgconfig tar:bzip2
 USE_GNOME=	glib20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-hgcset
 INSTALL_TARGET=	install-strip
 

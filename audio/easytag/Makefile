@@ -26,7 +26,6 @@ USES=		compiler:c++11-lang desktop-file-utils gettext-tools gmake \
 USE_GNOME=	cairo dconf:run gtk30 intlhack libxslt
 GLIB_SCHEMAS=	org.gnome.EasyTAG.gschema.xml org.gnome.EasyTAG.enums.xml
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CPPFLAGS+=	-DHAVE_GTK
 
 CONFIGURE_ARGS=	--disable-appdata-validate \

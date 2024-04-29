@@ -19,7 +19,6 @@ LICENSE_FILE=	${WRKSRC}/README
 LICENSE_PERMS=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES+=		libtool pathfix
 USE_LDCONFIG=	yes
 CONFIGURE_ARGS=	--with-cxx \

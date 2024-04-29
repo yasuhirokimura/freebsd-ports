@@ -25,7 +25,6 @@ USES=		autoreconf:build bison:alias gettext-tools \
 		gmake gnome iconv localbase pkgconfig
 USE_GNOME=	libxml2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 SUB_FILES=	README.FreeBSD
 

@@ -13,6 +13,5 @@ LICENSE=	BSD3CLAUSE
 USES=		cpe ncurses
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

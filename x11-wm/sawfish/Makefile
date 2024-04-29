@@ -24,7 +24,6 @@ USES=		gmake gnome libtool makeinfo pathfix pkgconfig tar:xz xorg
 USE_XORG=	ice sm x11 xft xinerama xrandr xtst xrender xext
 USE_GNOME=	cairo gdkpixbuf gdkpixbuf2xlib gtk20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=${PREFIX}/share \
 		--datadir=${PREFIX}/share
 

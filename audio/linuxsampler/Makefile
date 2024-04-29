@@ -29,7 +29,6 @@ SHEBANG_FILES=	scripts/generate_lscp_shell_reference.pl \
 		scripts/update_lscp_grammar.pl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	HAVE_UNIX98=1
 CONFIGURE_ARGS=	--disable-arts-driver
 

@@ -35,7 +35,6 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-install_systemd \
 		--with-owntone-user=${OWNTONE_USER} \
 		--with-owntone-group=${OWNTONE_USER}
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_RC_SUBR=	${PORTNAME}
 SUB_FILES=	pkg-message
 

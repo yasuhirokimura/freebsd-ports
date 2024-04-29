@@ -15,7 +15,6 @@ USE_RC_SUBR=	tclhttpd
 
 USES=		tcl:tea compiler
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.pre.mk>
 

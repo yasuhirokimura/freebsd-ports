@@ -12,7 +12,6 @@ WWW=		https://ltrace.org/
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-werror
 CONFIGURE_ARGS+=	--without-libunwind # fix build: configure is looking for and finds libunwind.h, but the C code later doesn't find libunwind-ptrace.h and breaks
 ONLY_FOR_ARCHS=	amd64

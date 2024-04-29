@@ -18,7 +18,6 @@ USES=		gmake libtool xorg
 USE_LDCONFIG=	yes
 USE_XORG=	x11 xext xt
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	ac_cv_path_xosd_config_script="${TRUE}" \
 		kde_cv_prog_cxx_fno_check_new=no
 CPPFLAGS+=	-I${LOCALBASE}/include

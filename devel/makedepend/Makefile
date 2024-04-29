@@ -12,7 +12,6 @@ LICENSE=	MIT
 USES=		tar:xz xorg xorg-cat:util
 USE_XORG=	xorgproto
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/makedepend share/man/man1/makedepend.1.gz
 

@@ -15,6 +15,5 @@ LIB_DEPENDS=	libinput.so:x11/libinput
 
 USES=		pathfix tar:xz xorg-cat:driver
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

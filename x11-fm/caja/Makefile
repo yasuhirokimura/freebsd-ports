@@ -30,7 +30,6 @@ USE_GNOME=	cairo gtk30 gnomeprefix intltool introspection:build libxml2 \
 		gvfs
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-packagekit \
 		--disable-update-mimedb
 INSTALL_TARGET=	install-strip

@@ -12,7 +12,6 @@ BUILD_DEPENDS=	rrdtool:databases/rrdtool
 RUN_DEPENDS:=	${BUILD_DEPENDS}
 
 GNU_CONFIGURE=	YES
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		perl5
 PLIST_FILES=	bin/rrd_hwreapply share/man/man1/rrd_hwreapply.1.gz
 

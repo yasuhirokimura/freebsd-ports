@@ -10,7 +10,6 @@ WWW=		https://www.nothingisreal.com/gpp/
 
 USES=	tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/gpp share/man/man1/gpp.1.gz
 

@@ -19,7 +19,6 @@ CONFLICTS=	play
 
 USES=		autoreconf cpe libtool localbase:ldflags pkgconfig zip
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 
 WRKSRC=		${WRKDIR}/${DISTNAME}

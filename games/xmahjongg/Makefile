@@ -13,6 +13,5 @@ LICENSE=	GPLv2
 USES=		xorg
 USE_XORG=	x11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

@@ -18,7 +18,6 @@ USES=		compiler:c++11-lang gettext-tools gmake gnome \
 USE_GNOME=	cairo gdkpixbuf glib20 gtk30
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 LDFLAGS+=	-lgmodule-2.0
 

@@ -22,7 +22,6 @@ RUN_DEPENDS=	mono-addins>0:devel/mono-addins \
 		nini>0:devel/nini
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		desktop-file-utils gettext-tools:build gmake gnome mono \
 		pkgconfig
 USE_GNOME=	gtksharp20

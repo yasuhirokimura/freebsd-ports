@@ -15,7 +15,6 @@ USES=		dos2unix gmake xorg
 USE_XORG=	x11 xpm xtst xext xmu
 DOS2UNIX_FILES=	getopt/getopt.c
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-gpm
 
 OPTIONS_DEFINE=	DOCS

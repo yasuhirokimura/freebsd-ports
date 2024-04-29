@@ -11,7 +11,6 @@ WWW=		http://www.xmailserver.org/xdiff-lib.html
 LICENSE=	LGPL3
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 USES=		libtool
 USE_LDCONFIG=	yes

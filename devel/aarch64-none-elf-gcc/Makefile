@@ -35,7 +35,6 @@ TARGETARCH=	${PKGNAMEPREFIX:C/-//g}
 GCC_TARGET?=	aarch64-none-elf
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_OUTSOURCE=	yes
 CONFIGURE_ARGS+=--target=${GCC_TARGET} --disable-nls --enable-languages=c,c++ \
 		--enable-gnu-indirect-function \

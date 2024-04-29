@@ -13,7 +13,6 @@ LICENSE=	GPLv2
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/nettoe share/man/man6/nettoe.6.gz
 

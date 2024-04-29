@@ -19,7 +19,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	Yubico
 GH_PROJECT=	pam-u2f
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-pam-dir=${PREFIX}/lib
 
 PLIST_FILES=	bin/pamu2fcfg \

@@ -42,7 +42,6 @@ USES=	autoreconf bison compiler:c11 cpe elfctl gmake iconv libtool \
 	pathfix perl5 python shebangfix tar:bzip2
 USE_PERL5=	build
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 SHEBANG_FILES=	scripts/mono-heapviz mono/mini/genmdesc.py mono/tests/test_lldb.py
 BINARY_ALIAS=	python=${PYTHON_CMD}

@@ -29,7 +29,6 @@ USES=		autoreconf gettext gmake gssapi:mit ldap libtool \
 		localbase:ldflags pkgconfig python
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-dependency-tracking \
 		--disable-server \
 		--with-ipaplatform=freebsd \

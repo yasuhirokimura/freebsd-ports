@@ -21,7 +21,6 @@ USES=		cpe libtool pkgconfig
 CPE_VENDOR=	todd_miller
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--mandir=${PREFIX}/share/man \
 		--sysconfdir=${PREFIX}/etc \
 		--with-env-editor \

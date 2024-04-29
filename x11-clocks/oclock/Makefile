@@ -9,6 +9,5 @@ COMMENT=	Round clock application for X
 USES=		xorg xorg-cat:app
 USE_XORG=	x11 xmu xext xt xkbfile
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

@@ -20,7 +20,6 @@ BUILD_DEPENDS=	p5-DBI>=0:databases/p5-DBI \
 RUN_DEPENDS=	p5-DBI>=0:databases/p5-DBI
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-packing-tools
 USE_LDCONFIG=	yes
 USES=		gmake libtool perl5 pkgconfig

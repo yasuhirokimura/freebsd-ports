@@ -12,7 +12,6 @@ WWW=		http://www.g8wrb.org/yagi/index.html
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFLICTS_INSTALL=	4ti2 # bin/output
 

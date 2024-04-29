@@ -24,7 +24,6 @@ USE_PERL5=	build
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	${ICONV_CONFIGURE_BASE} NUMERICFLAGS=${PORTVERSION}
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 SHEBANG_FILES=	extensions/address_standardizer/*.pl regress/run_test.pl \
 		utils/postgis_restore.pl.in utils/*.pl loader/postgis.pl
 WANT_PGSQL=	server

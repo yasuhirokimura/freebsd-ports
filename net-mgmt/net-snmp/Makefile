@@ -41,7 +41,6 @@ USERS=		snmpd
 GROUPS=		snmpd
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		cpe libtool perl5 ssl
 USE_RC_SUBR=	snmpd snmptrapd
 USE_LDCONFIG=	yes

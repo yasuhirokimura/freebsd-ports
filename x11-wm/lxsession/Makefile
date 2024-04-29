@@ -23,7 +23,6 @@ USE_GNOME=	glib20 gtk20 intltool cairo gdkpixbuf libxslt
 USE_XORG=	x11
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-buildin-clipboard \
 		--enable-buildin-polkit \
 		MAKE=${GMAKE}

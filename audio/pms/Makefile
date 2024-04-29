@@ -12,7 +12,6 @@ LICENSE=	GPLv3
 
 USES=		gettext gnome ncurses pkgconfig tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GNOME=	glib20
 
 PLIST_FILES=	bin/${PORTNAME} \

@@ -11,7 +11,6 @@ WWW=		https://sourceforge.net/projects/libstrfunc/
 
 USES=		autoreconf compiler:c11 libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 CONFIGURE_ARGS=	--program-prefix=""
 INSTALL_TARGET=	install-strip

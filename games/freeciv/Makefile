@@ -32,7 +32,6 @@ SHEBANG_FILES=	bootstrap/*.sh data/flags/convert* scripts/mapimg2anim \
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	${ICONV_CONFIGURE_ARG} \
 		--disable-static \
 		--enable-aimodules \

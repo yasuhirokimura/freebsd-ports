@@ -18,7 +18,6 @@ USES=		autoreconf compiler:c++11-lib cpe gmake libtool localbase pkgconfig qt:5 
 
 USE_GITHUB=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 SLAVE_PORT?=	no
 

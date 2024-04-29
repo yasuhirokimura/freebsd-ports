@@ -15,7 +15,6 @@ LIB_DEPENDS=	libpcre.so:devel/pcre
 
 USES=		gmake ncurses
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 
 OPTIONS_DEFINE=	DOCS

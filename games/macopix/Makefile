@@ -40,7 +40,6 @@ USES=		gettext gmake gnome iconv jpeg libtool pkgconfig xorg
 USE_GNOME=	cairo gdkpixbuf gtk20
 USE_XORG=	x11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CFLAGS+=	-fcommon
 CPPFLAGS+=	-I${LOCALBASE}/include

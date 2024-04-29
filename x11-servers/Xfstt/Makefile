@@ -15,7 +15,6 @@ USES=		compiler:c++11-lang cpe pkgconfig tar:xz xorg
 USE_XORG=	xorgproto
 USE_RC_SUBR=	xfstt
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var --disable-nls
 
 TTFONTDIR=	${PREFIX}/share/fonts/TrueType

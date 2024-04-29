@@ -15,7 +15,6 @@ LIB_DEPENDS=	libImlib2.so:graphics/imlib2
 
 USES=		localbase pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 LDFLAGS+=	-lXext
 

@@ -21,7 +21,6 @@ USES=		apache:server,2.4 autoreconf compiler:c11 cpe iconv libtool perl5 tar:bzi
 USE_PERL5=	run
 USE_RC_SUBR=	apache24 htcacheclean
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFLICTS_INSTALL=	py*-circuits # bin/htpasswd
 

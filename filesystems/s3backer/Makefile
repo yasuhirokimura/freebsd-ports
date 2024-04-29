@@ -16,7 +16,6 @@ LIB_DEPENDS=	libcurl.so:ftp/curl \
 		libexpat.so:textproc/expat2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 # Need to have curl/curl.h on the include path. Is there a better
 # way to do this than sending CPPFLAGS to configure?
 CONFIGURE_ARGS=	CPPFLAGS="-I${LOCALBASE}/include"

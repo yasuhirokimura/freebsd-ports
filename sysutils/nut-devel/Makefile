@@ -91,7 +91,6 @@ CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc/nut \
 		--without-augeas-lenses-dir \
 		--enable-extapi-enphase=no
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CFLAGS+=	-I${LOCALBASE}/include -L${LOCALBASE}/lib -pthread
 LIB_DEPENDS+=	libltdl.so:devel/libltdl

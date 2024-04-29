@@ -9,7 +9,6 @@ COMMENT=	Terminal control sequence analyzer
 WWW=		https://www.gnu.org/software/teseq/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=	gmake perl5
 
 INFO=	teseq

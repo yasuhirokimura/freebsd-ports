@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		gmake gnome pkgconfig
 USE_GNOME=	gtk20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var/games
 
 PORTDOCS=	AUTHORS ChangeLog NEWS README README.russian

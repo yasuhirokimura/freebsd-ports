@@ -12,7 +12,6 @@ BUILD_DEPENDS=	rst2man:textproc/py-docutils
 
 USES=		autoreconf:build gmake libtool pkgconfig python:build varnish:7
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static
 INSTALL_TARGET=	install-strip
 

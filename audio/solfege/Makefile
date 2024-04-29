@@ -24,7 +24,6 @@ USE_GNOME=	pygobject3
 SHEBANG_FILES=	exercises/standard/lesson-files/bin/csound-play-harmonic-interval.sh
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--disable-oss-sound \
 				--enable-docbook-stylesheet=${STYLESHEET}
 CONFIGURE_ENV=			ac_cv_path_XML2PO=""

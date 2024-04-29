@@ -10,7 +10,6 @@ COMMENT=	Clone of the UNIX(tm) program called seq
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_SCRIPT=	configure.1
 
 PLIST_FILES=	bin/seq2 share/man/man1/seq2.1.gz

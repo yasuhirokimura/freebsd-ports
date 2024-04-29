@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 LIB_DEPENDS=	libexpat.so:textproc/expat2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake tar:tgz
 CONFIGURE_ARGS=	--with-expat-lib=${LOCALBASE}/lib \
 		--with-expat-include=${LOCALBASE}/include/xml \

@@ -15,7 +15,6 @@ BUILD_DEPENDS=	a2ps:print/a2ps \
 
 USES=		ghostscript:build tar:tgz tk
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_path_WISH=${WISH}
 CONFIGURE_ARGS=	--with-spool_directory=/var/spool/lpd
 USE_LDCONFIG=	yes

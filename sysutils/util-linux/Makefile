@@ -33,7 +33,6 @@ SHEBANG_FILES=	misc-utils/getopt-example.bash \
 		tests/ts/*/*
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-nls --disable-ipcrm --disable-ipcs \
 		--disable-makeinstall-chown --disable-makeinstall-setuid \
 		--disable-asciidoc --disable-liblastlog2 \

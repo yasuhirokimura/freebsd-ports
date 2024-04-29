@@ -21,7 +21,6 @@ PORTSCOUT=	limitw:1,even
 USES=		gettext gmake gnome localbase pkgconfig tar:xz
 USE_GNOME=	cairo gdkpixbuf gtk30 intlhack libxml2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 GLIB_SCHEMAS=	org.mate.calc.gschema.xml
 

@@ -12,7 +12,6 @@ LICENSE=	GPLv3
 
 USES=		gmake tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/postal-list \
 		share/man/man1/postal-list.1.gz \

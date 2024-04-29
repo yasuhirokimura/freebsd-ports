@@ -17,7 +17,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	scslab
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_LDCONFIG=	yes
 USES=		autoreconf libtool ssl
 CFLAGS+=	-I${OPENSSLINC}

@@ -18,7 +18,6 @@ USES=		autoreconf libtool pkgconfig
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	TheNaturLFoundation

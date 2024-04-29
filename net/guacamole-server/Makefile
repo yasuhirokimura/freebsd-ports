@@ -24,7 +24,6 @@ USE_RC_SUBR=	guacd
 SHEBANG_FILES=	${WRKSRC}/src/protocols/rdp/keymaps/generate.pl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-guacd-conf=${ETCDIR}/guacd.conf
 INSTALL_TARGET=	install-strip
 CFLAGS+=	-Wno-error=newline-eof

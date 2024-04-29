@@ -18,7 +18,6 @@ USE_GNOME=	cairo gdkpixbuf gtk30 intltool librsvg2
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 GLIB_SCHEMAS=	org.gnome.glabels-3.gschema.xml
 

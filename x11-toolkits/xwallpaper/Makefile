@@ -18,7 +18,6 @@ LIB_DEPENDS=	libpixman-1.so:x11/pixman \
 USES=				autoreconf jpeg pkgconfig tar:xz xorg
 USE_XORG=			x11
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/xwallpaper \
 		share/man/man1/xwallpaper.1.gz \

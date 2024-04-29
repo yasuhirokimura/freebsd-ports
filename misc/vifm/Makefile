@@ -22,6 +22,4 @@ CFLAGS+=	-fcommon
 
 OPTIONS_DEFINE=	DOCS
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
-
 .include <bsd.port.mk>

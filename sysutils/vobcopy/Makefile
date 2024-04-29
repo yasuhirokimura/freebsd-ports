@@ -15,7 +15,6 @@ USES=		autoreconf gettext-tools localbase iconv
 USE_GITHUB=	yes
 GH_ACCOUNT=	barak
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CFLAGS+=	-DUSE_STATFS_FOR_DEV=1
 MAKE_ARGS=	CCLD="${CC}"
 

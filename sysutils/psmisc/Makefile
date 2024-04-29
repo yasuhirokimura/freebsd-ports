@@ -15,7 +15,6 @@ BUILD_DEPENDS=	gsed:textproc/gsed
 CONFLICTS=	pidof pstree-2.[0-9]*
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake ncurses
 
 OPTIONS_DEFINE=	NLS

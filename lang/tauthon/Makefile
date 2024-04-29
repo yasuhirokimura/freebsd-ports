@@ -27,7 +27,6 @@ GH_TAGNAME=	b787044f7c9a3728604471119e6d6220d09d6d94
 
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 # Piggyback on Python support in shebangfix
 python_CMD=	${PREFIX}/bin/${NAME_VERSION}
 # Better be safe than sorry

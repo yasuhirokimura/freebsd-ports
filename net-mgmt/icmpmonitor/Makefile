@@ -12,7 +12,6 @@ LICENSE=	GPLv2 BSD4CLAUSE
 LICENSE_COMB=	multi
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	share/man/man1/icmpmonitor.1.gz sbin/icmpmonitor
 

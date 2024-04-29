@@ -14,7 +14,6 @@ USES=		compiler:c11 perl5 tar:bzip2
 USE_CXXSTD=	c++14
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_path_pathperl=${PERL}
 
 .include <bsd.port.mk>

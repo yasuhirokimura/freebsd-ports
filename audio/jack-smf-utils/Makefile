@@ -16,7 +16,6 @@ LIB_DEPENDS=	libjack.so:audio/jack \
 
 USES=		gnome pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 USE_GNOME=	glib20
 

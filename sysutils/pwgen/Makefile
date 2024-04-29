@@ -12,7 +12,6 @@ WWW=		https://sourceforge.net/projects/pwgen/
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		cpe
 CPE_VENDOR=	pwgen_project
 

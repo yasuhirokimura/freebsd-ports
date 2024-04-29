@@ -17,7 +17,6 @@ USES=		autoreconf compiler:c++11-lang gl gmake localbase:ldflags \
 USE_GITHUB=	yes
 GH_ACCOUNT=	brettbode
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-wx-config=${WX_CONFIG}
 USE_WX=		3.0 # configure crashes with 3.1: checking for wxWidgets libraries... Segmentation fault (core dumped)
 USE_GL=		gl glew glu

@@ -10,7 +10,6 @@ WWW=		https://www.x.org/
 USES=		xorg xorg-cat:app
 USE_XORG=	x11 libfs
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/fslsfonts share/man/man1/fslsfonts.1.gz
 

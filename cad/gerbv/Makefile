@@ -23,7 +23,6 @@ USE_LDCONFIG=	yes
 CPE_VENDOR=	gerbv_project
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	ac_aux_dir="."
 CFLAGS+=	-fcommon
 INSTALL_TARGET=	install-strip

@@ -40,7 +40,6 @@ LIBTLS_CONFIGURE_ENABLE=	libtls-only
 NC_CONFIGURE_ENABLE=		nc
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		cpe libtool pathfix pkgconfig
 USE_LDCONFIG=	yes
 OPTIONS_SUB=	yes

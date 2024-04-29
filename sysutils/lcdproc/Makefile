@@ -15,7 +15,6 @@ ONLY_FOR_ARCHS=	i386 amd64 powerpc powerpc64 powerpc64le
 
 USES=		autoreconf pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_RC_SUBR=	LCDd lcdproc lcdexec
 USE_GITHUB=	yes
 

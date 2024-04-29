@@ -16,7 +16,6 @@ LIB_DEPENDS=	libwnck-3.so:x11-toolkits/libwnck3
 USES=		gettext gmake gnome pkgconfig tar:xz
 USE_GNOME=	intltool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	-I${LOCALBASE}/include
 LIBS+=		-L${LOCALBASE}/lib -lX11
 

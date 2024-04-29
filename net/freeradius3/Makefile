@@ -40,7 +40,6 @@ USE_RC_SUBR=	radiusd
 SHEBANG_FILES=	src/modules/rlm_counter/rad_counter scripts/sql/radsqlrelay \
 		scripts/sql/rlm_sqlippool_tool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=--without-rlm_python
 # Prevent /root/.rnd leftover
 MAKE_ARGS+=	HOME=/dev/null

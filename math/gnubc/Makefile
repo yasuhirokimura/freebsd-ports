@@ -16,7 +16,6 @@ BROKEN_powerpc64=	fails to build: tests fail with error code 2
 USES=		cpe libedit makeinfo
 CPE_VENDOR=	gnu
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=	--with-libedit
 INFO=		bc \
 		dc

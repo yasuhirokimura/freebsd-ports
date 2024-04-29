@@ -17,7 +17,6 @@ CONFLICTS=	pserv synce-librapi2
 CONFLICTS_INSTALL=	ports-tools # bin/pcheck
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 PDM_MODULES=	any master
 CONFIGURE_ARGS=	--without-bdb --disable-docbook --with-confdir=${PREFIX}/etc/popular \
 		--enable-ssl --with-pdm="${PDM_MODULES}"

@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 LIB_DEPENDS=	libcourierauth.so:security/courier-authlib-base
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake localbase
 
 MINUID?=	100 # XXX: set this to 1000 for FreeBSD?

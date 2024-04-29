@@ -10,7 +10,6 @@ COMMENT=	Uptime showing dockapp with a similar look to wmcpuload
 WWW=		http://freecode.com/projects/wmupmon
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		autoreconf tar:bzip2 xorg
 USE_XORG=	xpm
 CONFIGURE_ARGS=	--program-prefix=""

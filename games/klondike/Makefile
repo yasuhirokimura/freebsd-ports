@@ -12,7 +12,6 @@ LICENSE=	BSD3CLAUSE
 USES=		shebangfix tk:run
 SHEBANG_FILES=	*.tcl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--bindir=${PREFIX}/bin --datadir=${PREFIX}/share/games
 CONFIGURE_ENV=	WISHX=${WISH}
 NO_ARCH=	yes

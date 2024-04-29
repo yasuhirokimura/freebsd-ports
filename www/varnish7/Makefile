@@ -20,7 +20,6 @@ USES=		cpe libedit libtool localbase ncurses pathfix \
 CPE_VENDOR=	varnish-cache
 CPE_PRODUCT=	varnish_cache
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 SHEBANG_FILES=	lib/libvcc/*.py lib/libvsc/*.py
 USE_LDCONFIG=	yes
 USE_RC_SUBR=	varnishd varnishlog varnishncsa

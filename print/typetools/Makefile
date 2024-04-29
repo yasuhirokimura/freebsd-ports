@@ -15,7 +15,6 @@ USES=		tex
 USE_TEX=	kpathsea
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-kpathsea=${LOCALBASE}
 
 DATADIR=	${PREFIX}/share/lcdf-${PORTNAME}

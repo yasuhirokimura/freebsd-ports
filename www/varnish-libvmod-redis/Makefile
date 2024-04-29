@@ -19,7 +19,6 @@ USES=		autoreconf compiler:c11 gmake libtool pkgconfig \
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static --disable-tls
 INSTALL_TARGET=	install-strip
 DOCSDIR=	${PREFIX}/share/doc/vmod-redis

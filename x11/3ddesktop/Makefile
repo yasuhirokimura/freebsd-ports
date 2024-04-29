@@ -18,7 +18,6 @@ USE_GL=		gl glu glut
 USE_XORG=	ice sm x11 xext xi xmu xt xxf86vm
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CPPFLAGS+=	-DHAVE_DECL_GETOPT -pthread
 LDFLAGS+=	-pthread

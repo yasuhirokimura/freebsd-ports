@@ -17,7 +17,6 @@ USES=		autoreconf libtool pkgconfig python:build varnish:7
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static
 INSTALL_TARGET=	install-strip
 DOCSDIR=	${PREFIX}/share/doc/vmod-querystring

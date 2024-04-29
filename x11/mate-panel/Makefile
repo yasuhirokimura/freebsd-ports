@@ -32,7 +32,6 @@ USE_GNOME=	cairo dconf gnomeprefix gtk30 intltool \
 		introspection:build librsvg2
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 GLIB_SCHEMAS=	org.mate.panel.applet.clock.gschema.xml \

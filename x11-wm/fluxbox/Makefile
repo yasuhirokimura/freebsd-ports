@@ -20,7 +20,6 @@ USES=		gmake pkgconfig xorg
 USE_CXXSTD=	c++11
 USE_XORG=	x11 xext xorgproto xft xpm xrandr
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=   ${PREFIX}/share
 
 PORTDATA=	*
 PORTDOCS=	*

@@ -22,7 +22,6 @@ USE_GNOME=	cairo gdkpixbuf gtk20
 USE_XORG=	ice sm x11 xext
 
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=	--disable-werror
 
 CONFLICTS_INSTALL=	py*-grip # bin/grip

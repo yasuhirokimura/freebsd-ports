@@ -15,7 +15,6 @@ LIB_DEPENDS=	libpcre2-8.so:devel/pcre2
 
 USES=		cpe tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFLICTS=	newsx-1* s-news-0*
 

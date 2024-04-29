@@ -23,7 +23,6 @@ USES=		autoreconf gnome ncurses pkgconfig
 USE_GITHUB=	yes
 USE_GNOME=	glib20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	LDFLAGS="-L${LOCALBASE}/lib -largp" \
 		CPPFLAGS=-I${LOCALBASE}/include
 

@@ -20,7 +20,6 @@ GH_ACCOUNT=	tmate-io
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 LDFLAGS+=	-lexecinfo
 

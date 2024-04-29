@@ -16,7 +16,6 @@ LIB_DEPENDS=	libjack.so:audio/jack \
 USES=		cpe libtool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 INSTALL_TARGET=	install-strip
 CPE_VENDOR=	nick_copeland
 

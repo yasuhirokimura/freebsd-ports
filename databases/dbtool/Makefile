@@ -17,7 +17,6 @@ USES=		gmake localbase shebangfix
 SHEBANG_FILES=	samples/account-db/accdb
 bash_OLD_CMD=	/bin/sh
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PORTEXAMPLES=	*
 PLIST_FILES=	bin/dbtool share/man/man1/dbtool.1.gz

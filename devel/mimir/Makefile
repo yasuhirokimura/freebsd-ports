@@ -10,7 +10,6 @@ WWW=		http://www.cs.ru.nl/elan/
 
 USES=		gmake libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_LDCONFIG=	yes
 
 .include <bsd.port.mk>

@@ -18,7 +18,6 @@ RUN_DEPENDS=	xsp:www/xsp
 USES=		apache libtool mono pkgconfig
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static --man=${PREFIX}/share/man
 INSTALL_TARGET=	install
 PLIST_SUB=	MOD_MONOCONFDIR=${MOD_MONOCONFDIR}

@@ -15,7 +15,6 @@ USES=		cpe libtool pkgconfig
 CPE_VENDOR=	${PORTNAME}_project
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-pkgconfigdir=${LOCALBASE}/libdata/pkgconfig
 INSTALL_TARGET=	install-strip
 

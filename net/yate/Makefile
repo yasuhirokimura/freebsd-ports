@@ -32,7 +32,6 @@ SHEBANG_FILES=	share/scripts/banbrutes.php \
 		share/scripts/voicemail.php
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFIGURE_ARGS=	--with-zlib=/usr \
 		--without-fdsize \

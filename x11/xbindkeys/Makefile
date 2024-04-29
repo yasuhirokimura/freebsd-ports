@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		xorg
 USE_XORG=	x11 xi
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/xbindkeys %%EXAMPLESDIR%%/xbindkeysrc share/man/man1/xbindkeys.1.gz
 

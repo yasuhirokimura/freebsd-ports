@@ -31,7 +31,6 @@ SHEBANG_FILES=	contrib/convert2gpx \
 		contrib/poi2osm
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-schemas-install
 CONFIGURE_ENV=	DATADIRNAME=share
 

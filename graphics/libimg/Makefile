@@ -34,7 +34,6 @@ EXTRACT_AFTER_ARGS=	--exclude 'config.*' --exclude Makefile --exclude \
 			'compat' --exclude win
 MAKE_ARGS+=	INSTALL_ROOT="${STAGEDIR}"
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	WRKDIR="${WRKDIR}"
 CONFIGURE_ARGS+=--enable-shared --disable-stubs
 

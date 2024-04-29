@@ -16,7 +16,6 @@ LIB_DEPENDS=	libgd.so:graphics/gd
 
 USES=		autoreconf libtool tar:bzip2 localbase
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	GDLIBCONFIG=/usr/bin/true
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip

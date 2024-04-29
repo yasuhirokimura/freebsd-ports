@@ -10,7 +10,6 @@ WWW=		http://nchc.dl.sourceforge.net/sourceforge/fstyp/
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV+=	ac_cv_prog_CC="${CC}"
 
 PLIST_FILES=	bin/fstyp share/man/man8/fstyp.8.gz

@@ -18,7 +18,6 @@ LIB_DEPENDS=	libmad.so:audio/libmad \
 USES=		localbase
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--without-esd
 LDFLAGS+=	-lz
 ALL_TARGET=	all madtime

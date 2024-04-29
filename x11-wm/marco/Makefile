@@ -29,7 +29,6 @@ USE_GNOME=	cairo gdkpixbuf gtk30 intltool
 USE_MATE=	desktop
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 GLIB_SCHEMAS=	org.mate.marco.gschema.xml

@@ -13,7 +13,6 @@ RUN_DEPENDS=	rdesktop:net/rdesktop
 USES=		gettext gmake gnome libtool pkgconfig
 USE_GNOME=	gtk20 intltool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-gnome
 CPPFLAGS+=	-I${LOCALBASE}/include
 LIBS+=		-L${LOCALBASE}/lib

@@ -13,7 +13,6 @@ USE_XORG=	xext xrender xinerama xrandr xi xfixes xcursor \
 		xcomposite x11 xres
 USE_GNOME=	gtk20 gnomeprefix
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib

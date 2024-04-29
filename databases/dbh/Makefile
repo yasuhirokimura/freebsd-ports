@@ -15,7 +15,6 @@ CONFLICTS=	dbh-[0-4]*
 
 USES=		libtool pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-pkglibdata
 USE_LDCONFIG=	yes
 

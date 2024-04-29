@@ -16,7 +16,6 @@ LIB_DEPENDS=	libpulse.so:audio/pulseaudio \
 USES=		autoreconf gnome pkgconfig
 USE_GNOME=	cairo gdkpixbuf gtk30
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GITHUB=	yes
 GH_ACCOUNT=	fernandotcl
 GH_TAGNAME=	3b4f8b3

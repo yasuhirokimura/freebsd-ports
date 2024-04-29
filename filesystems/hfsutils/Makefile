@@ -15,7 +15,6 @@ CONFLICTS=	hfs
 
 USES=		gmake			# passing -jX breaks BSD make(1)
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 ALL_TARGET=	all hfsck/hfsck
 
 PORTDOCS=	*

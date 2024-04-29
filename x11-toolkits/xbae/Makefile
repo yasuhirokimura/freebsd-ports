@@ -17,7 +17,6 @@ USE_LDCONFIG=	yes
 USE_XORG=	ice sm x11 xext xt
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-production
 
 INSTALL_TARGET=	install-strip

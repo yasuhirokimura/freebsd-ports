@@ -23,7 +23,6 @@ USE_XORG=	ice sm x11
 USE_GNOME=	cairo dconf gdkpixbuf gtk30 intltool vte3
 SHEBANG_FILES=	mate-terminal.wrapper
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 GLIB_SCHEMAS=	org.mate.terminal.gschema.xml
 

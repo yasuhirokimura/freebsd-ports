@@ -15,7 +15,6 @@ VERSION=	6.8.4
 JP_VERSION=	3.05
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-batchmode \
 		--enable-apop=${PREFIX}/etc/pop.auth \
 		--enable-jmandir=${PREFIX}/share/man/ja

@@ -17,7 +17,6 @@ LIB_DEPENDS=	libykclient.so:security/ykclient \
 USES=		libtool localbase pkgconfig
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 TEST_TARGET=	check
 
 SUB_FILES=	pkg-message

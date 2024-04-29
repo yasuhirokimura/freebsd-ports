@@ -33,7 +33,6 @@ USE_XORG=	ice sm x11
 USE_GNOME=	cairo gtk30 gtksourceview4 intltool libwnck3 libxml2
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	OS_SYS="/usr/include"
 CONFIGURE_ARGS=	--without-nl
 

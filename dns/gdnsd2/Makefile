@@ -19,7 +19,6 @@ BUILD_DEPENDS=	ragel>0:devel/ragel
 FETCH_ARGS=	-Fpr
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var
 USE_LDCONFIG=	yes
 USES=		cpe pkgconfig libtool tar:xz perl5 gmake

@@ -30,7 +30,6 @@ USE_LDCONFIG=	yes
 USE_PYTHON=	py3kplist
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-fts --disable-telepathy \
 		--disable-downloads-monitor
 

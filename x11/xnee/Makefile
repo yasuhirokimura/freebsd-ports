@@ -11,7 +11,6 @@ WWW=		http://www.sandklef.com/xnee/
 LICENSE=	GPLv3
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake pathfix xorg
 USE_XORG=	x11 xtst
 

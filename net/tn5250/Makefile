@@ -15,7 +15,6 @@ USES=		libtool ncurses ssl
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-os-dir=no --with-ssl=${OPENSSLBASE}
 
 INSTALL_TARGET=	install-strip

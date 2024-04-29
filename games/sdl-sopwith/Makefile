@@ -15,7 +15,6 @@ USES=		autoreconf pkgconfig sdl
 USE_GITHUB=	yes
 GH_ACCOUNT=	fragglet
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_SDL=	sdl2
 
 PORTDOCS=	*

@@ -15,7 +15,6 @@ LIB_DEPENDS=	libslang.so:devel/libslang2
 USES=		gettext gmake ncurses shebangfix
 SHEBANG_FILES=	examples/showdir.pl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	SLANG_H_LOC="${LOCALBASE}/include/slang.h" \
 		SLANG_LIB_LOC="${LOCALBASE}/lib"
 MAKE_ENV=	INSTALL_PREFIX="${STAGEDIR}"

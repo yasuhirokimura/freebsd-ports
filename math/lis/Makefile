@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		gmake libtool zip
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-shared --disable-static
 USE_LDCONFIG=	yes
 

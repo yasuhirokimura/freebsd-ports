@@ -16,7 +16,6 @@ LIB_DEPENDS=	libogg.so:audio/libogg \
 
 USES=		autoreconf localbase:ldflags tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 OPTIONS_DEFINE=	DVDREAD
 OPTIONS_DEFAULT=DVDREAD

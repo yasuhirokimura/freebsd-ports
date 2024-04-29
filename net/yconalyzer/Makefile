@@ -9,7 +9,6 @@ COMMENT=	TCP Traffic Analyzer
 WWW=		https://yconalyzer.sourceforge.net/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake tar:bzip2
 
 PLIST_FILES=	bin/yconalyzer \

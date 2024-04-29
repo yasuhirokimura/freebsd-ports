@@ -15,7 +15,6 @@ LIB_DEPENDS=	libnfc.so:devel/libnfc
 USE_GITHUB=	yes
 GH_ACCOUNT=	nfc-tools
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_LDCONFIG=	yes
 USES=		autoreconf gmake libtool pathfix pkgconfig ssl
 MAKE_ENV=	INSTALL_STRIP_FLAG="${STRIP}"

@@ -20,7 +20,6 @@ ONLY_FOR_ARCHS_REASON=	uses SSE instructions
 USES=		compiler:c++11-lang gl tar:bzip2 gmake pkgconfig
 USE_CXXSTD=	c++11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GL=		gl glu
 
 CXXFLAGS_i386=	-msse

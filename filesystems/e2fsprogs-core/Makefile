@@ -24,7 +24,6 @@ USE_CSTD=	gnu11
 USE_LDCONFIG=	${PREFIX}/lib/e2fsprogs
 .endif
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFIGURE_ARGS?=--disable-fsck \
 		--disable-e2initrd-helper \

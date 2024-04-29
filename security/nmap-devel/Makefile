@@ -38,7 +38,6 @@ CONFIGURE_ARGS=--without-localdirs \
 		--with-liblua=included \
 		--without-nmap-update
 MAKE_JOBS_UNSAFE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 OPTIONS_DEFINE=	DOCS NLS PCAP SSH2 SSL
 OPTIONS_DEFAULT=NLS SSH2 SSL

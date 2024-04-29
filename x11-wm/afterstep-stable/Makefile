@@ -23,7 +23,6 @@ USE_GNOME=	atk cairo gdkpixbuf glib20 gtk20 librsvg2 pango
 USE_XORG+=	ice sm x11 xcomposite xcursor xdamage xext xfixes xi xinerama \
 		xrandr xrender
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 SHEBANG_FILES=	tools/ascommand.pl \
 		tools/importasmenu
 MAKE_JOBS_UNSAFE=	yes

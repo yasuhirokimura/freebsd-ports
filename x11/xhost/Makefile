@@ -13,6 +13,5 @@ USES=		xorg xorg-cat:app
 USE_XORG=	x11 xmuu xau
 
 PLIST_FILES=	bin/xhost share/man/man1/xhost.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

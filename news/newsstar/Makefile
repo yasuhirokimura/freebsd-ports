@@ -21,7 +21,6 @@ IGNORE_SSL_REASON=GPL linking exeption only provided for OpenSSL
 SHEBANG_FILES=	newsstar.in
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=--disable-chown \
 		--with-conf-dir=${PREFIX}/etc/newsstar \
 		--with-rc-dir=/var/spool/newsstar/lib \

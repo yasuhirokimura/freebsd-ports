@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 BUILD_DEPENDS=	v4l_compat>=1.0.20120501:multimedia/v4l_compat
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		autoreconf gettext iconv localbase
 LDFLAGS+=	${ICONV_LIB}
 

@@ -20,7 +20,6 @@ LIB_DEPENDS=	libFLAC.so:audio/flac \
 
 USES=		fuse localbase pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 PLIST_FILES=	bin/mp3fs \
 		share/man/man1/mp3fs.1.gz
 

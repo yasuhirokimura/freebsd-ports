@@ -16,7 +16,6 @@ CPE_VENDOR=	gnu
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-libserveez-install
 
 MAKE_JOBS_UNSAFE=	yes

@@ -15,7 +15,6 @@ USE_CXXSTD=	c++14
 USE_XORG=	x11
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-alternate-scoresdir=${SCOREDIR} \
 		--enable-alternate-gameuser=root \
 		--enable-alternate-gamegroup=games

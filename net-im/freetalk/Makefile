@@ -20,7 +20,6 @@ USES=		autoreconf gettext-runtime gnome guile:2.2 localbase \
 		makeinfo ncurses pkgconfig readline
 USE_GNOME=	glib20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 LIBS=		-largp
 INFO=		freetalk

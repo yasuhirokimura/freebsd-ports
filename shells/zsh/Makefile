@@ -44,7 +44,6 @@ CONFIGURE_ENV+=	zsh_cv_sys_path_dev_fd=no \
 		zsh_cv_path_utmpx=/var/run/utx.active
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	-DBOOL_DEFINED
 LDFLAGS+=	-Wl,--as-needed
 TEST_TARGET=	test

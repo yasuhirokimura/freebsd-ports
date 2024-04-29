@@ -16,7 +16,6 @@ GH_ACCOUNT=	douban
 
 USES=		autoreconf
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/beansdb share/man/man1/beansdb.1.gz
 
