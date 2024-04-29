@@ -29,7 +29,6 @@ OPTIONS_SUB=		yes
 ZVBI_DESC=	Enable libzvbi support
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_XORG=	x11 xaw
 CPPFLAGS+=	-I${WRKSRC}/common
 LIBS+=		-L${LOCALBASE}/lib

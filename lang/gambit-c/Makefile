@@ -17,7 +17,6 @@ GH_ACCOUNT=	gambit
 GH_PROJECT=	gambit
 USE_LDCONFIG=	${PREFIX}/lib/gambit-c
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--docdir=${DOCSDIR} \
 		--enable-compiler-name=gsc-gambit \
 		--enable-gcc-opts \

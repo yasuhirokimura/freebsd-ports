@@ -27,7 +27,6 @@ USE_SDL=	sdl2
 USE_GL=		gl glu glew
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-sdl --enable-gles
 INSTALL_TARGET=	install-strip
 

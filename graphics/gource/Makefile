@@ -22,7 +22,6 @@ RUN_DEPENDS=	${LOCALBASE}/include/glm/glm.hpp:math/glm
 
 USES=		compiler:c++0x cpe gl gmake pkgconfig sdl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GL=		glew gl glu
 USE_SDL=	image2 sdl2
 

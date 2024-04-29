@@ -30,7 +30,6 @@ USES=		gl xorg xorg-cat:driver
 USE_GL=		gl
 USE_XORG=	pciaccess
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--disable-udev
 
 .include <bsd.port.mk>

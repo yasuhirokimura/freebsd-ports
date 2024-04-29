@@ -22,7 +22,6 @@ SHEBANG_FILES=	tools/blitz \
 		tools/gs-sftp
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

@@ -17,7 +17,6 @@ CPE_VENDOR=	pcre
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--enable-pcre2-16 \
 				--enable-pcre2-32
 INSTALL_TARGET=			install-strip

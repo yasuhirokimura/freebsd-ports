@@ -61,7 +61,6 @@ GH_ACCOUNT=	sympa-community
 USE_RC_SUBR=	sympa
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFIGURE_ARGS+=	--bindir=${PREFIX}/bin \
 			--datadir=${DATADIR} \

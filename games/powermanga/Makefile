@@ -18,7 +18,6 @@ USES=		autoreconf localbase sdl tar:tgz xorg
 USE_XORG=	xext xxf86dga
 USE_SDL=	sdl mixer
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PORTDOCS=	*
 PORTDATA=	*

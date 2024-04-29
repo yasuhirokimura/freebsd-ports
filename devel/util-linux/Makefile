@@ -28,7 +28,6 @@ SHEBANG_FILES=	misc-utils/getopt-example.bash \
 		tests/run.sh
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-nls --disable-ipcrm --disable-ipcs \
 		--disable-makeinstall-chown --disable-makeinstall-setuid \
 		--with-pkgconfigdir=${PREFIX}/libdata/pkgconfig

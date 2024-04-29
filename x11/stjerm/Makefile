@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USE_GITHUB=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LIBS+=		-L${LOCALBASE}/lib -lXinerama
 USES=		autoreconf gmake gnome pkgconfig xorg
 USE_GNOME=	vte gtk20

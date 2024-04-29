@@ -18,7 +18,6 @@ USES=		cpe gettext gmake iconv libtool:keepla localbase:ldflags \
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-msdblib \
 		--enable-sybase-compat \
 		--sysconfdir=${ETCDIR} \

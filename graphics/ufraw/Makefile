@@ -26,7 +26,6 @@ GH_TAGNAME=	f34669b
 USE_GNOME+=	cairo gdkpixbuf glib20 gtk20
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--disable-mime \
 				--enable-extras \
 				--enable-jasper

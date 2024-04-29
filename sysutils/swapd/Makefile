@@ -15,7 +15,6 @@ LIB_DEPENDS=	libstatgrab.so:devel/libstatgrab
 
 USES=		gmake pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 USE_RC_SUBR=	swapd
 
