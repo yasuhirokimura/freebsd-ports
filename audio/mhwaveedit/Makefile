@@ -17,7 +17,6 @@ GH_ACCOUNT=	magnush
 USES=		autoreconf gnome localbase pkgconfig tar:bzip2
 USE_GNOME=	gtk20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFIGURE_ARGS=	--without-alsalib \
 		--without-arts \

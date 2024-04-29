@@ -26,7 +26,6 @@ CONFIGURE_ARGS=	--disable-crypto-engine-gnutls \
 		--disable-crypto-engine-mbedtls \
 		--disable-crypto-engine-cryptoapi
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

@@ -17,7 +17,6 @@ TEST_DEPENDS=	runtest:misc/dejagnu
 USES=		gmake python:env shebangfix tar:bzip2 tcl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_PREFIX=	${PREFIX}/Modules
 CONFIGURE_ARGS=	--enable-versioning \
 		--with-python="${PYTHON_CMD}"
 

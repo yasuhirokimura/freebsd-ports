@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		charsetfix ncurses pkgconfig tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--docdir=${DOCSDIR} --enable-utf8
 MAKE_ARGS+=	install_htmlmanDATA=install-htmlmanDATA
 PORTSCOUT=	limitw:1,even

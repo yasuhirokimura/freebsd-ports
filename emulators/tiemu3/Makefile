@@ -24,7 +24,6 @@ USE_GNOME=	cairo gdkpixbuf gtk20 libglade2
 USE_SDL=	sdl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-gdb --without-kde
 
 LDFLAGS+=	-Wl,-E

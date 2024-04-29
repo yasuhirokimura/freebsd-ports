@@ -23,7 +23,6 @@ GH_PROJECT=	libvmod_maxminddb
 USE_LDCONFIG=	${PREFIX}/lib/varnach/vmods
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static
 
 INSTALL_TARGET=	install-strip

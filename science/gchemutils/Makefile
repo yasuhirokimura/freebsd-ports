@@ -30,7 +30,6 @@ USE_GNOME=	cairo gtk30 intlhack libgsf libxml2
 USE_GL=		gl
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-omf-dir=${PREFIX}/share/omf
 GLIB_SCHEMAS=	org.gnome.gchemutils.crystal.gschema.xml \
 		org.gnome.gchemutils.gschema.xml \

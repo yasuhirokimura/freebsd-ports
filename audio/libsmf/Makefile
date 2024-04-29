@@ -15,7 +15,6 @@ USES=		gnome libtool pkgconfig readline
 USE_GNOME=	glib20
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFLICTS_INSTALL=	jack-smf-utils # bin/smfsh
 

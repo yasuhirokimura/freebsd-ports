@@ -10,7 +10,6 @@ WWW=		https://surblhost.sourceforge.net/
 
 USES=	tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 PLIST_FILES=	bin/${PORTNAME} \
 		share/man/man1/surblhost.1.gz
 

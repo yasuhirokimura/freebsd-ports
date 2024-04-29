@@ -12,7 +12,6 @@ WWW=		https://sw4me.com/wiki/Tktray
 USES+=		tk:tea xorg
 USE_XORG=	x11 xext
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	lib/${TCL_PKG}/libtktray.so.1 \
 		lib/${TCL_PKG}/pkgIndex.tcl \

@@ -16,7 +16,6 @@ LIB_DEPENDS=	liblineak.so:sysutils/lineakd
 USES=		gmake libtool xorg
 USE_XORG=	x11 xext xt xtst xfixes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	kde_cv_prog_cxx_fno_check_new=no
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib

@@ -15,6 +15,5 @@ USES=		xorg xorg-cat:app
 USE_XORG=	x11 xrender xrandr xcb
 
 PLIST_FILES=	bin/xbacklight share/man/man1/xbacklight.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

@@ -19,7 +19,6 @@ USES=		localbase ncurses perl5 tar:bzip2
 USE_PERL5=	build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 MAKE_JOBS_UNSAFE=	yes
 

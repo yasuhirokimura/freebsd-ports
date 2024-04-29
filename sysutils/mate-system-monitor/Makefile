@@ -23,7 +23,6 @@ USES=		alias compiler:c++11-lib gettext gmake gnome localbase mate \
 USE_MATE=	icontheme
 USE_GNOME=	gtkmm30 intlhack librsvg2 libwnck3 libxml2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-systemd
 CONFIGURE_ENV=	LIBS="-lutil" DATADIRNAME="share"
 

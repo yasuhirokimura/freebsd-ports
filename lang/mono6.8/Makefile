@@ -31,7 +31,6 @@ USES=	autoreconf:2.69 bison compiler:c11 cpe gmake iconv libtool localbase \
 USE_PERL5=	build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 
 SHEBANG_FILES=	mono/mini/genmdesc.py \

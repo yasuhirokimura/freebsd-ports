@@ -32,7 +32,6 @@ TEST_TARGET=	test
 USES+=		tcl:${SHORT_TK_VER},tea xorg
 USE_LDCONFIG=	yes
 USE_XORG=	x11 xext xft xrender xscrnsaver
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-xss \
 		--enable-xft \
 		--enable-man-suffix=.${MAN_SUFFIX} \

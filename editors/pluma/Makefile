@@ -28,7 +28,6 @@ USE_GNOME=	cairo gdkpixbuf gnomeprefix gtk30 gtksourceview4 \
 USE_MATE=	desktop:build
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 SHEBANG_FILES=	\

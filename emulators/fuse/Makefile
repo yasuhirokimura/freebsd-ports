@@ -23,7 +23,6 @@ USE_GNOME=	libxml2 glib20
 USE_XORG=	x11
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--without-joystick # TODO needs libjsw for GTK
 
 OPTIONS_DEFINE=		ICONS ROMS DOCS

@@ -17,7 +17,6 @@ LIB_DEPENDS=	libast.so:devel/libast \
 		libImlib2.so:graphics/imlib2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS?=--enable-trans --enable-utmp \
 		--enable-xim --with-theme-update \
 		--with-backspace=bs --without-terminfo \

@@ -31,7 +31,6 @@ USE_RC_SUBR=	lightdm
 USE_XORG=	x11 xcb xdmcp
 
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 # tests causes PAM errors
 CONFIGURE_ARGS=		--disable-libaudit \
 			--disable-tests

@@ -17,7 +17,6 @@ USES=		autoreconf charsetfix cpe gmake iconv libtool:build localbase pkgconfig t
 CPE_VENDOR=	gnu
 CPE_PRODUCT=	wget
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=--without-libidn  # only libidn2 is used
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes

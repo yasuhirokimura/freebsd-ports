@@ -15,7 +15,6 @@ OPTIONS_DEFINE=	NLS
 USES=		compiler:c++11-lang cpe fam gmake gnome pkgconfig
 USE_GNOME=	intlhack libglade2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CPPFLAGS+=	-I${LOCALBASE}/include
 LIBS+=		-L${LOCALBASE}/lib -lX11
 

@@ -25,7 +25,6 @@ SHEBANG_FILES=	soundtracker_convert_config
 CONFIGURE_ENV=	SDL_CONFIG=${LOCALBASE}/bin/sdl2-config
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-alsa
 
 OPTIONS_MULTI=		BACKEND

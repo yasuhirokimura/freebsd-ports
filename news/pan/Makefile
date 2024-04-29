@@ -25,7 +25,6 @@ USE_CXXSTD=	c++14
 USE_GNOME=	cairo gdkpixbuf intlhack
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 LDFLAGS+=	${ICONV_LIB}
 

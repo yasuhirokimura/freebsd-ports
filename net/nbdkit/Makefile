@@ -23,7 +23,6 @@ USE_LDCONFIG=	yes
 USE_RC_SUBR=	${PORTNAME}
 
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 # Rust consumers will download the Rust plugin from crates.io
 CONFIGURE_ARGS+=	--disable-rust
 # These libraries does not exist on ports

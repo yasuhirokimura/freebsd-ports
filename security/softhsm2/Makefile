@@ -20,7 +20,6 @@ RUN_DEPENDS+=		${MY_DEPENDS}
 USES=		compiler:c++11-lang libtool pkgconfig ssl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFIGURE_ARGS+=	--with-crypto-backend=openssl \
 			--with-openssl=${OPENSSLBASE} \
