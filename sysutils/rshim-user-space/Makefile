@@ -22,7 +22,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	Mellanox
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.options.mk>
 

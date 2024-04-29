@@ -32,7 +32,6 @@ USES=		autoreconf:2.69 desktop-file-utils gettext gmake gnome \
 USE_GNOME=	cairo gtk30 intlhack libxml2 vte3
 USE_XORG=	x11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-ssh
 CPPFLAGS+=	-Wno-format-nonliteral
 

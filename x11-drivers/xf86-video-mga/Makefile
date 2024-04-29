@@ -11,6 +11,4 @@ WWW=		https://www.x.org/
 USES=		gl xorg-cat:driver
 USE_GL=		gl
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
-
 .include <bsd.port.mk>

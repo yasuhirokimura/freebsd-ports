@@ -61,7 +61,6 @@ SHEBANG_FILES=	courier/filters/perlfilter/perlfilter-ratelimit.pl \
 		courier/filters/perlfilter/perlfilter-wrapper.pl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--datadir=${DATADIR} \
 		--disable-root-check \
 		--enable-imageurl=${IMAGEURL} \

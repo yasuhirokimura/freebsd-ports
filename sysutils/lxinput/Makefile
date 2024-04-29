@@ -18,7 +18,6 @@ USES=		gmake gnome localbase pkgconfig tar:xz xorg
 USE_GNOME=	gtk20 cairo gdkpixbuf intltool
 USE_XORG=	x11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 
 OPTIONS_DEFINE=	NLS

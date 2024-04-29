@@ -31,7 +31,6 @@ SHEBANG_FILES=	plugins/asymptote/bin/* plugins/dratex/bin/* \
 		plugins/mathematica/bin/realpath.py
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-optimize="${CXXFLAGS}" --disable-qt
 
 MAKE_ARGS=	CP="${CP} -R -f"

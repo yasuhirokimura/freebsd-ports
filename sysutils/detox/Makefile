@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 USES=		autoreconf gmake pkgconfig tar:bzip2
 USE_GITHUB=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 GH_ACCOUNT=	dharple
 
 OPTIONS_DEFINE=	DOCS

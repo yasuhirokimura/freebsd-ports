@@ -19,7 +19,6 @@ LIB_DEPENDS=	libfreetype.so:print/freetype2 \
 RUN_DEPENDS:=	${BUILD_DEPENDS}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		desktop-file-utils gl gmake gnome libtool pathfix \
 		pkgconfig shared-mime-info tar:bzip2 xorg
 USE_GL=		gl

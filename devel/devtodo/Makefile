@@ -11,7 +11,6 @@ WWW=		https://swapoff.org/devtodo.html
 CONFLICTS_INSTALL=	deforaos-todo tdl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		ncurses readline
 
 OPTIONS_DEFINE=	EXAMPLES

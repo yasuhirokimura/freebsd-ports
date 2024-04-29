@@ -18,6 +18,5 @@ USES=		gmake pkgconfig tar:bzip2 gettext-tools
 
 LDFLAGS+=	-pthread
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

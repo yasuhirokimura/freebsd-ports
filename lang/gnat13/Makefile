@@ -25,7 +25,6 @@ USE_LDCONFIG=	${_TARGLIB}
 
 GNU_CONFIGURE=		yes
 GNU_CONFIGURE_PREFIX=	${_PKG_PREFIX}
-GNU_CONFIGURE_MANPREFIX=	${_PKG_PREFIX}/share
 CONFIGURE_ARGS=		--disable-bootstrap \
 			--disable-libgomp \
 			--disable-libmudflap \

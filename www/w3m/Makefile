@@ -25,7 +25,6 @@ MAKE_JOBS_UNSAFE=	yes
 
 CONFLICTS?=	ja-w3m-0.5.* ja-w3m-img-0.5.* w3m-img-0.5.*
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-gc=${LOCALBASE} \
 		ac_cv_path_PERL=${PERL}
 CONFIGURE_ENV=	DEFS="-I${LOCALBASE}/include"

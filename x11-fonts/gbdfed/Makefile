@@ -13,7 +13,6 @@ LICENSE=	MIT
 USES=		gettext gnome pkgconfig tar:bzip2
 USE_GNOME=	gtk20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	-I${LOCALBASE}/include
 
 PLIST_FILES=	bin/gbdfed \

@@ -19,7 +19,6 @@ USES=		python:run
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-sendmail=/usr/sbin/sendmail
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 SUB_FILES=	pkg-message
 

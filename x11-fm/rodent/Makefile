@@ -25,7 +25,6 @@ USE_LDCONFIG=	yes
 SHEBANG_FILES=	configure
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--docdir=${DOCSDIR}
 INSTALL_TARGET=			install-strip
 

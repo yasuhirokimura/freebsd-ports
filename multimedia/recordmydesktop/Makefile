@@ -15,7 +15,6 @@ LIB_DEPENDS=	libtheora.so:multimedia/libtheora
 USES=		xorg
 USE_XORG=	ice sm x11 xdamage xext xfixes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-oss=yes
 
 PLIST_FILES=	bin/recordmydesktop share/man/man1/recordmydesktop.1.gz

@@ -32,7 +32,6 @@ USE_LDCONFIG=	yes
 USE_RC_SUBR=	ha_logd
 WRKSRC=		${WRKDIR}/Reusable-Cluster-Components-glue--${DISTNAME}
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-fatal-warnings \
 		--with-initdir=${PREFIX}/etc/rc.d \
 		--with-ocf-root=${PREFIX}/etc/ocf \

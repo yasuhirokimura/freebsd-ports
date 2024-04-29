@@ -17,6 +17,5 @@ USES=		gettext gmake gnome pkgconfig
 USE_GNOME=	cairo gdkpixbuf gtk30
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

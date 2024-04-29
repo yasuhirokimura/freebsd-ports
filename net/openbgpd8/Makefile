@@ -17,7 +17,6 @@ USES=		autoreconf libtool localbase pathfix uidfix
 USE_RC_SUBR=	${PORTNAME} openbgplgd
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS="--with-wwwrunstatedir=/var/run"
 
 OPTIONS_DEFINE= BGPLGD

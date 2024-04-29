@@ -16,7 +16,6 @@ USES=		tar:bzip2 xorg
 USE_XORG=	x11 ice xt xmu xext sm
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--datadir=${PREFIX}/share
 
 PORTDOCS=	*

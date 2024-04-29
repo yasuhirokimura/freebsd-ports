@@ -15,7 +15,6 @@ USES=		autoreconf compiler:c++11-lang gmake
 USE_GITHUB=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/scrm \
 		share/man/man1/scrm.1.gz

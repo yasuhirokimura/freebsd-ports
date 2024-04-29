@@ -22,7 +22,6 @@ RUN_DEPENDS=	p5-DateTime-TimeZone>=0:devel/p5-DateTime-TimeZone \
 CONFLICTS=	ja-ls icat
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		compiler:c++11-lang libtool perl5 sqlite
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
