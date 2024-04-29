@@ -15,7 +15,6 @@ USE_RC_SUBR=	smcrouted
 USE_GITHUB=	yes
 GH_ACCOUNT=	troglobit
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--bindir=${PREFIX}/sbin
 INSTALL_TARGET=	install-exec-am install-man
 PORTDOCS=	ChangeLog.md README.md

@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		xorg-cat:font
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 NOFONT=		yes
 
 .include <bsd.port.mk>

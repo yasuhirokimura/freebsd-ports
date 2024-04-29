@@ -9,7 +9,6 @@ COMMENT=	Simple tool for recording VNC sessions
 WWW=		https://rfbproxy.sourceforge.net/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 USES=	tar:bzip2
 

@@ -16,7 +16,6 @@ RUN_DEPENDS=	libvc>=003:devel/libvc
 
 USES=		tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CFLAGS+=	-I${PREFIX}/include \
 		-L${PREFIX}/lib
 

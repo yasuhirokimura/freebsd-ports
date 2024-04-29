@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 LIB_DEPENDS=	libext2fs.so:filesystems/e2fsprogs-core
 
 USES=		pkgconfig
-GNU_CONFIGURE_MANPREFIX=        ${PREFIX}/share
 GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>

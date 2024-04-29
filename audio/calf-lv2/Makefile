@@ -26,7 +26,6 @@ USE_CXXSTD=	c++11
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-lv2 --disable-static
 
 USE_GITHUB=	yes

@@ -14,7 +14,6 @@ USES=		cpe tar:bzip2 libtool localbase
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-optimization=0
 INSTALL_TARGET=	install-strip
 

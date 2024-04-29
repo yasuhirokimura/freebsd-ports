@@ -24,7 +24,6 @@ INFO=		gnupod
 
 USES=		makeinfo perl5 tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 NO_BUILD=	yes
 NO_ARCH=	yes
 

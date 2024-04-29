@@ -20,7 +20,6 @@ USE_GNOME=	glib20
 USE_RC_SUBR=	tpm2_abrmd
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-dbuspolicydir=${PREFIX}/etc/dbus-1/system.d
 
 GROUPS=		_tss

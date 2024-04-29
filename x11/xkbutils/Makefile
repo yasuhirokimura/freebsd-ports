@@ -11,6 +11,5 @@ LICENSE=	MIT
 USES=		tar:xz xorg xorg-cat:app
 USE_XORG=	xkbfile x11 xaw xorgproto xt
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

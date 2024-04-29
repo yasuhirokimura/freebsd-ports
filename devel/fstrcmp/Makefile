@@ -15,7 +15,6 @@ USES=		gmake libtool:build
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 post-install:
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/lib/libfstrcmp.so

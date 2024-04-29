@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_RC_SUBR=	fprobe
 
 PLIST_FILES=	sbin/fprobe share/man/man8/${PORTNAME}.8.gz

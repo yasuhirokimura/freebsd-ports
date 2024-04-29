@@ -10,6 +10,5 @@ USES=		xorg xorg-cat:app
 USE_XORG=	xt xmu
 
 PLIST_FILES=	bin/smproxy share/man/man1/smproxy.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

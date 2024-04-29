@@ -14,7 +14,6 @@ COMMENT=	GNU awk + multi-byte extension
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-bitops --enable-non-decimal-data
 MAKE_JOBS_UNSAFE=	yes
 

@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 EXTRA_PATCHES=	${FILESDIR}/cfd06e4ed.patch:-p1
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	${_SHN_ALIASES:S|^|bin/shn|} \
 		share/man/man1/shntool.1.gz

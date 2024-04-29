@@ -14,7 +14,6 @@ USE_CXXSTD=	c++98
 USE_LDCONFIG=	yes
 USE_XORG=	x11 xext xt
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	kde_cv_prog_cxx_fno_check_new=no
 INSTALL_TARGET=	install-strip
 

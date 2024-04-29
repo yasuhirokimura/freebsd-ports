@@ -30,7 +30,6 @@ PYTHON_CONFIGURE_ENABLE=	python-bindings
 PYTHON_USE=			PYTHON=py3kplist
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CFLAGS+=	-include stdlib.h -include limits.h
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip

@@ -23,7 +23,6 @@ GH_ACCOUNT=	djcb
 USE_GNOME=	glib20
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-mu4e
 INSTALL_TARGET=	install-strip
 

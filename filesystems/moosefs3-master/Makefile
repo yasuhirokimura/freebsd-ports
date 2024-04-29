@@ -15,7 +15,6 @@ LICENSE=		GPLv2
 
 USES=			python:build
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 WRKSRC=			${WRKDIR}/moosefs-${PORTVERSION}
 PLIST=			${.CURDIR}/pkg-plist
 DESCR=			${.CURDIR}/pkg-descr

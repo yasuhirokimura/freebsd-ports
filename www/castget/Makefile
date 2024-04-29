@@ -25,7 +25,6 @@ GH_TAGNAME=	da9727d
 
 #CONFIGURE_ARGS=	--disable-static
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 PLIST_FILES=	bin/castget \

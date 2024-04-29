@@ -10,7 +10,6 @@ WWW=		http://sam.zoy.org/zzuf/
 
 USES=		libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 
 .include <bsd.port.mk>
