@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/license.terms
 
 USES=		autoreconf tcl:tea
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 DOCSDIR=	${PREFIX}/share/doc/${TCL_PKG}
 USE_LDCONFIG=	${PREFIX}/lib/${TCL_PKG}

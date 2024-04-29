@@ -25,7 +25,6 @@ GH_TAGNAME=	c85354e
 USE_CXXSTD=	gnu++11
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--docdir=${DOCSDIR} \
 		--without-doxygen
 MAKE_ARGS=	examplesdir=${EXAMPLESDIR} \

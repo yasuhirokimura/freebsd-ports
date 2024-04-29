@@ -25,7 +25,6 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 CONFLICTS_INSTALL=	fvwm3
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-mandoc --without-gnome --disable-gtk \
 		--without-rplay-library \
 		ac_cv_path_PYTHON=${PYTHON_CMD}

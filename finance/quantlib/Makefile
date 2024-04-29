@@ -17,7 +17,6 @@ LIB_DEPENDS=	libboost_system.so:devel/boost-libs
 USES=		compiler:c++17-lang libtool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV+=	EMACS=no
 MAKE_ENV+=	AM_MAKEFLAGS=${_MAKE_JOBS}
 TEST_TARGET=	check-examples check

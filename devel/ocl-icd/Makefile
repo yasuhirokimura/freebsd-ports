@@ -18,7 +18,6 @@ USE_GITHUB=		yes
 GH_ACCOUNT=		OCL-dev
 USE_LDCONFIG=		yes
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=	--enable-official-khronos-headers \
 			--enable-custom-vendordir \
 			--enable-pthread-once

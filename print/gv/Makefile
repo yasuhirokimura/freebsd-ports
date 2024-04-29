@@ -14,7 +14,6 @@ USES=		cpe ghostscript:x11 iconv gmake perl5 shebangfix xorg
 USE_PERL5=	build
 USE_XORG=	xpm ice sm xext xmu x11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CPPFLAGS+=	-I${LOCALBASE}/include
 LIBS+=		-L${LOCALBASE}/lib
 CONFIGURE_ARGS+=	--libdir=${PREFIX}/lib/X11 \

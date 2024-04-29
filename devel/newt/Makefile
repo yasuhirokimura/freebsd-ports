@@ -16,7 +16,6 @@ LIB_DEPENDS=	libpopt.so:devel/popt \
 USES=		autoreconf gmake localbase ncurses pathfix
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 MAKE_ENV=	PCFLAGS="${CFLAGS}"
 MAKE_JOBS_UNSAFE=	yes
 

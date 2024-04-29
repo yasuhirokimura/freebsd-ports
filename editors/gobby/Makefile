@@ -23,7 +23,6 @@ USES=		compiler:c++11-lang cpe gmake gnome pathfix pkgconfig
 CPE_VENDOR=	${PORTNAME}_project
 USE_CXXSTD=	c++11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.options.mk>
 

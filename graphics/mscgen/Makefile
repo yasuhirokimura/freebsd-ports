@@ -20,7 +20,6 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 USES=		jpeg
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 WRKSRC=		${WRKDIR}/${PORTNAME}-${PORTVERSION}
 

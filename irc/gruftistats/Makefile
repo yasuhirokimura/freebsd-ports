@@ -11,7 +11,6 @@ WWW=		https://gruftistats.sourceforge.net/
 USES=	gmake
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 OPTIONS_DEFINE=	DOCS
 

@@ -18,7 +18,6 @@ GH_TAGNAME=	ebe2583
 USE_RC_SUBR=	hts htc
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--quiet
 
 USERS=		httptunnel

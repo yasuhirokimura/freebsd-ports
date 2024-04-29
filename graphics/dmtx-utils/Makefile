@@ -18,7 +18,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	dmtx
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 PLIST_FILES=	bin/dmtxread bin/dmtxwrite bin/dmtxquery \
 		share/man/man1/dmtxread.1.gz share/man/man1/dmtxwrite.1.gz \
 		share/man/man1/dmtxquery.1.gz

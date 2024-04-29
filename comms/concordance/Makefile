@@ -17,7 +17,6 @@ LIB_DEPENDS=	libconcord.so:comms/libconcord
 USES=		tar:bzip2
 WRKSRC_SUBDIR=	${PORTNAME}
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib
 

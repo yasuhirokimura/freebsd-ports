@@ -11,7 +11,6 @@ WWW=		https://github.com/wojtekka/6tunnel
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		autoreconf
 
 USE_GITHUB=	yes

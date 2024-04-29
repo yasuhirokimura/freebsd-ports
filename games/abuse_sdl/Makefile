@@ -26,7 +26,6 @@ USE_GL=		gl
 USE_SDL=	mixer sdl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-assetdir=${DATADIR} --enable-release
 
 DESKTOP_ENTRIES="Abuse-SDL" "" "abuse" \

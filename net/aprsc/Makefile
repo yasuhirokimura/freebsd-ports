@@ -19,7 +19,6 @@ USES=		localbase:ldflags ssl perl5 gmake shebangfix
 MAKEFILE=	GNUmakefile
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 SHEBANG_FILES=	aprsc_munin
 
 CONFIGURE_ARGS=	--with-openssl

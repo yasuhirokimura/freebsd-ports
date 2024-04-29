@@ -16,7 +16,6 @@ USES=		gettext gmake gnome pathfix perl5 pkgconfig
 USE_PERL5=	build
 USE_GNOME=	gtk20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib -lm
