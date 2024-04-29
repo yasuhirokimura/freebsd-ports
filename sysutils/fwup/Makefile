@@ -23,7 +23,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	fhunleth
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 SHEBANG_FILES=	img2fwup scripts/*.sh
 

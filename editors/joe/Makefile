@@ -16,7 +16,6 @@ CONFLICTS=	jupp
 
 USES=		gmake iconv localbase ncurses
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	SPELL=aspell
 LIBS+=		${ICONV_LIB}
 

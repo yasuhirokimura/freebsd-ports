@@ -16,7 +16,6 @@ USES=		magick:6,run
 WRKSRC=		${WRKDIR}/${PORTNAME}-${PORTVERSION:R}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-x=no
 
 post-patch:

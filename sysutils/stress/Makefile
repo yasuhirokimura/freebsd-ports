@@ -10,7 +10,6 @@ COMMENT=	Tool to impose load on and stress test Unix-like systems
 LICENSE=	GPLv3
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 INFO=		stress
 PLIST_FILES=	bin/stress share/man/man1/stress.1.gz

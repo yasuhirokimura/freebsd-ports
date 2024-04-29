@@ -25,7 +25,6 @@ EXTRACT_SUFX=	.tar.xz
 USES=		gl xorg-cat:driver tar:xz
 USE_GL=		gbm
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--disable-udev
 
 PLIST_FILES=	lib/xorg/modules/drivers/amdgpu_drv.so \

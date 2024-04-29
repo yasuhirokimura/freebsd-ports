@@ -11,7 +11,6 @@ WWW=		https://dvbsnoop.sourceforge.net/
 DVB_HEADERS=	dmx.h frontend.h
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CFLAGS+=	-I${WRKSRC}
 USES=		gmake
 

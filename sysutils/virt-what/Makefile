@@ -13,7 +13,6 @@ LICENSE=	GPLv1
 USES=		perl5
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	libexec/virt-what-cpuid-helper \
 		share/man/man1/virt-what.1.gz \

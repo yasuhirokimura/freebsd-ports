@@ -19,7 +19,6 @@ PLIST_FILES=	bin/links \
 		share/man/man1/links.1.gz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFLICTS=	links-2*
 

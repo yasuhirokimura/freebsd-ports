@@ -18,6 +18,5 @@ PLIST_FILES=	bin/iograph \
 		%%DATADIR%%/iograph.gif
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

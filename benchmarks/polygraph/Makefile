@@ -18,7 +18,6 @@ USES=		gmake ncurses shebangfix
 SHEBANG_FILES=	tools/*.pl
 USE_GCC=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_have_64bit_byte_order_conversion=yes
 
 # The port does not build with C++11 or later (bug 219275).

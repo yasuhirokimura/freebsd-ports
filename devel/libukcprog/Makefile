@@ -17,7 +17,6 @@ LICENSE_TEXT=	License (see source) does not permit selling for profit
 LICENSE_PERMS=	dist-mirror pkg-mirror auto-accept
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		libtool pathfix pkgconfig
 USE_LDCONFIG=	yes
 

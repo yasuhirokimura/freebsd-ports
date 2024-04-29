@@ -20,7 +20,6 @@ USE_LDCONFIG=	yes
 
 CPE_VENDOR=	freedesktop
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-test-socket-dir=${WRKDIR} \
 		--disable-gtk-doc \
 		--with-html-dir=${PREFIX}/share/doc

@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		gmake libtool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-imagemagick=no
 INSTALL_TARGET=	install-strip
 

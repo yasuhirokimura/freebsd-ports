@@ -22,7 +22,6 @@ GH_ACCOUNT=	s3fs-fuse
 GH_PROJECT=	s3fs-fuse
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFIGURE_ENV+=	ac_cv_prog_GITCMD=no
 

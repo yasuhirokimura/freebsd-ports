@@ -43,7 +43,6 @@ SVNFSTYPE?=	fsfs
 SVNGROUP?=	svn
 SVNUSER?=	svn
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=	--without-swig-perl \
 			--without-swig-python \
 			--without-swig-ruby \

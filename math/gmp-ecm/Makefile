@@ -20,7 +20,6 @@ USES=		gmake libtool
 
 GL_TAG=		89f6f0d65d3e980cef33dc922004e4b2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	ac_cv_prog_XSLTPROC=no \
 		--with-gmp=${LOCALBASE} \
 		--enable-shared \

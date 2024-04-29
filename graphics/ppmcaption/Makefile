@@ -9,7 +9,6 @@ COMMENT=	Utility which adds text to images
 WWW=		https://www.jwz.org/ppmcaption/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	CPP="${CPP}"
 CONFIGURE_ARGS=	--with-builtin="ncenB24.bdf -scale 0.5 -blur 5"
 MAKE_ARGS=	install_prefix=${STAGEDIR}

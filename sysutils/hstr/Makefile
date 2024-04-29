@@ -15,7 +15,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	dvorka
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/hh bin/hstr \
 		share/man/man1/hstr.1.gz share/bash-completion/completions/hstr

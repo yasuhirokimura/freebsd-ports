@@ -14,7 +14,6 @@ PLIST_FILES=	bin/lzip \
 		share/man/man1/lzip.1.gz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	CXX="${CXX}" \
 		CXXFLAGS="${CXXFLAGS}" \
 		LDFLAGS="${LDFLAGS}"

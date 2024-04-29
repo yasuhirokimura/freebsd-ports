@@ -17,7 +17,6 @@ CONFLICTS_INSTALL=	ja-slrn
 USES=		gmake iconv tar:bz2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--disable-inews --with-slrnpull \
 		${ICONV_CONFIGURE_ARG}
 

@@ -26,7 +26,6 @@ RUN_DEPENDS=	lame:audio/lame \
 USES=		desktop-file-utils gmake gnome libtool localbase:ldflags \
 		pathfix pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-gtk-support --disable-dbus-support \
 		--disable-libnotify-support
 USE_GNOME=	glib20 intlhack libxml2

@@ -10,6 +10,5 @@ USES=		xorg xorg-cat:app
 USE_XORG=	x11
 
 PLIST_FILES=	bin/xwud share/man/man1/xwud.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

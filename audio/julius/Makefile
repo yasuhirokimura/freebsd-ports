@@ -12,7 +12,6 @@ BUILD_DEPENDS=	ja-p5-Jcode>=0:japanese/p5-Jcode
 RUN_DEPENDS=	ja-p5-Jcode>=0:japanese/p5-Jcode
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		iconv perl5 shebangfix
 SHEBANG_FILES=	jclient-perl/jclient.pl
 

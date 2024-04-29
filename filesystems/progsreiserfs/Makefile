@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		libtool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-debug --disable-Werror
 CFLAGS+=	-Dgetopt_long_only=getopt_long
 

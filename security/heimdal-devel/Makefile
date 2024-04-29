@@ -55,7 +55,6 @@ CONFIGURE_ARGS=	--with-berkeley-db \
 		--enable-kx509 \
 		--without-microhttpd
 # XXX --with-readline picks up libreadline even if found in /usr/lib.
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 MAKE_ENV=	INSTALL_CATPAGES=no
 CFLAGS+=	-Wno-implicit-function-declaration
 LDFLAGS+=	-Wl,--undefined-version
