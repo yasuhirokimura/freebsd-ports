@@ -11,7 +11,6 @@ COMMENT=	Grep for structured text like SGML and HTML
 WWW=		https://www.cs.helsinki.fi/u/jjaakkol/sgrep.html
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--datadir=${DATADIR}
 
 CONFLICTS=	sgrep-0.*

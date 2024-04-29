@@ -13,7 +13,6 @@ LICENSE=	BSD3CLAUSE
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 USE_RC_SUBR=	proxsmtpd
 SUB_FILES=	pkg-message

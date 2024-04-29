@@ -13,7 +13,6 @@ RUN_DEPENDS:=	${BUILD_DEPENDS}
 
 USES=		perl5 gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 NO_BUILD=	yes
 
 PLIST_FILES=	bin/mmake share/man/man1/mmake.1.gz

@@ -14,7 +14,6 @@ USE_GNOME=	glib20
 USES=		cpe gnome pkgconfig
 USE_RC_SUBR=	masqmail
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CFLAGS+=	-Wno-trigraphs
 CONFIGURE_ARGS=	--with-user=mailnull --with-group=mail \
 		--with-confdir=${ETCDIR} --with-logdir=/var/log/masqmail

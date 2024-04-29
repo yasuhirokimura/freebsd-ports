@@ -16,6 +16,5 @@ INSTALL_TARGET=	install-strip
 CPE_PRODUCT=	libxres
 CPE_VENDOR=	x
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

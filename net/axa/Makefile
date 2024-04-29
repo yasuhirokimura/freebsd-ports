@@ -24,7 +24,6 @@ USES=		autoreconf compiler gmake libedit libtool pathfix \
 		pkgconfig shebangfix ssl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_SHELL=	${LOCALBASE}/bin/bash
 USE_LDCONFIG=	yes
 SHEBANG_FILES=	tools/axa_link_certs.in

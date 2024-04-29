@@ -20,7 +20,6 @@ USE_LDCONFIG=	yes
 LDFLAGS+=	-rdynamic
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 post-extract:
 	@${REINPLACE_CMD} -e 's|/usr|${PREFIX}|' \

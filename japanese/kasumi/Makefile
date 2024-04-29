@@ -20,7 +20,6 @@ USE_GNOME=	gtk20 cairo gdkpixbuf2
 USE_CXXSTD=	c++11
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 OPTIONS_DEFINE=	NLS
 
 .include <bsd.port.options.mk>

@@ -26,7 +26,6 @@ VERSION=	2.69
 USES=		perl5 tar:xz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--program-suffix=${VERSION} \
 		--without-lispdir
 CONFIGURE_ENV=	AWK=${AWK} \

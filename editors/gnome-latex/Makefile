@@ -22,7 +22,6 @@ LIB_DEPENDS=	libgee-0.8.so:devel/libgee \
 USES=		compiler:c11 desktop-file-utils gettext gmake gnome \
 		pkgconfig tar:xz tex vala:build
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_GNOME=	cairo dconf intltool gtksourceview4
 USE_TEX=	latex dvipsk
 INSTALL_TARGET=	install-strip

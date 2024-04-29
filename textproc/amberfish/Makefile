@@ -17,7 +17,6 @@ LIB_DEPENDS=	libxerces-c.so:textproc/xerces-c3
 USES=		gmake
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 ALL_TARGET=	all html
 

@@ -15,7 +15,6 @@ USES=		autoreconf gettext gnome iconv pkgconfig python:build sdl
 USE_SDL=	sdl2 image2 mixer2 ttf2
 USE_GNOME=	pango
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	pr-starfighter

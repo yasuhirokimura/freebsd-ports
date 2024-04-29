@@ -24,7 +24,6 @@ CONFLICTS_INSTALL=	xpad
 USE_XORG=	x11 sm ice
 USE_GNOME=	gtk20 intltool cairo
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 NLS_USES=		gettext
 NLS_CPPFLAGS=		${CXXFLAGS} -I${LOCALBASE}/include

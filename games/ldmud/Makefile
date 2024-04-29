@@ -20,7 +20,6 @@ USES=		iconv pkgconfig ssl
 USE_RC_SUBR=	ldmud
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--libdir=${DATADIR} \
 		--bindir=${PREFIX}/sbin \
 		--enable-use-pcre \

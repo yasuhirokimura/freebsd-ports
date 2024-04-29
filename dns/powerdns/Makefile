@@ -24,7 +24,6 @@ USE_RC_SUBR=	pdns
 USE_SUBMAKE=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static \
 		--docdir="${PREFIX}/share/doc/powerdns" \
 		--sysconfdir="${PREFIX}/etc/pdns" \

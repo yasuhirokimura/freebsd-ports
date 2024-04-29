@@ -18,7 +18,6 @@ LIB_DEPENDS=	libgmp.so:math/gmp \
 USES=		bdb gmake libtool ncurses tar:xz
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	MATH_LIBS=-lm
 
 TEST_TARGET=	check

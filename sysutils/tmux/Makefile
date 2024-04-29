@@ -24,7 +24,6 @@ USE_GITHUB=	nodefault
 GH_TUPLE=	imomaliev:tmux-bash-completion:f5d5323:bash
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-utempter \
 		--sysconfdir=${PREFIX}/etc
 

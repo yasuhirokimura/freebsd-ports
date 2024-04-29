@@ -21,7 +21,6 @@ GPG_DESC=	GNU Privacy Guard support
 
 WRKSRC=		${WRKDIR}/lbdb-${PORTVERSION}
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-lbdb-dotlock \
 		--libdir=${PREFIX}/libexec/lbdb
 MAKE_ARGS=	install_prefix=${STAGEDIR}

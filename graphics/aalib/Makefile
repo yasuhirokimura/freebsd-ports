@@ -15,7 +15,6 @@ USES=		libtool localbase
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 WRKSRC=		${WRKDIR}/${PORTNAME}-1.4.0
 

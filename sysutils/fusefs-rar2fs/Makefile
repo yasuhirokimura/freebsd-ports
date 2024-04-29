@@ -19,7 +19,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	hasse69
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static-unrar \
 		--with-fuse-lib=${LOCALBASE}/lib \
 		--with-fuse=${LOCALBASE}/include/fuse \

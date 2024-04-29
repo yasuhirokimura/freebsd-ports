@@ -19,7 +19,6 @@ CPE_VENDOR=	${PORTNAME}_project
 USE_LDCONFIG=	${GSSAPILIBDIR}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_header_fnmatch_h=yes \
 		ac_cv_header_db_h=no \
 		ac_cv_header_db3_db_h=no \

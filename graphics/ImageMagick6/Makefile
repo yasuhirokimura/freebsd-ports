@@ -38,7 +38,6 @@ CPE_PRODUCT=	imagemagick
 CPE_VENDOR=	imagemagick
 SHEBANG_FILES=	www/source/examples.pl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	MAKE=${MAKE_CMD}
 CONFIGURE_ARGS=	--without-dps \
 		--without-flif \

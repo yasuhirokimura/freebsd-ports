@@ -20,7 +20,6 @@ USES=		compiler:c++14-lang gmake
 USE_CXXSTD=	c++14
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 WRKSRC=		${WRKDIR}/${DISTNAME}
 VERSION_BASE=	${DISTVERSION:C/([0-9]+\.[0-9]+).*/\1/}

@@ -15,7 +15,6 @@ USES=		cpe gmake libtool pathfix
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

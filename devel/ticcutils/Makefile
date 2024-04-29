@@ -18,7 +18,6 @@ USE_GNOME=	libxml2
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static
 
 INSTALL_TARGET=	install-strip

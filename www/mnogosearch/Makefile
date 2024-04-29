@@ -27,7 +27,6 @@ SQLITE2_DESC=	Use SQLite 2.x
 SQLITE3_DESC=	Use SQLite 3.x
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 INSTALL_TARGET=	install-strip
 USES=		cpe gmake libtool
 USE_LDCONFIG=	yes

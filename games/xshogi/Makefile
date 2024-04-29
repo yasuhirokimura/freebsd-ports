@@ -12,7 +12,6 @@ RUN_DEPENDS=	gnushogi:games/gnushogi
 USES=		xorg
 USE_XORG=	xt xaw x11
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CPPFLAGS+=	-I${LOCALBASE}/include
 

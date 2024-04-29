@@ -18,7 +18,6 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 USES=		gnome libtool pkgconfig tar:bzip2
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--includedir=${PREFIX}/include/xmedcon \
 		--enable-llcheck
 INSTALL_TARGET=	install-strip

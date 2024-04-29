@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		gmake libtool pathfix pkgconfig tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_CSTD=	gnu89
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip install-man

@@ -15,7 +15,6 @@ USES=		autoreconf
 USE_GITHUB=	yes
 GH_ACCOUNT=	pali
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_RC_SUBR=	igmpproxy
 
 post-install:

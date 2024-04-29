@@ -21,7 +21,6 @@ NLS_USES=	gettext-runtime
 NLS_CONFIGURE_ENABLE=	nls
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 post-install-DOCS-on:
 	@${MKDIR} ${STAGEDIR}${DOCSDIR}
