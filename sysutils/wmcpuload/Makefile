@@ -13,7 +13,6 @@ LICENSE=	GPLv2
 USES=		xorg
 USE_XORG+=	x11 xext xpm
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PORTDOCS=	ChangeLog README
 PLIST_FILES=	"@(,kmem,2555) bin/wmcpuload" \

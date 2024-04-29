@@ -28,7 +28,6 @@ USES=		gettext gmake gnome libtool localbase pkgconfig tar:xz \
 USE_XORG=	x11
 USE_GNOME=	cairo glib20 gtk30 intlhack librsvg2 libwnck3
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-static \
 		--with-dbus-services=${PREFIX}/share/dbus-1/services
 INSTALL_TARGET=	install-strip

@@ -11,7 +11,6 @@ WWW=		https://www.internet2.edu/performance/owamp/
 LICENSE=	APACHE20
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.options.mk>
 

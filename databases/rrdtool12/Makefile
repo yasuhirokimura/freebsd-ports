@@ -21,7 +21,6 @@ CONFLICTS_INSTALL=	rrdtool # include/rrd.h
 
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		cpe gmake libtool
 CPE_VENDOR=	${PORTNAME}_project
 

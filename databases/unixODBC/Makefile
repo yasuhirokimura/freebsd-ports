@@ -15,7 +15,6 @@ LICENSE_COMB=	multi
 OPTIONS_DEFINE=	DOCS
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_header_msql_h=no
 CONFIGURE_ARGS=	--enable-static --enable-shared \
 		${ICONV_CONFIGURE_ARG}

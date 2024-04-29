@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/doc/COPYING
 
 USES=	gmake tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_func_gettext=no ac_cv_lib_intl_main=no
 
 PLIST_FILES=	bin/jmba \

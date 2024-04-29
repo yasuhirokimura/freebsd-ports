@@ -18,7 +18,6 @@ USES=		desktop-file-utils gettext gmake gnome localbase:ldflags \
 		pkgconfig
 USE_GNOME=	cairo gdkpixbuf gtk20 intlhack
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-chooser
 LDFLAGS+=	-lpthread
 

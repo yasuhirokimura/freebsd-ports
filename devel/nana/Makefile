@@ -9,7 +9,6 @@ MAINTAINER=	pjm@gnu.org
 COMMENT=	Support for assertion checking and logging using GNU C and GDB
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INFO=		nana
 

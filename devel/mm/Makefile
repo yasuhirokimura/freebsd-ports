@@ -16,7 +16,6 @@ LICENSE_PERMS=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 USES=				libtool
 USE_LDCONFIG=			yes
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 post-build:
 	@${ECHO_MSG} "===>  Use 'make test' to run a quick test suite."

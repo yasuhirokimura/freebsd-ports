@@ -10,7 +10,6 @@ COMMENT=	Fetch listings and books from Project Gutenberg
 LIB_DEPENDS=	libgutenfetch.so:devel/libgutenfetch
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	-I${LOCALBASE}/include
 LIBS+=		-L${LOCALBASE}/lib
 USES=		gmake tar:bzip2

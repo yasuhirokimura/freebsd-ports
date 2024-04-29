@@ -14,6 +14,5 @@ LICENSE=	BSD2CLAUSE
 
 USES=		autoreconf xorg-cat:driver
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

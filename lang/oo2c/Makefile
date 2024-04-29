@@ -19,7 +19,6 @@ LIB_DEPENDS=	libgc.so:devel/boehm-gc
 DOCSDIR=	lib/${PORTNAME}
 USES=		gmake libtool:build localbase:ldflags tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 USE_CSTD=	gnu89
 USE_GCC=	yes

@@ -64,7 +64,6 @@ LDAP_USES=			ldap
 LIBS+=		-lpthread
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=	--with-user=mailnull \
 			--with-libmilter=${MILTERBASE} \
 			--enable-dnsrbl \

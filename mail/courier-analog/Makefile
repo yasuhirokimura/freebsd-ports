@@ -16,7 +16,6 @@ RUN_DEPENDS=	p5-Getopt-Long>0:devel/p5-Getopt-Long
 USES=		tar:bz2 autoreconf perl5
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 NO_ARCH=	yes
 

@@ -28,7 +28,6 @@ USE_GNOME=	gtk30 gtksourceview4 cairo gdkpixbuf
 CPPFLAGS+=	${CXXFLAGS} -I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 PORTDOCS=	*
 PLIST_FILES=	\
 bin/xpad \

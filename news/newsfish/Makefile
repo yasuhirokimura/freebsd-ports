@@ -10,7 +10,6 @@ WWW=		https://www.saddi.com/software/newsfish/
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/newsfish \
 		share/man/man1/newsfish.1.gz

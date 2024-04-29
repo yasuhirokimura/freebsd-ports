@@ -16,7 +16,6 @@ LIB_DEPENDS=	libgcrypt.so:security/libgcrypt \
 		libgpg-error.so:security/libgpg-error
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		compiler:c11 pkgconfig
 
 PLIST_FILES=	bin/pdfgrep share/man/man1/pdfgrep.1.gz \
