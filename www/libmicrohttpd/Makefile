@@ -20,7 +20,6 @@ INFO=		libmicrohttpd libmicrohttpd-tutorial
 INSTALL_TARGET=	install-strip
 TEST_TARGET=	check
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-examples
 
 OPTIONS_DEFINE=		GNUTLS TESTCURL

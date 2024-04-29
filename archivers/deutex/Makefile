@@ -20,7 +20,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	Doom-Utils
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/deutex \
 		share/man/man6/${PORTNAME}.6.gz

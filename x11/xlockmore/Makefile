@@ -23,7 +23,6 @@ CONFIGURE_ARGS=	--without-motif --without-editres \
 		--without-gtk --without-esound --disable-setuid \
 		--disable-kerberos4 --without-ttf
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 PORTDOCS=	README ${PORTNAME}.README
 
 OPTIONS_DEFINE=	MESAGL MB SYSLOG DISABLE_ALLOW_ROOT NICE_ONLY BLANK_ONLY \

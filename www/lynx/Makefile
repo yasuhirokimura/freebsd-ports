@@ -20,7 +20,6 @@ CONFLICTS=	lynx-2.8.[8-9]d*
 USES=		cpe ncurses shebangfix tar:bzip2
 SHEBANG_FILES=	samples/mailto-form.pl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--with-zlib --libdir="${PREFIX}/etc" \
 		--enable-nsl-fork --enable-persistent-cookies \
 		--enable-nested-tables --enable-gzip-help \

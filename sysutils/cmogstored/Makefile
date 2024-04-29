@@ -20,7 +20,6 @@ PLIST_FILES=	sbin/cmogstored \
 		share/man/man1/cmogstored.1.gz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--bindir=${PREFIX}/sbin
 USE_RC_SUBR=	cmogstored
 TEST_TARGET=	check

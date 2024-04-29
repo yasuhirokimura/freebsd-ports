@@ -17,7 +17,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	p-gen
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/smenu \
 		share/man/man1/smenu.1.gz

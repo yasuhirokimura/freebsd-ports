@@ -19,7 +19,6 @@ USES=		gmake jpeg libtool localbase pathfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	scottdraves
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-shared --disable-static
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes

@@ -17,7 +17,6 @@ ONLY_FOR_ARCHS=	i386 amd64
 
 USES=		gmake iconv localbase pkgconfig xorg
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	${ICONV_CONFIGURE_ARG}
 USE_XORG=	x11 sm ice xext
 

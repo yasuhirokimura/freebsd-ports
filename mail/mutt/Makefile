@@ -21,7 +21,6 @@ USE_PERL5=	build
 SHEBANG_FILES=	contrib/smime_keys_test.pl doc/gen-map-doc smime_keys.pl
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--disable-fcntl \
 				--enable-compressed \
 				--enable-external-dotlock \

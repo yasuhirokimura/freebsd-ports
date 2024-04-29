@@ -12,7 +12,6 @@ WWW=		https://www.gnu.org/software/enscript/
 
 USES=		cpe shebangfix perl5
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-media=${PS}
 SHEBANG_FILES=	scripts/diffpp.in scripts/sliceprint.in
 perl_OLD_CMD=	@PERLPROG@

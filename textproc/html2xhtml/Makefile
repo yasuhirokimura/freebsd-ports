@@ -9,7 +9,6 @@ COMMENT=	Convert HTML to XHTML
 WWW=		https://www.it.uc3m.es/jaf/html2xhtml
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		iconv
 
 CONFLICTS_INSTALL=	p5-HTML-HTML5-Parser p5-XML-Driver-HTML # bin/html2xhtml

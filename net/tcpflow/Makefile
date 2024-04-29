@@ -20,7 +20,6 @@ LIB_DEPENDS=	libcairo.so:graphics/cairo \
 USES=		cpe ssl xorg
 USE_XORG=	pixman
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_lib_md_MD5=no \
 		ac_cv_header_tre_tre_h=no ac_cv_lib_tre_tre_regcomp=no \
 		ac_cv_header_sqlite3_h=no ac_cv_lib_sqlite3_sqlite3_libversion=no \

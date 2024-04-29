@@ -12,7 +12,6 @@ WWW=		https://tigr.net/afterstep/
 USES=		ssl xorg
 USE_XORG=	xpm
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-shaping \
 		--with-xpm \
 		--with-xpm-includes=${LOCALBASE}/include \

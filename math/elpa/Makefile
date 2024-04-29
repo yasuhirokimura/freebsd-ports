@@ -21,7 +21,6 @@ USE_LDCONFIG=	yes
 SHEBANG_GLOB=	*.pl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-avx --disable-avx2 --disable-avx512 --disable-static \
 		--disable-c-tests
 

@@ -24,7 +24,6 @@ USE_CSTD=	gnu99
 USE_LDCONFIG=	${PREFIX}/lib/e2fsprogs
 .endif
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 # while we use the system blkid, we need to --enable-libblkid
 # so that the tools get built:

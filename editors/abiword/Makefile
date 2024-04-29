@@ -27,7 +27,6 @@ USE_GNOME=	libxml2 gtk30 librsvg2 libxslt
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--without-gnomevfs --enable-plugins="${ABIWORD_PLUGINS}" \
 		--enable-shared="yes" --enable-static="no"
 

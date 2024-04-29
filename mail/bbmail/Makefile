@@ -15,7 +15,6 @@ BUILD_DEPENDS=	${LOCALBASE}/libdata/pkgconfig/libbt.pc:x11-wm/blackbox
 USES=		pkgconfig xorg
 USE_XORG=	xext
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/bbmail share/man/man1/bbmail.1.gz share/bbtools/bbmail.rc
 

@@ -15,7 +15,6 @@ USES=		gnome pkgconfig xorg
 USE_XORG=	x11
 USE_GNOME=	gtk20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LDFLAGS+=	-lm
 
 .include <bsd.port.mk>

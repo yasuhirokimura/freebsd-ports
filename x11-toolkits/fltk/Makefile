@@ -20,7 +20,6 @@ USE_XORG=	x11 xcursor xext xfixes xft xinerama xrender
 USE_GL=		gl glu
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-shared
 CONFIGURE_ENV=	NROFF=echo
 CPE_VENDOR=	fltk_project

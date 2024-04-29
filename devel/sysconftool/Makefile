@@ -12,7 +12,6 @@ LICENSE=	GPLv3
 
 USES=		autoreconf perl5 tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 NO_ARCH=	yes
 
 .include <bsd.port.mk>

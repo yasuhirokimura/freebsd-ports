@@ -16,7 +16,6 @@ ONLY_FOR_ARCHS_REASON=	does not play sound correctly
 
 USES=		autoreconf libtool:build
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 OPTIONS_DEFINE=	X11
 OPTIONS_SUB=	yes

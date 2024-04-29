@@ -15,7 +15,6 @@ USES=		gmake localbase sdl
 USE_CSTD=	gnu89
 USE_SDL=	sdl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/gngb \
 		share/man/man1/gngb.1.gz

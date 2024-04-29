@@ -22,7 +22,6 @@ USE_GL=		gl
 USE_SDL=	image mixer net sdl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-waddir=${DATADIR}
 
 DATADIR=	${DMDIR}

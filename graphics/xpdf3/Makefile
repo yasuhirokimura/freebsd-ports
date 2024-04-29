@@ -20,7 +20,6 @@ LIB_DEPENDS=	libfreetype.so:print/freetype2 \
 		libpng.so:graphics/png
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share/xpdf
 USES=		gmake cpe localbase xorg
 USE_XORG=	ice sm x11 xext xt
 

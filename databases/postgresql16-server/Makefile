@@ -25,7 +25,6 @@ USES+=		tar:bzip2 cpe
 .if !defined(NO_BUILD)
 USES+=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 .endif
 
 PG_USER?=	postgres
