@@ -14,7 +14,6 @@ USES=		gmake shebangfix
 SHEBANG_FILES=	pftabled-client.pl \
 		pftabled-client.py
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 USE_RC_SUBR=	pftabled
 

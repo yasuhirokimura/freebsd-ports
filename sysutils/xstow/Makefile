@@ -12,7 +12,6 @@ LICENSE=	GPLv2
 
 USES=		tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .if defined(WITH_DEBUG)
 CONFIGURE_ARGS+=	--enable-debug

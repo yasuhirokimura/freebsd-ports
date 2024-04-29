@@ -21,7 +21,6 @@ USE_XORG=	xpm
 CPE_VENDOR=	xfig_project
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-transfig \
 		GSEXE=gs
 CFLAGS+=	-Wno-return-type

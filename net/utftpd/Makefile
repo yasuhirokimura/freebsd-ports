@@ -9,7 +9,6 @@ COMMENT=	Secure TFTP server with fine-grained access and revision control
 WWW=		https://www.ohse.de/uwe/software/utftpd.html
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 USES=		gmake
 

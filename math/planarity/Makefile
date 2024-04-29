@@ -17,7 +17,6 @@ GH_PROJECT=	edge-addition-planarity-suite
 USES=		autoreconf libtool pkgconfig
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
 

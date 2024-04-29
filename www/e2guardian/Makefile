@@ -20,7 +20,6 @@ USE_GITHUB=	yes
 USE_CXXSTD=	c++11
 USE_RC_SUBR=	e2guardian
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-logdir=/var/log \
 		--with-piddir=/var/run
 

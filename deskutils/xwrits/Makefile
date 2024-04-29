@@ -11,7 +11,6 @@ WWW=		https://www.lcdf.org/xwrits/
 LICENSE=	GPLv2 # only
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		xorg
 USE_XORG=	ice sm x11 xau xdmcp xext xinerama
 

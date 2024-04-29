@@ -21,7 +21,6 @@ USE_GNOME=	atk cairo gdkpixbuf glib20 gtk30 pango
 USE_XORG=	x11
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 OPTIONS_DEFINE=	GEOCLUE NLS
 

@@ -17,6 +17,5 @@ EXTRACT_SUFX=	.tar.xz
 USES=		xorg xorg-cat:app
 USE_XORG=	x11 xft xkbfile xmu xrender xt xaw
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

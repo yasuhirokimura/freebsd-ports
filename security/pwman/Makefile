@@ -16,7 +16,6 @@ RUN_DEPENDS=	gpgv:security/gnupg1
 USES=		gnome ncurses
 USE_GNOME=	libxml2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	curses_loc=${NCURSESBASE}
 
 PORTDOCS=	AUTHORS ChangeLog README TODO

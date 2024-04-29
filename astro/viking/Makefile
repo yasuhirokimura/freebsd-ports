@@ -30,7 +30,6 @@ USE_XORG=	x11
 USE_GNOME=	cairo gdkpixbuf gtk30 intlhack
 USE_PERL5=	run
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PORTDOCS=	AUTHORS ChangeLog NEWS README.md
 

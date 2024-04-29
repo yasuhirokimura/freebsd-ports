@@ -15,7 +15,6 @@ USE_GITHUB=		yes
 GH_ACCOUNT=		ptrrkssn
 
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=		install-strip
 
 .include <bsd.port.mk>

@@ -13,7 +13,6 @@ LICENSE=	GPLv3
 
 USES=		ncurses
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=	--bindir=${PREFIX}/sbin \
 		--datarootdir=${DATADIR}
 

@@ -20,7 +20,6 @@ USE_LDCONFIG=	${PREFIX}/lib/libgig
 CPE_VENDOR=	linuxsampler
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

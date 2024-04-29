@@ -14,7 +14,6 @@ LIB_DEPENDS=	libnettle.so:security/nettle
 
 USES=		autoreconf localbase:ldflags
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/${PORTNAME} \
 		share/man/man1/${PORTNAME}.1.gz

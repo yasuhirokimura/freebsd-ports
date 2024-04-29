@@ -18,7 +18,6 @@ USES=		localbase:ldflags
 USE_GITHUB=	yes
 GH_ACCOUNT=	fsphil
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/fswebcam \
 		share/man/man1/fswebcam.1.gz

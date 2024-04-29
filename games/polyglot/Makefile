@@ -12,7 +12,6 @@ WWW=		http://wbec-ridderkerk.nl/html/details1/PolyGlot.html
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 OPTIONS_DEFINE=	DOCS
 

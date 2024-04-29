@@ -14,7 +14,6 @@ LICENSE_FILE=	${PATCHDIR}/LICENSE
 LICENSE_PERMS=	dist-mirror no-dist-sell pkg-mirror no-pkg-sell auto-accept
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake xorg
 USE_XORG=	x11
 

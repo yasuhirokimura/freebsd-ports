@@ -23,7 +23,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	dlundquist
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_LDCONFIG=	yes
 
 PLIST_FILES=	share/man/man5/sniproxy.conf.5.gz \

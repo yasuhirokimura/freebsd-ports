@@ -19,7 +19,6 @@ LIB_DEPENDS=	libgpg-error.so:security/libgpg-error \
 CONFLICTS=	libotr3
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		libtool pathfix cpe
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip

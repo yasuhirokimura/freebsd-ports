@@ -14,7 +14,6 @@ USES=		charsetfix cpe gmake localbase tar:xz
 CPE_VENDOR=	gnu
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 i386_CONFIGURE_ARGS=	--disable-year2038
 CONFIGURE_ARGS=	--program-prefix=g \
 		--localstatedir=${LOCALSTATEDIR} \

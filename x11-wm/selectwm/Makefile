@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		gnome pkgconfig tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GNOME=	cairo gdkpixbuf gtk20
 
 PLIST_FILES=	bin/selectwm share/locale/fr/LC_MESSAGES/selectwm.mo \

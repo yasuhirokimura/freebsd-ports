@@ -15,7 +15,6 @@ LIB_DEPENDS=	libevdev.so:devel/libevdev
 
 USES=		autoreconf localbase
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GITLAB=	yes
 GL_SITE=	https://gitlab.freedesktop.org/
 GL_ACCOUNT=	libevdev

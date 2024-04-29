@@ -12,7 +12,6 @@ ONLY_FOR_ARCHS=		i386
 USES=			readline
 
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=		bin/ald share/man/man8/ald.8.gz
 NOPRECIOUSMAKEVARS=	yes

@@ -14,7 +14,6 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libfreetype.so:print/freetype2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		gmake gnome libtool pathfix python:run pkgconfig shebangfix xorg
 USE_GNOME=	cairo glib20 libxml2 pango
 USE_XORG=	ice sm x11 xcursor xext xft xinerama xrandr \

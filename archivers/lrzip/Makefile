@@ -16,7 +16,6 @@ LIB_DEPENDS=	liblz4.so:archivers/liblz4 \
 CFLAGS+=	-I${LOCALBASE}/include
 CONFIGURE_ENV+=	ac_cv_prog_ASM_PROG='no '
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LDFLAGS+=	-L${LOCALBASE}/lib
 USES=		alias cpe libtool perl5 shebangfix tar:xz
 SHEBANG_FILES=	${WRKSRC}/lrztar
