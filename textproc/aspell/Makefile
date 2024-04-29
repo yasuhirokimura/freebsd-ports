@@ -13,7 +13,6 @@ LICENSE=	LGPL21
 
 USES=		cpe gmake iconv libtool ncurses perl5 shebangfix
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-dict-dir=${DATADIR}	\
 		--enable-docdir=${DOCSDIR}	\
 		--enable-curses="${NCURSESLIBS}" \

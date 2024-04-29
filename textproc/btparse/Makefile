@@ -10,7 +10,6 @@ COMMENT=	C library for parsing and processing BibTeX data files
 WWW=		http://www.gerg.ca/software/btOOL
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 USES=		perl5 libtool pathfix
 USE_PERL5=	build

@@ -18,7 +18,6 @@ LIB_DEPENDS=	libcrack.so:security/cracklib
 
 USES=		cpe gmake libtool localbase pathfix tar:bz2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-ld-version-script
 USE_LDCONFIG=	yes
 CPE_VENDOR=	libpwquality_project

@@ -21,7 +21,6 @@ USE_RC_SUBR=	dsc
 SHEBANG_FILES=	src/dsc-psl-convert
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-pid-file=/var/run/${PORTNAME}.pid
 
 SUB_FILES=	pkg-message

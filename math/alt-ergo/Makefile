@@ -23,7 +23,6 @@ RUN_DEPENDS=	ocaml-ocamlgraph>1.8:math/ocaml-ocamlgraph \
 		ocaml-lablgtk2>=0:x11-toolkits/ocaml-lablgtk2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake
 USE_OCAML=	yes
 ALL_TARGET=	opt pack xpack META

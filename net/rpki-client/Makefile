@@ -18,7 +18,6 @@ RUN_DEPENDS=	rsync>0:net/rsync
 USES=		autoreconf:build libtool pkgconfig ssl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-libtls=libtls
 
 USERS=		_rpki-client

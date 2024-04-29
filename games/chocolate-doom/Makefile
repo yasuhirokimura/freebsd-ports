@@ -15,7 +15,6 @@ LIB_DEPENDS=	libpng.so:graphics/png
 USES=		gmake pkgconfig python:build sdl
 USE_SDL=	mixer2 net2 sdl2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 BINARY_ALIAS=	python=${PYTHON_CMD}
 
 PORTDOCS=	CMDLINE.doom ChangeLog INSTALL.doom NEWS.md NOT-BUGS.md PHILOSOPHY.md \

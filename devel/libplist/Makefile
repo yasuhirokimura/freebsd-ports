@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING.LESSER
 USES+=		autoreconf compiler cpe gnome libtool pathfix pkgconfig tar:bzip2
 CPE_VENDOR=	libimobiledevice
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 SLAVE_PORT?=	no

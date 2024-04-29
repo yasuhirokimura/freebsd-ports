@@ -10,7 +10,6 @@ WWW=		http://ab-initio.mit.edu/wiki/index.php/Harminv
 
 USES=		blaslapack fortran gmake libtool pathfix
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_GCC=	yes
 CPPFLAGS+=	-I${LOCALBASE}/include -fPIC
 LD_LIBRARY_PATH=	-L${LOCALBASE}/lib -L/usr/lib

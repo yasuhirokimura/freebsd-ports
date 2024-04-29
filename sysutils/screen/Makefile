@@ -58,7 +58,6 @@ SSP_CFLAGS?=	-fno-stack-protector
 .endif
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 CFLAGS+=	-I${NCURSESINC}
 LDFLAGS+=	-L${NCURSESLIB}
 

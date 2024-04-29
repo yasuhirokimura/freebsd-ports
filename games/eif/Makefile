@@ -10,7 +10,6 @@ COMMENT=	Empire text client
 WWW=		https://www.stack.nl/~marcolz/empire/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		ncurses readline shebangfix
 SHEBANG_FILES=	contrib/*.pl
 

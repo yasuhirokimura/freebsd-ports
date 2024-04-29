@@ -17,7 +17,6 @@ USES=		cpe ncurses
 
 CPE_VENDOR=	gnu
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/less \
 		bin/lessecho \

@@ -20,7 +20,6 @@ LIB_DEPENDS=	libstfl.so:devel/stfl
 RUN_DEPENDS=	mono-addins>0:devel/mono-addins
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		desktop-file-utils gettext-tools:build gmake gnome mono \
 		pkgconfig
 USE_GNOME=	gtksharp20

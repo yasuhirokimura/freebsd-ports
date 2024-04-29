@@ -20,7 +20,6 @@ BUILD_VERSION=	1.16
 PLIST_SUB=	BUILD_VERSION=${BUILD_VERSION}
 USES=		cpe perl5 tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INFO=		automake automake-history
 CPE_VENDOR=	gnu
 

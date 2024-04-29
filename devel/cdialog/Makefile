@@ -17,7 +17,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		libtool:build ncurses tar:tgz
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-widec \
 		--includedir=${PREFIX}/include/${PORTNAME} \
 		--with-libtool \

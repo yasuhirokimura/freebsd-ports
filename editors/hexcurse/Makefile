@@ -16,7 +16,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	LonnyGomes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/hexcurse share/man/man1/hexcurse.1.gz
 

@@ -20,7 +20,6 @@ SHEBANG_FILES=	filters/dissect_prompt \
 python_OLD_CMD=	"/usr/bin/env python3"
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PORTDOCS=	AUTHORS BUGS NEWS README
 

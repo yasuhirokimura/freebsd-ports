@@ -17,7 +17,6 @@ LICENSE_FILE=	${WRKSRC}/README
 .endif
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES+=		libtool pathfix
 USE_LDCONFIG=	yes
 CONFIGURE_ARGS=	--with-cxx \

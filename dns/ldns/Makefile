@@ -18,7 +18,6 @@ USE_LDCONFIG=	yes
 
 CPE_VENDOR=	nlnetlabs
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=	--disable-dane-ta-usage \
 			--with-ssl=${OPENSSLBASE}
 MAKE_JOBS_UNSAFE=	yes

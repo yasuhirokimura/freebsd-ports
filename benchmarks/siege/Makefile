@@ -14,7 +14,6 @@ LICENSE=	GPLv2
 USES=		autoreconf libtool perl5 ssl
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-shared \
 		--sysconfdir=${ETCDIR} \
 		--with-ssl=${OPENSSLBASE}

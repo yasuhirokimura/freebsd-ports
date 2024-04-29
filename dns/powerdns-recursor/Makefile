@@ -30,7 +30,6 @@ CPE_VENDOR=	powerdns
 USE_RC_SUBR=	pdns-recursor
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc/pdns \
 		--with-libsodium=no \
 		--with-service-user=pdns \

@@ -12,6 +12,5 @@ USES=		xorg xorg-cat:app
 USE_XORG=	x11 xxf86dga xt xaw7 xmu
 
 PLIST_FILES=	bin/dga share/man/man1/dga.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

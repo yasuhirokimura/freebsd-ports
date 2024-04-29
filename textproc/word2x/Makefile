@@ -10,7 +10,6 @@ WWW=		https://word2x.sourceforge.net/
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/rtest2 bin/word2x share/man/man1/word2x.1.gz
 

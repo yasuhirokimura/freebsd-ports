@@ -17,7 +17,6 @@ USES=		gmake localbase:ldflags xorg
 USE_XORG=	x11 xmu
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 OPTIONS_DEFINE=	NLS
 OPTIONS_SUB=	yes

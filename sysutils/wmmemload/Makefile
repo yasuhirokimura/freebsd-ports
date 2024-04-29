@@ -11,7 +11,6 @@ WWW=		https://windowmaker.org/dockapps/?name=wmmemload
 LICENSE=	GPLv2+
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		autoreconf xorg
 USE_XORG=	xpm
 WRKSRC=		${WRKDIR}/dockapps

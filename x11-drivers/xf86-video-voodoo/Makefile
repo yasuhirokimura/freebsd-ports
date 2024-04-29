@@ -8,6 +8,5 @@ COMMENT=	X.Org voodoo display driver
 
 USES=		xorg-cat:driver
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

@@ -16,7 +16,6 @@ USES=		cpe
 LIB_DEPENDS=	libuu.so:converters/uulib
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-tcl
 
 LDFLAGS+=	-L${LOCALBASE}/lib

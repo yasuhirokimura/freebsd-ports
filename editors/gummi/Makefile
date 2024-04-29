@@ -20,7 +20,6 @@ RUN_DEPENDS=	etex:print/tex-formats
 USES=		cpe desktop-file-utils gmake gnome iconv pkgconfig xorg
 CPE_VENDOR=	${PORTNAME}_project
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_XORG=	xcomposite xcursor xdamage xft
 USE_GNOME=	cairo glib20 gtksourceview3 intlhack
 

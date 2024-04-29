@@ -19,7 +19,6 @@ USES=		cpe desktop-file-utils gmake gnome iconv jpeg localbase pkgconfig \
 		readline shared-mime-info tar:xz xorg
 USE_XORG=	x11 xext xinerama xscrnsaver xt xtst xv xxf86vm
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-vdr-keys \
 		--disable-nvtvsimple \
 		--disable-rpath

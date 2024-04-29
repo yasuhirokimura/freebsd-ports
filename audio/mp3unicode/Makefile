@@ -15,7 +15,6 @@ LIB_DEPENDS=	libtag.so:audio/taglib
 
 USES=		compiler:c++11-lang iconv pkgconfig tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	ICONV_CFLAGS="-I${LOCALBASE}/include" \
 		ICONV_LIBS="-L${LOCALBASE}/lib ${ICONV_LIB}"
 

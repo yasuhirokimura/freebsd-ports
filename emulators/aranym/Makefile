@@ -24,7 +24,6 @@ USE_XORG=	x11
 SHEBANG_FILES=	tools/arabridge
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	-disable-nat-debug --disable-nat-debug --enable-nfjpeg
 
 WRKSRC=		${WRKDIR}/${PORTNAME}-${DISTVERSION}

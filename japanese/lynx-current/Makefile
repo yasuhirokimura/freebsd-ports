@@ -22,7 +22,6 @@ CONFLICTS=	lynx-2.* lynx-current-2.* ja-lynx-2.*
 
 SHEBANG_FILES=	samples/mailto-form.pl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--with-screen=ncursesw --with-zlib --libdir="${L_LIB}" \
 		--enable-nsl-fork --enable-ipv6 \
 		--enable-cjk --enable-internal-links \

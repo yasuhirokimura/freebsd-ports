@@ -11,7 +11,6 @@ WWW=		https://cairographics.org
 LIB_DEPENDS=	libsvg-cairo.so:graphics/libsvg-cairo
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		pkgconfig
 LDFLAGS+=	-lm
 

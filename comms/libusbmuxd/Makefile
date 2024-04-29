@@ -18,7 +18,6 @@ CONFLICTS_INSTALL=usbmuxd-1.0.[6-8]
 USES=		cpe libtool pathfix pkgconfig tar:bzip2
 CPE_VENDOR=	libimobiledevice
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
 

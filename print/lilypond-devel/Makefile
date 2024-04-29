@@ -35,7 +35,6 @@ USE_GNOME=	cairo pango
 USE_PERL5=	build
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV+=			ac_cv_prog_MAKEINFO="${LOCALBASE}/bin/makeinfo" \
 				FLEX=${FLEX} \
 				GUILE_FLAVOR=${GUILE_CMD} \

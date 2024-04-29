@@ -33,7 +33,6 @@ USES+=		guile:${PORTVERSION:R},env \
 CPE_VENDOR=	gnu
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--program-suffix=-${GUILE_VER} \
 		--enable-lto=no
 # LTO is unconditionally off here because it fails to build with llvm,

@@ -14,7 +14,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 USES=		libtool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 post-build:
 	@${ECHO_MSG} "===>  Use 'make test' to run a quick test suite."

@@ -34,7 +34,6 @@ make_CMD=	${PREFIX}/bin/gmake
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--without-sparsehash # configure fails to find std::hash, reported to the ML: https://groups.google.com/forum/#!topic/trans-abyss/SZDBKR5bKxs
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 TEST_TARGET=	check # tests fail to compile, see https://github.com/bcgsc/abyss/issues/453
 

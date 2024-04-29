@@ -19,7 +19,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	paul-j-lucas
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 PLIST_FILES=	bin/cdecl bin/c++decl share/man/man1/cdecl.1.gz share/man/man1/c++decl.1.gz
 
 .include <bsd.port.mk>

@@ -13,7 +13,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	yuichiro-naito
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 
 post-install:

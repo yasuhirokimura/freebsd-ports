@@ -19,7 +19,6 @@ LIB_DEPENDS=	libcfitsio.so:astro/cfitsio \
 
 USES=		gmake jpeg libtool:build localbase tar:lz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 TEST_TARGET=	check

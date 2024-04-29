@@ -14,7 +14,6 @@ WRKSRC=		${WRKDIR}/${PORTNAME}
 GOPHERROOT?=	${PREFIX}/gopher
 GOPHERUSER?=	nobody
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-gopherroot=${GOPHERROOT} \
 		--with-gopheruser=${GOPHERUSER}
 MAKE_ENV=	localstatedir=/var

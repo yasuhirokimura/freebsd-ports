@@ -29,7 +29,6 @@ USES=		bison:alias compiler:env cpe gmake localbase libtool perl5 pkgconfig tar:
 USE_PERL5=	build
 CPE_VENDOR=	gnu
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 #TEST_DEPENDS+=	runtest:misc/dejagnu
 CONFIGURE_ARGS+=	--disable-werror \

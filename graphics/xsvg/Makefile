@@ -12,7 +12,6 @@ LIB_DEPENDS=	libsvg-cairo.so:graphics/libsvg-cairo
 
 USES=		pkgconfig xorg
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LDFLAGS+=	-L${LOCALBASE}/lib -lX11 -lXrender -lm
 USE_XORG=	x11 xrender
 

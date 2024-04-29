@@ -21,7 +21,6 @@ USE_CXXSTD=	c++14
 USE_SDL=	mixer2 ttf2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-py-debug \
 		--disable-pyc \
 		--with-py-libs="$$(${PYTHON_CMD}-config --ldflags --embed)" \

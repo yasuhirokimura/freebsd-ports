@@ -23,7 +23,6 @@ NSDLSDIR=	/var
 NSDRUNDIR=	/var/run/nsd
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=${NSDLSDIR} \
 		--with-configdir=${ETCDIR} \
 		--with-libevent=${LOCALBASE} \

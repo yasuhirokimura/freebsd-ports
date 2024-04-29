@@ -21,7 +21,6 @@ USE_PERL5=	test
 
 GH_ACCOUNT=	samtools
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 SHEBANG_FILES=	misc/* test/test.pl
 
 OPTIONS_DEFINE=		GPL

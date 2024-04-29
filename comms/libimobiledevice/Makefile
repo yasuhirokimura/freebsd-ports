@@ -15,7 +15,6 @@ SLAVE_PORT?=	no
 
 USES+=		cpe libtool localbase:ldflags pathfix pkgconfig ssl tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=openssl_CFLAGS="-I${OPENSSLINC}" \
 		openssl_LIBS="-L${OPENSSLLIB} -lssl -lcrypto"
 INSTALL_TARGET=	install-strip

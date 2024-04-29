@@ -17,7 +17,6 @@ LIB_DEPENDS=	libcairo.so:graphics/cairo
 
 USES=		gmake libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-cairo
 USE_LDCONFIG=	yes
 MAKE_JOBS_UNSAFE=yes

@@ -17,7 +17,6 @@ USES=		cpe gmake libtool pkgconfig tar:xz
 CPE_VENDOR=	broadcom
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 # libopts options are required when using autogen
 CONFIGURE_ARGS=	--disable-libopts-install \
 		--disable-local-libopts \

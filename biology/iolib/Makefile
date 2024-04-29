@@ -18,7 +18,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	jkbonfield
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 LDFLAGS+=	-lpthread

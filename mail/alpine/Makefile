@@ -16,7 +16,6 @@ USES+=			cpe ssl libtool ncurses gettext-runtime
 CPE_VENDOR=		alpine_project
 
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 MAKE_JOBS_UNSAFE=	yes
 CONFIGURE_ARGS+=	--with-debug-level=2 \
 			--enable-background-post \

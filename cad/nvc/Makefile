@@ -30,7 +30,6 @@ GH_ACCOUNT=	nickg
 SHEBANG_FILES=	contrib/functions.sh
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 LDFLAGS+=	-lexecinfo
 

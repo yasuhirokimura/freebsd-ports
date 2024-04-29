@@ -11,7 +11,6 @@ WWW=		https://tcpick.sourceforge.net/
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_CSTD=	gnu89
 
 post-install:

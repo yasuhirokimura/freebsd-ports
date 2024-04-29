@@ -10,7 +10,6 @@ WWW=		https://gp2x.org/adtool/
 
 USES=		gmake ldap libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFIGURE_ARGS+=--with-ldap=${LOCALBASE}
 

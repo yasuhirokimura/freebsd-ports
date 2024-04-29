@@ -13,6 +13,5 @@ BROKEN_aarch64=		error: implicit declaration of function outb is invalid in C99
 BROKEN_armv6=		error: implicit declaration of function outb is invalid in C99
 BROKEN_armv7=		error: implicit declaration of function outb is invalid in C99
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

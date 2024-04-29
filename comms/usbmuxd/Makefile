@@ -21,7 +21,6 @@ CPE_VENDOR=	nikias_bassen
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--without-systemd
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 SUB_LIST=	USERS=${USERS} \
 		GROUPS=${GROUPS}

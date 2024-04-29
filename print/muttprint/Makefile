@@ -17,7 +17,6 @@ RUN_DEPENDS=	psnup:print/psutils \
 		p5-Text-Iconv>=0:converters/p5-Text-Iconv
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		autoreconf gmake perl5 tex
 USE_TEX=	latex dvipsk
 

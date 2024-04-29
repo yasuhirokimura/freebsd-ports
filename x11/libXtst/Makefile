@@ -14,7 +14,6 @@ USE_XORG=	x11 xext xi xorgproto
 CPE_PRODUCT=	libxtst
 CPE_VENDOR=	x
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--disable-specs --without-xmlto
 
 post-patch:

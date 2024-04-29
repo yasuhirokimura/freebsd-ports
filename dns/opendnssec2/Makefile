@@ -20,7 +20,6 @@ USES=		autoreconf cpe libtool ssl
 USE_RC_SUBR=	opendnssec
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir="${PREFIX}/var" \
 		--with-ssl=${OPENSSLBASE}
 

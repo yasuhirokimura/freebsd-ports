@@ -11,7 +11,6 @@ WWW=		http://tnemeth.free.fr/projets/dockapps.html
 USES=		xorg
 USE_XORG=	x11 xpm
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--program-prefix=""
 
 PLIST_FILES=	"@(,kmem,2555) bin/${PORTNAME}" share/man/man1/${PORTNAME}.1.gz

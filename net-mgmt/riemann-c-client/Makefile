@@ -21,7 +21,6 @@ LIB_DEPENDS=	libgnutls.so:security/gnutls \
 USES=		autoreconf gmake libtool pathfix pkgconfig
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 TEST_TARGET=	check

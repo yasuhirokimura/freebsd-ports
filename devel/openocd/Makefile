@@ -18,7 +18,6 @@ BROKEN_aarch64=	fails to build: src/target/nds32_tlb.h:25:2: error: expected ide
 
 USES=		gmake libtool makeinfo pkgconfig tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 # Required to make OpenOCD's internal libjaylink work
 CONFIGURE_ENV+=	libusb_CFLAGS=" " libusb_LIBS="-lusb"

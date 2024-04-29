@@ -16,7 +16,6 @@ USE_GITHUB=	yes
 SHEBANG_FILES=	data/vifm-media data/vifm-media-osx
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--without-gtk
 
 CFLAGS+=	-fcommon

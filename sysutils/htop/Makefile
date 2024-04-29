@@ -17,7 +17,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	htop-dev
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-unicode
 
 PLIST_FILES=	bin/htop \

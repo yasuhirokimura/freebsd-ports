@@ -10,7 +10,6 @@ COMMENT=	Cisco remote authentication/authorization/accounting server
 WWW=		https://www.cisco.com/en/US/tech/tk59/technologies_tech_note09186a00800946a3.shtml
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		bison cpe perl5 libtool
 USE_PERL5=	build
 USE_RC_SUBR=	tac_plus

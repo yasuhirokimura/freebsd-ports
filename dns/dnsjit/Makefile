@@ -20,8 +20,6 @@ USES=		libtool localbase luajit pkgconfig
 
 GNU_CONFIGURE=	yes
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
-
 OPTIONS_DEFINE=	EXAMPLES
 
 post-install-EXAMPLES-on:

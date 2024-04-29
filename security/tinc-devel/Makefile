@@ -18,7 +18,6 @@ LIB_DEPENDS=	liblzo2.so:archivers/lzo2
 USES=		cpe ssl makeinfo readline localbase:ldflags
 CPE_VENDOR=	tinc-vpn
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var --with-curses=/usr
 USE_RC_SUBR=	tincd
 INFO=		tinc

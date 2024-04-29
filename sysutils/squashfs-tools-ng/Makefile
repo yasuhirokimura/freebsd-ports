@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING.md
 
 USES=		libtool pkgconfig tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 TEST_TARGET=	check

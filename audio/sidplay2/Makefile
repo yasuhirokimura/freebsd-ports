@@ -18,7 +18,6 @@ EXPIRATION_DATE=2024-07-31
 LIB_DEPENDS=	libsidplay2.so:audio/libsidplay2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		pkgconfig
 USE_CXXSTD=	c++98
 

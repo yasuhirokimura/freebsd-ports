@@ -21,7 +21,6 @@ USES=		autoreconf cpe gmake pathfix perl5 pkgconfig shebangfix python:3.9+,run t
 USE_PERL5=	build
 SHEBANG_FILES=	callgrind/callgrind_annotate.in callgrind/callgrind_control.in cachegrind/cg_merge.in cachegrind/cg_diff.in cachegrind/cg_annotate.in
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV+=	ac_cv_path_PERL=${PERL}
 
 SSP_UNSAFE=	yes

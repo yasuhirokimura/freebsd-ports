@@ -15,7 +15,6 @@ USES=		compiler:c++11-lib dos2unix gmake libtool localbase ncurses \
 		pathfix pkgconfig sqlite
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-maintainer-mode \
 		--with-regexlib=pcre2 \
 		--disable-python-bindings

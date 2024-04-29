@@ -16,7 +16,6 @@ USE_XORG=	x11 xext xfixes xorgproto
 
 INSTALL_TARGET=	install-strip
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS+=--disable-docs \
 		--disable-specs \
 		--without-xmlto \

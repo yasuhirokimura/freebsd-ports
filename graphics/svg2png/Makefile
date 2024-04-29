@@ -11,7 +11,6 @@ WWW=		https://cairographics.org
 LIB_DEPENDS=	libsvg-cairo.so:graphics/libsvg-cairo
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		pkgconfig
 
 LDFLAGS+=	/usr/lib/libm.so # Was labeled broken when ${/usr/bin/ld:L:tA}==/usr/bin/ld.lld: ld: error: /usr/local/lib/libsvg-cairo.so: undefined reference to atan2

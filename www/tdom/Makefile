@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 USES=		tcl:tea
 
 CONFIGURE_ARGS=	--enable-threads --disable-tdomalloc
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 EXTRACT_AFTER_ARGS=--exclude 'expat*/*.c' --exclude 'expat*/[a-mo-z]*.h' \
 		--exclude 'domalloc*' --exclude win
 

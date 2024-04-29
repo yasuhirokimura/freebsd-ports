@@ -15,6 +15,5 @@ USE_XORG=	x11 xext xorgproto
 CPE_PRODUCT=	libxinerama
 CPE_VENDOR=	x
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

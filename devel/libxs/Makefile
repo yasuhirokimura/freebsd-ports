@@ -11,7 +11,6 @@ WWW=		https://github.com/crossroads-io/libxs
 LICENSE=	GPLv3
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		autoreconf pathfix pkgconfig libtool
 USE_GITHUB=	yes
 GH_ACCOUNT=	crossroads-io

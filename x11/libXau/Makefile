@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		xorg xorg-cat:lib
 USE_XORG=	xorgproto
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=install-strip
 
 .include <bsd.port.mk>

@@ -19,7 +19,6 @@ LIB_DEPENDS=	libpoppler-glib.so:graphics/poppler-glib
 USES=		compiler:c++11-lang desktop-file-utils gmake gnome iconv \
 		pkgconfig tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_GNOME=	gtk20 intlhack
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib

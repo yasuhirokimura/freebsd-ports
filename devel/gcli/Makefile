@@ -16,7 +16,6 @@ TEST_DEPENDS=	kyua:devel/kyua
 USES=		libtool pathfix pkgconfig tar:xz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 TEST_TARGET=	check
 
 OPTIONS_DEFINE=	TEST

@@ -30,7 +30,6 @@ USE_LDCONFIG=	yes
 SHEBANG_FILES=	tools/sminstbuilder.in
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 LDFLAGS+=	-L${LOCALBASE}/lib -lfftw3f_threads
 

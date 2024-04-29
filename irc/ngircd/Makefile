@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		cpe localbase:ldflags tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_RC_SUBR=	ngircd
 
 CPE_VENDOR=	barton

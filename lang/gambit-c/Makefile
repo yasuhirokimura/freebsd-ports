@@ -17,7 +17,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	gambit
 GH_PROJECT=	gambit
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-single-host \
 		--enable-gcc-opts \
 		--docdir=${DOCSDIR} \

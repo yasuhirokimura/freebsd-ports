@@ -11,7 +11,6 @@ WWW=		https://github.com/freebsd/libdevq
 LICENSE=	BSD2CLAUSE
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		autoreconf libtool pathfix tar:xz
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip

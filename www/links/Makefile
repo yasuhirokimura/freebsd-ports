@@ -18,7 +18,6 @@ USES=		cpe localbase:ldflags ssl tar:bz2
 CPE_VENDOR=	twibright
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-ssl --without-pmshell --without-atheos \
 		--without-gpm --without-fb --without-windows
 CONFLICTS_INSTALL=	links1

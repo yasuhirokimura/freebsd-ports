@@ -21,7 +21,6 @@ GH_ACCOUNT=	01org
 USES=		autoreconf gmake libtool:keepla
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 
 INSTALL_TARGET=	install-strip

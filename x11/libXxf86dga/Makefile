@@ -16,7 +16,6 @@ USE_XORG=	x11 xext xorgproto
 CPE_VENDOR=	x
 CPE_PRODUCT=	libxxf86dga
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

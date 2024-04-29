@@ -16,7 +16,6 @@ USES=		libtool pathfix
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 MAKE_ENV=	V=1
 INSTALL_TARGET=	install-strip

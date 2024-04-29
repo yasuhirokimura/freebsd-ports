@@ -17,7 +17,6 @@ RUN_DEPENDS=	dovecot>=2.3.9:mail/dovecot
 DOVECOTVERSION=	2.3
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--exec-prefix=${PREFIX} \
 		--docdir=${DOCSDIR} \
 		--with-dovecot="${LOCALBASE}/lib/dovecot"

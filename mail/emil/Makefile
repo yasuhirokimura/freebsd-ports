@@ -15,7 +15,6 @@ COMMENT=	Mail format/encoding converter
 USES=		cpe
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	YACC=byacc
 
 OPTIONS_DEFINE=	DOCS

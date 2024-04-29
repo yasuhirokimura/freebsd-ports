@@ -22,7 +22,6 @@ LIB_DEPENDS=	libdotconf.so:devel/dotconf \
 USES=		alias autoreconf gettext gmake gnome libtool makeinfo pathfix pkgconfig
 USE_GNOME=	glib20 intltool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-espeak-ng=no \
 		--with-baratinoo=no \
 		--with-kali=no \

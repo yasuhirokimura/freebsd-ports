@@ -26,7 +26,6 @@ USE_LDCONFIG=	yes
 
 PORTSCOUT=	limitw:1,even
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-Bsymbolic \
 		--disable-dependency-tracking \
 		--disable-static \

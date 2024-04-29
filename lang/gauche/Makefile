@@ -18,7 +18,6 @@ BROKEN_riscv64=	Fails to build: ./include/private/gcconfig.h:709:5: The collecto
 
 USES=		compiler:c11 cpe gmake iconv makeinfo tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-local=${LOCALBASE} ${ICONV_CONFIGURE_BASE:S/lib//}
 USE_LDCONFIG=	yes
 TEST_TARGET=	check

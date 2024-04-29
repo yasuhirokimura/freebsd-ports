@@ -15,7 +15,6 @@ LICENSE_FILE_LGPL20=	${WRKSRC}/LICENSE.LGPL
 
 USES=		autoreconf libtool pathfix pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-iodbc-inidir=${ETCDIR} \
 		--includedir=${LOCALBASE}/include/libiodbc \
 		--disable-libodbc

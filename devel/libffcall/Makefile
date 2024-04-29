@@ -17,7 +17,6 @@ BROKEN_mips64=	fails to build: gmake[2]: No rule to make target 'avcall-mips64-m
 USES=		gmake libtool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFIGURE_ARGS=		--enable-shared
 CONFIGURE_TARGET=	${ARCH:S/amd64/x86_64/}-portbld-${OPSYS:tl}${OSREL}

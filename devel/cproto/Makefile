@@ -12,7 +12,6 @@ LICENSE=	PD
 
 USES=		tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/cproto share/man/man1/cproto.1.gz
 

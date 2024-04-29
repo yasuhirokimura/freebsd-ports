@@ -15,7 +15,6 @@ USE_XORG=	x11 xext xrender xorgproto
 CPE_VENDOR=	x
 CPE_PRODUCT=	libxrandr
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

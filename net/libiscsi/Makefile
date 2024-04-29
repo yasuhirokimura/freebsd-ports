@@ -20,6 +20,5 @@ GH_ACCOUNT=	sahlberg
 GH_TAGNAME=	22f7b2656776
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

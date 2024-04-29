@@ -16,6 +16,5 @@ DEPRECATED=	Abandoned upstream, last update in 2006. Consider using www/squid
 EXPIRATION_DATE=2024-06-30
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

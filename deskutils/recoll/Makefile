@@ -33,7 +33,6 @@ SHEBANG_FILES=	desktop/hotrecoll.py filters/*.py filters/rclimg
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-recollq \
 		--enable-xadump
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 MAKE_ENV=	PYTHON_CMD=${PYTHON_CMD}
 BINARY_ALIAS=	python2=${FALSE} python3=${PYTHON_CMD}
 

@@ -14,6 +14,5 @@ USE_XORG=	xorgproto x11 xext
 CPE_PRODUCT=	libxxf86vm
 CPE_VENDOR=	x
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

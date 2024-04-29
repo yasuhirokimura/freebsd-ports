@@ -13,7 +13,6 @@ LICENSE=	BSD2CLAUSE
 LIB_DEPENDS=	libnet.so:net/libnet
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		tar:tgz
 
 .include <bsd.port.mk>

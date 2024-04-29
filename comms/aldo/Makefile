@@ -15,7 +15,6 @@ LIB_DEPENDS=	libao.so:audio/libao
 
 USES=		compiler:c++0x gmake localbase tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/aldo \
 		share/man/man1/aldo.1.gz

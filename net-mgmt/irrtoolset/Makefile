@@ -16,7 +16,6 @@ LICENSE_PERMS_RIPE_NCC=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 
 USES=		autoreconf bison gmake libtool
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_GITHUB=	yes
 
 PLIST_FILES=	bin/rpslcheck bin/peval bin/rtconfig \

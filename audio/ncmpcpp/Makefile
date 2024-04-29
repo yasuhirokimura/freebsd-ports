@@ -23,7 +23,6 @@ USES=		compiler:c++14-lang gnome iconv libtool localbase ncurses \
 		pkgconfig readline tar:bzip2
 USE_GNOME=	glib20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	ncursesw_CFLAGS="-L${NCURSESLIB}" ncursesw_LIBS="-lncursesw"
 
 PLIST_FILES=	bin/ncmpcpp \

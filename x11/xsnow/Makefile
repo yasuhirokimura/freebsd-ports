@@ -18,7 +18,6 @@ USES=		compiler:c11 gmake gnome pkgconfig xorg
 USE_GNOME=	cairo gdkpixbuf2 glib20 gtk30 libxml2
 USE_XORG=	x11 xext xinerama xpm xt xtst xorgproto
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 OPTIONS_DEFINE=		NLS
 OPTIONS_DEFAULT=	NLS

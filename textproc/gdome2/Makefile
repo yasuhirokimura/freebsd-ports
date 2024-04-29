@@ -18,7 +18,6 @@ USE_GNOME=	glib20 libxml2
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	GLIB_CONFIG="${LOCALBASE}/bin/pkg-config glib-2.0"
 
 INSTALL_TARGET=	install-strip

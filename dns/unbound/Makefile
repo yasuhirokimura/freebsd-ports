@@ -19,7 +19,6 @@ USE_LDCONFIG=	yes
 USE_RC_SUBR=	unbound
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-libexpat=${LOCALBASE} \
 		--with-ssl=${OPENSSLBASE}
 TEST_TARGET=	test

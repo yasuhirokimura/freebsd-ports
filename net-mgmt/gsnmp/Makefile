@@ -15,7 +15,6 @@ LIB_DEPENDS=	libgnet-2.0.so:net/gnet2
 USES=		gnome libtool pathfix pkgconfig
 USE_GNOME=	glib20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip
 

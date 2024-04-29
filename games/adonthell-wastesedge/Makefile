@@ -18,7 +18,6 @@ RUN_DEPENDS=	adonthell:games/adonthell
 
 USES=		gettext-tools
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-pyc \
 		--with-adonthell-binary=${LOCALBASE}/bin/adonthell
 

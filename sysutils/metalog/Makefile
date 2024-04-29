@@ -17,7 +17,6 @@ LIB_DEPENDS=	libpcre.so:devel/pcre
 USES=		pkgconfig tar:xz
 USE_RC_SUBR=	${PORTNAME}
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc
 
 PORTDOCS=	AUTHORS NEWS README

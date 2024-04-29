@@ -19,7 +19,6 @@ FFTW3_FLAVOR?=	default
 FFTW3_SUFX=
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 TEST_TARGET=	smallcheck #bigcheck check exhaustive-check paranoid-check
 TEST_WRKSRC=	${WRKSRC}/tests

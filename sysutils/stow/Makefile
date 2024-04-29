@@ -16,7 +16,6 @@ TEST_DEPENDS=	p5-Test-Output>0:devel/p5-Test-Output
 USES=		gmake perl5 tar:bzip2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 NO_ARCH=	yes
 
