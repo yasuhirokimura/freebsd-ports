@@ -24,7 +24,6 @@ SHEBANG_FILES=	contrib/msg2smtp.pl
 USE_RC_SUBR=	anubis
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-gnutls \
 		--with-gsasl
 

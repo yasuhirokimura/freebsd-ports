@@ -9,6 +9,5 @@ COMMENT=	Video mode tuner for X
 USES=		xorg xorg-cat:app
 USE_XORG=	xxf86vm xt xaw
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.mk>

@@ -8,6 +8,5 @@ COMMENT=	Display message or query in a X window
 USES=		tar:xz xorg xorg-cat:app
 USE_XORG=	x11 xt xaw
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

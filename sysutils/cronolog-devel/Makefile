@@ -15,7 +15,6 @@ LICENSE=	APACHE10
 USES=		shebangfix tar:xz
 
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFLICTS=	cronolog
 

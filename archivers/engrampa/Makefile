@@ -24,7 +24,6 @@ USE_MATE=	caja
 USE_GNOME=	cairo gtk30 intltool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-packagekit
 INSTALL_TARGET=	install-strip
 

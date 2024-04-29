@@ -11,7 +11,6 @@ WWW=		https://www.garbled.net/clusterit.html
 LICENSE=	BSD2CLAUSE
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFLICTS_INSTALL=	barrier heirloom-sh pdsh schilyutils # bin/barrier bin/dshbak bin/jsh
 

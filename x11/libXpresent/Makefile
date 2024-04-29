@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		xorg xorg-cat:lib
 USE_XORG=	x11 xfixes xext xorgproto xrandr
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

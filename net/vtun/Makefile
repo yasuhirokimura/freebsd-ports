@@ -19,7 +19,6 @@ LIB_DEPENDS=	liblzo2.so:archivers/lzo2
 USES=		autoreconf localbase ssl
 USE_RC_SUBR=	vtunclient vtund
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFIGURE_ARGS=	--localstatedir=/var \
 		--with-lzo-headers=${LOCALBASE}/include/lzo \

@@ -12,7 +12,6 @@ WWW=		http://www.shiftygames.com/hangman/hangman.html
 CONFLICTS=	bsdgames
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		gmake sdl
 USE_CSTD=	gnu89
 USE_SDL=	sdl mixer image ttf

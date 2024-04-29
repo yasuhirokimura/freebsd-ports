@@ -22,7 +22,6 @@ GH_ACCOUNT=	xmlroff
 GH_PROJECT=	xmlroff
 WRKSRC_SUBDIR=	${PORTNAME}
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--with-html-dir=${PREFIX}/share/doc --enable-man \
 		--disable-gp
 INSTALL_TARGET=	install-strip

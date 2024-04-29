@@ -17,7 +17,6 @@ USE_CXXSTD=	c++14
 USE_RC_SUBR=	${PORTNAME}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--without-pam
 CONFIGURE_ENV=	e_spooldir=${PREFIX}/var/spool/emailrelay
 

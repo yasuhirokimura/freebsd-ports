@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		autoreconf tar:bz2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	sbin/netdiscover \
 		share/man/man8/netdiscover.8.gz

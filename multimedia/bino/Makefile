@@ -19,7 +19,6 @@ USES=		autoreconf compiler:c++11-lang desktop-file-utils gl gmake \
 		gnome iconv pkgconfig qt:5 tar:xz
 USE_GL=		gl glu glew
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_QT=		buildtools:build core gui opengl widgets
 USE_CXXSTD=	c++11
 

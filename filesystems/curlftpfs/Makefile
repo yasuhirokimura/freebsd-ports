@@ -27,7 +27,6 @@ USES=		fuse gnome pkgconfig
 USE_GNOME=	glib20
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/curlftpfs \
 		share/man/man1/${PORTNAME}.1.gz

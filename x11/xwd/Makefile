@@ -12,6 +12,5 @@ USES=		xorg xorg-cat:app
 USE_XORG=	x11 xkbfile
 
 PLIST_FILES=	bin/xwd share/man/man1/xwd.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

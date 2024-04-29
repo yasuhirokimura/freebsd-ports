@@ -12,7 +12,6 @@ LICENSE=	GPLv2
 USES=		gnome pkgconfig xorg
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_XORG=	ice sm x11 xmu xext xt
 USE_GNOME=	glib20
 

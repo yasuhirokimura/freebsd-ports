@@ -22,7 +22,6 @@ CPE_VENDOR=	cipherdyne
 CONFLICTS_BUILD=	fwknop-2.6.8_*
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 INFO=		libfko

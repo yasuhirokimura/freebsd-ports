@@ -27,7 +27,6 @@ USE_GNOME=	cairo glib20 gtk30 intlhack libxml2
 USE_XORG=	x11
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

@@ -37,7 +37,6 @@ USE_PERL5=	build # only for custom bsd steps in configure
 USE_GITHUB=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	CFLAGS="${CFLAGS}" CXXFLAGS="${CXXFLAGS}" LDFLAGS="${LDFLAGS}" \
 		INTROSPECTION_SCANNER=g-ir-scanner INTROSPECTION_COMPILER=g-ir-compiler MAKE=${GMAKE} CC=${CC} CXX=${CXX} LD=clang
 CONFIGURE_ARGS=	--disable-alsa --enable-oss --enable-introspection --disable-rt

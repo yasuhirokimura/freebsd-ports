@@ -21,7 +21,6 @@ RUN_DEPENDS=	sie-nmsg>0:net/sie-nmsg
 USES=		gmake libtool pathfix pkgconfig
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 INSTALL_TARGET=	install-strip
 PLIST_FILES=	bin/dnstable_convert bin/dnstable_unconvert \
 		share/man/man1/dnstable_convert.1.gz \

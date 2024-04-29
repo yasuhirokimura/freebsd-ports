@@ -12,7 +12,6 @@ WWW=		http://www.ossp.org/pkg/lib/sa/
 LIB_DEPENDS=	libex.so:devel/ossp-ex
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-ex=${LOCALBASE}
 USES=		gmake libtool pathfix
 USE_LDCONFIG=	yes

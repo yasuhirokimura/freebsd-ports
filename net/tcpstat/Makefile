@@ -12,7 +12,6 @@ LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/tcpstat bin/tcpprof \
 		share/man/man1/tcpprof.1.gz share/man/man1/tcpstat.1.gz

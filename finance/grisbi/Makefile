@@ -21,7 +21,6 @@ USES=		desktop-file-utils gmake gnome iconv localbase	\
 
 USE_GNOME=	cairo gdkpixbuf glib20 gtk30 intltool libgsf libxml2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV+=	OPENSSL_CFLAGS="-I${OPENSSLINC}" OPENSSL_LIBS="-L${OPENSSLLIB} -lcrypto"
 
 OPTIONS_DEFINE=	DOCS NLS

@@ -30,7 +30,6 @@ USE_GNOME=	cairo gtk30 gdkpixbuf
 INSTALL_TARGET=	install-strip
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=--enable-fast-install
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 WRKSRC=		${WRKDIR}/${PORTNAME}-${PORTVERSION}
 
 USE_WX=		3.2

@@ -12,6 +12,5 @@ USES=		xorg xorg-cat:app
 USE_XORG=	x11
 
 PLIST_FILES=	bin/xcmsdb share/man/man1/xcmsdb.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

@@ -20,7 +20,6 @@ RUN_DEPENDS=	tkdiff:textproc/tkdiff
 USES=		cpe gettext ghostscript gnome groff perl5 tk bison
 USE_GNOME=	libxml2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	"-I${LOCALBASE}/include"
 CONFIGURE_ARGS=	--with-nlsdir="${PREFIX}/share/locale"
 CONFIGURE_ENV=	WISH="${WISH}"

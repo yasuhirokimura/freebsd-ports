@@ -53,7 +53,6 @@ CPE_UPDATE=	${DISTVERSION:C/.*-//:tl}
 USE_GNOME=	libxml2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var \
 		--sysconfdir=${ETCDIR} \
 		--with-libxml2 \

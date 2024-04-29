@@ -21,7 +21,6 @@ USES=		gnome iconv pkgconfig
 USE_GNOME=	libxml2
 USE_RC_SUBR=	${PORTNAME}
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PORTDOCS=	NEWS README
 PORTEXAMPLES=	ezstream_metadata.xml ezstream_mp3.xml \

@@ -29,7 +29,6 @@ USE_GNOME=	cairo
 USE_XORG=	x11 xcb xext xinerama xorgproto xrandr xt
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 MAKE_ARGS=	PREFIX="${PREFIX}" X11LIB="${LOCALBASE}/lib" \
 		X11INC="${LOCALBASE}/include" CC="${CC}"

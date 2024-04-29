@@ -10,6 +10,5 @@ USES=		xorg xorg-cat:app
 USE_XORG=	x11 xmuu
 
 PLIST_FILES=	bin/xkill share/man/man1/xkill.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

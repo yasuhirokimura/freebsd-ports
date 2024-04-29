@@ -18,7 +18,6 @@ USE_CXXSTD=	c++11
 USE_WX=		3.2
 WX_CONF_ARGS=	absolute
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 DESKTOP_ENTRIES="Open Yahtzee" "" "${LOCALBASE}/share/pixmaps/openyahtzee.png" \
 		"${PORTNAME}" "Game;" false
