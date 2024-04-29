@@ -17,7 +17,6 @@ USE_LDCONFIG=	yes
 USE_CXXSTD=	c++11 # attempt to fix build failing due to the use of std::unary_function that was removed in c++17
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-shared --disable-static
 
 INSTALL_TARGET=	install-strip

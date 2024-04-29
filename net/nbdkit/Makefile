@@ -22,7 +22,6 @@ CPE_VENDOR=	nbdkit_project
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 # Rust consumers will download the Rust plugin from crates.io
 CONFIGURE_ARGS+=	--disable-rust
 # These libraries does not exist on ports

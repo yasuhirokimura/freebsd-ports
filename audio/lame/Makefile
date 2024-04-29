@@ -18,7 +18,6 @@ USES=		cpe gmake iconv libtool
 USE_LDCONFIG=	yes
 CPE_VENDOR=	lame_project
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFIGURE_ARGS=	--enable-nasm --enable-mp3rtp --disable-gtktest
 

@@ -22,7 +22,6 @@ USE_LDCONFIG=	yes
 USE_PERL5=	build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-debugging \
 		--enable-optimization \
 		--enable-documentation \

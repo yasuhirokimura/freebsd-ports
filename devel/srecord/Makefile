@@ -17,7 +17,6 @@ LIB_DEPENDS=	libgcrypt.so:security/libgcrypt
 ALL_TARGET=	all libdir/pkgconfig/srecord.pc
 USES=		ghostscript groff libtool:build
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_LDCONFIG=	yes
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib

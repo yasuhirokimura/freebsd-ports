@@ -16,7 +16,6 @@ USE_CSTD=	gnu89
 USE_LDCONFIG=	yes
 USE_XORG=	ice sm x11 xext xinerama xt
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-beep_media_player_plugin \
 		--disable-new-plugin
 CONFIGURE_ENV=	GLIB_CONFIG='${GLIB_CONFIG}' \

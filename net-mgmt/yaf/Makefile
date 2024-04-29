@@ -17,7 +17,6 @@ LIB_DEPENDS=	libfixbuf.so:net/libfixbuf \
 		libpcre.so:devel/pcre
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 USES=		gnome libtool pathfix perl5 pkgconfig
 USE_GNOME=	glib20

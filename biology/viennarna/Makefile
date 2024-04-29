@@ -31,7 +31,6 @@ USES=		autoreconf bison compiler:c++17-lang fortran gmake \
 USE_XORG=	ice x11 xext # only for build
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_SHELL=	${PREFIX}/bin/bash
 CONFIGURE_ARGS=	--enable-shared --disable-static --with-gsl --with-cluster --with-kinwalker --enable-mpfr --without-python --without-python3 --without-perl
 

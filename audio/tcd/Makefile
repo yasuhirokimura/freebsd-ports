@@ -13,7 +13,6 @@ LICENSE=	GPLv2
 USES=		ncurses sdl
 USE_SDL=	sdl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/tcd \
 		share/man/man1/tcd.1.gz

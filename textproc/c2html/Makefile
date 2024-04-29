@@ -11,7 +11,6 @@ WWW=		http://user.cs.tu-berlin.de/~schintke/x2html/
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/c2html share/man/man1/c2html.1.gz
 PORTDOCS=	AUTHORS NEWS README

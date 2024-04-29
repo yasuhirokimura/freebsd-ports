@@ -25,7 +25,6 @@ USE_GNOME=			cairo gdkpixbuf glib20 gtk30 pango
 USE_WX=				3.2
 WX_CONF_ARGS=			absolute
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 post-patch:
 	@${REINPLACE_CMD} -e '/AX_BOOST_SYSTEM/d' ${WRKSRC}/configure.ac

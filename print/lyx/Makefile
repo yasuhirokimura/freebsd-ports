@@ -24,7 +24,6 @@ USES=		autoreconf compiler:c++11-lang desktop-file-utils gmake iconv \
 USE_QT=		core concurrent gui svg widgets x11extras buildtools:build qmake:build
 USE_XORG=	xcb
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--without-included-boost \
 		--without-included-mythes \
 		--with-qt-dir=${LOCALBASE}/lib/qt5 \

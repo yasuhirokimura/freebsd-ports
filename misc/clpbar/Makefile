@@ -11,7 +11,6 @@ WWW=		https://clpbar.sourceforge.net/
 
 WRKSRC=		${WRKDIR}/bar-${PORTVERSION}
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 MAKE_ARGS+=	CFLAGS+="${CFLAGS}"
 
 CONFLICTS_INSTALL=	bar # bin/bar
