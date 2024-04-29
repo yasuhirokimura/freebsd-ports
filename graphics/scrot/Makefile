@@ -16,7 +16,6 @@ USES=		autoreconf pkgconfig xorg
 USE_GITHUB=	yes
 GH_ACCOUNT=	resurrecting-open-source-projects
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_XORG=	x11 xext xfixes xcomposite xinerama
 
 PLIST_FILES=	bin/${PORTNAME} share/man/man1/${PORTNAME}.1.gz

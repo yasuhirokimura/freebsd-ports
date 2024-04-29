@@ -19,7 +19,6 @@ USES=		autoreconf compiler:c++14-lang libtool pathfix pkgconfig tar:bz2
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

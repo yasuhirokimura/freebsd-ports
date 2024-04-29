@@ -11,7 +11,6 @@ LICENSE=	GPLv2
 
 USES=		xorg
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_XORG=	x11
 
 PLIST_FILES=	bin/${PORTNAME} lib/${PORTNAME}/app-defaults/Xkbind \

@@ -18,7 +18,6 @@ GH_ACCOUNT=	ggreer
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	LZMA_LIBS=-llzma
 CONFIGURE_ARGS+=LZMA_CFLAGS=-I/usr/include
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LDFLAGS+=	-L/usr/lib -llzma
 USES=		autoreconf pkgconfig
 TEST_TARGET=	test

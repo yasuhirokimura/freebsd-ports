@@ -24,7 +24,6 @@ LIB_DEPENDS=	libassuan.so:security/libassuan \
 
 USES=		gmake iconv ldap tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INFO=		dirmngr
 
 CONFIGURE_ARGS+=	--docdir=${DOCSDIR}

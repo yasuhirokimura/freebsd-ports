@@ -14,7 +14,6 @@ LICENSE_FILE_LGPL3+ =	${WRKSRC}/COPYING.LESSERv3
 
 USES=		cpe gmake iconv libtool localbase makeinfo pathfix perl5 pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
 USE_PERL5=	build

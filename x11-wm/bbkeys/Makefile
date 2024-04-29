@@ -16,7 +16,6 @@ USES=		perl5 pkgconfig xorg
 USE_PERL5=	build
 USE_XORG=	x11 xext
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CPPFLAGS+=	`pkg-config --cflags xft`
 LDFLAGS+=	`pkg-config --libs xft`
 

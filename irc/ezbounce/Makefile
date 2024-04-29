@@ -24,7 +24,6 @@ COMPRESS_CONFIGURE_WITH=boost
 COMPRESS_DESC=		Chat log compression (requires boost)
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		compiler:c++0x cpe gmake
 USE_GCC=	yes
 

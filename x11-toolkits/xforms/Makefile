@@ -20,7 +20,6 @@ USE_LDCONFIG=	yes
 USE_XORG=	ice sm x11 xpm
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

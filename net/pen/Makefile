@@ -15,7 +15,6 @@ CPE_VENDOR=	${PORTNAME}_project
 USE_RC_SUBR=	pen
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--with-daemon \
 				--with-docdir=${DOCSDIR} \
 				--with-ssl=${OPENSSLBASE} \

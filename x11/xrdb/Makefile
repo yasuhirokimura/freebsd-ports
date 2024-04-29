@@ -12,7 +12,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		xorg xorg-cat:app
 USE_XORG=	xmuu x11
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/xrdb share/man/man1/xrdb.1.gz
 

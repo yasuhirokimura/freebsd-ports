@@ -21,7 +21,6 @@ USE_XORG=	x11 xfixes xi
 
 CFLAGS+=	-Wno-return-type
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 GLIB_SCHEMAS=	net.launchpad.plank.gschema.xml
 
 OPTIONS_SUB=	yes

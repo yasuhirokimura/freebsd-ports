@@ -14,7 +14,6 @@ EXPIRATION_DATE=2024-12-31
 LIB_DEPENDS=	libfame.so:multimedia/libfame
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/recmpeg \
 		share/man/man1/recmpeg.1.gz

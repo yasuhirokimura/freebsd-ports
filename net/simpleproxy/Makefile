@@ -9,7 +9,6 @@ COMMENT=	Simple TCP proxy
 WWW=		http://www.crocodile.org/software.html
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/${PORTNAME} share/man/man1/${PORTNAME}.1.gz
 

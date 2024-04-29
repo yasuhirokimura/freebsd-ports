@@ -15,7 +15,6 @@ SUB_FILES=	pkg-message
 
 OPTIONS_DEFINE=	DOCS
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/src/ipaudit.conf.sample ${STAGEDIR}${PREFIX}/etc

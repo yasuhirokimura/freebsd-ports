@@ -14,7 +14,6 @@ DOS2UNIX_GLOB=	*
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 pre-install:
 	${CHMOD} 744 ${WRKSRC}/install-sh

@@ -35,7 +35,6 @@ CONFIGURE_ENV+=		DISABLE_gds_ds12=1 DISABLE_gds_ds21=1
 
 GNU_CONFIGURE=	yes
 GNU_CONFIGURE_PREFIX=	${PREFIX}/${MPIDIR}
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/${MPIDIR}/share
 CONFIGURE_ARGS+=	--program-prefix= \
 			--with-hwloc=external \
 			--with-libltdl \

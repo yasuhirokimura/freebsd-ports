@@ -9,7 +9,6 @@ COMMENT=	Language for describing stackable filesystems
 WWW=		https://www.filesystems.org/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 MAKE_JOBS_UNSAFE=yes
 
 SUB_FILES=	pkg-message

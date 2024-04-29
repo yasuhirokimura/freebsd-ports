@@ -50,7 +50,6 @@ SHEBANG_FILES=	tcl/pkg_mkIndex.tcl
 SHEBANG_LANG=	tclsh
 tclsh_CMD=	${LOCALBASE}/bin/tclsh
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_lib_pthread_pthread_create=no
 
 CFLAGS+=	-fcommon

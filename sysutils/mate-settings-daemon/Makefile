@@ -34,7 +34,6 @@ USE_XORG=	ice sm x11 xext xi
 USE_GNOME=	cairo dconf gtk30 intlhack
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-dbus-services=${PREFIX}/share/dbus-1/services \
 		--disable-static \
 		--disable-rfkill
