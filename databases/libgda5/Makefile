@@ -28,7 +28,6 @@ USES+=		gettext gmake gnome libtool localbase pkgconfig
 USE_GNOME=	glib20 libxslt intlhack introspection:build
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 INSTALL_TARGET=	install-strip
 #MAKE_JOBS_UNSAFE=yes
 CONFIGURE_ARGS=	--without-oracle \

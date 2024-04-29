@@ -20,7 +20,6 @@ USES=		blaslapack:netlib compiler:c++11-lang fortran gmake \
 		localbase:ldflags
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 BINARY_ALIAS=	make=${GMAKE}
 

@@ -12,7 +12,6 @@ LICENSE=	PD
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/fist \
 		share/man/man1/fist.1.gz

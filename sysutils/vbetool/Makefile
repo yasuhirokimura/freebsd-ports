@@ -18,7 +18,6 @@ PLIST_FILES=	sbin/vbetool \
 		share/man/man1/vbetool.1.gz
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=--with-x86emu
 CFLAGS+=	-I${PREFIX}/include -L${PREFIX}/lib
 

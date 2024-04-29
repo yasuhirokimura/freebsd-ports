@@ -18,7 +18,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USES=		gmake sdl tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--datadir=${PREFIX}/share
 USE_CSTD=	gnu89
 USE_SDL=	mixer sdl

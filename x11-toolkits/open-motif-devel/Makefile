@@ -28,7 +28,6 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libpng.so:graphics/png \
 		libXmu.so:x11-toolkits/libXmu
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX= ${PREFIX}/share
 USE_LDCONFIG=	yes
 CONFIGURE_ARGS=	--enable-printing=no
 CPPFLAGS+=	-DCSRG_BASED -DXUSE_MTSAFE_API -DXNO_MTSAFE_PWDAPI -I${PREFIX}/include

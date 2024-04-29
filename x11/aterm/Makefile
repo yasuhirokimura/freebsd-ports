@@ -15,7 +15,6 @@ DOS2UNIX_FILES=	src/rxvt.h
 
 USE_XORG=	xpm
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-wtmp \
 		--enable-xgetdefault \
 		--disable-memset \

@@ -11,7 +11,6 @@ LICENSE=	GPLv2
 
 USES=		cpe tar:lz gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFLICTS_INSTALL=	gzip # bin/zcat bin/zcmp bin/zdiff bin/zgrep share/man/man1/ztest.1.gz
 

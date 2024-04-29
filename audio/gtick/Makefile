@@ -17,7 +17,6 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 
 USES=		desktop-file-utils gnome pkgconfig
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USE_GNOME=	cairo gtk20
 LDFLAGS+=	-L${LOCALBASE}/lib
 

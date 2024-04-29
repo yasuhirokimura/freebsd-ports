@@ -21,7 +21,6 @@ USES_powerpcspe=	compiler:c++11-lang
 USE_LDCONFIG=		yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-pcre16 \
 		--enable-pcre32 \
 		--enable-pcre8 \

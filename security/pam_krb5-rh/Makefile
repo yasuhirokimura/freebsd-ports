@@ -17,7 +17,6 @@ CONFLICTS=	pam_krb5-4.*
 
 USES=		iconv libtool ssl
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--without-afs --without-keyutils --without-krb4
 CPPFLAGS+=	-I${LOCALBASE}/include
 LIBS+=		-L${LOCALBASE}/lib
