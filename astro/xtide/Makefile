@@ -20,7 +20,6 @@ USE_CXXSTD=	c++11
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ENV=	ac_cv_header_tcd_h=yes \
 		ac_cv_lib_tcd_get_tide_db_header=yes
 CFLAGS+=	-Wno-deprecated-declarations

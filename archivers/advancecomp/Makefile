@@ -17,7 +17,6 @@ USES=		autoreconf cpe
 CPE_VENDOR=	advancemame
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 TEST_TARGET=	check
 MAKE_ARGS=	zopfli_SOURCES="" am__objects_3="" \
 		libdeflate_SOURCES="" am__objects_2=""

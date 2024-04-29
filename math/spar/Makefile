@@ -17,7 +17,6 @@ USE_CSTD=	gnu89
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 .include <bsd.port.pre.mk>
 

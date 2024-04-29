@@ -31,9 +31,6 @@ USERS=		_lldpd
 GROUPS= 	_lldpd
 
 GNU_CONFIGURE=	yes
-
-INSTALL_TARGET=	install-strip
-
 CONFIGURE_ARGS=	--disable-doxygen-doc \
 		--enable-hardening \
 		--enable-privsep \

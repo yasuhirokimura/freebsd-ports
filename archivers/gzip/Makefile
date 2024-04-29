@@ -11,7 +11,6 @@ LICENSE=	GPLv3+
 
 USES=		cpe charsetfix makeinfo tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 CONFLICTS_INSTALL=	zutils # bin/zcat bin/zcmp bin/zdiff bin/zgrep
 

@@ -22,7 +22,6 @@ USES=		gettext gmake gnome iconv localbase pathfix pkgconfig
 USE_GNOME=	atk cairo gdkpixbuf gtk30 pango
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 PORTDOCS=	AUTHORS ChangeLog FAQ NEWS README README.bugs TODO
 
 OPTIONS_DEFINE=	DOCS

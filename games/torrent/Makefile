@@ -10,7 +10,6 @@ COMMENT=	Score points without letting the tiles touch the top of the board
 WWW=		http://www.shiftygames.com/torrent/torrent.html
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		gmake sdl
 USE_SDL=	sdl mixer image ttf
 

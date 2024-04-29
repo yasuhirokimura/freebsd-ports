@@ -13,7 +13,6 @@ LICENSE=	GPLv2
 USES=		autoreconf libtool tar:bzip2
 USE_CSTD=	gnu89
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	sbin/dhcdrop share/man/man8/dhcdrop.8.gz \
 		share/man/ru/man8/dhcdrop.8.gz

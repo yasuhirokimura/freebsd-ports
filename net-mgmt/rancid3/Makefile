@@ -23,7 +23,6 @@ GROUPS=		rancid
 
 SUB_FILES=	pkg-message 200.rancid
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 CONFIGURE_ARGS=	--localstatedir=${LOCALBASE}/var/${PORTNAME}/ \
 		--bindir=${LOCALBASE}/libexec/${PORTNAME}/ \

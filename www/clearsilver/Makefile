@@ -12,7 +12,6 @@ DEPRECATED=     Abandonware and outdated, last release in 2017 no activity since
 
 USES=		gmake
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-apache --disable-perl --disable-ruby \
 		--disable-java --disable-csharp --disable-python
 

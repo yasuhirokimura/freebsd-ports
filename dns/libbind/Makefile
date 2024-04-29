@@ -16,7 +16,6 @@ LICENSE_FILE=	${WRKSRC}/COPYRIGHT
 MAKE_JOBS_UNSAFE=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var --with-randomdev=/dev/random
 USES=		groff
 

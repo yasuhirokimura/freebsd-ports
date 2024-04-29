@@ -12,7 +12,6 @@ USES=		gmake pathfix pkgconfig libtool
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 post-install:
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/lib/libvisa.so
