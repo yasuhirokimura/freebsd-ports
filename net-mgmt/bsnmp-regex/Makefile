@@ -13,7 +13,6 @@ LICENSE=	BSD3CLAUSE
 USES=		libtool localbase
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 INSTALL_TARGET=	install-strip
 

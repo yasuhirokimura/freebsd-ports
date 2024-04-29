@@ -9,7 +9,6 @@ COMMENT=	The game of Go
 WWW=		https://www.gnu.org/software/gnugo/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		gmake
 
 INFO=		gnugo

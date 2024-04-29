@@ -18,7 +18,6 @@ USE_CXXSTD=	gnu++98
 USE_RC_SUBR=	${PORTNAME}
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=${LOCALSTATEDIR}
 
 SUB_FILES=	pkg-install pkg-message

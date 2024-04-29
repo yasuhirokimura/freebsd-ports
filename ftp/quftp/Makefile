@@ -12,7 +12,6 @@ LICENSE=	GPLv2
 
 USES=		ncurses readline
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 LDFLAGS+=	-lpthread
 PLIST_FILES=	bin/quftp share/man/man1/quftp.1.gz

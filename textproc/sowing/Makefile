@@ -15,7 +15,6 @@ USES=		ghostscript gmake perl5 tex
 USE_TEX=	latex dvipsk
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--datadir=${DATADIR}
 
 MAKE_JOBS_UNSAFE=	yes

@@ -20,6 +20,5 @@ nobash_OLD_CMD=	/bin/bash
 nobash_CMD=	/bin/sh
 
 PLIST_FILES=	bin/xauth share/man/man1/xauth.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

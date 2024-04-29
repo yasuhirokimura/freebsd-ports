@@ -12,7 +12,6 @@ WWW=		https://deco.sourceforge.net/
 
 USES=		ncurses tar:tgz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--libdir=${PREFIX}/share
 
 .include <bsd.port.mk>

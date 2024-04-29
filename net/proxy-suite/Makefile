@@ -10,7 +10,6 @@ WWW=		https://www.suse.com/en/whitepapers/proxy_suite/
 LICENSE=	GPLv2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 USES=		gmake tar:bzip2
 
 #

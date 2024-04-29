@@ -13,7 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		tar:xz xorg xorg-cat:app
 USE_XORG=	x11 xorgproto
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-rgb-db-dir=${PREFIX}/lib/X11/rgb
 
 PLIST_FILES=	bin/showrgb \

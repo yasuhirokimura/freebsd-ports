@@ -15,7 +15,6 @@ CONFLICTS=	coovachilli
 USES=		compiler:nestedfct shebangfix
 SHEBANG_FILES=	doc/hotspotlogin.cgi
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=-sysconfdir=${PREFIX}/etc
 USE_RC_SUBR=	chillispot
 SUB_FILES=	pkg-message installguide.txt

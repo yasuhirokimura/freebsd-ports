@@ -10,6 +10,5 @@ USES=		xorg xorg-cat:app
 USE_XORG=	x11 xt
 
 PLIST_FILES=	bin/appres share/man/man1/appres.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

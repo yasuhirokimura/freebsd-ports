@@ -10,7 +10,6 @@ COMMENT=	Merge mp3 files (and other formats)
 WWW=		https://mp3wrap.sourceforge.net/
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 WRKSRC=		${WRKDIR}/${PORTNAME}-${PORTVERSION}
 

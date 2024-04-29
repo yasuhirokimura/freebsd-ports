@@ -18,7 +18,6 @@ USE_SDL=	mixer image
 USE_XORG=	x11 xau xdmcp
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 # Do not use older versions
 PORTSCOUT=	limit:[0-9]\.[0-9]\.

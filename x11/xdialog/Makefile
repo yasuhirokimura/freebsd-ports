@@ -19,7 +19,6 @@ LIB_DEPENDS+=	libfreetype.so:print/freetype2
 USES=		gnome localbase pkgconfig tar:bzip2
 USE_GNOME=	cairo gdkpixbuf gtk20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-gtk2
 
 OPTIONS_DEFINE=	DOCS NLS

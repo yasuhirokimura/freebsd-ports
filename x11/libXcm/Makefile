@@ -14,7 +14,6 @@ GH_PROJECT=	${PORTNAME:tl}
 
 USES=		libtool pathfix pkgconfig xorg
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USE_XORG=	x11 xfixes xmu xt
 INSTALL_TARGET=	install-strip
 PORTDOCS=	*
