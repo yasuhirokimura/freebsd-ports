@@ -13,7 +13,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	alobbs
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 USES=		autoreconf makeinfo
 
 INFO=		macchanger

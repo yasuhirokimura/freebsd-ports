@@ -15,7 +15,6 @@ LIB_DEPENDS=	libcurl.so:ftp/curl \
 USES=		apache ldap libtool pathfix pkgconfig ssl
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-ldap-lib=${LOCALBASE}/lib \
 		--with-ldap-include=${LOCALBASE}/include \
 		--with-openssl=${OPENSSLBASE}

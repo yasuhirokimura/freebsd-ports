@@ -15,7 +15,6 @@ LIB_DEPENDS=	libJudy.so:devel/judy
 
 USES=		cpe libtool localbase tar:xz
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--localstatedir=/var --enable-examplesdir=${EXAMPLESDIR}
 USE_LDCONFIG=	yes
 INSTALL_TARGET=	install-strip

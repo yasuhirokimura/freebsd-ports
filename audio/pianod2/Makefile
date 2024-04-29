@@ -34,7 +34,6 @@ USE_GSTREAMER=	#ffmpeg
 USE_RC_SUBR=	pianod
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 SHEBANG_FILES=	contrib/piano contrib/runmix
 ksh_CMD=	${LOCALBASE}/bin/mksh

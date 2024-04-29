@@ -17,7 +17,6 @@ USES=	groff:run localbase:ldflags makeinfo
 INFO=	indent
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--program-prefix=g --htmldir=${DOCSDIR}
 
 CPPFLAGS+=	-DBERKELEY_DEFAULTS=1

@@ -17,7 +17,6 @@ LIB_DEPENDS=	libex.so:devel/ossp-ex
 USES=		libtool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-ex=${LOCALBASE}
 
 check:	build

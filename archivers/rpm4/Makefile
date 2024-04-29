@@ -38,7 +38,6 @@ SHEBANG_FILES=			scripts/brp-compress scripts/check-prereqs \
 				scripts/perl.req scripts/pkgconfigdeps.sh \
 				scripts/rpm_macros_provides.sh
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=			--enable-bdb-ro \
 				--enable-sqlite=yes \
 				--localstatedir=/var \

@@ -16,7 +16,6 @@ LIB_DEPENDS=	libgmp.so:math/gmp \
 USES=		localbase readline
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/wcalc \
 		share/man/man1/wcalc.1.gz

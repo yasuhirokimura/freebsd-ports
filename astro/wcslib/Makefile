@@ -12,7 +12,6 @@ LICENSE=	GPLv3
 USES=		tar:bzip2 gmake fortran
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	 --docdir=${DOCSDIR}
 
 MAKEFILE=	GNUmakefile

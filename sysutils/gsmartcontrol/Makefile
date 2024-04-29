@@ -28,7 +28,6 @@ USE_CXXSTD=	c++11
 USE_GNOME=	atkmm cairo glibmm gtk30 gtkmm30 libsigc++20 pangomm
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--disable-libglade
 
 OPTIONS_DEFINE=	DOCS

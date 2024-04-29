@@ -17,7 +17,6 @@ LIB_DEPENDS=	libpng.so:graphics/png
 
 USES=		cpe jpeg gmake localbase lua:53 pkgconfig python sdl xorg
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CPE_VENDOR=	freedroid
 USE_XORG=	x11
 USE_SDL=	sdl image gfx

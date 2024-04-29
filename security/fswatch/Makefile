@@ -15,7 +15,6 @@ CONFIGURE_ARGS=	--prefix=${PREFIX} \
 		--enable-regex \
 		--enable-stflags
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CFLAGS+=	-fcommon
 
 PORTSCOUT=	ignore:1

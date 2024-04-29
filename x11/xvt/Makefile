@@ -16,7 +16,6 @@ USE_LDCONFIG=	yes
 USE_PERL5=	build patch
 USE_XORG=	x11 xpm
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PORTDOCS=	README.xvt xvt.1.html xvtRef.html xvtRef.txt
 WRKSRC=		${WRKDIR}/${PORTNAME}

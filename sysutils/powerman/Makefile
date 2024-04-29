@@ -20,7 +20,6 @@ USE_RC_SUBR=	powerman
 SHEBANG_FILES=	heartbeat/powerman
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-httppower --localstatedir=/var \
 		--with-pkgconfig-dir=${PREFIX}/libdata/pkgconfig
 

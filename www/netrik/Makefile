@@ -12,7 +12,6 @@ RUN_DEPENDS=	wget:ftp/wget
 
 USES=		cpe gmake ncurses
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 PLIST_FILES=	bin/netrik \
 		share/man/man1/netrik.1.gz \

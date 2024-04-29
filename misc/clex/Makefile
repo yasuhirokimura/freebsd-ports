@@ -13,7 +13,6 @@ LICENSE=	GPLv2
 USES=		ncurses gmake
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/clex bin/cfg-clex bin/kbd-test \
 		share/man/man1/cfg-clex.1.gz \

@@ -16,7 +16,6 @@ CPE_VENDOR=	gnupg
 
 USES=		charsetfix compiler cpe gmake readline tar:bzip2
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-camellia \
 		--enable-noexecstack
 CFLAGS+=	-fcommon
