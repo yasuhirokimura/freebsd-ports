@@ -26,7 +26,6 @@ USE_LDCONFIG=	yes
 USE_RC_SUBR=	gmond
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-setuid=ganglia --enable-setgid=ganglia \
 		--disable-python
 CONFIGURE_ENV=	GANGLIA_ACK_SYSCONFDIR=1

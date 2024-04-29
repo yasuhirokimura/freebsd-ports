@@ -15,7 +15,6 @@ USES=		gmake libtool:keepla pkgconfig
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=			yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS+=		--with-PACKAGE=no
 INSTALL_TARGET=			install-strip
 

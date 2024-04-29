@@ -21,7 +21,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	boysetsfrog
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--enable-taglib=no
 
 PLIST_FILES=	bin/vimpc \

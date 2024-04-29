@@ -20,7 +20,6 @@ USE_GL=		gl glu glut
 USE_PERL5=	build
 USE_XORG=	ice sm x11 xext xi xmu xt
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-plib=${LOCALBASE}
 CPPFLAGS+=	-I${TCL_INCLUDEDIR}
 

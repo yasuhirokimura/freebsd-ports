@@ -17,7 +17,6 @@ USES=		bison compiler iconv libtool localbase:ldflags pathfix
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--enable-posixmutexes \
 		--localstatedir="${PREFIX}/var" \
 		--without-unac

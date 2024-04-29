@@ -19,7 +19,6 @@ USES=		compiler:c++11-lang fortran gl gnome pkgconfig
 USE_GL=		glu
 USE_GNOME=	gtk20
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 LDFLAGS+=	-lm
 
 DESKTOP_ENTRIES="pdnMesh" "${COMMENT}" "" "${PORTNAME}" "" true

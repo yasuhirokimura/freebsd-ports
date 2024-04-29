@@ -9,7 +9,6 @@ COMMENT=	Displays a wire-frame rotating plyhedron
 USES=		xorg xorg-cat:app
 USE_XORG=	x11
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	bin/ico share/man/man1/ico.1.gz
 

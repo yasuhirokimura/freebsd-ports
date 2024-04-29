@@ -18,7 +18,6 @@ RUN_DEPENDS=	rsync:net/rsync \
 USES=		perl5
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 NO_ARCH=	yes
 
 PORTDOCS=	AUTHORS ChangeLog README.md

@@ -13,7 +13,6 @@ LIB_DEPENDS=	libvisa.so:devel/librevisa
 
 USES=		compiler:c++11-lang localbase:ldflags
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 LDFLAGS+=	-lvisa
 

@@ -19,7 +19,6 @@ GH_ACCOUNT=	kolbusa
 USE_XORG=	sm ice x11 xpm
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 CONFIGURE_ARGS=	--disable-native-kde \
 		--disable-debug
 

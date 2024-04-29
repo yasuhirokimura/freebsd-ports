@@ -13,6 +13,5 @@ USE_XORG=	x11 xt xmu xaw
 
 LIB_DEPENDS+=libxkbfile.so:x11/libxkbfile
 
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

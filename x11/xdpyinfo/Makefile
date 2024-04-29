@@ -15,6 +15,5 @@ USE_XORG=	x11 xcb xcomposite xext xinerama xorgproto xrender \
 CONFIGURE_ARGS=	--without-xf86misc
 
 PLIST_FILES=	bin/xdpyinfo share/man/man1/xdpyinfo.1.gz
-GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
 
 .include <bsd.port.mk>

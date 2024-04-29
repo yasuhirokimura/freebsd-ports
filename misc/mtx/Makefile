@@ -13,7 +13,6 @@ LICENSE=	GPLv2
 USES=		gmake
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	sbin/mtx sbin/tapeinfo sbin/loaderinfo sbin/scsitape sbin/scsieject \
 		share/man/man1/loaderinfo.1.gz share/man/man1/mtx.1.gz share/man/man1/tapeinfo.1.gz \

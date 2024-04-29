@@ -12,7 +12,6 @@ LICENSE=	GPLv3
 
 USES+=		tcl:tea
 
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 PLIST_FILES=	lib/${TCL_PKG}/pkgIndex.tcl \
 		lib/${TCL_PKG}/lib${TCL_PKG}.so \

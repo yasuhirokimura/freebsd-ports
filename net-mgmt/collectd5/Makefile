@@ -18,7 +18,6 @@ LDFLAGS+=	-lpfctl
 USES=		autoreconf cpe gmake libtool localbase:ldflags pkgconfig shebangfix tar:bzip2
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 
 OPTIONS_DEFINE=		CGI GCRYPT JAVA LOGGING LOGSTASH VIRT
 OPTIONS_GROUP=		INPUT OUTPUT

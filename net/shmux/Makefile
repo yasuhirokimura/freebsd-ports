@@ -15,7 +15,6 @@ USES=		localbase ncurses
 USE_GITHUB=	yes
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--datadir=${PREFIX}/share/examples
 
 ALL_TARGET=	${PORTNAME}
