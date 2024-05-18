@@ -331,6 +331,7 @@
     SUBDIR += ruby31
     SUBDIR += ruby32
     SUBDIR += ruby33
+    SUBDIR += ruby34
     SUBDIR += rubygem-rb_sys
     SUBDIR += rubygem-ruby_language_server
     SUBDIR += runawk
