@@ -1,6 +1,6 @@
 PORTNAME=	dkimpy-milter
 PORTVERSION=	1.2.3
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	mail python
 MASTER_SITES=	PYPI
 PKGNAMEPREFIX=  ${PYTHON_PKGNAMEPREFIX}
@@ -23,7 +23,9 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}dkimpy>=1.1.0:mail/py-dkimpy@${PY_FLAVOR} \
 USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 USE_RC_SUBR=	dkimpy-milter
-SUB_LIST+=	PYTHON_CMD=${PYTHON_CMD}
+SUB_LIST+=	GROUPS=${GROUPS} \
+		PYTHON_CMD=${PYTHON_CMD} \
+		USERS=${USERS}
 
 USERS=		dkimpy-milter
 GROUPS=		dkimpy-milter
@@ -32,12 +34,10 @@ PYDISTUTILS_CONFIGUREARGS=	expand --rundir=/var/run
 
 NO_ARCH=	yes
 
-PLIST_FILES=	'@dir(${USERS},${GROUPS},755) /var/run/dkimpy-milter' \
-		'@sample etc/dkimpy-milter/dkimpy-milter.conf.sample'
+PLIST_FILES=	'@sample etc/dkimpy-milter/dkimpy-milter.conf.sample'
 
 post-install:
-	@${MKDIR} ${STAGEDIR}/var/run/dkimpy-milter \
-	      ${STAGEDIR}${PREFIX}/etc/dkimpy-milter
+	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/dkimpy-milter
 	${INSTALL_DATA} ${WRKSRC}/etc/dkimpy-milter.conf \
 	      ${STAGEDIR}${PREFIX}/etc/dkimpy-milter/dkimpy-milter.conf.sample
 
