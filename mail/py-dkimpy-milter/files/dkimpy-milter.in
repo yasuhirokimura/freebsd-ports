@@ -24,6 +24,8 @@ load_rc_config $name
 : ${dkimpy_milter_enable:="NO"}
 : ${dkimpy_milter_pidfile:="/var/run/dkimpy-milter/dkimpy-milter.pid"}
 : ${dkimpy_milter_conffile:="%%PREFIX%%/etc/dkimpy-milter/dkimpy-milter.conf"}
+: ${dkimpy_milter_uid="%%USERS%%"}
+: ${dkimpy_milter_gid="%%GROUPS%%"}
 
 command=/usr/sbin/daemon
 command_interpreter=%%PYTHON_CMD%%
@@ -35,6 +37,10 @@ stop_postcmd=dkimpy_milter_postcmd
 
 dkimpy_milter_precmd()
 {
+    local piddir="$(dirname ${dkimpy_milter_pidfile})"
+
+    [ -d "${piddir}" ] || mkdir -p "${piddir}"
+    chown "${dkimpy_milter_uid}:${dkimpy_milter_gid}" "${piddir}"
     /bin/rm -f "${dkimpy_milter_pidfile}"
 }
 
