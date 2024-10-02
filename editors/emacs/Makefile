@@ -1,8 +1,8 @@
 PORTNAME=	emacs
-DISTVERSION=	29.4
+DISTVERSION=	30.0.91
 PORTEPOCH=	3
 CATEGORIES=	editors
-MASTER_SITES=	GNU
+MASTER_SITES=	GNU_ALPHA/emacs/pretest/
 
 .if ${FLAVOR:U} == canna
 PATCH_SITES+=	https://www.gentei.org/~yuuji/software/emacs29canna/:canna
