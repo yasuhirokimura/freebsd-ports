@@ -1,20 +1,19 @@
 PORTNAME=	emacs
-DISTVERSION=	29.4
-PORTREVISION=	1
+DISTVERSION=	30.0.92
 PORTEPOCH=	3
 CATEGORIES=	editors
-MASTER_SITES=	GNU
+MASTER_SITES=	GNU_ALPHA/emacs/pretest/
 
 .if ${FLAVOR:U} == canna
 PATCH_SITES+=	https://www.gentei.org/~yuuji/software/emacs29canna/:canna
 PATCHFILES+=	emacs29.1-canna-20230730.diff.xz:-p1:canna
 .endif
 
-MAINTAINER=	emacs@FreeBSD.org
-COMMENT=	GNU editing macros ${COMMENT_${FLAVOR}}
-WWW=		https://www.gnu.org/software/emacs/
-COMMENT_nox=	(No X flavor)
-COMMENT_canna=	(Canna Japanese input flavor)
+MAINTAINER=		emacs@FreeBSD.org
+COMMENT=		GNU editing macros ${COMMENT_${FLAVOR}}
+WWW=			https://www.gnu.org/software/emacs/
+COMMENT_nox=		(No X flavor)
+COMMENT_canna=		(Canna Japanese input flavor)
 COMMENT_wayland=	(Wayland flavor)
 
 LICENSE=	GPLv3+
@@ -37,7 +36,6 @@ USES=		cpe gmake localbase:ldflags ncurses pkgconfig tar:xz
 CPE_VENDOR=	gnu
 
 GNU_CONFIGURE=		yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=		--disable-build-details \
 			--localstatedir=/var \
 			--without-gconf \
@@ -79,8 +77,10 @@ CONFIGURE_ENV=		ac_cv_header_sys_sysinfo_h=no
 CONFLICTS_INSTALL=	emacs-devel emacs-devel-nox
 
 BINARY_ALIAS=	makeinfo=true
-SUB_FILES=	sources.el
-SUB_LIST=	EMACS_VER=${DISTVERSION}
+SUB_FILES=	pkg-message sources.el
+SUB_LIST=	EMACS_VER=${DISTVERSION} \
+		NATIVECOMP_COMMENT_END=${NATIVECOMP_COMMENT_END} \
+		NATIVECOMP_COMMENT_START=${NATIVECOMP_COMMENT_START}
 
 INFO=		auth autotype bovine calc ccmode cl dbus dired-x ebrowse ede \
 		ediff edt efaq eglot eieio eintr elisp emacs emacs-gnutls \
@@ -106,8 +106,9 @@ OPTIONS_DEFINE=			ACL DBUS GNUTLS GSETTINGS HARFBUZZ JSON LCMS2 \
 				XFT XIM XML XWIDGETS
 OPTIONS_DEFAULT=		ACL CAIRO DBUS GIF GNUTLS GSETTINGS GTK3 \
 				HARFBUZZ JPEG JSON KQUEUE LCMS2 MAILUTILS \
-				MODULES OSS PNG SCROLLBARS SOURCES SQLITE3 SVG \
-				THREADS TIFF TREESITTER WEBP XIM XML XPM
+				MODULES NATIVECOMP OSS PNG SCROLLBARS SOURCES \
+				SQLITE3 SVG THREADS TIFF TREESITTER WEBP XIM \
+				XML XPM
 OPTIONS_GROUP=			GRAPHICS
 OPTIONS_GROUP_GRAPHICS=		CAIRO GIF JPEG MAGICK PNG SVG TIFF WEBP XPM
 OPTIONS_RADIO=			FILENOTIFY SOUND X11TOOLKIT
@@ -115,10 +116,10 @@ OPTIONS_RADIO_FILENOTIFY=	GFILE KQUEUE
 OPTIONS_RADIO_SOUND=		ALSA OSS
 OPTIONS_RADIO_X11TOOLKIT=	GTK2 GTK3 MOTIF XAW XAW3D
 .if ${FLAVOR:U} == wayland
-OPTIONS_EXCLUDE+=		GTK2 MOTIF XAW XAW3D XIM ${PGTK_PREVENTS} \
-				${PGTK_IMPLIES:@i@${${i}_PREVENTS}@}
-OPTIONS_SLAVE+=			PGTK ${PGTK_IMPLIES} \
-				${PGTK_IMPLIES:@i@${${i}_IMPLIES}@}
+OPTIONS_EXCLUDE+=		${PGTK_IMPLIES:@i@${${i}_PREVENTS}@} \
+				${PGTK_PREVENTS} GTK2 MOTIF XAW XAW3D XIM
+OPTIONS_SLAVE+=			${PGTK_IMPLIES:@i@${${i}_IMPLIES}@} \
+				${PGTK_IMPLIES} PGTK
 .elif ${FLAVOR:U} == nox
 OPTIONS_EXCLUDE+=		ALSA CAIRO DBUS GFILE GIF GSETTINGS GTK2 GTK3 \
 				HARFBUZZ JPEG LCMS2 M17N MAGICK MOTIF OSS OTF \
