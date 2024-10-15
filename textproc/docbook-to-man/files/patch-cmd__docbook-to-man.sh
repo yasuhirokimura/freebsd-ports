@@ -13,7 +13,7 @@
  
  
  # ***** modify the following line (to "=false") if you're not using the
-@@ -51,19 +51,16 @@ DOCBOOK=$SGMLS/Davenport/dtd
+@@ -51,19 +51,16 @@ doElanPSInclude=true
  doElanPSInclude=true
  
  
@@ -23,8 +23,9 @@
  
  #ulimit -c unlimited
  
- PARSER=nsgmls
+-PARSER=nsgmls
 -INSTANT=instant
++PARSER=onsgmls
 +INSTANT=oinstant
  INSTANT_OPT=-d
  
