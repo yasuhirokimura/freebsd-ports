@@ -1,6 +1,5 @@
 PORTNAME=	milter-manager
-DISTVERSION=	2.1.6
-PORTREVISION=	2
+DISTVERSION=	2.2.7
 CATEGORIES=	mail ruby
 MASTER_SITES=	https://github.com/${PORTNAME}/${PORTNAME}/releases/download/${DISTVERSION}/
 
@@ -15,6 +14,9 @@ BUILD_DEPENDS=	rubygem-gio2>0:devel/rubygem-gio2
 LIB_DEPENDS=	libev.so:devel/libev
 RUN_DEPENDS=	rubygem-gio2>0:devel/rubygem-gio2 \
 		rubygem-rexml>0:textproc/rubygem-rexml
+TEST_DEPENDS=	cutter>0:devel/cutter \
+		rubygem-syslog>0:devel/rubygem-syslog \
+		rubygem-test-unit>0:devel/rubygem-test-unit
 
 USES=		compiler:c++11-lang gettext gmake gnome libtool localbase \
 		pathfix pkgconfig ruby
@@ -23,25 +25,17 @@ USE_LDCONFIG=	yes
 USE_RC_SUBR=	milter-manager
 
 GNU_CONFIGURE=	yes
-GNU_CONFIGURE_MANPREFIX=${PREFIX}/share
 CONFIGURE_ARGS=	--with-html-dir=${DOCSDIR} \
 		--with-libev \
 		--with-package-platform=freebsd
 
 INSTALL_TARGET=	install-strip
-
-CFLAGS+=	-fdeclspec
+TEST_TARGET=	check
 
 PORTDOCS=	*
 PORTEXAMPLES=	*
 
 OPTIONS_DEFINE=	DOCS EXAMPLES
-
-.include <bsd.port.pre.mk>
-
-.if ${COMPILER_TYPE} == clang
-CFLAGS+=	-Wno-error=incompatible-function-pointer-types
-.endif
 
 post-patch:
 	@${FIND} ${WRKSRC} -type f -name Makefile.in -exec \
@@ -49,4 +43,4 @@ post-patch:
 			 -e "s#\$$(datarootdir)/\$$(PACKAGE)#${DATADIR}#" {} +
 	@${REINPLACE_CMD} -e "s#\\\\\$$(pkgdatadir)/sample#${EXAMPLESDIR}#" ${WRKSRC}/configure
 
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
