@@ -1,11 +1,11 @@
---- configure.orig	2017-06-28 06:21:45 UTC
+--- configure.orig	2022-09-28 02:08:37 UTC
 +++ configure
-@@ -14803,7 +14803,7 @@ fi
- 	  end
- 	end
- 	ruby_glib2_path = ruby_glib2_gem.full_gem_path
--	print("-I ", File.join(ruby_glib2_path, "ext", "glib2"))')
-+	print("-I ", File.join(ruby_glib2_path, "lib"))')
-       if test $? -eq 0; then
-         CFLAGS="$CFLAGS $RUBY_GLIB2_CFLAGS"
-       else
+@@ -14423,7 +14423,7 @@ fi
+ 
+   ruby_glib2_gem_dir="$($RUBY -rglib2 -e 'print(Gem::Specification.find_by_name(%(glib2)).gem_dir)')"
+   if test -d "$ruby_glib2_gem_dir"; then
+-    RUBY_GLIB2_CFLAGS="-I$ruby_glib2_gem_dir/ext/glib2"
++    RUBY_GLIB2_CFLAGS="-I$ruby_glib2_gem_dir/lib"
+   else
+ 
+ if test -n "$RUBY_VENDOR_ARCH_DIR"; then

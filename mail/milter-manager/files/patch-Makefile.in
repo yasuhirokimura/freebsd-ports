@@ -1,11 +1,11 @@
---- Makefile.in.orig	2018-03-18 11:34:18 UTC
+--- Makefile.in.orig	2024-11-21 01:59:51 UTC
 +++ Makefile.in
-@@ -510,7 +510,7 @@ SUBDIRS = $(am__append_1) milter libmilt
- 	data test po build doc html license package vendor
+@@ -512,7 +512,7 @@ pkgconfig_DATA = milter-core.pc milter-client.pc milte
+ 
  pkgconfigdir = $(prefix)/libdata/pkgconfig
  pkgconfig_DATA = milter-core.pc milter-client.pc milter-server.pc \
--	milter-manager.pc libmilter.pc $(am__append_2)
-+	milter-manager.pc $(am__append_2)
+-	milter-manager.pc libmilter.pc $(am__append_1)
++	milter-manager.pc $(am__append_1)
  EXTRA_DIST = \
- 	autogen.sh				\
- 	gpg_uid					\
+ 	NEWS					\
+ 	NEWS.ja					\
