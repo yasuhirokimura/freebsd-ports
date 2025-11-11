@@ -52,6 +52,7 @@ libexec/squid/basic_db_auth
 %%SSL%%libexec/squid/security_file_certgen
 %%ICMP%%@(,squid,4510) libexec/squid/pinger
 %%FS_DISKD%%libexec/squid/diskd
+etc/periodic/weekly/900.squid-rotate-log
 %%ETCDIR%%/squid.conf.documented
 %%ETCDIR%%/mib.txt
 %%ETCDIR%%/icons/silk/script_palette.png
