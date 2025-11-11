@@ -1,6 +1,6 @@
 PORTNAME=	squid
 DISTVERSION=	6.14
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	www
 MASTER_SITES=	https://github.com/${PORTNAME}-cache/${PORTNAME}/releases/download/${PORTNAME:tu}_${DISTVERSION:S|.|_|g}/
 
@@ -50,7 +50,7 @@ CONFIGURE_ARGS=	--bindir=${PREFIX}/sbin \
 
 CONFLICTS=	squid-devel
 
-SUB_FILES+=	pkg-install pkg-message
+SUB_FILES+=	900.squid-rotate-log pkg-install pkg-message
 
 USERS=		squid
 GROUPS=		squid
@@ -283,6 +283,9 @@ post-patch-IPV6-off:
 		${WRKSRC}/src/cf.data.pre
 
 post-install:
+	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/periodic/weekly
+	${INSTALL_SCRIPT} ${WRKDIR}/900.squid-rotate-log \
+		${STAGEDIR}${PREFIX}/etc/periodic/weekly
 	@${MKDIR} ${STAGEDIR}${EXAMPLESDIR}
 	${INSTALL_DATA} ${WRKSRC}/src/auth/basic/DB/passwd.sql \
 		${STAGEDIR}${EXAMPLESDIR}
